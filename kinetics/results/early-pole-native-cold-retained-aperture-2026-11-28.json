@@ -1,0 +1,131 @@
+{
+  "rows": [
+    {
+      "native_chart": 2,
+      "channel": "forward_parent",
+      "first_clipped_q": null,
+      "cut_gap_derivative_lower_bound": 0.9828191554116652,
+      "finite_energy_cap": 32.000039062476155,
+      "samples": [
+        {
+          "q": 1e-06,
+          "unclipped_cosine_limit": 29.497523746925655,
+          "geometric_fraction_of_cosine_interval": 1.0
+        },
+        {
+          "q": 4.1e-06,
+          "unclipped_cosine_limit": 7.197968157536809,
+          "geometric_fraction_of_cosine_interval": 1.0
+        },
+        {
+          "q": 8.2e-06,
+          "unclipped_cosine_limit": 3.6044865555688763,
+          "geometric_fraction_of_cosine_interval": 1.0
+        },
+        {
+          "q": 1.5e-05,
+          "unclipped_cosine_limit": 1.9798619886897988,
+          "geometric_fraction_of_cosine_interval": 1.0
+        }
+      ]
+    },
+    {
+      "native_chart": 2,
+      "channel": "inverse_daughter",
+      "first_clipped_q": null,
+      "cut_gap_derivative_lower_bound": 0.9828191237142613,
+      "finite_energy_cap": 26.000000173076923,
+      "samples": [
+        {
+          "q": 1e-06,
+          "unclipped_cosine_limit": 20.664390264992765,
+          "geometric_fraction_of_cosine_interval": 1.0
+        },
+        {
+          "q": 4.1e-06,
+          "unclipped_cosine_limit": 5.04355859060603,
+          "geometric_fraction_of_cosine_interval": 1.0
+        },
+        {
+          "q": 8.2e-06,
+          "unclipped_cosine_limit": 2.527302877509769,
+          "geometric_fraction_of_cosine_interval": 1.0
+        },
+        {
+          "q": 1.5e-05,
+          "unclipped_cosine_limit": 1.391037668656408,
+          "geometric_fraction_of_cosine_interval": 1.0
+        }
+      ]
+    },
+    {
+      "native_chart": 4,
+      "channel": "forward_parent",
+      "first_clipped_q": null,
+      "cut_gap_derivative_lower_bound": 0.9826551233803134,
+      "finite_energy_cap": 32.000039062476155,
+      "samples": [
+        {
+          "q": 1e-06,
+          "unclipped_cosine_limit": 21.378511677717974,
+          "geometric_fraction_of_cosine_interval": 1.0
+        },
+        {
+          "q": 4.1e-06,
+          "unclipped_cosine_limit": 5.217754264595955,
+          "geometric_fraction_of_cosine_interval": 1.0
+        },
+        {
+          "q": 8.2e-06,
+          "unclipped_cosine_limit": 2.6144321619408153,
+          "geometric_fraction_of_cosine_interval": 1.0
+        },
+        {
+          "q": 1.5e-05,
+          "unclipped_cosine_limit": 1.438722107402207,
+          "geometric_fraction_of_cosine_interval": 1.0
+        }
+      ]
+    },
+    {
+      "native_chart": 4,
+      "channel": "inverse_daughter",
+      "first_clipped_q": 1.2639837829493216e-05,
+      "cut_gap_derivative_lower_bound": 0.9826550913802617,
+      "finite_energy_cap": 26.000000173076923,
+      "samples": [
+        {
+          "q": 1e-06,
+          "unclipped_cosine_limit": 12.495885443314059,
+          "geometric_fraction_of_cosine_interval": 1.0
+        },
+        {
+          "q": 4.1e-06,
+          "unclipped_cosine_limit": 3.051273421050648,
+          "geometric_fraction_of_cosine_interval": 1.0
+        },
+        {
+          "q": 8.2e-06,
+          "unclipped_cosine_limit": 1.5312130471971421,
+          "geometric_fraction_of_cosine_interval": 1.0
+        },
+        {
+          "q": 1.5e-05,
+          "unclipped_cosine_limit": 0.8465987600453555,
+          "geometric_fraction_of_cosine_interval": 0.9232993800226778
+        }
+      ]
+    }
+  ],
+  "q_span": [
+    1e-06,
+    1.5e-05
+  ],
+  "photon_momentum": 0.0015,
+  "native_state_hashes": [
+    "4dce57ad0cb0ba1e387409dc16e78f66fc4c95a5af1a268db9885c5f02832787",
+    "5f1af486eab442798002e108cfa7d8b4940122ebe27ee4fafbea45368023f412"
+  ],
+  "crossed_point_sha256": "56d5dae547c6b4ee6042388c72a7a4192d9a3f89418fa82daad3c4be972e5a51",
+  "scope": "Geometric fraction of the angular domain on finite numerical charts, not fraction of rate or physical absence of occupation beyond the retained caps."
+}
