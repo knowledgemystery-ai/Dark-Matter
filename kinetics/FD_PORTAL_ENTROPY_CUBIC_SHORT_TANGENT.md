@@ -18,3 +18,5 @@ python -W error -m unittest test_fd_portal_entropy_cubic_short_tangent
 python -W error fd_portal_entropy_cubic_short_tangent.py "$EOS" results |
   cmp - results/fd-portal-entropy-cubic-short-tangent-2026-11-28.json
 ```
+
+**Independent check:** [Short cubic nonlinear continuations](FD_PORTAL_ENTROPY_CUBIC_SHORT_NONLINEAR.md) reproduce all four signs on its own alternate .99 state.
