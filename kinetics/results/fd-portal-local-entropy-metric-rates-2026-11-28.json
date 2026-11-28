@@ -1,0 +1,440 @@
+{
+  "x_first": 0.55,
+  "x_last": 1.2,
+  "burst": "combined",
+  "norm": "negative comoving entropy Hessian in moving fractional coordinates",
+  "input_sha256": [
+    "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470",
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "84a97f71ef4c6fcec496947e91d74b2cf7837b511c2888f353cfd3ba18cc097d"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "rows": [
+    {
+      "x": 0.55,
+      "signed_squared_norm_rate": [
+        -277.69209296594846,
+        -1.7570417295236302,
+        -0.11895203796799077
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -277.6919696237013,
+        -1.7568296216599322
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.3679618963847439,
+        0.4760171813809247,
+        0.48730365006591947
+      ],
+      "entropy_metric_fd_relative_defect": 3.865916065072915e-11,
+      "density_motion_defect": 9.442853949631724e-10,
+      "metric_derivative_mesh_defect": 2.8144250818762373e-11,
+      "independent_direction_rate_defect": 1.0076922629664864e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 5.879624040971976e-07,
+        "instantaneous_fixed_total_plane_rate": 5.879621767235221e-07
+      }
+    },
+    {
+      "x": 0.61,
+      "signed_squared_norm_rate": [
+        -133.68454068467605,
+        -1.3417752265261522,
+        0.012353540488673874
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -133.6843225642424,
+        -1.3417749298843233
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.34810695641319617,
+        0.4656292302676384,
+        0.4880781168589311
+      ],
+      "entropy_metric_fd_relative_defect": 2.3181102590755644e-11,
+      "density_motion_defect": 9.382803703282846e-10,
+      "metric_derivative_mesh_defect": 7.645439836778678e-11,
+      "independent_direction_rate_defect": 1.620771485771888e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 2.7468183816381497e-07,
+        "instantaneous_fixed_total_plane_rate": 2.7468155394672067e-07
+      }
+    },
+    {
+      "x": 0.67,
+      "signed_squared_norm_rate": [
+        -60.822876407742356,
+        -1.06769996152133,
+        -0.11781207288349574
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -60.82226208270394,
+        -1.0674660684221777
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.3748901242901208,
+        0.48192935159639017,
+        0.4883908603875011
+      ],
+      "entropy_metric_fd_relative_defect": 2.375663281652678e-09,
+      "density_motion_defect": 9.145399436665098e-09,
+      "metric_derivative_mesh_defect": 8.507261561874202e-11,
+      "independent_direction_rate_defect": 4.710519474482311e-11,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 1.1792759124773511e-07,
+        "instantaneous_fixed_total_plane_rate": 1.1792691623213614e-07
+      }
+    },
+    {
+      "x": 0.73,
+      "signed_squared_norm_rate": [
+        -26.18787440236258,
+        -0.8656286541523015,
+        -0.1596212933723307
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -26.186574714040304,
+        -0.8650840861471218
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.3951662890505623,
+        0.4965981042935999,
+        0.4894153740746014
+      ],
+      "entropy_metric_fd_relative_defect": 2.1536742977525678e-11,
+      "density_motion_defect": 9.426346364459292e-10,
+      "metric_derivative_mesh_defect": 4.647568441207284e-11,
+      "independent_direction_rate_defect": 2.922797559534729e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 4.080867554989709e-08,
+        "instantaneous_fixed_total_plane_rate": 4.08065616852582e-08
+      }
+    },
+    {
+      "x": 0.79,
+      "signed_squared_norm_rate": [
+        -10.780378167475659,
+        -0.6992439678096384,
+        -0.02447873782793465
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -10.779073504879747,
+        -0.6992432264154942
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.3523034345967513,
+        0.47674486543033967,
+        0.4894387171848286
+      ],
+      "entropy_metric_fd_relative_defect": 5.253188987991808e-11,
+      "density_motion_defect": 9.73618578825541e-10,
+      "metric_derivative_mesh_defect": 1.0277645401401969e-10,
+      "independent_direction_rate_defect": 1.1347412592899175e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 4.905009731714927e-09,
+        "instantaneous_fixed_total_plane_rate": 4.9006025903963746e-09
+      }
+    },
+    {
+      "x": 0.85,
+      "signed_squared_norm_rate": [
+        -4.396187820032449,
+        -0.56128718250485,
+        -0.05452652158903372
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -4.394521719813043,
+        -0.561256918487837
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.36715858729717593,
+        0.4935828571294662,
+        0.4893462385107562
+      ],
+      "entropy_metric_fd_relative_defect": 2.9737281701001163e-11,
+      "density_motion_defect": 1.028399721245686e-09,
+      "metric_derivative_mesh_defect": 1.5161294442123108e-10,
+      "independent_direction_rate_defect": 6.09439790300037e-11,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 5.615629738997541e-09,
+        "instantaneous_fixed_total_plane_rate": 5.624316123942208e-09
+      }
+    },
+    {
+      "x": 0.91,
+      "signed_squared_norm_rate": [
+        -1.938563886935202,
+        -0.4407634925535446,
+        -0.10745897946583625
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -1.9360957011899513,
+        -0.4405545602108245
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.40694188686042376,
+        0.5310815709940377,
+        0.4886326830829067
+      ],
+      "entropy_metric_fd_relative_defect": 6.278024088303556e-11,
+      "density_motion_defect": 1.0143934470174997e-09,
+      "metric_derivative_mesh_defect": 5.598373153947733e-11,
+      "independent_direction_rate_defect": 4.707448042484685e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 6.803156482604322e-09,
+        "instantaneous_fixed_total_plane_rate": 6.8204766279222895e-09
+      }
+    },
+    {
+      "x": 0.93,
+      "signed_squared_norm_rate": [
+        -1.5419962166755836,
+        -0.40591171979254587,
+        -0.21024655228363312
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -1.5364693924449093,
+        -0.4043333898293775
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.5272798446396411,
+        0.614298166905808,
+        0.4865724835084897
+      ],
+      "entropy_metric_fd_relative_defect": 2.8978482857748457e-11,
+      "density_motion_defect": 1.0161319137994717e-09,
+      "metric_derivative_mesh_defect": 6.644279570977574e-11,
+      "independent_direction_rate_defect": 3.919558844156512e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 6.375367123112596e-09,
+        "instantaneous_fixed_total_plane_rate": 6.418839237909424e-09
+      }
+    },
+    {
+      "x": 0.96,
+      "signed_squared_norm_rate": [
+        -1.1336799401667388,
+        -0.3521509156555774,
+        -0.12378639612485062
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -1.1305645604405625,
+        -0.3519260999511073
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.43386908007081276,
+        0.5596630538620154,
+        0.48954118256355567
+      ],
+      "entropy_metric_fd_relative_defect": 2.6384292342280506e-11,
+      "density_motion_defect": 9.845842556398364e-10,
+      "metric_derivative_mesh_defect": 2.1272983374842624e-11,
+      "independent_direction_rate_defect": 3.2449914977306094e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 5.145420534091727e-09,
+        "instantaneous_fixed_total_plane_rate": 5.172044348356053e-09
+      }
+    },
+    {
+      "x": 0.99,
+      "signed_squared_norm_rate": [
+        -0.8759737843310176,
+        -0.30649894389724863,
+        0.04367066704080114
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -0.8758970133603761,
+        -0.30642663236657525
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.3254517557761603,
+        0.4579835662010958,
+        0.49025574574590836
+      ],
+      "entropy_metric_fd_relative_defect": 1.5708028136847324e-09,
+      "density_motion_defect": 5.467336472487802e-09,
+      "metric_derivative_mesh_defect": 1.2632317414329464e-10,
+      "independent_direction_rate_defect": 4.2239826913981204e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 4.043982926305034e-09,
+        "instantaneous_fixed_total_plane_rate": 4.043363643901898e-09
+      }
+    },
+    {
+      "x": 1.02,
+      "signed_squared_norm_rate": [
+        -0.7313022063989515,
+        -0.2701276708114864,
+        -0.09357705879466509
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -0.7289171260963905,
+        -0.2700710065907085
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.4252000400754258,
+        0.5581305742281354,
+        0.4891159928410704
+      ],
+      "entropy_metric_fd_relative_defect": 1.0719734721799384e-10,
+      "density_motion_defect": 1.03378520935116e-09,
+      "metric_derivative_mesh_defect": 7.617534381054725e-11,
+      "independent_direction_rate_defect": 1.799650567457789e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 2.9904052567530925e-09,
+        "instantaneous_fixed_total_plane_rate": 3.008303495199982e-09
+      }
+    },
+    {
+      "x": 1.05,
+      "signed_squared_norm_rate": [
+        -0.6240150914081315,
+        -0.24070384131088396,
+        -0.07307539630750523
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -0.6222667983704191,
+        -0.2406776363657019
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.4135951344022475,
+        0.54581149283382,
+        0.4895971121815051
+      ],
+      "entropy_metric_fd_relative_defect": 2.666645358523731e-09,
+      "density_motion_defect": 1.025654336949233e-08,
+      "metric_derivative_mesh_defect": 1.9020740538167047e-10,
+      "independent_direction_rate_defect": 1.962549706080452e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 1.9245384175192726e-09,
+        "instantaneous_fixed_total_plane_rate": 1.9546487761701314e-09
+      }
+    },
+    {
+      "x": 1.08,
+      "signed_squared_norm_rate": [
+        -0.5609175105699512,
+        -0.21821613308063825,
+        -0.17456139321790404
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -0.5524879372217671,
+        -0.21751057757902256
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.6595514604901163,
+        0.7186538424482073,
+        0.4814053778806192
+      ],
+      "entropy_metric_fd_relative_defect": 9.152956005245955e-11,
+      "density_motion_defect": 1.0142355981967161e-09,
+      "metric_derivative_mesh_defect": 8.391143335728657e-11,
+      "independent_direction_rate_defect": 2.5706456407981193e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 1.2222821643703696e-09,
+        "instantaneous_fixed_total_plane_rate": 1.2667068505223256e-09
+      }
+    },
+    {
+      "x": 1.11,
+      "signed_squared_norm_rate": [
+        -0.5161275994550054,
+        -0.23167792996304318,
+        -0.19726579426172558
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -0.4970514281596131,
+        -0.198673395496529
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        1.352566127951686,
+        0.36101525825364267,
+        0.09645036342752339
+      ],
+      "entropy_metric_fd_relative_defect": 1.567224678705832e-11,
+      "density_motion_defect": 9.795390875710914e-10,
+      "metric_derivative_mesh_defect": 1.4765522138304732e-10,
+      "independent_direction_rate_defect": 1.202097310581962e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 5.675481196121268e-10,
+        "instantaneous_fixed_total_plane_rate": 6.230341798030281e-10
+      }
+    },
+    {
+      "x": 1.14,
+      "signed_squared_norm_rate": [
+        -0.4442221736946489,
+        -0.18292570789363655,
+        -0.1077380051150793
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -0.44026161563344673,
+        -0.18277905004019615
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.5104383431017747,
+        0.6324210854331282,
+        0.4891514616194434
+      ],
+      "entropy_metric_fd_relative_defect": 2.3950218558474934e-11,
+      "density_motion_defect": 1.072989983447206e-09,
+      "metric_derivative_mesh_defect": 6.05099303996326e-11,
+      "independent_direction_rate_defect": 1.611213801266942e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 2.8408186913964073e-10,
+        "instantaneous_fixed_total_plane_rate": 3.0123475935894817e-10
+      }
+    },
+    {
+      "x": 1.17,
+      "signed_squared_norm_rate": [
+        -0.40620927579831295,
+        -0.1693843887371245,
+        -0.12278826979505794
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -0.40048689011798433,
+        -0.16907182932240425
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.5937284997684357,
+        0.6924134010428522,
+        0.48597611044781414
+      ],
+      "entropy_metric_fd_relative_defect": 6.820642016930352e-11,
+      "density_motion_defect": 1.0800101039441937e-09,
+      "metric_derivative_mesh_defect": 1.2573692087514132e-10,
+      "independent_direction_rate_defect": 1.2176178121325876e-10,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 5.713403361529146e-10,
+        "instantaneous_fixed_total_plane_rate": 5.677400216619333e-10
+      }
+    },
+    {
+      "x": 1.2,
+      "signed_squared_norm_rate": [
+        -0.3707974621752426,
+        -0.15722257079353583,
+        -0.11843732263858806
+      ],
+      "instantaneous_fixed_total_plane_rate": [
+        -0.3648328008123136,
+        -0.15684975429040512
+      ],
+      "largest_direction_fractional_coordinates_G_normalized": [
+        0.6245727765118362,
+        0.7117494417862759,
+        0.48465583536097595
+      ],
+      "entropy_metric_fd_relative_defect": 1.8702804610242617e-11,
+      "density_motion_defect": 9.833376628535735e-10,
+      "metric_derivative_mesh_defect": 1.2152118200603468e-10,
+      "independent_direction_rate_defect": 5.434797056835805e-11,
+      "combined_mesh_rate_defects": {
+        "signed_squared_norm_rate": 1.0509298709049375e-09,
+        "instantaneous_fixed_total_plane_rate": 1.0318025878142123e-09
+      }
+    }
+  ],
+  "scope": "Instantaneous squared-norm growth exponents at archived samples; locally fixed total plane is not the transported initial plane. Not an interval monotonicity theorem or physical stability result."
+}
