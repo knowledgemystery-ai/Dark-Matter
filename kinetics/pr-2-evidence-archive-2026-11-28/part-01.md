@@ -1,0 +1,201 @@
+[Independent evidence map](https://github.com/knowledgemystery-ai/Dark-Matter/blob/75068f1ec2ce3c0f0d35e593ea869ff026f9f364/kinetics/INDEPENDENT-PORTAL-RESEARCH-MAP-2026-11-26.md)
+
+## Summary
+- Add a reference implementation for the massive daughter number, energy, pressure, and trace weights on fixed momentum shells.
+- Test shell moments against independent adaptive quadrature in 1,605 cells, including massless and near-rest controls.
+- Test a positive two-node projection on 50,000 seeded synthetic two-body decays. The maximum relative pair-energy mismatch was below 4.0e-16 on three meshes with full support. Document the initial tight-grid failure and the near-rest support limitation.
+
+## Reproduce
+- `OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python kinetics/test_massive_shell_moments.py`
+- `OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python kinetics/test_pair_projection_reference.py`
+
+## Follow-up: finite-mass two-moment reference
+- Added and tested finite daughter masses at the true event momenta, shape reconstruction, FD/BE admissibility, entropy, and pressure-work bookkeeping in a short prescribed expansion.
+- Kept the physical event energy ledger separate from the reconstructed shell energy. A number-only closure preserves event conservation but does not remove a shell-energy defect; this defect shrinks under spatial refinement.
+- Re-ran the admissibility and prescribed-expansion tests in the cloud and matched the committed JSON. See the [reproduction commands and limitations](kinetics/INDEPENDENT-FV-TWO-MOMENT-REFERENCE-2026-11-26.md).
+
+This is an independent numerical reference with a prescribed parent reservoir. It is not a self-consistent cosmological run, relic-density result, or a merge of draft PR #1.
+
+## Follow-up: quantum portal response
+The [local FD response, quadrature checks, and reproduction commands](kinetics/INDEPENDENT-PORTAL-FD-LOCAL-REFERENCE-2026-11-26.md) keep exact Fermi occupation and vacuum spin correlations, with a separate nonlinear classical control. The direct charged-lepton response is not a complete portal or cosmological abundance prediction.
+
+## Follow-up: nonlinear FD reference and low-momentum scalar gate
+- Added independently parameterized charged-lepton elastic heat and the [conditional nonlinear FD trajectories](kinetics/INDEPENDENT-NONLINEAR-FD-PORTAL-REFERENCE-2026-11-26.md), with separate number, energy, and entropy tests.
+- Compared [decay-only projected moments with the momentum-resolved scalar relaxation rate](kinetics/INDEPENDENT-THREE-SPECIES-DECAY-IR-GATE-2026-11-26.md). A fast integrated decay and a constrained normal-state saturation marker do not establish a soft spectrum or a condensate.
+- Added an [elastic rest-mode handoff test](kinetics/INDEPENDENT-SCALAR-REST-ELASTIC-HANDOFF-2026-11-26.md). Fast local diagonal damping alone does not imply fast transport to scalar momenta where decay is effective.
+- The [repeated-scattering graph](kinetics/INDEPENDENT-SOFT-SCALAR-MULTISCATTER-2026-11-26.md) resolves the apparent one-step bottleneck for an equilibrated fermion bath, and shows when a depleted bath slows the same transport. Includes independent stochastic and numerical controls.
+- Added an [empty-sector direct-lepton spectrum and prompt-decay audit](kinetics/INDEPENDENT-EMPTY-LEPTON-INJECTION-2026-11-26.md) and a [test-scalar transport comparison in the specified nonthermal fermion spectrum](kinetics/INDEPENDENT-TAGGED-SCALAR-INJECTED-BATH-2026-11-26.md). This tests the bath-population sensitivity without assuming a thermal shape.
+- Added an [expanding tagged transport and prompt return control](kinetics/INDEPENDENT-EXPANDING-TAGGED-PROMPT-RETURN-2026-11-26.md). The calculation separates the first inverse-capture tag from physical scalar return and treats outer-grid exit as unresolved, not as annihilation.
+- The [factorized exterior-return audit](kinetics/INDEPENDENT-PARENT-FACTORIZATION-EXTERIOR-2026-11-26.md) explicitly resolves transport back from outside the old momentum region. The [opposite heat ledgers](kinetics/INDEPENDENT-DARK-RESONANT-ENERGY-FEEDBACK-2026-11-26.md) then test when fermion feedback cannot be neglected and give a separate conservative moment comparison.
+- The [joint nonthermal short evolution](kinetics/INDEPENDENT-JOINT-PROMPT-TWO-MOMENT-EVOLUTION-2026-11-26.md) evolves both species with separate number and kinetic-energy moments, controlled occupation bounds and microscopic entropy checks.
+- Added [conditional resonant and below-pole elastic kinetic modes, a conservative implicit trial and a manufactured FRW split](kinetics/INDEPENDENT-JOINT-KINETIC-MODES-AND-IMPLICIT-2026-11-26.md). Cold and bulk directions have distinct relaxation, and the physical stiff cosmology is not inferred from the manufactured split.
+- [Centered stiff prompt return at unscaled amplitude](kinetics/INDEPENDENT-CENTERED-STIFF-PROMPT-EXPANSION-2026-11-26.md) resolves the earlier residual cancellation and passes a finite warm-support expansion test, alongside a separate nonlinear below-pole flux cross-check.
+- The [combined centered update](kinetics/INDEPENDENT-COMBINED-CENTERED-FLUX-2026-11-26.md) advances the two nonlinear channels together and separates a cold-tail implicit probe from a warm finite-support expansion test without ongoing injection.
+- [Continuing visible FD production in expanding two-species kinetics](kinetics/INDEPENDENT-VISIBLE-SOURCE-CONTINUING-FRW-2026-11-26.md) adds positive number/energy input with explicit tails, validates the source-only yield independently, and tests warm-support evolution with both nonlinear collision channels. It does not evolve the full interacting distribution from empty.
+- A [finite-support evolution from an initially empty dark sector](kinetics/INDEPENDENT-FRW-FROM-EMPTY-2026-11-26.md) replaces the earlier seeded snapshot with a physical first source pulse and checks cut, time-step, and first-pulse sensitivity; still omits the coldest momentum bins.
+- [Direct visible-portal detailed-balance audit](kinetics/INDEPENDENT-VISIBLE-DIRECT-DETAILED-BALANCE-2026-11-26.md) checks dark Pauli blocking and inverse reactions on one kernel; the small correction is for one direct-channel snapshot only.
+- [Initially empty soft cells and finite-volume evolution down to q=0](kinetics/INDEPENDENT-VACUUM-SOFT-SCALAR-EVOLUTION-2026-11-26.md) separates elastic population of soft momentum bins from prompt return. No population floor or inference of condensation.
+- [Heavy visible portal and adiabatic decay response](kinetics/INDEPENDENT-HEAVY-PORTAL-ADIABATIC-BRANCH-2026-11-26.md) checks Pauli/inverse rates and shows how the A+B branch redistributes the two sourced daughter moments.
+- [State-dependent visible portal in the expanding dark-sector benchmark](kinetics/INDEPENDENT-STATE-DEPENDENT-PORTAL-FRW-2026-11-26.md) compares signed direct and heavy-source updates against a matched vacuum source at 50 and 100 MeV. Finite-time sensitivity is larger than the modeled bulk correction.
+- [Visible thermal feedback and a conservative exterior ledger](kinetics/INDEPENDENT-VISIBLE-BATH-ENERGY-FEEDBACK-2026-11-26.md) checks the small cooling of the visible plasma at fixed scale factor and separates interior, unresolved daughter and pressure-work terms.
+- An [independent cumulative source integral](kinetics/INDEPENDENT-CUMULATIVE-VISIBLE-PRODUCTION-2026-11-26.md) quantifies how much production lies after the short 45 MeV endpoint.
+- [Longer 50 MeV evolution](kinetics/INDEPENDENT-EXTENDED-50MEV-FRW-2026-11-26.md) checks coupled dark/visible runs to 30 and 20 MeV, a 15 MeV vacuum-source control and an exact cumulative-source ledger comparison.
+- [12 MeV evolution and continuum normal-state capacity](kinetics/INDEPENDENT-12MEV-CONTINUUM-CAPACITY-2026-11-26.md) compares the retained nonthermal snapshots to an independently solved continuum common state.
+- [Late adiabatic and collisionless limits versus heat exchange](kinetics/INDEPENDENT-LATE-DILUTION-AND-HEAT-2026-11-26.md) separates a conditional saturation point from its physical attainability: below-pole collisions exchange heat too slowly there to justify imposing a shared temperature.
+- [Finite heat evolution with separate dark temperatures](kinetics/INDEPENDENT-LATE-SEPARATE-TEMPERATURES-2026-11-26.md) checks detailed balance, pressure and entropy in a thermal moment closure. The scalar stays well below its own thermal saturation through b=410.
+- [An independently momentum-resolved late elastic check](kinetics/INDEPENDENT-LATE-ELASTIC-SHELL-CHECK-2026-11-26.md) matches the late thermal initialization, then does not keep either shell distribution thermal.
+- [Pinned external EOS setup](kinetics/INDEPENDENT-BENCHMARK-SETUP.md) identifies the exact inputs without redistributing the data.
+- [Late radiation and residual forward production](kinetics/INDEPENDENT-LATE-RADIATION-AND-RESIDUAL-SOURCE-2026-11-26.md) replaces the photon-only comparison with a tabulated clock and quantifies the omitted forward yield.
+- [Continuation straight from the 12 MeV archived shell shapes](kinetics/INDEPENDENT-LATE-ARCHIVED-SHAPES-2026-11-26.md) removes the late thermal restart and tracks early retained on-shell support, full pressure work and the cold bin.
+- [A full-support thermal envelope for omitted late prompt transfer](kinetics/INDEPENDENT-LATE-PROMPT-THERMAL-ENVELOPE-2026-11-26.md) quantifies when that conditional channel becomes small after the geometric cutoff.
+- [Fixed-state outward and returning prompt flux across the old q16 edge](kinetics/INDEPENDENT-LATE-PROMPT-EDGE-EXCHANGE-2026-11-26.md) uses a physically populated wider q32 archive and checks that gross fluxes must not be read as net loss.
+- [Source-free switch sensitivity at 12 vs 9.3 MeV](kinetics/INDEPENDENT-LATE-SWITCH-SENSITIVITY-2026-11-26.md) uses a matched late scale-factor mesh and finds a small effect of the later source handoff on the late diagnostics.
+- [The time-resolved q32 prompt boundary transient](kinetics/INDEPENDENT-PROMPT-EDGE-DYNAMIC-TRANSIENT-2026-11-26.md) integrates the initial sharp exterior current at fixed background and checks its rapid decrease, rather than extrapolating an instantaneous rate.
+- [Short expanding populated-exterior benchmark](kinetics/INDEPENDENT-SHORT-EXPANDING-EXTERIOR-2026-11-26.md) compares q16 and q32 over a controlled early expansion interval without treating its startup as thermal.
+- [Kinematic access to the retained on-shell channel](kinetics/INDEPENDENT-RETAINED-ONSHELL-SUPPORT-2026-11-26.md) gives an exact direct-access floor for the coldest bins, independently of angular quadrature.
+- [Same-inner-state crop test](kinetics/INDEPENDENT-MATCHED-EXTERIOR-CROP-2026-11-26.md) isolates dropping the exterior on matched short expansion meshes and documents a stiff residual precision diagnostic.
+- [Direct elastic first-bin budget on the same archived interior](kinetics/INDEPENDENT-ARCHIVED-COLD-ELASTIC-BUDGET-2026-11-26.md) finds positive local feed but very little change when including the populated exterior.
+- [Parent-local prompt Jacobian audit](kinetics/INDEPENDENT-LOCAL-PROMPT-JACOBIAN-2026-11-26.md) reproduces the old directional derivatives at the actual wide-grid checkpoint with reduced assembly work.
+- [Conditional relic normalization](kinetics/INDEPENDENT-CONDITIONAL-RELIC-NORMALIZATION-2026-11-26.md) exposes the large retained stable-fermion budget at 50 MeV if no later depletion/dilution occurs, and locates a lower-temperature source-only follow-up benchmark.
+- [Late vacuum-depletion bound at archived yields](kinetics/INDEPENDENT-ARCHIVED-VACUUM-DEPLETION-2026-11-26.md) bounds the depletion from vacuum scalar-pair annihilation and separately evaluates fixed-snapshot stimulation on the represented final-state support.
+- [Low-reheat FRW source control](kinetics/INDEPENDENT-LOW-REHEAT-FRW-2026-11-26.md) compares retained and inclusive source budgets against independent quadrature and verifies the cold signed-state portal arithmetic.
+- [Signed scalar-pair rates](kinetics/INDEPENDENT-SCALAR-PAIR-ARCHIVED-RATES-2026-11-26.md) resolves stimulated forward and inverse terms on the archived cells, reconciles tails and shell moments, and separates fixed-state rates from eventual yields.
+
+- [Scalar total-number budget](kinetics/INDEPENDENT-SCALAR-NUMBER-BUDGET-2026-11-26.md) bounds the maximal possible scalar rest mass in two-species number-conserving conversion.
+- [Expanding signed scalar-pair continuation](kinetics/INDEPENDENT-SCALAR-PAIR-EXPANDING-CONTINUATION-2026-11-26.md) distinguishes time-integrated changes, independently estimates the low-reheat vacuum contribution, and checks sensitivity to inverse rates and exterior cells.
+- [Initially empty low-reheat pair evolution](kinetics/INDEPENDENT-SCALAR-PAIR-FROM-EMPTY-2026-11-26.md) joins the early source and late pair evolution without a thermal restart.
+- [Vacuum quartic multiplication bound](kinetics/INDEPENDENT-SCALAR-QUARTIC-MULTIPLICATION-BOUND-2026-11-26.md) provides an all-momentum envelope for tree scalar 2→4 and separates stimulation assumptions.
+- [Heavy-parent recycling on archived spectra](kinetics/INDEPENDENT-ARCHIVED-HEAVY-RECYCLING-2026-11-26.md) quantifies the endothermic rates and finite-support thresholds.
+- [Quantum retained spectrum after expansion](kinetics/INDEPENDENT-LOW-REHEAT-QUANTUM-BRIDGE-2026-11-26.md) verifies the exact early-state restart and late cold/streaming scales.
+- [Archived gross visible depletion](kinetics/INDEPENDENT-ARCHIVED-GROSS-VISIBLE-DEPLETION-2026-11-26.md) separates the gross inverse portal from net injection on the actual retained supports.
+- [Low-momentum sextic contact](kinetics/INDEPENDENT-LOCAL-SCALAR-SEXTIC-CONTACT-2026-11-26.md) bounds the restricted EFT source without extrapolating the contact above its declared cutoff.
+- [Native CLASS phase-space background audit](kinetics/INDEPENDENT-CLASS-PSD-BACKGROUND-AUDIT-2026-11-26.md) validates the density and pressure normalization independently, without claiming a matter transfer result.
+- [High-reheat pair control](kinetics/INDEPENDENT-50MEV-PAIR-FROM-EMPTY-2026-11-26.md) completes both matched physical histories through 12 MeV.
+- [Coupled warm continuation](kinetics/INDEPENDENT-WARM-COUPLED-LATE-PAIRS-2026-11-26.md) evolves signed pair, prompt, and elastic transfer on the new high-reheat state.
+- [Higher-reheat scalar count threshold](kinetics/INDEPENDENT-HIGHER-REHEAT-SCALAR-COUNT-TARGET-2026-11-26.md) separates a prescribed lepton count ceiling from a possible physical history.
+- [CLASS cold-limit numerical gate](kinetics/INDEPENDENT-CLASS-COLD-LIMIT-NUMERICAL-GATE-2026-11-26.md) flags unconverged Newtonian output rather than claiming a transfer signal.
+- [Measured partial hadronic source](kinetics/INDEPENDENT-PARTIAL-HADRON-REHEAT-SOURCE-2026-11-26.md) revises the conditional high-reheat count threshold using explicit vacuum spectral coverage.
+- [Native momentum-grid accuracy gate](kinetics/INDEPENDENT-CLASS-PSD-MANUAL-MOMENTA-2026-11-26.md) shows why density matching alone does not guarantee converged perturbations.
+
+## Review map (pinned ranges)
+
+The complete change exceeds [GitHub’s single-diff display limits](https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits#diff-limits). These consecutive ranges cover the PR through `75068f1e` without changing its scope:
+
+- [Numerical references and stiff collision controls](https://github.com/knowledgemystery-ai/Dark-Matter/compare/f77e75a43e99f03c5ae4dc1d732731bbb9ba3fca...a107962be4bf84c11874cb4151bf65f8b461d9bb)
+- [Physical expansion, visible sources, separate temperatures](https://github.com/knowledgemystery-ai/Dark-Matter/compare/a107962be4bf84c11874cb4151bf65f8b461d9bb...687c62d10110eab1e08ebb3791db227fefc49f27)
+- [Input setup, wider-support diagnostics, and conditional abundance](https://github.com/knowledgemystery-ai/Dark-Matter/compare/687c62d10110eab1e08ebb3791db227fefc49f27...15459fa5b778364652a1508fce67b37011311323)
+- [Low-reheat refinement, quantum control, and signed scalar-pair rate](https://github.com/knowledgemystery-ai/Dark-Matter/compare/15459fa5b778364652a1508fce67b37011311323...b835d43df235156eedf44f571d20546c9dd8c506)
+- [Scalar count ceiling and conservative expanding pair evolution](https://github.com/knowledgemystery-ai/Dark-Matter/compare/b835d43df235156eedf44f571d20546c9dd8c506...108130be656b2ab3ae08c01aa4036fcce9dbaa4c)
+- [Early pair production, quartic multiplication bound, and heavy recycling](https://github.com/knowledgemystery-ai/Dark-Matter/compare/108130be656b2ab3ae08c01aa4036fcce9dbaa4c...e6a9c567901bf76ae96326c7270f74de96d6c24f)
+- [Low-momentum contact, resolved streaming, and gross visible depletion](https://github.com/knowledgemystery-ai/Dark-Matter/compare/e6a9c567901bf76ae96326c7270f74de96d6c24f...97d54177cd35abbe79568173a2ea9730931e4846)
+- [Native CLASS background and warm controls](https://github.com/knowledgemystery-ai/Dark-Matter/compare/97d54177cd35abbe79568173a2ea9730931e4846...51b55a58298a1cfeb01b9cd62c7fad2f3e1befc8)
+- [Warm continuation, high-temperature source counts, and CLASS control](https://github.com/knowledgemystery-ai/Dark-Matter/compare/51b55a58298a1cfeb01b9cd62c7fad2f3e1befc8...760d7692074cafde30ae870067ba2fcd27216d43)
+- [Measured hadronic source and CLASS momentum-grid audit](https://github.com/knowledgemystery-ai/Dark-Matter/compare/760d7692074cafde30ae870067ba2fcd27216d43...995ab2722dd83cb3b01f3b2cd2dc0064ee9b697c)
+- [Warm pair evolution to 3.43 MeV, shapes and tail audit](https://github.com/knowledgemystery-ai/Dark-Matter/compare/995ab2722dd83cb3b01f3b2cd2dc0064ee9b697c...002c6c64114972a868fc3b53801efaf48e801339)
+- [Matched CLASS pressure control, 1.206 MeV warm history, and conditional depletion bound](https://github.com/knowledgemystery-ai/Dark-Matter/compare/002c6c64114972a868fc3b53801efaf48e801339...85873db0eb4372c5d1c073074ca6c315e32f75a2)
+- [CLASS node-phase control, warm support and thermal Born diagnostics](https://github.com/knowledgemystery-ai/Dark-Matter/compare/85873db0eb4372c5d1c073074ca6c315e32f75a2...57ba91666ee402a00328b5ed30d56662b13c12b0)
+- [Derivative normalization intervention, signed scalar-tail bound and disjoint source](https://github.com/knowledgemystery-ai/Dark-Matter/compare/57ba91666ee402a00328b5ed30d56662b13c12b0...e393870d3ca2a86a808c3bf20c8d815fa4409cc2)
+- [Opposite-sign derivative control, sparse scalar tracer and strict thermal strips](https://github.com/knowledgemystery-ai/Dark-Matter/compare/e393870d3ca2a86a808c3bf20c8d815fa4409cc2...737bb83079cfa2a80b861fd103741332c32ae9c0)
+- [Raw tracer, massive-dilation checks and abundance sensitivity](https://github.com/knowledgemystery-ai/Dark-Matter/compare/737bb83079cfa2a80b861fd103741332c32ae9c0...9b79c327145275e3756cf74922b86e6fe393b831)
+- [Warm outer phase space, fixed-temperature expansion and raw CLASS fraction controls](https://github.com/knowledgemystery-ai/Dark-Matter/compare/9b79c327145275e3756cf74922b86e6fe393b831...6464c6aba4b20c6e8bdf16930d721969da316de8)
+- [Finite-band thermal correction, warm signed rate and native momentum controls](https://github.com/knowledgemystery-ai/Dark-Matter/compare/6464c6aba4b20c6e8bdf16930d721969da316de8...3901319d06a404d799eda299f39f8f8f7e19eab0)
+- [Finite reheating-cooling history and unmodified momentum-remap checks](https://github.com/knowledgemystery-ai/Dark-Matter/compare/3901319d06a404d799eda299f39f8f8f7e19eab0...cf171527e7781d0b636868f54ebb31b18e502eb6)
+- [Vacuum parent-delay bound and strict timelike NLO through x=6](https://github.com/knowledgemystery-ai/Dark-Matter/compare/cf171527e7781d0b636868f54ebb31b18e502eb6...f6c800d60406c881b83a140137bd76065c86a4a2)
+- [Finite-cooling phase space, active BES window cut, and native 320-node control](https://github.com/knowledgemystery-ai/Dark-Matter/compare/f6c800d60406c881b83a140137bd76065c86a4a2...c3b58a7d4c4fb466b3b34b5eec0af741707ed710)
+- [Native finite-cooling scalar tracer, post-anchor clock and pair tests, and raw 512-node control](https://github.com/knowledgemystery-ai/Dark-Matter/compare/c3b58a7d4c4fb466b3b34b5eec0af741707ed710...83cb8fa170580785dead8081b58a2328240e33eb)
+- [Production-era scalar recoil and two-window strict NLO audit](https://github.com/knowledgemystery-ai/Dark-Matter/compare/83cb8fa170580785dead8081b58a2328240e33eb...6ae0aa1ca0cef2b7a1df6ca4250197738e429d29)
+- [Projected depletion, early inverse-rate fold, native hierarchy and x=9 masking](https://github.com/knowledgemystery-ai/Dark-Matter/compare/6ae0aa1ca0cef2b7a1df6ca4250197738e429d29...458771ac8a459ac56ecfe91498402509a241d19a)
+- [Signed recoil moment, tracer additivity controls and the reopened x=10 gap](https://github.com/knowledgemystery-ai/Dark-Matter/compare/458771ac8a459ac56ecfe91498402509a241d19a...d9307f3f72e5b3da906e4b4710075928a1b9136f)
+- [Matched native fluid switch and same-spectrum split tracer](https://github.com/knowledgemystery-ai/Dark-Matter/compare/d9307f3f72e5b3da906e4b4710075928a1b9136f...fd3e6bbe0feaa3e1b49b99cf28deaa48755a7632)
+- [Memory-bounded relativistic LOS, native RK duplicate and strict x=12 bands](https://github.com/knowledgemystery-ai/Dark-Matter/compare/fd3e6bbe0feaa3e1b49b99cf28deaa48755a7632...5786b9e1b5f37b66cd4048a0cb2fd2686271b652)
+- [Split no-fluid RK, CDM-metric spectral survey and passive inverse correction](https://github.com/knowledgemystery-ai/Dark-Matter/compare/5786b9e1b5f37b66cd4048a0cb2fd2686271b652...e43ecc6d4f5959aa3f6fe67b9e37096d99e3d63f)
+- [Matched instantaneous and finite reheating collisionless tracers](https://github.com/knowledgemystery-ai/Dark-Matter/compare/e43ecc6d4f5959aa3f6fe67b9e37096d99e3d63f...5095e893a3ecd9c329ef65e4f0a72fe48373568f)
+- [Matched spectrum-width control](https://github.com/knowledgemystery-ai/Dark-Matter/compare/5095e893a3ecd9c329ef65e4f0a72fe48373568f...e4f05317012684b108f89dfd8ec369b1ec435834)
+- [Separated hard Born and strict thermal extension through x=14](https://github.com/knowledgemystery-ai/Dark-Matter/compare/e4f05317012684b108f89dfd8ec369b1ec435834...48529397ca585152a263d652bd64cd07b3bf1030)
+- [Portable collisionless warm exterior gravity](https://github.com/knowledgemystery-ai/Dark-Matter/compare/48529397ca585152a263d652bd64cd07b3bf1030...39d95fd63ab04066551cd4974d7c22f9ab572053)
+- [Matched hard thermal strips through x=16 and isolated Born pole proxy](https://github.com/knowledgemystery-ai/Dark-Matter/compare/39d95fd63ab04066551cd4974d7c22f9ab572053...a9195e4a910171d86da653c6c797eef40ee9f3be)
+- [Fixed-loss stable count retargeting](https://github.com/knowledgemystery-ai/Dark-Matter/compare/a9195e4a910171d86da653c6c797eef40ee9f3be...fa8a404c96adc414a7c59f4ef51a42e24724d10c)
+- [Atomic warm restart and local prompt Jacobian control](https://github.com/knowledgemystery-ai/Dark-Matter/compare/fa8a404c96adc414a7c59f4ef51a42e24724d10c...bb2b0d11a7e94e8777051939213685a66175d001)
+- [Regenerated forward count at retargeted low reheat](https://github.com/knowledgemystery-ai/Dark-Matter/compare/bb2b0d11a7e94e8777051939213685a66175d001...e0be728851db7305ade09dd3c183637da51f5962)
+- [Matched metric shifted scalar spectra and signed anchor diagnostics](https://github.com/knowledgemystery-ai/Dark-Matter/compare/e0be728851db7305ade09dd3c183637da51f5962...0c2e18be874911e18bb1f7b6b98e22e369011def)
+- [Correlated homogeneous clock bounds from the converted population](https://github.com/knowledgemystery-ai/Dark-Matter/compare/0c2e18be874911e18bb1f7b6b98e22e369011def...0a4b7ed91aa807a57dbd7935777a7e266077fc94)
+- [Cold-matched stable tracer and direct matter density composition](https://github.com/knowledgemystery-ai/Dark-Matter/compare/0a4b7ed91aa807a57dbd7935777a7e266077fc94...980641f5b391bd61e085fc8d9a2e6f84df636ebc)
+- [Exact high-mode fixture comparison](https://github.com/knowledgemystery-ai/Dark-Matter/compare/980641f5b391bd61e085fc8d9a2e6f84df636ebc...1bdf544d9a0032d403ae0b58b11ff5055db999d8)
+- [Completed q16/q32 short warm support control](https://github.com/knowledgemystery-ai/Dark-Matter/compare/1bdf544d9a0032d403ae0b58b11ff5055db999d8...a6a3fff792c08c966d016ffbd86d80dafd775cb6)
+- [Selective redshift-only pair depletion bound](https://github.com/knowledgemystery-ai/Dark-Matter/compare/a6a3fff792c08c966d016ffbd86d80dafd775cb6...3ffe21d6b8137cfcc5c24c31de329450f21033ac)
+- [Four time grids at fixed warm q16 support](https://github.com/knowledgemystery-ai/Dark-Matter/compare/3ffe21d6b8137cfcc5c24c31de329450f21033ac...4df5a89643429c314ebdbb55014fcff977259dcd)
+- [Damped vs undamped frozen warm collision integrators](https://github.com/knowledgemystery-ai/Dark-Matter/compare/4df5a89643429c314ebdbb55014fcff977259dcd...be1401584e30249effb1e470f39e4620676387a3)
+- [Warm energy-redistribution envelope and inherited scalar band](https://github.com/knowledgemystery-ai/Dark-Matter/compare/be1401584e30249effb1e470f39e4620676387a3...08a17cee70f2aaa003e88644431d16929e44ec38)
+- [Pointwise Bose gain bootstrap for the ballistic forward-only problem](https://github.com/knowledgemystery-ai/Dark-Matter/compare/08a17cee70f2aaa003e88644431d16929e44ec38...6d09ea95b133ea221a6dd2b3f8ba2486e0dc997a)
+- [Complete q16/q32 time-support interaction and retained shape](https://github.com/knowledgemystery-ai/Dark-Matter/compare/6d09ea95b133ea221a6dd2b3f8ba2486e0dc997a...5ae255819235f390fcc3f4406e83cd7b94ab15bb)
+- [Parent-weighted Bose gain closure on the padded archive](https://github.com/knowledgemystery-ai/Dark-Matter/compare/5ae255819235f390fcc3f4406e83cd7b94ab15bb...69b8427ab84e15a5e17942ca07c3dff60b631ff6)
+- [Shell-resolved conditional stable survival](https://github.com/knowledgemystery-ai/Dark-Matter/compare/69b8427ab84e15a5e17942ca07c3dff60b631ff6...566b5ecf5f9505d5c1cedd242f377480bd61a48c)
+- [Omitted old exterior gravity at the common endpoint](https://github.com/knowledgemystery-ai/Dark-Matter/compare/566b5ecf5f9505d5c1cedd242f377480bd61a48c...00ec8c623fc0a15e92d35fce84e696968e74f987)
+- [Frozen pair vs collision ordering controls](https://github.com/knowledgemystery-ai/Dark-Matter/compare/00ec8c623fc0a15e92d35fce84e696968e74f987...35eb27ebe4b4a0fdd5ace308c289284332088127)
+- [Portal evidence map and provenance](https://github.com/knowledgemystery-ai/Dark-Matter/compare/35eb27ebe4b4a0fdd5ace308c289284332088127...d32275260e224f4a361d2567fe6287dd81cad849)
+- [Closed number-budget verification on shifted and warm histories](https://github.com/knowledgemystery-ai/Dark-Matter/compare/d32275260e224f4a361d2567fe6287dd81cad849...dc4bb4f2ccb76eec3758baa96ce9b219a35169bc)
+- [Leading pair-count response separate from the splitting scheme](https://github.com/knowledgemystery-ai/Dark-Matter/compare/dc4bb4f2ccb76eec3758baa96ce9b219a35169bc...cfaf312badedbe475e60d54dc0e5362276af7eeb)
+- [Complete sixteen-block warm support and matched heavy-recycling probes](https://github.com/knowledgemystery-ai/Dark-Matter/compare/cfaf312badedbe475e60d54dc0e5362276af7eeb...5ada974b8ca36d12f3e1110cc0c2bc94f846b257)
+- [Passive heavy-recycling exposure on the matched warm states](https://github.com/knowledgemystery-ai/Dark-Matter/compare/5ada974b8ca36d12f3e1110cc0c2bc94f846b257...bd66a156267c6d93b9d7f6eab3ec6e28431483c1)
+- [Isolated late recycling energy envelope with repeated conversion and redistribution](https://github.com/knowledgemystery-ai/Dark-Matter/compare/bd66a156267c6d93b9d7f6eab3ec6e28431483c1...6d9de342fc6c6b804abe42650c422ceff350ccd3)
+- [Admit recorded exterior cohorts to the isolated recycling bound](https://github.com/knowledgemystery-ai/Dark-Matter/compare/6d9de342fc6c6b804abe42650c422ceff350ccd3...c11a3ff2a68a88dedebea57e0522d1bb59087048)
+- [Exact same-charge passive fermion interference](https://github.com/knowledgemystery-ai/Dark-Matter/compare/c11a3ff2a68a88dedebea57e0522d1bb59087048...c1031e15b9fb8e940c2870074f3d1e6bfb3dd665)
+- [Add late vacuum charged-lepton pair and heat inputs](https://github.com/knowledgemystery-ai/Dark-Matter/compare/c1031e15b9fb8e940c2870074f3d1e6bfb3dd665...2fd73d23074d248fe28625679e8e24eeaed0230f)
+- [Global energy-weighted envelope from an empty 50 MeV start](https://github.com/knowledgemystery-ai/Dark-Matter/compare/2fd73d23074d248fe28625679e8e24eeaed0230f...2fc0aeb0dc652f6500907e307cce9c037820a3c5)
+- [Complete 32-block q16/q32 matched number and shape refinement](https://github.com/knowledgemystery-ai/Dark-Matter/compare/2fc0aeb0dc652f6500907e307cce9c037820a3c5...efa0c4159da1c803d825c88309137ac8256ed303)
+- [Measured warm two-pion window and positive energy headroom](https://github.com/knowledgemystery-ai/Dark-Matter/compare/efa0c4159da1c803d825c88309137ac8256ed303...970a74abb26b08e0c75a3701b08f778b13d7d323)
+- [Restricted vacuum reheating-temperature decision bracket](https://github.com/knowledgemystery-ai/Dark-Matter/compare/970a74abb26b08e0c75a3701b08f778b13d7d323...9b63edc024ea7b60a783597f5de1fffa1607aa07)
+- [Two-pion Bose weighting and capped threshold/elastic variants](https://github.com/knowledgemystery-ai/Dark-Matter/compare/9b63edc024ea7b60a783597f5de1fffa1607aa07...81c2868a44b15618f57e1a8ca03688062c9f33ca)
+- [Unmeasured effective source budget by invariant band](https://github.com/knowledgemystery-ai/Dark-Matter/compare/81c2868a44b15618f57e1a8ca03688062c9f33ca...af87779d851f12d5693163afb3f140c8637aada6)
+- [Conditional low-invariant neutral-pion photon input with massless Bose](https://github.com/knowledgemystery-ai/Dark-Matter/compare/af87779d851f12d5693163afb3f140c8637aada6...abeb21652310e731b387de35fe68301cc885ba83)
+- [Fixed-width 50 MeV mixing and Yukawa upper sensitivity](https://github.com/knowledgemystery-ai/Dark-Matter/compare/abeb21652310e731b387de35fe68301cc885ba83...ab0bcd828a08bf6ceb17602194e36e4fbecb13bd)
+- [Primary BABAR moment transfer in the nonoverlapping pion gap](https://github.com/knowledgemystery-ai/Dark-Matter/compare/ab0bcd828a08bf6ceb17602194e36e4fbecb13bd...660dcc34575437c3c8ee167c3ecf4a3d3247e974)
+- [Dispersive theory conditional sub-0.30 GeV threshold moment](https://github.com/knowledgemystery-ai/Dark-Matter/compare/660dcc34575437c3c8ee167c3ecf4a3d3247e974...adda00ecd6f61ace10591f31da5fb405a0f537df)
+- [Conditional dark fermion survival with an explicit scalar cap](https://github.com/knowledgemystery-ai/Dark-Matter/compare/adda00ecd6f61ace10591f31da5fb405a0f537df...df6b96defc0e38011f8d79d039c663d8f0e17649)
+- [Refined forward angular ceilings and reverse charged-lepton loss](https://github.com/knowledgemystery-ai/Dark-Matter/compare/df6b96defc0e38011f8d79d039c663d8f0e17649...4015a3a28655c781eb96f1dc365b11a1fa51b895)
+- [Joint disjoint charged-pion and neutral source budget](https://github.com/knowledgemystery-ai/Dark-Matter/compare/4015a3a28655c781eb96f1dc365b11a1fa51b895...40ed284f5cfcb27c3f64c6efbc860d9914c13f8f)
+- [Finite-duration expansion-weighted Bose loss requirements](https://github.com/knowledgemystery-ai/Dark-Matter/compare/40ed284f5cfcb27c3f64c6efbc860d9914c13f8f...a41791f01f2399eb5036ff106aac64a84e5e4bf0)
+- [Exact signed Bose cancellation with a fermion cap only](https://github.com/knowledgemystery-ai/Dark-Matter/compare/a41791f01f2399eb5036ff106aac64a84e5e4bf0...016729cee3c2545bd7c4886a27f38f634b25c988)
+- [Time-resolved signed lower bound through half occupation](https://github.com/knowledgemystery-ai/Dark-Matter/compare/016729cee3c2545bd7c4886a27f38f634b25c988...48c8007db8b23cea77ba273417f8b8604695de24)
+- [Actual archived outgoing-pair Bose weights on five snapshots](https://github.com/knowledgemystery-ai/Dark-Matter/compare/48c8007db8b23cea77ba273417f8b8604695de24...0a8273dd2f93fd836cac0a41db902b875f505888)
+- [Small positive quadratic allowance above half occupation](https://github.com/knowledgemystery-ai/Dark-Matter/compare/0a8273dd2f93fd836cac0a41db902b875f505888...a4562d92571c8c23819a7a959911cbc60069f916)
+- [Selected late charged pion source and sink in signed fermion floor](https://github.com/knowledgemystery-ai/Dark-Matter/compare/a4562d92571c8c23819a7a959911cbc60069f916...caf1e4289ad8d8f1fdacd5d0fa07504ddb2c37b8)
+- [Modewise heavy occupation barrier under bounded pair production](https://github.com/knowledgemystery-ai/Dark-Matter/compare/caf1e4289ad8d8f1fdacd5d0fa07504ddb2c37b8...4504ebc5c2f7207884a436793ee9aa3c29235cd5)
+- [Direct light gain sensitivity to the heavy energy budget](https://github.com/knowledgemystery-ai/Dark-Matter/compare/4504ebc5c2f7207884a436793ee9aa3c29235cd5...83f62ec090340684193bd07b5f8848cac639359c)
+- [Frozen decay-equilibrium heavy energy diagnostics](https://github.com/knowledgemystery-ai/Dark-Matter/compare/83f62ec090340684193bd07b5f8848cac639359c...b421f2c4af6544e7858bd32e908972a13757302f)
+- [Aggregate heavy energy below a comoving cut](https://github.com/knowledgemystery-ai/Dark-Matter/compare/b421f2c4af6544e7858bd32e908972a13757302f...14c187f0fbff7ef23c04ac1195c301609e349974)
+- [Conditional high-heavy closure with persistent daughter support](https://github.com/knowledgemystery-ai/Dark-Matter/compare/14c187f0fbff7ef23c04ac1195c301609e349974...a7224916a251ef8d9cbd170648bae0286c46ad11)
+- [New matched four-block warm occupation continuation](https://github.com/knowledgemystery-ai/Dark-Matter/compare/a7224916a251ef8d9cbd170648bae0286c46ad11...7637b99f998e48721bf4612660c57aef884fc346)
+- [Gross peripheral input budget for the missing high heavy band](https://github.com/knowledgemystery-ai/Dark-Matter/compare/7637b99f998e48721bf4612660c57aef884fc346...c148cb83e1bd9d9aee4d72c99eece2b7e469361e)
+- [One-way exterior creation and the single-use pool distinction](https://github.com/knowledgemystery-ai/Dark-Matter/compare/c148cb83e1bd9d9aee4d72c99eece2b7e469361e...3520a5ca67b40acb5a04e79f2405d87635500156)
+- [Exact heavy decay lag on an explicit saved-state interpolation](https://github.com/knowledgemystery-ai/Dark-Matter/compare/3520a5ca67b40acb5a04e79f2405d87635500156...4558fb6e4eb3fcdc95cb2ceb120f394fdc082aec)
+- [Matched warm suboperator occupation observations](https://github.com/knowledgemystery-ai/Dark-Matter/compare/4558fb6e4eb3fcdc95cb2ceb120f394fdc082aec...53345789301a3b12fb7e796f94ef47d8b28b6597)
+- [Half-size splitting control at the same q32 endpoint](https://github.com/knowledgemystery-ai/Dark-Matter/compare/53345789301a3b12fb7e796f94ef47d8b28b6597...94ebf5375f4dad31b0755dfbac868a0b3a6a55f7)
+- [Cross-plan one-way exterior receipt audit](https://github.com/knowledgemystery-ai/Dark-Matter/compare/94ebf5375f4dad31b0755dfbac868a0b3a6a55f7...e22b3b861e2a2e5efa5d7e90e5c3b1e0aa8a2c58)
+- [Light-shell moment feasibility and one-hop heavy support](https://github.com/knowledgemystery-ai/Dark-Matter/compare/e22b3b861e2a2e5efa5d7e90e5c3b1e0aa8a2c58...75d09a58cace415fdbd33e67c1995db79249c884)
+- [Shell regularity, frozen rate sensitivity and eligible high-momentum receipts](https://github.com/knowledgemystery-ai/Dark-Matter/compare/75d09a58cace415fdbd33e67c1995db79249c884...c45d109b3ac6ac2d03519286ca7557246a77401d)
+- [Exact cold light collision kernel and scalar support crop](https://github.com/knowledgemystery-ai/Dark-Matter/compare/c45d109b3ac6ac2d03519286ca7557246a77401d...b732704c431e83d0640e5276f992e9115927c322)
+- [Selected visible source margin of the cold light rate](https://github.com/knowledgemystery-ai/Dark-Matter/compare/b732704c431e83d0640e5276f992e9115927c322...c481264100db8a211ec9256b985a0438d39ff48b)
+- [Mode-resolved dark pair gain at the cold-light parent band](https://github.com/knowledgemystery-ai/Dark-Matter/compare/c481264100db8a211ec9256b985a0438d39ff48b...3f45b2739e0056f557f08494aef6848a70698bb7)
+- [Shell-number envelope for added retained dark pair gain](https://github.com/knowledgemystery-ai/Dark-Matter/compare/3f45b2739e0056f557f08494aef6848a70698bb7...764041da37a3da124a963c7acc47ae4da4fa82f4)
+- [Tagged rest scalar-pair conversion and scalar-support crop](https://github.com/knowledgemystery-ai/Dark-Matter/compare/764041da37a3da124a963c7acc47ae4da4fa82f4...439e5ebade3bea810e6f0fa9030113a0ce30b87a)
+- [Independent below-pole light elastic rest rate](https://github.com/knowledgemystery-ai/Dark-Matter/compare/439e5ebade3bea810e6f0fa9030113a0ce30b87a...31e7a778284e5cf6d6422ef0761d6337e8034fbe)
+- [Closed-grid prompt recoil support and independent cell-average check](https://github.com/knowledgemystery-ai/Dark-Matter/compare/31e7a778284e5cf6d6422ef0761d6337e8034fbe...65d274c7b5764df5c7dc7f9ee82ba0afe19aa0d9)
+- [Frozen open prompt spill and same-shape support crop](https://github.com/knowledgemystery-ai/Dark-Matter/compare/65d274c7b5764df5c7dc7f9ee82ba0afe19aa0d9...bb222c06cbe58acfd1aeea67d1366f2cb35b4ed7)
+- [Short explicit prompt transfer into and back from the exterior](https://github.com/knowledgemystery-ai/Dark-Matter/compare/bb222c06cbe58acfd1aeea67d1366f2cb35b4ed7...d00bee03557ad7bbbe2e16a6b172cf5ea4127222)
+- [Tail profile comparison to the matched wider archive](https://github.com/knowledgemystery-ai/Dark-Matter/compare/d00bee03557ad7bbbe2e16a6b172cf5ea4127222...3fafb429a14db1aa934d2264c93e5755dec5f2b1)
+- [Gross reversible crossings and selected high-H prompt ledger](https://github.com/knowledgemystery-ai/Dark-Matter/compare/3fafb429a14db1aa934d2264c93e5755dec5f2b1...73b43951b3bc1492141b560bf4a8aaedac8dc5fb)
+- [Short expanding matched prompt-only support comparison](https://github.com/knowledgemystery-ai/Dark-Matter/compare/73b43951b3bc1492141b560bf4a8aaedac8dc5fb...a1d3d56841f39a02b988e85ecd5287e7b3654729)
+- [Matched coupled q32/q64 support with portable checkpoints](https://github.com/knowledgemystery-ai/Dark-Matter/compare/a1d3d56841f39a02b988e85ecd5287e7b3654729...1cd1fde12687f56cbd9f50ca5878b623a4ef5644)
+- [Four-level coupled q32 time ladder and checkpoints](https://github.com/knowledgemystery-ai/Dark-Matter/compare/1cd1fde12687f56cbd9f50ca5878b623a4ef5644...4bdba95948b7e7f5f98f664d91941c8f9e01c76a)
+- [Time extrapolation, cold elastic projection and one-percent prompt expansion](https://github.com/knowledgemystery-ai/Dark-Matter/compare/4bdba95948b7e7f5f98f664d91941c8f9e01c76a...e5ef60da8402813226db4efc6a0617e7ddc00434)
+- [Reusable q32 initial guess reproduces the accepted q64 solution](https://github.com/knowledgemystery-ai/Dark-Matter/compare/e5ef60da8402813226db4efc6a0617e7ddc00434...c295579aac41278bc80ca56d6f6311c213c87759)
+- [Conservative activation of the 132 known earlier exterior cohorts](https://github.com/knowledgemystery-ai/Dark-Matter/compare/c295579aac41278bc80ca56d6f6311c213c87759...e2a1cc96750c253f29d687e6e9347ce37d9a9af7)
+- [Three-interval coupled extension through 10.238 MeV](https://github.com/knowledgemystery-ai/Dark-Matter/compare/e2a1cc96750c253f29d687e6e9347ce37d9a9af7...be10213da69b9b1c0ed8ba372ca0d439e99cd57f)
+- [Thirty-two-block temporal check and eight-block support control](https://github.com/knowledgemystery-ai/Dark-Matter/compare/be10213da69b9b1c0ed8ba372ca0d439e99cd57f...cf9112328165085f0f0e5f9389b3f5ec6ec3cf06)
+- [Guided q64 continuation through 10.137 MeV](https://github.com/knowledgemystery-ai/Dark-Matter/compare/cf9112328165085f0f0e5f9389b3f5ec6ec3cf06...ba76cd83c0613d70fd8480924d85f3036582fa7f)
+- [q64 time refinement at a single matched physical endpoint](https://github.com/knowledgemystery-ai/Dark-Matter/compare/ba76cd83c0613d70fd8480924d85f3036582fa7f...2120308099b25f31e656315f42ae14062725c0c3)
+- [History-only q64 predictor verified against independently guided solve](https://github.com/knowledgemystery-ai/Dark-Matter/compare/2120308099b25f31e656315f42ae14062725c0c3...50de66fb4316b64ec860d957e1cf842aa46718ea)
+- [Seven independent q64 blocks through 9.748 MeV](https://github.com/knowledgemystery-ai/Dark-Matter/compare/50de66fb4316b64ec860d957e1cf842aa46718ea...1435b022088ce57cf97f1ebd9f4a0edf5206b6e8)
+- [Independent matched q32/q64 dynamics through 9.748 MeV](https://github.com/knowledgemystery-ai/Dark-Matter/compare/1435b022088ce57cf97f1ebd9f4a0edf5206b6e8...5c7ae66e403e35236d787732aa5f9d0efac859a2)
+- [Conditional fermion survival with a later anchor and local EOS floors](https://github.com/knowledgemystery-ai/Dark-Matter/compare/5c7ae66e403e35236d787732aa5f9d0efac859a2...45d677f0ef66e1b7b6cf6daadf50bc2462ac0c83)

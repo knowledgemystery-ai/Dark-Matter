@@ -1,0 +1,41 @@
+{
+  "window": [
+    0.99,
+    0.9903408643642273
+  ],
+  "rows": [
+    {
+      "terms": {
+        "dark_metric_motion": 4.3169080707925003e-07,
+        "visible_metric_motion_at_cubic_slope": -8.499960473800237e-05,
+        "visible_heat_capacity_slope_above_three": 0.00012051073500536157,
+        "expansion_flow": -2.409683238890622e-05,
+        "collision_flow": -6.184980616041053e-06
+      },
+      "sum_of_integrals": 5.661008069491179e-06,
+      "endpoint_squared_gain_minus_one": 5.661011795230426e-06,
+      "endpoint_gain_minus_one": 2.830501891744734e-06,
+      "closure_defect": 3.725739247011691e-12
+    },
+    {
+      "terms": {
+        "dark_metric_motion": 4.3169080521793266e-07,
+        "visible_metric_motion_at_cubic_slope": -8.499960473686629e-05,
+        "visible_heat_capacity_slope_above_three": 0.00012051073500409721,
+        "expansion_flow": -2.409683251900808e-05,
+        "collision_flow": -6.184980618008378e-06
+      },
+      "sum_of_integrals": 5.661007935432404e-06,
+      "endpoint_squared_gain_minus_one": 5.661011756593634e-06,
+      "endpoint_gain_minus_one": 2.830501872426392e-06,
+      "closure_defect": 3.821161230382658e-12
+    }
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "input_sha256": [
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "1d65af235870b200c7f0c672d4460ed85efd098df51025b7308df849e863ad88",
+    "7e1c45999c3295befef0e9965984bd4bddfd79d3da48389aa3dc4a3a8c8fb979"
+  ],
+  "scope": "Budget integrated along the exact final-gain maximizing carried original tangent, not an allocation of physical causes or global dynamics."
+}
