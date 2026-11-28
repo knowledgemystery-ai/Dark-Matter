@@ -1,0 +1,73 @@
+{
+  "rows": [
+    {
+      "epsilon": 0.0002,
+      "central_fractional_column": [
+        4.0717551928669965e-06,
+        -7.23327431643816e-06,
+        -3.68591042601819e-05
+      ],
+      "norm_dark": 8.300569118288414e-06,
+      "early_dark_energy_fixed_total_direction": [
+        0.3753359178906263,
+        0.9268888545781534,
+        0.0
+      ],
+      "endpoint_pair_midpoint_fractional_displacement": [
+        1.4057510711040777e-10,
+        1.1526712917486748e-10,
+        -2.4749424731851377e-11
+      ]
+    },
+    {
+      "epsilon": 0.0001,
+      "central_fractional_column": [
+        3.9297585028696535e-06,
+        -7.6076638155288126e-06,
+        -3.6790385721219666e-05
+      ],
+      "norm_dark": 8.562683610935461e-06,
+      "early_dark_energy_fixed_total_direction": [
+        0.3753359178906263,
+        0.9268888545781534,
+        0.0
+      ],
+      "endpoint_pair_midpoint_fractional_displacement": [
+        4.146305521146587e-11,
+        3.968003703391787e-11,
+        -3.6165515027164474e-11
+      ]
+    }
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "input_sha256": {
+    "direct-expansion-055-096": "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470",
+    "direct-expansion-096-120": "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "direct-full-window-memory-witness": "5763e03321cd6c44b803e83418c776c8a26934067a74d7c276fa44e86292fcf6"
+  },
+  "baseline_path_defect": 4.392290864352333e-09,
+  "quadrature_settings": [
+    20,
+    52,
+    38,
+    192
+  ],
+  "rtol": 3e-12,
+  "max_step": 0.008,
+  "same_pulse_new_minus_nominal": [
+    -1.1054138105166659e-07,
+    -2.617878117570989e-07,
+    9.460525569564954e-08
+  ],
+  "halved_pulse_change": [
+    -1.41996689997343e-07,
+    -3.743894990906523e-07,
+    6.871853896223704e-08
+  ],
+  "finest_minus_ordered": [
+    -2.8026655640467243e-08,
+    -9.131258418320327e-08,
+    -8.43227417454055e-08
+  ],
+  "scope": "Independent weak-direction finite secants on one restricted FD history. Combined settings contrast is not an isolated quadrature or temporal error bound."
+}
