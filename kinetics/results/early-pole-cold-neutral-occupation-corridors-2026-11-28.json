@@ -1,0 +1,307 @@
+{
+  "rows": [
+    {
+      "q": [
+        1e-06,
+        1.5e-05
+      ],
+      "neutral_D2_each_mesh": [
+        [
+          2.908930195216252e-09,
+          2.908930195216252e-09
+        ],
+        [
+          2.9089301952164843e-09,
+          2.9089301952164843e-09
+        ]
+      ],
+      "neutral_D4_each_mesh": [
+        [
+          2.299370658030554e-09,
+          2.299370658030554e-09
+        ],
+        [
+          2.299370658030547e-09,
+          2.299370658030547e-09
+        ]
+      ],
+      "neutral_D2_union_hull": [
+        2.908930195216252e-09,
+        2.9089301952164843e-09
+      ],
+      "neutral_D4_union_hull": [
+        2.299370658030547e-09,
+        2.299370658030554e-09
+      ],
+      "original_diagnostic_held_occupation_signs": [
+        -1,
+        1
+      ],
+      "d2_loss_d4_gain_sufficient": [
+        2.299370658030554e-09,
+        2.908930195216252e-09
+      ],
+      "d2_loss_d4_gain_possible_within_enclosures": [
+        2.299370658030547e-09,
+        2.9089301952164843e-09
+      ],
+      "d2_gain_d4_loss_sufficient": null,
+      "d2_gain_d4_loss_possible_within_enclosures": null
+    },
+    {
+      "q": [
+        1e-06,
+        3e-06
+      ],
+      "neutral_D2_each_mesh": [
+        [
+          4.2699676841048545e-10,
+          1.8913013518867654e-08
+        ],
+        [
+          4.269967684105279e-10,
+          1.8913013518866145e-08
+        ]
+      ],
+      "neutral_D4_each_mesh": [
+        [
+          1.5325244874440607e-09,
+          3.253469733284753e-09
+        ],
+        [
+          1.5325244874440669e-09,
+          3.2534697332847303e-09
+        ]
+      ],
+      "neutral_D2_union_hull": [
+        4.2699676841048545e-10,
+        1.8913013518867654e-08
+      ],
+      "neutral_D4_union_hull": [
+        1.5325244874440607e-09,
+        3.253469733284753e-09
+      ],
+      "original_diagnostic_held_occupation_signs": [
+        0,
+        0
+      ],
+      "d2_loss_d4_gain_sufficient": null,
+      "d2_loss_d4_gain_possible_within_enclosures": [
+        1.5325244874440607e-09,
+        1.8913013518867654e-08
+      ],
+      "d2_gain_d4_loss_sufficient": null,
+      "d2_gain_d4_loss_possible_within_enclosures": [
+        4.2699676841048545e-10,
+        3.253469733284753e-09
+      ]
+    },
+    {
+      "q": [
+        3e-06,
+        5e-06
+      ],
+      "neutral_D2_each_mesh": [
+        [
+          2.4736695687002786e-09,
+          3.429948506156101e-09
+        ],
+        [
+          2.4736695687005453e-09,
+          3.429948506156338e-09
+        ]
+      ],
+      "neutral_D4_each_mesh": [
+        [
+          2.1636864218856308e-09,
+          2.4577729971043298e-09
+        ],
+        [
+          2.163686421885643e-09,
+          2.4577729971042988e-09
+        ]
+      ],
+      "neutral_D2_union_hull": [
+        2.4736695687002786e-09,
+        3.429948506156338e-09
+      ],
+      "neutral_D4_union_hull": [
+        2.1636864218856308e-09,
+        2.4577729971043298e-09
+      ],
+      "original_diagnostic_held_occupation_signs": [
+        0,
+        1
+      ],
+      "d2_loss_d4_gain_sufficient": [
+        2.4577729971043298e-09,
+        2.4736695687002786e-09
+      ],
+      "d2_loss_d4_gain_possible_within_enclosures": [
+        2.1636864218856308e-09,
+        3.429948506156338e-09
+      ],
+      "d2_gain_d4_loss_sufficient": null,
+      "d2_gain_d4_loss_possible_within_enclosures": null
+    },
+    {
+      "q": [
+        5e-06,
+        8e-06
+      ],
+      "neutral_D2_each_mesh": [
+        [
+          2.5059854217303483e-09,
+          3.7006434821575562e-09
+        ],
+        [
+          2.505985421730346e-09,
+          3.7006434821574557e-09
+        ]
+      ],
+      "neutral_D4_each_mesh": [
+        [
+          2.2374986226781278e-09,
+          2.6480781195431454e-09
+        ],
+        [
+          2.2374986226781153e-09,
+          2.648078119543123e-09
+        ]
+      ],
+      "neutral_D2_union_hull": [
+        2.505985421730346e-09,
+        3.7006434821575562e-09
+      ],
+      "neutral_D4_union_hull": [
+        2.2374986226781153e-09,
+        2.6480781195431454e-09
+      ],
+      "original_diagnostic_held_occupation_signs": [
+        0,
+        0
+      ],
+      "d2_loss_d4_gain_sufficient": null,
+      "d2_loss_d4_gain_possible_within_enclosures": [
+        2.2374986226781153e-09,
+        3.7006434821575562e-09
+      ],
+      "d2_gain_d4_loss_sufficient": null,
+      "d2_gain_d4_loss_possible_within_enclosures": [
+        2.505985421730346e-09,
+        2.6480781195431454e-09
+      ]
+    },
+    {
+      "q": [
+        8e-06,
+        1e-05
+      ],
+      "neutral_D2_each_mesh": [
+        [
+          2.6803130767186844e-09,
+          3.989727461128278e-09
+        ],
+        [
+          2.6803130767186877e-09,
+          3.989727461128136e-09
+        ]
+      ],
+      "neutral_D4_each_mesh": [
+        [
+          2.508601156025389e-09,
+          2.794164201321995e-09
+        ],
+        [
+          2.5086011560253785e-09,
+          2.7941642013219946e-09
+        ]
+      ],
+      "neutral_D2_union_hull": [
+        2.6803130767186844e-09,
+        3.989727461128278e-09
+      ],
+      "neutral_D4_union_hull": [
+        2.5086011560253785e-09,
+        2.794164201321995e-09
+      ],
+      "original_diagnostic_held_occupation_signs": [
+        -1,
+        0
+      ],
+      "d2_loss_d4_gain_sufficient": null,
+      "d2_loss_d4_gain_possible_within_enclosures": [
+        2.5086011560253785e-09,
+        3.989727461128278e-09
+      ],
+      "d2_gain_d4_loss_sufficient": null,
+      "d2_gain_d4_loss_possible_within_enclosures": [
+        2.6803130767186844e-09,
+        2.794164201321995e-09
+      ]
+    },
+    {
+      "q": [
+        1e-05,
+        1.5e-05
+      ],
+      "neutral_D2_each_mesh": [
+        [
+          3.551211248987853e-09,
+          3.551211248987853e-09
+        ],
+        [
+          3.551211248987809e-09,
+          3.551211248987809e-09
+        ]
+      ],
+      "neutral_D4_each_mesh": [
+        [
+          2.920408420825516e-09,
+          2.920408420825516e-09
+        ],
+        [
+          2.9204084208254653e-09,
+          2.9204084208254653e-09
+        ]
+      ],
+      "neutral_D2_union_hull": [
+        3.551211248987809e-09,
+        3.551211248987853e-09
+      ],
+      "neutral_D4_union_hull": [
+        2.9204084208254653e-09,
+        2.920408420825516e-09
+      ],
+      "original_diagnostic_held_occupation_signs": [
+        -1,
+        -1
+      ],
+      "d2_loss_d4_gain_sufficient": [
+        2.920408420825516e-09,
+        3.551211248987809e-09
+      ],
+      "d2_loss_d4_gain_possible_within_enclosures": [
+        2.9204084208254653e-09,
+        3.551211248987853e-09
+      ],
+      "d2_gain_d4_loss_sufficient": null,
+      "d2_gain_d4_loss_possible_within_enclosures": null
+    }
+  ],
+  "old_diagnostic_occupation": 2.586253803697513e-09,
+  "simultaneous_full_and_central_sufficient": [
+    2.4577729971043298e-09,
+    2.4736695687002786e-09
+  ],
+  "simultaneous_full_and_upper_possible": null,
+  "both_upper_negative_throughout_full_opposite_sign_corridor": true,
+  "gap_from_full_corridor_ceiling_to_first_upper_neutral": 1.1478225608981015e-11,
+  "comparison_meshes": [
+    1,
+    2
+  ],
+  "ladder_sha256": "d2bec760bffcb4d62eaa95c877e43781225a6e382be6870482600757a8ecb4de",
+  "subband_sha256": "6a5b61404351598840849795d1c9df36a5a8f14b6ec9264d7bc6c4fe223855c1",
+  "scope": "Bounds only from exact admitted positive panel weights and two sampled quadratures. A constant held occupation is a diagnostic, not a live photon solution or spatial limit."
+}
