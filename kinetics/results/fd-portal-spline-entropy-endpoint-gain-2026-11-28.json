@@ -1,0 +1,78 @@
+{
+  "rows": [
+    {
+      "x": 0.96,
+      "original_endpoint_entropy_gains": [
+        0.8361023202250659,
+        0.00012884570745917026
+      ],
+      "alternate_endpoint_entropy_gains": [
+        0.8361021857615827,
+        0.00012926849465413044
+      ],
+      "alternate_minus_original": [
+        -1.344634832367575e-07,
+        4.227871949601808e-07
+      ],
+      "alternate_mesh_gain_difference": 6.3910982062154176e-09,
+      "alternate_endpoint_metric_fd_relative_error": 2.05510634259925e-11,
+      "alternate_end_fractional_columns": [
+        [
+          1.0593965601811224,
+          -0.4289874074004132
+        ],
+        [
+          0.5694613329169723,
+          -0.23060421020678226
+        ],
+        [
+          -0.0015099811447131426,
+          0.0005713761668483005
+        ]
+      ]
+    },
+    {
+      "x": 1.2,
+      "original_endpoint_entropy_gains": [
+        0.8093270125220652,
+        0.00012671767628465635
+      ],
+      "alternate_endpoint_entropy_gains": [
+        0.809325874050936,
+        0.00012712802531237406
+      ],
+      "alternate_minus_original": [
+        -1.1384711291473337e-06,
+        4.103490277177022e-07
+      ],
+      "alternate_mesh_gain_difference": 8.187993394415116e-09,
+      "alternate_endpoint_metric_fd_relative_error": 2.342456946108796e-11,
+      "alternate_end_fractional_columns": [
+        [
+          1.0159656516655704,
+          -0.41140246283238807
+        ],
+        [
+          0.5349580230328509,
+          -0.2166349419980955
+        ],
+        [
+          -0.00254035523423394,
+          0.000988965696724807
+        ]
+      ]
+    }
+  ],
+  "input_sha256": [
+    "6ac1d8a4b30b76a8103d362173f8d1814acccf4017b7b2524e259f54a7a08c8f",
+    "84a97f71ef4c6fcec496947e91d74b2cf7837b511c2888f353cfd3ba18cc097d"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "replayed_alternate_background_defect": 8.068068435562736e-11,
+  "initial_metric_fd_relative_error": 4.5668669711234244e-11,
+  "sampled_jacobian_mesh_sizes": [
+    65,
+    129
+  ],
+  "scope": "Two different EOS interpolants, each evaluated on its own re-evolved restricted history and endpoint entropy metrics; not EOS uncertainty or physical stability bounds."
+}
