@@ -1,0 +1,33 @@
+{
+  "charge_donor": 4,
+  "scalar_donor": 2,
+  "start": 0.04,
+  "end": 0.05,
+  "steps": 2048,
+  "native_start_scalar_yield": 0.00017037524475185667,
+  "crossed_start_scalar_yield": 0.00017314776855665727,
+  "native_endpoint_scalar_yield": 0.0003608747909373992,
+  "fixed_native_start_energy_clock": [
+    0.0006732922927763724,
+    1.145605558892101,
+    0.984078306992388
+  ],
+  "crossed_start_energy_clock": [
+    0.0006769249203661136,
+    1.1456056465158855,
+    0.9840783058035173
+  ],
+  "canonical_input_states_sha256": [
+    "f6afb17d10abb285e3f8563d41eb68e0550249b8ca2eb77dbf8de256f939ffe6",
+    "5f1af486eab442798002e108cfa7d8b4940122ebe27ee4fafbea45368023f412",
+    "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb",
+    "4dce57ad0cb0ba1e387409dc16e78f66fc4c95a5af1a268db9885c5f02832787"
+  ],
+  "source_sha256": [
+    "a85ec4d4d8952dd8264a63f8b55edf6a39c7b01cb150c3dfbbbf292984d440d8",
+    "ca694051a580629300d1fd69a7e7abc6eefc7c1eba70465358f83cc30ae5e086",
+    "f41ca84f0a272422c5f4bf1623f51af86298611f015a03d6e058eee5db548f4a"
+  ],
+  "terminal_history_budget_sha256": "c79e08170244540426b3b0a4098037a6747a27696123c5ace3636b125627fc01",
+  "provenance": "976aff40d646a7f9bcdca00cba177d5b8c7d6e25770b321cbf42667ceddd224e"
+}
