@@ -1,0 +1,88 @@
+{
+  "charge_donor": 4,
+  "cold_scalar_count_donor": 2,
+  "x_start": 0.04,
+  "x_end": 0.05,
+  "steps": 2048,
+  "native_initial_cold_count": 0.007977858536009696,
+  "intervened_initial_cold_count": 0.008107684760314662,
+  "initial_cold_rescale": 1.0162733174220837,
+  "initial_mass": 0.0006769249244433684,
+  "initial_energy": 1.1456056465406885,
+  "initial_H": 0.9840783058031808,
+  "native_initial_sha256": "f6afb17d10abb285e3f8563d41eb68e0550249b8ca2eb77dbf8de256f939ffe6",
+  "source_sha256": "64b3486dc8718ce0faf269e43560b24292de00bd542a053d7fb3f42eaccbcbcb",
+  "full_cross_receipt_sha256": "19f7d282214303edf88ebd60c77705f8ec9a2628f4e9d06b2a6789cf1623e8d9",
+  "provenance": "c2b223df615d2a27b0425055d5fdb05b40f3e8b985f8027872e34a45b7bc52a1",
+  "endpoint_cold_count": 0.016978815264132516,
+  "endpoint_whole_scalar_count": 0.01697900473263501,
+  "endpoint_pole": 0.0008660538777015526,
+  "completed_payload_sha256": "561408ad2b7d1eecd94dd6107818d4e80d1393f334532b714b14d919733bd2a3",
+  "checks": [
+    {
+      "x": 0.04113142377191559,
+      "scalar_yield": 0.00018939920072857445,
+      "pair_number_error": 8.131516293641283e-18,
+      "continuity_residual": -4.5235330035247635e-13,
+      "max_charged": 0.4986789993215986,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.042294850537622566,
+      "scalar_yield": 0.0002086000492027624,
+      "pair_number_error": 1.3877787807814457e-17,
+      "continuity_residual": -1.0769602762616395e-12,
+      "max_charged": 0.4986789993215986,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04349118552081964,
+      "scalar_yield": 0.0002293884553544861,
+      "pair_number_error": 1.8214596497756474e-17,
+      "continuity_residual": -1.8121137796149774e-12,
+      "max_charged": 0.4986789993215986,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.044721359549995794,
+      "scalar_yield": 0.00025213181437445096,
+      "pair_number_error": 2.7755575615628914e-17,
+      "continuity_residual": -2.720045841125493e-12,
+      "max_charged": 0.4986789993215986,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04598632978267703,
+      "scalar_yield": 0.00027644269637182946,
+      "pair_number_error": 1.9081958235744878e-17,
+      "continuity_residual": -3.755975551736866e-12,
+      "max_charged": 0.4986789993215986,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.047287080450158794,
+      "scalar_yield": 0.000303165624659352,
+      "pair_number_error": 1.9949319973733282e-17,
+      "continuity_residual": -5.036942054854193e-12,
+      "max_charged": 0.4986789993215986,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04862462362330366,
+      "scalar_yield": 0.0003318648730854543,
+      "pair_number_error": 1.9081958235744878e-17,
+      "continuity_residual": -6.536532681225213e-12,
+      "max_charged": 0.4986789993215986,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.05,
+      "scalar_yield": 0.00036259943112915474,
+      "pair_number_error": 4.336808689942018e-17,
+      "continuity_residual": -8.276846940572131e-12,
+      "max_charged": 0.4986789993215986,
+      "max_limited_extent": 0.0
+    }
+  ],
+  "scope": "Both donors at .04 but only cold scalar count swapped; not a physical production or convergence statement."
+}

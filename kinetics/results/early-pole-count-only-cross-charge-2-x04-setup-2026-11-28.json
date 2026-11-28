@@ -1,0 +1,17 @@
+{
+  "charge_donor": 2,
+  "cold_scalar_count_donor": 4,
+  "x_start": 0.04,
+  "x_end": 0.05,
+  "steps": 2048,
+  "native_initial_cold_count": 0.008107684760314662,
+  "intervened_initial_cold_count": 0.007977858536009696,
+  "initial_cold_rescale": 0.9839872629310358,
+  "initial_mass": 0.0006732922885917263,
+  "initial_energy": 1.145605461412587,
+  "initial_H": 0.9840783083149801,
+  "native_initial_sha256": "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb",
+  "source_sha256": "64b3486dc8718ce0faf269e43560b24292de00bd542a053d7fb3f42eaccbcbcb",
+  "full_cross_receipt_sha256": "98d3d9c06cf8682ce7dcd5bdab1bf9957fd91571d2c9a1f8432fabbe07a1f66e",
+  "provenance": "c59f7dd7ea04e04049c63a53cf41d5766878a02607a084798a88ecefcf8c4b9e"
+}

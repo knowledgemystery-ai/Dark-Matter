@@ -1,0 +1,54 @@
+{
+  "quantities": {
+    "cold_count": {
+      "count_only_endpoint_native_charge2": 0.017290595979972984,
+      "count_only_endpoint_native_charge4": 0.016978815264132516,
+      "path_averaged_count_only_replacement": -8.849934839813209e-05,
+      "full_scalar_replacement": -8.908122405887862e-05,
+      "count_share_of_full_scalar_replacement": 0.9934680324962537,
+      "path_averaged_residual_shape_and_warm_state": -5.818756607465364e-07,
+      "count_only_minus_full_scalar_endpoints": [
+        6.460839558179721e-07,
+        -5.176673656751007e-07
+      ]
+    },
+    "whole_scalar_count": {
+      "count_only_endpoint_native_charge2": 0.017290782639084148,
+      "count_only_endpoint_native_charge4": 0.01697900473263501,
+      "path_averaged_count_only_replacement": -8.849910792912453e-05,
+      "full_scalar_replacement": -8.907960738468654e-05,
+      "count_share_of_full_scalar_replacement": 0.9934833631107607,
+      "path_averaged_residual_shape_and_warm_state": -5.80499455562003e-07,
+      "count_only_minus_full_scalar_endpoints": [
+        6.447391749063447e-07,
+        -5.162597362176613e-07
+      ]
+    },
+    "pole": {
+      "count_only_endpoint_native_charge2": 0.000871322851708331,
+      "count_only_endpoint_native_charge4": 0.0008660538777015526,
+      "path_averaged_count_only_replacement": -1.4944563403184482e-06,
+      "full_scalar_replacement": -1.5042701540180165e-06,
+      "count_share_of_full_scalar_replacement": 0.9934760297720759,
+      "path_averaged_residual_shape_and_warm_state": -9.813813699568238e-09,
+      "count_only_minus_full_scalar_endpoints": [
+        1.084005620195002e-08,
+        -8.787571197186456e-09
+      ]
+    }
+  },
+  "x_window": [
+    0.04,
+    0.05
+  ],
+  "complete_cross_sha256": "bf0ca670ed83d3bf8b45b1489fcb52a06136bc1cc891814e2676884859188bd0",
+  "count_only_source_receipt_sha256": [
+    "28a827b1c6ccf7825babeff9c58f2f69df1c7ac2c18f6f0c6ad2bcfdd53b3686",
+    "3153ff4d6a10ae41212c7e49a4161f4b41ba411a9fc1325d7389c3437803ab26"
+  ],
+  "count_only_source_payload_sha256": [
+    "9ab92d8673adc8f84d6a38a7f54f1d57804380a74f1f5982cafe5eb448f9ed5d",
+    "561408ad2b7d1eecd94dd6107818d4e80d1393f334532b714b14d919733bd2a3"
+  ],
+  "scope": "Actual held cold-number intervention; the residual combines full warm and scalar shape replacement under one terminal restart only."
+}
