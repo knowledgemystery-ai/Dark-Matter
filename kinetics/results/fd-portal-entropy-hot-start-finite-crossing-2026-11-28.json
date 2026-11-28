@@ -1,0 +1,47 @@
+{
+  "hot_origin": 0.9902358643642273,
+  "earlier_origin": 0.99,
+  "cover": [
+    0.9902858643642274,
+    0.9903408643642273
+  ],
+  "rows": [
+    {
+      "x_crossing": 0.9902940804370732,
+      "T_at_crossing": 0.35948937143818,
+      "sign_bracket_both_sides": [
+        0.9902940704370732,
+        0.9902940904370733
+      ],
+      "hot_origin_gain_minus_one_on_sign_bracket": [
+        1.0987786485699012e-10,
+        -1.0987852849950863e-10
+      ],
+      "hot_origin_gain_minus_one_at_original_last_clock": -5.151602729862206e-07,
+      "x99_origin_gain_minus_one_at_same_crossing": 3.3486382330294485e-06,
+      "hot_origin_gain_minus_one_at_prior_cool_clock": 9.025762889396904e-08
+    },
+    {
+      "x_crossing": 0.9902940804353465,
+      "T_at_crossing": 0.3594893714387325,
+      "sign_bracket_both_sides": [
+        0.9902940704353465,
+        0.9902940904353466
+      ],
+      "hot_origin_gain_minus_one_on_sign_bracket": [
+        1.098782053109909e-10,
+        -1.0987869740885668e-10
+      ],
+      "hot_origin_gain_minus_one_at_original_last_clock": -5.151602925306015e-07,
+      "x99_origin_gain_minus_one_at_same_crossing": 3.348638233330108e-06,
+      "hot_origin_gain_minus_one_at_prior_cool_clock": 9.02576100437969e-08
+    }
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "input_sha256": [
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "1d65af235870b200c7f0c672d4460ed85efd098df51025b7308df849e863ad88",
+    "7e1c45999c3295befef0e9965984bd4bddfd79d3da48389aa3dc4a3a8c8fb979"
+  ],
+  "scope": "At least one numerical finite gain crossing in a sampled held bracket; no uniqueness, physical threshold or continuous stability claim."
+}
