@@ -24,3 +24,5 @@ python -W error fd_portal_entropy_short_tangent_windows.py "$EOS" results |
 | Whole short window | +2.83050e−6 | −3.20493e−6 |
 
 The original has growth in three measured windows, including a small gain across the original knot, and contraction in the cool-side window. Its two tested settings differ by at most 1.94e−14. The [smooth cubic comparison](FD_PORTAL_ENTROPY_CUBIC_SHORT_TANGENT.md) instead initializes from its own archived plane and contracts in all four windows. Even with these finite differences in the held numerical model, no result here establishes continuous or physical stability.
+
+**Independent check:** [Local nonlinear continuations](FD_PORTAL_ENTROPY_SHORT_NONLINEAR_WITNESS.md) reproduce all four original PCHIP signs from the same archived .99 plane.
