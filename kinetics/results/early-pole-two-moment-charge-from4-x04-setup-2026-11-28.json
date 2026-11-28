@@ -1,0 +1,32 @@
+{
+  "source_charge_grid": 4,
+  "destination_charge_grid": 2,
+  "held_scalar_donor": 2,
+  "x_start": 0.04,
+  "x_end": 0.05,
+  "steps": 2048,
+  "scalar_pole": 0.0006769249203661136,
+  "total_energy_before_after": [
+    1.1456056465158855,
+    1.1456056465158855
+  ],
+  "remap_errors": [
+    {
+      "max_cell_moment_relative_error": 2.1434912935344589e-16,
+      "normalized_total_number_error": 0.0,
+      "normalized_total_true_energy_error": 0.0
+    },
+    {
+      "max_cell_moment_relative_error": 1.9396912317310546e-16,
+      "normalized_total_number_error": 0.0,
+      "normalized_total_true_energy_error": 0.0
+    }
+  ],
+  "input_state_hashes": [
+    "f6afb17d10abb285e3f8563d41eb68e0550249b8ca2eb77dbf8de256f939ffe6",
+    "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb",
+    "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb"
+  ],
+  "source_sha256": "4038591a3b6befdd7b110deba151961e736e70d23c8d017da89316ffbe27d6b8",
+  "provenance": "11e693c9fa7ad9042ac11207009a5280ee1b436ac33551e21a0333de91210295"
+}

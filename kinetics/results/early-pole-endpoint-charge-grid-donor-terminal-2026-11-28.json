@@ -1,0 +1,51 @@
+{
+  "results": {
+    "cold_count": {
+      "grid2_donor2": 0.01738683681771368,
+      "grid2_donor4": 0.017306062903177533,
+      "grid4_donor2": 0.01706275346426293,
+      "grid4_donor4": 0.01697933293149819,
+      "diagonal_charge_difference": -0.0004075038862154899,
+      "average_grid_and_representation_replacement": -0.00032540666256504654,
+      "average_inherited_charged_state_replacement": -8.209722365044338e-05,
+      "interaction": -2.6466182285918294e-06
+    },
+    "whole_scalar_count": {
+      "grid2_donor2": 0.017387023215895026,
+      "grid2_donor4": 0.017306249422127502,
+      "grid4_donor2": 0.0170629414003954,
+      "grid4_donor4": 0.01697952099237123,
+      "diagonal_charge_difference": -0.00040750222352379725,
+      "average_grid_and_representation_replacement": -0.0003254051226279503,
+      "average_inherited_charged_state_replacement": -8.209710089584696e-05,
+      "interaction": -2.646614256647528e-06
+    },
+    "pole": {
+      "grid2_donor2": 0.0008729364825319565,
+      "grid2_donor4": 0.0008715825781498685,
+      "grid4_donor2": 0.0008674786965557916,
+      "grid4_donor4": 0.0008660626652727498,
+      "diagonal_charge_difference": -6.87381725920672e-06,
+      "average_grid_and_representation_replacement": -5.488849426641762e-06,
+      "average_inherited_charged_state_replacement": -1.384967832564958e-06,
+      "interaction": -6.212690095382979e-08
+    }
+  },
+  "held_scalar_donor": 2,
+  "x_window": [
+    0.04,
+    0.05
+  ],
+  "remapped_references": [
+    {
+      "record_sha256": "f8ecea6c05665bd695ecda20b1658aef127a692c2f4610cfb4b01c4c00f825a3",
+      "payload_sha256": "8ad31d09f69edb896d41aa6322132f7535b8ab34c271ad817f6f663c68893ac7"
+    },
+    {
+      "record_sha256": "60cdd84a65f9cd1efe4451566e6d4f2ea8d75d68319aa3931f4484dc802bcbde",
+      "payload_sha256": "bdf0fd2f0d5b3527df68f3e31fa059cbc92ea4b77f5b168a0aecf4e9751deb37"
+    }
+  ],
+  "input_completed_cross_sha256": "bf0ca670ed83d3bf8b45b1489fcb52a06136bc1cc891814e2676884859188bd0",
+  "scope": "Separates destination grid with its selected moment-preserving representation from inherited charge state under one controlled D2 scalar start. No unique higher-moment remap or physical convergence claim."
+}

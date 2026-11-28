@@ -1,0 +1,103 @@
+{
+  "source_charge_grid": 4,
+  "destination_charge_grid": 2,
+  "held_scalar_donor": 2,
+  "x_start": 0.04,
+  "x_end": 0.05,
+  "steps": 2048,
+  "scalar_pole": 0.0006769249203661136,
+  "total_energy_before_after": [
+    1.1456056465158855,
+    1.1456056465158855
+  ],
+  "remap_errors": [
+    {
+      "max_cell_moment_relative_error": 2.1434912935344589e-16,
+      "normalized_total_number_error": 0.0,
+      "normalized_total_true_energy_error": 0.0
+    },
+    {
+      "max_cell_moment_relative_error": 1.9396912317310546e-16,
+      "normalized_total_number_error": 0.0,
+      "normalized_total_true_energy_error": 0.0
+    }
+  ],
+  "input_state_hashes": [
+    "f6afb17d10abb285e3f8563d41eb68e0550249b8ca2eb77dbf8de256f939ffe6",
+    "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb",
+    "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb"
+  ],
+  "source_sha256": "4038591a3b6befdd7b110deba151961e736e70d23c8d017da89316ffbe27d6b8",
+  "provenance": "11e693c9fa7ad9042ac11207009a5280ee1b436ac33551e21a0333de91210295",
+  "cold_count": 0.017306062903177533,
+  "scalar_count": 0.017306249422127502,
+  "scalar_pole_final": 0.0008715825781498685,
+  "final_payload_sha256": "bdf0fd2f0d5b3527df68f3e31fa059cbc92ea4b77f5b168a0aecf4e9751deb37",
+  "checks": [
+    {
+      "x": 0.04113142377191559,
+      "scalar_yield": 0.0001902911356490119,
+      "pair_number_error": 1.8431436932253575e-17,
+      "continuity_residual": -3.7243028434575396e-13,
+      "max_charged": 0.5071501301969363,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.042294850537622566,
+      "scalar_yield": 0.00020991519065437296,
+      "pair_number_error": 3.469446951953614e-17,
+      "continuity_residual": -8.583806781418523e-13,
+      "max_charged": 0.5071497022495718,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04349118552081964,
+      "scalar_yield": 0.00023107143236605603,
+      "pair_number_error": 2.7321894746634712e-17,
+      "continuity_residual": -1.4242269676437679e-12,
+      "max_charged": 0.5071491829295086,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.044721359549995794,
+      "scalar_yield": 0.00025494379493753256,
+      "pair_number_error": 2.0816681711721685e-17,
+      "continuity_residual": -2.1728810021886744e-12,
+      "max_charged": 0.5071483209793243,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04598632978267703,
+      "scalar_yield": 0.0002796356811477387,
+      "pair_number_error": 1.734723475976807e-17,
+      "continuity_residual": -2.949747000477454e-12,
+      "max_charged": 0.5071470849153764,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.047287080450158794,
+      "scalar_yield": 0.00030702684793070304,
+      "pair_number_error": 2.42861286636753e-17,
+      "continuity_residual": -3.990622278969829e-12,
+      "max_charged": 0.5071458880913442,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04862462362330366,
+      "scalar_yield": 0.0003370519740637102,
+      "pair_number_error": 2.42861286636753e-17,
+      "continuity_residual": -5.203494366889504e-12,
+      "max_charged": 0.5071450205195037,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.05,
+      "scalar_yield": 0.00036958798788607367,
+      "pair_number_error": 2.6020852139652106e-17,
+      "continuity_residual": -6.650430897712882e-12,
+      "max_charged": 0.5071441501868803,
+      "max_limited_extent": 0.0
+    }
+  ],
+  "scope": "One held two-moment remap, not a unique distribution or physical convergence bound."
+}
