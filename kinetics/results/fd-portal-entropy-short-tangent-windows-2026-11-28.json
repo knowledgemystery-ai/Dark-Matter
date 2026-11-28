@@ -1,0 +1,94 @@
+{
+  "windows": [
+    {
+      "x": [
+        0.99,
+        0.9902358643642273
+      ],
+      "ordered_gain_minus_one": [
+        -4.07474175869725e-05,
+        3.3501643020421213e-06
+      ],
+      "mesh_after_max_absolute_difference": 2.2612662610443923e-15,
+      "long_history_estimate_minus_one": -7.57638604609312e-06,
+      "direct_long_history_ode_difference": 0.0001810258514942653
+    },
+    {
+      "x": [
+        0.9902358643642273,
+        0.9902858643642274
+      ],
+      "ordered_gain_minus_one": [
+        -8.652323814498544e-06,
+        9.02576100437969e-08
+      ],
+      "mesh_after_max_absolute_difference": 1.885017214312149e-14,
+      "long_history_estimate_minus_one": -2.4586834820317094e-06,
+      "direct_long_history_ode_difference": 5.5432509402097985e-05
+    },
+    {
+      "x": [
+        0.9902858643642274,
+        0.9903408643642273
+      ],
+      "ordered_gain_minus_one": [
+        -9.540018615548575e-06,
+        -6.045456899554245e-07
+      ],
+      "mesh_after_max_absolute_difference": 7.620872952268372e-16,
+      "long_history_estimate_minus_one": -3.2937140137523357e-06,
+      "direct_long_history_ode_difference": 6.824382312642374e-05
+    },
+    {
+      "x": [
+        0.99,
+        0.9903408643642273
+      ],
+      "ordered_gain_minus_one": [
+        -5.8933563945749236e-05,
+        2.830501872426392e-06
+      ],
+      "mesh_after_max_absolute_difference": 1.9318341837917504e-14,
+      "long_history_estimate_minus_one": -1.3343902138696073e-05,
+      "direct_long_history_ode_difference": 0.0003046700238135136
+    }
+  ],
+  "split_at_knot": 0.9902608643642273,
+  "initial_fractional_columns": [
+    [
+      1.05211223162969,
+      -0.4260381463357722
+    ],
+    [
+      0.5635750828605423,
+      -0.2282211021726135
+    ],
+    [
+      -0.0016330796008714606,
+      0.0006213879629827302
+    ]
+  ],
+  "rebased_fractional_columns": [
+    [
+      -0.8814988381475428,
+      0.09331074642126705
+    ],
+    [
+      -0.4721842079346985,
+      -0.1770366090746694
+    ],
+    [
+      0.001368254951794272,
+      -0.9797709648941679
+    ]
+  ],
+  "archived_column_condition_number": 34105.12144947421,
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "input_sha256": [
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "df2711165b5a001b0e3a6db3e146ea359ed1069a0e10b569b8facca196083fd5",
+    "df35282232e9b8a3cb6b2ce11cc910a300fe95eb75c87fccd9f205eb7bf5ef09",
+    "8070984a25b4de9e712bf8a558e37d6690354beb9490f1bbb14a8daeb65f5af5"
+  ],
+  "scope": "Short original PCHIP tangent initialized by the archived numerical transported plane, not independent nonlinear evolution or a cubic estimate."
+}

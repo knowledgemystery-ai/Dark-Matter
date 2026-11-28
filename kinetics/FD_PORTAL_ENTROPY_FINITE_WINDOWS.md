@@ -20,3 +20,5 @@ python -W error fd_portal_entropy_finite_windows.py "$EOS" \
 ## Completed result: the direct long-history differences do not resolve the signs
 
 The [complete finite-window receipt](results/fd-portal-entropy-finite-windows-2026-11-28.json) is retained as a negative numerical control. In the four PCHIP windows the fine extrapolated largest gain differs from one by 2.46e−6 to 1.33e−5, whereas the two ODE settings disagree by 5.54e−5 to 3.05e−4. The two finite amplitudes also differ enough to reverse the estimated sign in every PCHIP window. The original full-history perturbation subtraction is therefore ill-conditioned for resolving these short windows. The smoother cubic has smaller differences, but no short-window sign is claimed from this calculation: its ODE and amplitude changes are comparable to the inferred gain deficits. The saved one-sided **instantaneous** results and longer-interval tangent endpoint controls do not settle these four finite ratios.
+
+**Follow-up:** [Rebased short transported tangents](FD_PORTAL_ENTROPY_SHORT_TANGENT_WINDOWS.md) resolve the four finite windows in both interpolation choices without re-subtracting the full trajectories.

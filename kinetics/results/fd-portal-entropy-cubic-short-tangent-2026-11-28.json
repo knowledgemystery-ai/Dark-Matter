@@ -1,0 +1,74 @@
+{
+  "windows": [
+    {
+      "x": [
+        0.99,
+        0.9902358643642273
+      ],
+      "ordered_gain_minus_one": [
+        -4.0922320132941734e-05,
+        -2.23944603400188e-06
+      ],
+      "two_setting_defect": 4.897500031794634e-15,
+      "prior_direct_long_history_ode_difference": 4.302247631482459e-06
+    },
+    {
+      "x": [
+        0.9902358643642273,
+        0.9902858643642274
+      ],
+      "ordered_gain_minus_one": [
+        -8.670583518219678e-06,
+        -4.5910062335537025e-07
+      ],
+      "two_setting_defect": 1.0958325171864572e-15,
+      "prior_direct_long_history_ode_difference": 5.921007112386079e-07
+    },
+    {
+      "x": [
+        0.9902858643642274,
+        0.9903408643642273
+      ],
+      "ordered_gain_minus_one": [
+        -9.536087532422786e-06,
+        -5.063802746092538e-07
+      ],
+      "two_setting_defect": 7.661990049110464e-16,
+      "prior_direct_long_history_ode_difference": 5.474120434723062e-07
+    },
+    {
+      "x": [
+        0.99,
+        0.9903408643642273
+      ],
+      "ordered_gain_minus_one": [
+        -5.912816223698932e-05,
+        -3.204925744726484e-06
+      ],
+      "two_setting_defect": 6.759361459088417e-15,
+      "prior_direct_long_history_ode_difference": 5.439777060800566e-06
+    }
+  ],
+  "start_x": 0.96,
+  "initial_rebased_fractional_columns": [
+    [
+      -0.8808113308942991,
+      0.09108731148733729
+    ],
+    [
+      -0.4734657571983097,
+      -0.17205500980929342
+    ],
+    [
+      0.001255439701892832,
+      -0.9808670528086529
+    ]
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "input_sha256": [
+    "6ac1d8a4b30b76a8103d362173f8d1814acccf4017b7b2524e259f54a7a08c8f",
+    "ed2c350c1b8b17c4c95b2d67bda1d7fb6124454d35bb2f6ce3df31ffe84c2890",
+    "8070984a25b4de9e712bf8a558e37d6690354beb9490f1bbb14a8daeb65f5af5"
+  ],
+  "scope": "Cubic continuation on its own held alternate trajectory with an archived transported plane, not a full new evolution or physical contraction theorem."
+}
