@@ -1,0 +1,74 @@
+{
+  "x_start": 0.55,
+  "initial_total_energy_held": true,
+  "fields": [
+    "eta_dark",
+    "log_T_dark"
+  ],
+  "rows": [
+    {
+      "x_end": 0.96,
+      "fractional_gain": [
+        1.2976283027122437,
+        7.301461019144732e-06
+      ],
+      "eta_logT_gain": [
+        2.6027642626850436,
+        3.5816548919230507e-06
+      ],
+      "independent_eta_logT_gain": [
+        2.6027647185493765,
+        3.660634785530604e-06
+      ],
+      "eta_logT_jacobian": [
+        [
+          1.056709235274747,
+          2.364610292009052
+        ],
+        [
+          -0.10510328103760774,
+          -0.23519963105478178
+        ]
+      ],
+      "maximum_composed_column_defect": 4.3816070416369257e-07,
+      "endpoint_thermodynamic_derivative_defect": 3.76099151822018e-11
+    },
+    {
+      "x_end": 1.2,
+      "fractional_gain": [
+        1.2387783276072155,
+        8.494680641022678e-06
+      ],
+      "eta_logT_gain": [
+        2.532129283662644,
+        4.090665960326875e-06
+      ],
+      "independent_eta_logT_gain": [
+        2.5321297055150134,
+        4.1553413296476915e-06
+      ],
+      "eta_logT_jacobian": [
+        [
+          1.0277379439723993,
+          2.2997820314294386
+        ],
+        [
+          -0.10515855824180376,
+          -0.2353246975155851
+        ]
+      ],
+      "maximum_composed_column_defect": 4.0246080956762853e-07,
+      "endpoint_thermodynamic_derivative_defect": 2.0310864101702464e-11
+    }
+  ],
+  "start_thermodynamic_derivative_defect": 3.47455397786689e-12,
+  "input_sha256": [
+    "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470",
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "9238c07ebb43416179f2c0fe8c307200ee4df522a41b420e53d0bc965b575f00",
+    "531aabac4c967de1e0485645977b9102ffe80d65669624e009725bdbf1d0ab12",
+    "a0864edee2e8dda969d292d509a075865ad438d15f1deb1476fceac2e662145e"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "Coordinate/norm sensitivity of the same fixed-start numerical tangent, not a change in physical dynamics or stability criterion."
+}
