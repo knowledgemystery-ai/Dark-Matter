@@ -1,0 +1,36 @@
+{
+  "x_start": 0.55,
+  "x_end": 1.2,
+  "fields": [
+    "comoving_number",
+    "comoving_dark_energy",
+    "comoving_total_energy"
+  ],
+  "input_sha256": {
+    "direct-expansion-055-096": "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470",
+    "direct-expansion-096-120": "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "comoving-response-055-096": "9238c07ebb43416179f2c0fe8c307200ee4df522a41b420e53d0bc965b575f00",
+    "direct-comoving-variational-propagator": "531aabac4c967de1e0485645977b9102ffe80d65669624e009725bdbf1d0ab12",
+    "comoving-matched-response-055-120": "a0864edee2e8dda969d292d509a075865ad438d15f1deb1476fceac2e662145e",
+    "comoving-response-entropy-metric": "84a97f71ef4c6fcec496947e91d74b2cf7837b511c2888f353cfd3ba18cc097d",
+    "direct-full-window-memory-witness": "5763e03321cd6c44b803e83418c776c8a26934067a74d7c276fa44e86292fcf6"
+  },
+  "endpoint_entropy_gains": {
+    "ordered": [
+      0.8093270125220652,
+      0.00012671767628465635
+    ],
+    "direct_sampled_secant": [
+      0.8093276176414527,
+      0.0001276490489400299
+    ],
+    "operator_norm_of_difference": 3.884668659114824e-06
+  },
+  "direct_sampled_secant_dark_fractional_gains": [
+    1.2387784517366363,
+    8.117170628978068e-06
+  ],
+  "dark_fractional_response_norm_on_ordered_weak_direction": 8.129774210712248e-06,
+  "ordered_weak_dark_fractional_gain": 8.494680641022678e-06,
+  "scope": "Two independently sampled finite secants represented in the same endpoint norms; not a global nonlinear contraction or continuum convergence bound."
+}

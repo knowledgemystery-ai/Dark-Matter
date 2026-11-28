@@ -1,0 +1,68 @@
+{
+  "x_start": 0.55,
+  "x_end": 1.2,
+  "operator": "combined",
+  "fields": [
+    "comoving_number",
+    "comoving_dark_energy",
+    "comoving_total_energy"
+  ],
+  "same_start_reference_path_defect": 4.402051834162535e-09,
+  "perturbation_sizes": [
+    0.0004,
+    0.0002
+  ],
+  "rows": [
+    {
+      "initial_fractional_direction": [
+        0.9268888545781534,
+        -0.3753359178906263,
+        0.0
+      ],
+      "ordered_fractional_output": [
+        1.0961086592483553,
+        0.5771633668815989,
+        -0.0027258873154888193
+      ],
+      "expected_dark_two_norm": 1.2387783276072155,
+      "finite_half_step_fractional_output": [
+        1.0961088111572532,
+        0.577163344808249,
+        -0.002727045214520079
+      ],
+      "finite_dark_two_norm": 1.2387784517365537,
+      "absolute_column_defect": 1.1578990312599222e-06,
+      "finite_perturbation_size_defect": 1.198804642846274e-06
+    },
+    {
+      "initial_fractional_direction": [
+        0.3753359178906263,
+        0.9268888545781534,
+        0.0
+      ],
+      "ordered_fractional_output": [
+        3.957785158510121e-06,
+        -7.516351231345609e-06,
+        -3.670606297947426e-05
+      ],
+      "expected_dark_two_norm": 8.494680641022678e-06,
+      "finite_half_step_fractional_output": [
+        4.182296573918663e-06,
+        -6.971486504681061e-06,
+        -3.695370951587755e-05
+      ],
+      "finite_dark_two_norm": 8.129774210712248e-06,
+      "absolute_column_defect": 5.44864726664548e-07,
+      "finite_perturbation_size_defect": 5.99934437789108e-07
+    }
+  ],
+  "input_sha256": [
+    "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470",
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "9238c07ebb43416179f2c0fe8c307200ee4df522a41b420e53d0bc965b575f00",
+    "531aabac4c967de1e0485645977b9102ffe80d65669624e009725bdbf1d0ab12",
+    "a0864edee2e8dda969d292d509a075865ad438d15f1deb1476fceac2e662145e"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "Direct finite-epsilon perturbation of one restricted Fermi\u2013Dirac numerical path, not a physical stability or freeze-out statement."
+}
