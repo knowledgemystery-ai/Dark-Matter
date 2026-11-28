@@ -1,0 +1,124 @@
+{
+  "chart": 9,
+  "steps": 2048,
+  "exponent": 1.2,
+  "terminal_moments": [
+    0.008110844629361664,
+    9.05731844773174e-08,
+    9.040862218808028e-08
+  ],
+  "reference_moments": [
+    0.008110916198856172,
+    9.057317791769439e-08,
+    9.040861429779413e-08
+  ],
+  "source_sha256": [
+    "0768a0c6406661d23a0fb292718e76d86381acef1ca1f99267697351fd7f4a84",
+    "7a12c104a73bf18e65ce87c9b86a5b3a62c8e8c78ae66fa0b1afce9442b88340",
+    "2c9af408153044cade329b91fc32ac3bb5235114dbf7714d4cadcefd511c03b9",
+    "a35d9a88e841a5a6537c4d5379835597dd900cb5cf52f167c7236b899198dbda"
+  ],
+  "signature_source_sha256": [
+    "ea4e889c0ca0d86389ca7d2c28910f65f648e0e58f44e663042ebf908439522e",
+    "2c52b7fc2d84c24b0b525551965906bf6d3e8c801c996115abe119bed20cc4d6",
+    "f41ca84f0a272422c5f4bf1623f51af86298611f015a03d6e058eee5db548f4a"
+  ],
+  "rows": [
+    "uniform1024",
+    "shifted1024",
+    "uniform2048",
+    "shifted2048"
+  ],
+  "fields": [
+    "count",
+    "pressure",
+    "warm_pressure"
+  ],
+  "relative_to_uniform4096": [
+    [
+      -0.00015938258403069838,
+      3.8323375428639395e-07,
+      6.573031450241018e-07
+    ],
+    [
+      -6.635442903479838e-05,
+      3.4130924442266064e-07,
+      4.561108530864999e-07
+    ],
+    [
+      -3.171569578308553e-05,
+      8.170952403574461e-08,
+      1.3692551337207703e-07
+    ],
+    [
+      -8.823848348771257e-06,
+      7.24234610061103e-08,
+      8.727361011651169e-08
+    ]
+  ],
+  "shifted_over_uniform2048_discrepancy": [
+    0.27821708245408105,
+    0.8863527460327387,
+    0.6373801928305148
+  ],
+  "checks": [
+    {
+      "x": 0.023169249129804413,
+      "scalar_yield": 1.9669415301107622e-05,
+      "pair_number_error": 1.3118846287074604e-17,
+      "continuity_residual": -3.760541682738816e-13,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.026048544993419416,
+      "scalar_yield": 3.25324801598394e-05,
+      "pair_number_error": 2.0383000842727483e-17,
+      "continuity_residual": -1.0046732360163933e-12,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.028711623260154112,
+      "scalar_yield": 4.8654704610809124e-05,
+      "pair_number_error": 3.859759734048396e-17,
+      "continuity_residual": -1.8680710190538408e-12,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.031205047454559712,
+      "scalar_yield": 6.794493645105129e-05,
+      "pair_number_error": 4.5102810375396984e-17,
+      "continuity_residual": -3.0362958105883617e-12,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.03356051549820293,
+      "scalar_yield": 9.051239201740215e-05,
+      "pair_number_error": 6.548581121812447e-17,
+      "continuity_residual": -4.506958120511356e-12,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.03580079447730948,
+      "scalar_yield": 0.00011558854786151583,
+      "pair_number_error": 7.719519468096792e-17,
+      "continuity_residual": -6.157434764429877e-12,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.037942909750542195,
+      "scalar_yield": 0.00014311903335763847,
+      "pair_number_error": 7.806255641895632e-17,
+      "continuity_residual": -8.032244967347453e-12,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04,
+      "scalar_yield": 0.00017321319446543797,
+      "pair_number_error": 7.546047120499111e-17,
+      "continuity_residual": -1.0138296831826293e-11,
+      "max_limited_extent": 0.0
+    }
+  ],
+  "checkpoint_payload_sha256": "27edcc0c225955a845a76c2cac925f842d5fad709291885b97baa6336cbdfbbd",
+  "scope": "Exact same-start half-width refinement on a prescribed shifted grid; uniform 4096 is a comparison only, not a continuum solution."
+}
