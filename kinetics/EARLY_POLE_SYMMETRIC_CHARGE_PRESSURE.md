@@ -1,4 +1,4 @@
-# More scalar particles can coexist with lower terminal pressure
+# More scalar particles can coexist with lower terminal fixed-mass kinetic pressure
 
 Use the exact five matched 4096-step states already replayed by the [terminal cutoff audit](EARLY_POLE_SYMMETRIC_CHARGE_CUTOFF_AUDIT.md), at x=.05 and fixed nominal measurement mass 0.0008674814895883813. This is a pressure moment of the **saved scalar component**. At the common x, the overall dimensionful conversion and the factor of one third cancel in relative comparisons.
 
@@ -17,6 +17,7 @@ The half-upper sign survives either of two reconstruction conditions, not unrest
 - If only the cell counts are fixed and both arms can have arbitrary independent shapes, the broader bounds admit both pressure signs. The number result alone is not a pressure certificate.
 
 These are conditional moments of completed numerical trajectories, not a physical pressure estimate, whole-system stress-energy test, or spatial convergence result.
+The [self-consistent Hartree pressure follow-up](EARLY_POLE_SYMMETRIC_CHARGE_HARTREE_PRESSURE.md) adds the mean-field term and reverses the half-upper scalar pressure sign. Do not use this fixed-mass diagnostic as the pressure of the closed model.
 
 ```bash
 cd kinetics
