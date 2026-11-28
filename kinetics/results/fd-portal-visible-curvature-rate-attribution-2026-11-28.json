@@ -1,0 +1,368 @@
+{
+  "rows": [
+    {
+      "x": 0.55,
+      "visible_temperature": 0.5364316774697162,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.1084398259214767,
+      "relative_visible_temperature_rate": -0.9280506691086025,
+      "squared_entropy_norm_rate": -0.11895203796798537,
+      "terms": {
+        "fractional_flow_expansion": -0.04560527878788735,
+        "fractional_flow_collision": 0.00018239784245502224,
+        "dark_metric_motion": 0.008307407910173916,
+        "other_visible_metric_motion": -2.775510301023242,
+        "visible_heat_capacity_motion": 2.693673736090515
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.09397045701031632,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.21292249497830168,
+      "original_direction": [
+        0.3679618963847439,
+        0.4760171813809247,
+        0.48730365006591947
+      ]
+    },
+    {
+      "x": 0.61,
+      "visible_temperature": 0.5074875645729443,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.279254799787399,
+      "relative_visible_temperature_rate": -0.9224620632582502,
+      "squared_entropy_norm_rate": 0.012353540488676096,
+      "terms": {
+        "fractional_flow_expansion": -0.045478497155047544,
+        "fractional_flow_collision": 0.00025933827555059923,
+        "dark_metric_motion": 0.007762063545389772,
+        "other_visible_metric_motion": -2.7822546246586133,
+        "visible_heat_capacity_motion": 2.8320652604813965
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.24117303033355436,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.22881948984487827,
+      "original_direction": [
+        0.34810695641319617,
+        0.4656292302676384,
+        0.4880781168589311
+      ]
+    },
+    {
+      "x": 0.67,
+      "visible_temperature": 0.4802028126490769,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.1424121309890083,
+      "relative_visible_temperature_rate": -0.9177746101375855,
+      "squared_entropy_norm_rate": -0.11781207288349593,
+      "terms": {
+        "fractional_flow_expansion": -0.04918095615026757,
+        "fractional_flow_collision": 0.0005274896990742165,
+        "dark_metric_motion": 0.0074239615962197235,
+        "other_visible_metric_motion": -2.761808408952026,
+        "visible_heat_capacity_motion": 2.6852258409235037
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.12169273737888509,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.23950481026238102,
+      "original_direction": [
+        0.3748901242901208,
+        0.48192935159639017,
+        0.4883908603875011
+      ]
+    },
+    {
+      "x": 0.73,
+      "visible_temperature": 0.45457392196936347,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.1174800217314034,
+      "relative_visible_temperature_rate": -0.9099304738319622,
+      "squared_entropy_norm_rate": -0.15962129337233266,
+      "terms": {
+        "fractional_flow_expansion": -0.04698016829272302,
+        "fractional_flow_collision": 0.0005756048318886835,
+        "dark_metric_motion": 0.006804899663168076,
+        "other_visible_metric_motion": -2.747109550216477,
+        "visible_heat_capacity_motion": 2.6270879206418103
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.09899994349792123,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.2586212368702539,
+      "original_direction": [
+        0.3951662890505623,
+        0.4965981042935999,
+        0.4894153740746014
+      ]
+    },
+    {
+      "x": 0.79,
+      "visible_temperature": 0.43047685605417857,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.2842551392077035,
+      "relative_visible_temperature_rate": -0.9071566223776693,
+      "squared_entropy_norm_rate": -0.024478737827934527,
+      "terms": {
+        "fractional_flow_expansion": -0.05397840362404966,
+        "fractional_flow_collision": 0.0013848631784038395,
+        "dark_metric_motion": 0.004993698617419496,
+        "other_visible_metric_motion": -2.7533573475428033,
+        "visible_heat_capacity_motion": 2.776478451543095
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.2403066251853276,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.26478536301326216,
+      "original_direction": [
+        0.3523034345967513,
+        0.47674486543033967,
+        0.4894387171848286
+      ]
+    },
+    {
+      "x": 0.85,
+      "visible_temperature": 0.40771613964470127,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.259831477236254,
+      "relative_visible_temperature_rate": -0.90334187308932,
+      "squared_entropy_norm_rate": -0.054526521589033816,
+      "terms": {
+        "fractional_flow_expansion": -0.06170236727670582,
+        "fractional_flow_collision": 0.0013492200378684455,
+        "dark_metric_motion": 0.0040619371207985585,
+        "other_visible_metric_motion": -2.7272872107105526,
+        "visible_heat_capacity_motion": 2.7290518992395576
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.21752461481076385,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.27205113639979767,
+      "original_direction": [
+        0.36715858729717593,
+        0.4935828571294662,
+        0.4893462385107562
+      ]
+    },
+    {
+      "x": 0.91,
+      "visible_temperature": 0.386238924222015,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.20480986620055,
+      "relative_visible_temperature_rate": -0.9004693897151708,
+      "squared_entropy_norm_rate": -0.10745897946583627,
+      "terms": {
+        "fractional_flow_expansion": -0.07311009673930116,
+        "fractional_flow_collision": 0.0003205077868969162,
+        "dark_metric_motion": 0.0036924678721125914,
+        "other_visible_metric_motion": -2.6786214749201847,
+        "visible_heat_capacity_motion": 2.64025961653464
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.16873113893594582,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.2761901184017821,
+      "original_direction": [
+        0.40694188686042376,
+        0.5310815709940377,
+        0.4886326830829067
+      ]
+    },
+    {
+      "x": 0.93,
+      "visible_temperature": 0.37935621758368526,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.0886281219769045,
+      "relative_visible_temperature_rate": -0.8972433140804208,
+      "squared_entropy_norm_rate": -0.2102465522836332,
+      "terms": {
+        "fractional_flow_expansion": -0.07360735308229936,
+        "fractional_flow_collision": -0.005468563281352534,
+        "dark_metric_motion": 0.004727196858309633,
+        "other_visible_metric_motion": -2.581848967984835,
+        "visible_heat_capacity_motion": 2.4459511352065437
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.07018651873890262,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.28043307102253584,
+      "original_direction": [
+        0.5272798446396411,
+        0.614298166905808,
+        0.4865724835084897
+      ]
+    },
+    {
+      "x": 0.96,
+      "visible_temperature": 0.3693171213057969,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.2166137694021315,
+      "relative_visible_temperature_rate": -0.8913540117039577,
+      "squared_entropy_norm_rate": -0.12378639612485065,
+      "terms": {
+        "fractional_flow_expansion": -0.07078067511605755,
+        "fractional_flow_collision": -0.000919227884107951,
+        "dark_metric_motion": 0.0035721089393573107,
+        "other_visible_metric_motion": -2.6510399531154674,
+        "visible_heat_capacity_motion": 2.595381351051425
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.17477862677673625,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.29856502290158693,
+      "original_direction": [
+        0.43386908007081276,
+        0.5596630538620154,
+        0.48954118256355567
+      ]
+    },
+    {
+      "x": 0.99,
+      "visible_temperature": 0.3595834824752623,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.425155476298411,
+      "relative_visible_temperature_rate": -0.8900793459524025,
+      "squared_entropy_norm_rate": 0.04367066704080136,
+      "terms": {
+        "fractional_flow_expansion": -0.07517074449623537,
+        "fractional_flow_collision": 0.0002976616223369107,
+        "dark_metric_motion": 0.0022788295376027063,
+        "other_visible_metric_motion": -2.7381952907122473,
+        "visible_heat_capacity_motion": 2.8544602110893442
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.35431658475605543,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.31064591771525407,
+      "original_direction": [
+        0.3254517557761603,
+        0.4579835662010958,
+        0.49025574574590836
+      ]
+    },
+    {
+      "x": 1.02,
+      "visible_temperature": 0.35011413756454657,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.263401955056015,
+      "relative_visible_temperature_rate": -0.8886203096823473,
+      "squared_entropy_norm_rate": -0.09357705879466538,
+      "terms": {
+        "fractional_flow_expansion": -0.08325560217518688,
+        "fractional_flow_collision": -0.0008043445740015654,
+        "dark_metric_motion": 0.0032165225531340337,
+        "other_visible_metric_motion": -2.639061702279208,
+        "visible_heat_capacity_motion": 2.626328067680597
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.21198122608640826,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.3055582848810736,
+      "original_direction": [
+        0.4252000400754258,
+        0.5581305742281354,
+        0.4891159928410704
+      ]
+    },
+    {
+      "x": 1.05,
+      "visible_temperature": 0.34092211180027665,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.301882253122016,
+      "relative_visible_temperature_rate": -0.8850622106030764,
+      "squared_entropy_norm_rate": -0.07307539630750526,
+      "terms": {
+        "fractional_flow_expansion": -0.08623141062624,
+        "fractional_flow_collision": -0.00045218929510675547,
+        "dark_metric_motion": 0.0029763357825074496,
+        "other_visible_metric_motion": -2.647850153276254,
+        "visible_heat_capacity_motion": 2.658482021107588
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.2430578927087722,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.31613328901627746,
+      "original_direction": [
+        0.4135951344022475,
+        0.54581149283382,
+        0.4895971121815051
+      ]
+    },
+    {
+      "x": 1.08,
+      "visible_temperature": 0.3320048759074456,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.1842745633479943,
+      "relative_visible_temperature_rate": -0.8813892549608313,
+      "squared_entropy_norm_rate": -0.17456139321790376,
+      "terms": {
+        "fractional_flow_expansion": -0.08960223839259106,
+        "fractional_flow_collision": -0.0125932244900364,
+        "dark_metric_motion": 0.005355069110833618,
+        "other_visible_metric_motion": -2.412056487924405,
+        "visible_heat_capacity_motion": 2.334335488478295
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.13508843043823127,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.309649823656135,
+      "original_direction": [
+        0.6595514604901163,
+        0.7186538424482073,
+        0.4814053778806192
+      ]
+    },
+    {
+      "x": 1.11,
+      "visible_temperature": 0.32337135885110474,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.1288766666006214,
+      "relative_visible_temperature_rate": -0.8747264526597287,
+      "squared_entropy_norm_rate": -0.19726579426172566,
+      "terms": {
+        "fractional_flow_expansion": -0.0046835857587026455,
+        "fractional_flow_collision": -0.22301912130309617,
+        "dark_metric_motion": 0.033054054464103734,
+        "other_visible_metric_motion": -0.06620082902410995,
+        "visible_heat_capacity_motion": 0.06358368736007938
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.0026189762494045464,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.1998847705111302,
+      "original_direction": [
+        1.352566127951686,
+        0.36101525825364267,
+        0.09645036342752339
+      ]
+    },
+    {
+      "x": 1.14,
+      "visible_temperature": 0.31502276022805137,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.3150343570159975,
+      "relative_visible_temperature_rate": -0.8696816864327759,
+      "squared_entropy_norm_rate": -0.10773800511507936,
+      "terms": {
+        "fractional_flow_expansion": -0.08899178725076198,
+        "fractional_flow_collision": -0.0034746662938814963,
+        "dark_metric_motion": 0.00377201453978592,
+        "other_visible_metric_motion": -2.54862387023974,
+        "visible_heat_capacity_motion": 2.529580304129518
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.24039108461883382,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.3481290897339132,
+      "original_direction": [
+        0.5104383431017747,
+        0.6324210854331282,
+        0.4891514616194434
+      ]
+    },
+    {
+      "x": 1.17,
+      "visible_temperature": 0.306921414346754,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.3048286404239637,
+      "relative_visible_temperature_rate": -0.8669213202880879,
+      "squared_entropy_norm_rate": -0.12278826979505819,
+      "terms": {
+        "fractional_flow_expansion": -0.09414464998722087,
+        "fractional_flow_collision": -0.006811007871432205,
+        "dark_metric_motion": 0.004531580099995172,
+        "other_visible_metric_motion": -2.460869056616731,
+        "visible_heat_capacity_motion": 2.434504864580331
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.2245522805322657,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.3473405503273239,
+      "original_direction": [
+        0.5937284997684357,
+        0.6924134010428522,
+        0.48597611044781414
+      ]
+    },
+    {
+      "x": 1.2,
+      "visible_temperature": 0.29905787722266547,
+      "dlog_visible_heat_capacity_dlog_temperature": 3.323292952599652,
+      "relative_visible_temperature_rate": -0.8634074189586659,
+      "squared_entropy_norm_rate": -0.11843732263858797,
+      "terms": {
+        "fractional_flow_expansion": -0.09816430588021693,
+        "fractional_flow_collision": -0.007709477993428012,
+        "dark_metric_motion": 0.0047618819744064044,
+        "other_visible_metric_motion": -2.4251999966402273,
+        "visible_heat_capacity_motion": 2.4078745759008777
+      },
+      "visible_heat_capacity_departure_from_T_cubed": 0.23424022264533928,
+      "diagnostic_rate_only_replacing_visible_heat_capacity_log_slope_by_3": -0.35267754528392725,
+      "original_direction": [
+        0.6245727765118362,
+        0.7117494417862759,
+        0.48465583536097595
+      ]
+    }
+  ],
+  "input_sha256": [
+    "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470",
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "e7b313c2e41d08b5e508a84c51a78d134e24a0f1edd4bfc058caa5144effeb36"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "Algebraic metric/flow attribution on the exact trajectory. Changing only a derivative is a diagnostic, not an alternative EOS or self-consistent evolution."
+}
