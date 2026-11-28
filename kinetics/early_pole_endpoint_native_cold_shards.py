@@ -44,6 +44,8 @@ def work(manifest,state,idx,output):
     mesh=MESHES.index(tuple(t['mesh']))
     x=tuple(t.get('d8_central_cold_q_span',t.get('sideband_q_span',COLD_SPAN)))
     kw=dict(span=x,mirror_azimuth=t.get('mirror_azimuth',False))
+    if 'factorized_transverse_sha256' in t:
+        kw['factorized_transverse']=True
     fresh=pilot(a,mesh,None,topology_only=True,**kw)
     if fresh!=t:
         raise ArithmeticError('Original state, pole, geometry or mesh do not match the manifest')
