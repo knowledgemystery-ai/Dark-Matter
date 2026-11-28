@@ -1,0 +1,146 @@
+{
+  "chart": "G9",
+  "fields": [
+    "count",
+    "pressure",
+    "warm_pressure"
+  ],
+  "common_native_x05_mass": 0.0008731829968237441,
+  "x_start": 0.04598632978267703,
+  "x_end": 0.05,
+  "log_pulse_width": 0.00021791362433028297,
+  "continuation_steps": 192,
+  "continuation_step_ratio_to_first_insertion": 0.9983708048224194,
+  "late_before_after": [
+    {
+      "x": 0.045996351922410354,
+      "relative_fine_minus_coarse": [
+        2.919627099371408e-07,
+        6.034028675820848e-10,
+        1.6816630144657628e-10
+      ],
+      "sum_abs_cell_changes": [
+        2.9196270994009604e-07,
+        6.034028622348103e-10
+      ],
+      "warm_share": [
+        7.789822941510425e-09,
+        0.2782666989807112
+      ]
+    },
+    {
+      "x": 0.05,
+      "relative_fine_minus_coarse": [
+        2.4166880298922535e-08,
+        -2.7011052779212166e-10,
+        -3.061924616346933e-10
+      ],
+      "sum_abs_cell_changes": [
+        2.4166895993614348e-08,
+        3.573725274471392e-10
+      ],
+      "warm_share": [
+        1.824854573661535e-07,
+        0.9002501996951955
+      ]
+    }
+  ],
+  "first_before_after": [
+    {
+      "x": 0.040008717494769155,
+      "fine_minus_coarse": [
+        3.415696045054302e-07,
+        6.326262715706145e-10,
+        1.7510733822171863e-10
+      ],
+      "groups": {
+        "cold": {
+          "signed": [
+            3.415696017768382e-07,
+            4.5776991217684115e-10
+          ],
+          "absolute_share": [
+            0.9999999920206595,
+            0.7236025443991246
+          ]
+        },
+        "warm": {
+          "signed": [
+            2.725500215018291e-15,
+            1.7485626599253773e-10
+          ],
+          "absolute_share": [
+            7.979340606049121e-09,
+            0.27639745560087536
+          ]
+        }
+      },
+      "absolute_l1": [
+        3.415696045049255e-07,
+        6.326261781694345e-10
+      ]
+    },
+    {
+      "x": 0.05,
+      "fine_minus_coarse": [
+        5.21087774169438e-09,
+        -2.451719378389134e-10,
+        -2.501732487268612e-10
+      ],
+      "groups": {
+        "cold": {
+          "signed": [
+            5.210881529791996e-09,
+            4.602290497643501e-12
+          ],
+          "absolute_share": [
+            0.9999994428043787,
+            0.032224630234267894
+          ]
+        },
+        "warm": {
+          "signed": [
+            -3.721425459238218e-15,
+            -2.4977426555779677e-10
+          ],
+          "absolute_share": [
+            5.571956213285173e-07,
+            0.9677753697657321
+          ]
+        }
+      },
+      "absolute_l1": [
+        6.678849073446147e-09,
+        2.580911576807945e-10
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "trajectory": 1,
+      "checkpoint_payload_sha256": "dc47ed07e12a898af018ee1564a2a2aba0b39980532e711d0bedbfbf66d1a353",
+      "max_continuity": 6.271226306265795e-11,
+      "max_pair_defect": 1.0408340855860843e-17
+    },
+    {
+      "trajectory": 2,
+      "checkpoint_payload_sha256": "5ab6007fe9197bf6c0524b4478aa1561a61723c431dbf61211a4245c037b22c5",
+      "max_continuity": 6.271220720930541e-11,
+      "max_pair_defect": 1.431146867680866e-17
+    }
+  ],
+  "input_sha256": [
+    "e36e923ab72e69424f42abd98668e088a2272b070b4cb056dd044699ec4e3e1b",
+    "0ab07fd5f1791d17fdc52cf0453f706dfa000f1d4d3572b05a2bf4e1c382444f",
+    "e3c89a269356efbf0281344ef467f5317087c8063a6ddccbb096b0910ac351d5",
+    "3b1cbddcdd113d544aed5c05f4e6936b85d114ef0e87d00356d844bc8cc6bb36",
+    "f4265960f6ecb439d658fbf1f5b1c7a463759aca3b964c1cd483e322a609285f"
+  ],
+  "signature_source_sha256": [
+    "67a6be5ced39741fc2110f0250880b8fda5bf03f29af514b03b700f4e592c8fd",
+    "02df5a2b5330eb2bd2fd183a461210e5152d7670e9e5c4964c4b155e18309a7a",
+    "f41ca84f0a272422c5f4bf1623f51af86298611f015a03d6e058eee5db548f4a",
+    "ca694051a580629300d1fd69a7e7abc6eefc7c1eba70465358f83cc30ae5e086"
+  ],
+  "scope": "One fixed-width perturbation inserted at a different actual point, subsequent updates identical within each pair. Not a global discretization error or physical inference."
+}
