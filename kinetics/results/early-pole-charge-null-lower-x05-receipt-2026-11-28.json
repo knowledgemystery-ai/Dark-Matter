@@ -1,0 +1,114 @@
+{
+  "sign": -1,
+  "fraction_of_feasible_move": -0.05,
+  "setup": {
+    "source_charge_grid": 2,
+    "destination_charge_grid": 4,
+    "held_scalar_donor": 2,
+    "x_start": 0.04,
+    "x_end": 0.05,
+    "steps": 2048,
+    "scalar_pole": 0.0006769249203661136,
+    "total_energy_before_after": [
+      1.1456055490611692,
+      1.145605549061166
+    ],
+    "remap_errors": [
+      {
+        "max_cell_moment_relative_error": 3.963411049298494e-14,
+        "normalized_total_number_error": 1.6653345369377348e-15,
+        "normalized_total_true_energy_error": 1.5543122344752192e-15
+      },
+      {
+        "max_cell_moment_relative_error": 3.192904648491709e-14,
+        "normalized_total_number_error": 2.3314683517128287e-15,
+        "normalized_total_true_energy_error": 2.7755575615628914e-15
+      }
+    ],
+    "input_state_hashes": [
+      "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb",
+      "f6afb17d10abb285e3f8563d41eb68e0550249b8ca2eb77dbf8de256f939ffe6",
+      "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb"
+    ],
+    "source_sha256": "4038591a3b6befdd7b110deba151961e736e70d23c8d017da89316ffbe27d6b8",
+    "provenance": "4f43b885cde6de013e574ac3082927f71c20b0f5b3c39e602c45f2aee376984b"
+  },
+  "maximum_relative_moment_defect": 1.9937334049664194e-16,
+  "source_inputs": [
+    "0232a9e83e9020e731239082abb831b68246e90c23f6110f7655ce3bd3887cb3",
+    "9db46f8a584e753fed11412b94e0cf9f4ef0568878d99d7a65b9ff0a65b5e793",
+    "d8649ed888316b9e8c1496e6cf0e03ab991ff869cbf26489585440c2757c846d"
+  ],
+  "provenance": "54d76be40f62a3b95c50fc130c23aaa7695940d7b33f72ddb549bc6edf2ac9a6",
+  "final_count": 0.017056974233957856,
+  "final_cold_count": 0.0170567863771443,
+  "final_scalar_pole": 0.0008673775609150026,
+  "payload_sha256": "277a1a67f401eaeb082ff6ab7303efc520346908bfb6742f67175207638ea8fd",
+  "checks": [
+    {
+      "x": 0.04113142377191559,
+      "scalar_yield": 0.00019095727023142798,
+      "pair_number_error": 2.992397996059992e-17,
+      "continuity_residual": -5.070355197305627e-13,
+      "max_charged": 0.5334062291669055,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.042294850537622566,
+      "scalar_yield": 0.00021017418341347924,
+      "pair_number_error": 3.686287386450715e-17,
+      "continuity_residual": -1.1321319875096146e-12,
+      "max_charged": 0.5334058400934093,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04349118552081964,
+      "scalar_yield": 0.00023087211563098143,
+      "pair_number_error": 2.42861286636753e-17,
+      "continuity_residual": -1.8548732259079503e-12,
+      "max_charged": 0.533405003979215,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.044721359549995794,
+      "scalar_yield": 0.00025354888742764713,
+      "pair_number_error": 2.2551405187698492e-17,
+      "continuity_residual": -2.7545513748639464e-12,
+      "max_charged": 0.5334039666000404,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04598632978267703,
+      "scalar_yield": 0.00027803149832376,
+      "pair_number_error": 1.1275702593849246e-17,
+      "continuity_residual": -3.804398683831655e-12,
+      "max_charged": 0.533402867703233,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.047287080450158794,
+      "scalar_yield": 0.0003048234778444583,
+      "pair_number_error": 1.6479873021779667e-17,
+      "continuity_residual": -5.103564950205766e-12,
+      "max_charged": 0.5334017037076645,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04862462362330366,
+      "scalar_yield": 0.00033332367985071073,
+      "pair_number_error": 1.9081958235744878e-17,
+      "continuity_residual": -6.575257956924034e-12,
+      "max_charged": 0.5334007171852406,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.05,
+      "scalar_yield": 0.0003642645285403562,
+      "pair_number_error": 2.7755575615628914e-17,
+      "continuity_residual": -8.337948549912849e-12,
+      "max_charged": 0.533399946082738,
+      "max_limited_extent": 0.0
+    }
+  ],
+  "scope": "Prespecified equal-charge-moment shape perturbation of one remap. No all-shape robustness, physical rate, or convergence conclusion."
+}

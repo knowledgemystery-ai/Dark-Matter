@@ -1,0 +1,62 @@
+{
+  "rows": [
+    {
+      "signed_fraction_of_feasible_move": -0.05,
+      "max_local_moment_error": 1.9937334049664194e-16,
+      "clock": {
+        "clock_net_forward_inverse": [
+          4.2152219948415945,
+          5.584628653456263,
+          1.3694066586146687
+        ],
+        "scalar_mass": 0.0006769249203661136,
+        "clock_prefactor": 0.984078307125773,
+        "last_order_relative_drift": 1.1716771997072328e-09
+      },
+      "net_change_from_nominal": 0.10257756487004865,
+      "whole_state_energy_difference": 0.0
+    },
+    {
+      "signed_fraction_of_feasible_move": 0.05,
+      "max_local_moment_error": 2.2142212689738323e-16,
+      "clock": {
+        "clock_net_forward_inverse": [
+          4.015076857941696,
+          5.345757901536363,
+          1.3306810435946672
+        ],
+        "scalar_mass": 0.0006769249203661136,
+        "clock_prefactor": 0.984078307125773,
+        "last_order_relative_drift": 1.1585198356200976e-09
+      },
+      "net_change_from_nominal": -0.09756757202984989,
+      "whole_state_energy_difference": 0.0
+    }
+  ],
+  "held_scalar_donor": 2,
+  "destination_charge_grid": 4,
+  "source_charge_donor": 2,
+  "x": 0.04,
+  "nominal_two_moment_remap": {
+    "clock_net_forward_inverse": [
+      4.112644429971546,
+      5.460592251383348,
+      1.3479478214118028
+    ],
+    "scalar_mass": 0.0006769249203661136,
+    "clock_prefactor": 0.984078307125773,
+    "last_order_relative_drift": 1.0799099392500011e-09
+  },
+  "matched_native_D4_charge_counterfactual": {
+    "clock_net_forward_inverse": [
+      1.8293159337081744,
+      4.225802262621405,
+      2.3964863289132308
+    ],
+    "scalar_mass": 0.0006769249203661136,
+    "clock_prefactor": 0.9840783058035173,
+    "last_order_relative_drift": 1.199040866595169e-13
+  },
+  "setup_sha256": "7a4d0007090585055abd75695ed1e9a0f08d1c7d2738d723c047483d9990f791",
+  "scope": "Frozen chart/Pauli-preserving shape control for this chosen 5% moment-null move only; not a terminal evolution or unique higher-moment reconstruction."
+}

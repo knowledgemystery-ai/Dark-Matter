@@ -1,0 +1,51 @@
+{
+  "x_window": [
+    0.04,
+    0.05
+  ],
+  "rows": [
+    {
+      "fraction": -0.05,
+      "endpoint": {
+        "cold_count": 0.0170567863771443,
+        "whole_scalar_count": 0.017056974233957856,
+        "pole": 0.0008673775609150026
+      },
+      "difference_from_nominal_up_remap": {
+        "cold_count": -5.967087118630837e-06,
+        "whole_scalar_count": -5.967166437543386e-06,
+        "pole": -1.0113564078903774e-07
+      },
+      "absolute_difference_fraction_of_grid_replacement": {
+        "cold_count": 0.018337323125454007,
+        "whole_scalar_count": 0.01833765365877754,
+        "pole": 0.018425654072080362
+      },
+      "raw_receipt_sha256": "80262c5c8667280ea628445a8fce2c11008fb481350ace3ad23e60f3ac2b3aef",
+      "checkpoint_payload_sha256": "277a1a67f401eaeb082ff6ab7303efc520346908bfb6742f67175207638ea8fd"
+    },
+    {
+      "fraction": 0.05,
+      "endpoint": {
+        "cold_count": 0.017061693273542025,
+        "whole_scalar_count": 0.017061881127354843,
+        "pole": 0.0008674607288375133
+      },
+      "difference_from_nominal_up_remap": {
+        "cold_count": -1.060190720904991e-06,
+        "whole_scalar_count": -1.0602730405560867e-06,
+        "pole": -1.7967718278391435e-08
+      },
+      "absolute_difference_fraction_of_grid_replacement": {
+        "cold_count": 0.003258048598476579,
+        "whole_scalar_count": 0.0032583169926563896,
+        "pole": 0.0032734944761245908
+      },
+      "raw_receipt_sha256": "1b3b8a658f6ae71ee283001495f613e210eb635fa8deb8aff587cc606ca53db1",
+      "checkpoint_payload_sha256": "4de4fa71c157bd51088314bdd7b25f6ede5101aaea498acf4984a7bb62259128"
+    }
+  ],
+  "static_clock_sha256": "0232a9e83e9020e731239082abb831b68246e90c23f6110f7655ce3bd3887cb3",
+  "nominal_terminal_remap_sha256": "7cd3a915d780df1a26b1b9ac1ed4c87c014dab5334964ef076b5acdf245c4800",
+  "scope": "Two specific statically prespecified moment-preserving charged-shape moves. Not an exhaustive higher-moment remap bound."
+}
