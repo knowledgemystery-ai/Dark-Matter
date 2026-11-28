@@ -1,0 +1,151 @@
+{
+  "by_mesh": [
+    {
+      "forward": {
+        "weighted": {
+          "cdf_distance_bounds": [
+            2.8166256806416943e-09,
+            3.8094942839085067e-07
+          ],
+          "coarser_cut_distance_bounds": [
+            2.7347833001728867e-09,
+            3.871824777661452e-07
+          ],
+          "distance_with_independent_mean_lower": [
+            3.643834723997932e-08,
+            3.8094942839085067e-07
+          ],
+          "previous_support_only_distance_bounds": [
+            2.166963877345607e-09,
+            4.944166005048243e-07
+          ]
+        },
+        "raw": {
+          "cdf_distance_bounds": [
+            1.0221623244887955e-07,
+            4.995445702946531e-07
+          ],
+          "coarser_cut_distance_bounds": [
+            1.0026027711372547e-07,
+            5.046013986459306e-07
+          ],
+          "distance_with_independent_mean_lower": [
+            2.701969093623125e-07,
+            4.995445702946531e-07
+          ]
+        }
+      },
+      "inverse": {
+        "weighted": {
+          "cdf_distance_bounds": [
+            3.514023626858031e-09,
+            3.8205723885812316e-07
+          ],
+          "coarser_cut_distance_bounds": [
+            3.4161883477756582e-09,
+            3.8829449764244696e-07
+          ],
+          "distance_with_independent_mean_lower": [
+            4.033592820301956e-08,
+            3.8205723885812316e-07
+          ],
+          "previous_support_only_distance_bounds": [
+            2.5936085243452035e-09,
+            4.979407276145925e-07
+          ]
+        },
+        "raw": {
+          "cdf_distance_bounds": [
+            9.96636313777837e-08,
+            4.931146343499314e-07
+          ],
+          "coarser_cut_distance_bounds": [
+            9.779406286318151e-08,
+            4.981792037006737e-07
+          ],
+          "distance_with_independent_mean_lower": [
+            2.6491750151428924e-07,
+            4.931146343499314e-07
+          ]
+        }
+      }
+    },
+    {
+      "forward": {
+        "weighted": {
+          "cdf_distance_bounds": [
+            2.816625680642669e-09,
+            3.80949428390858e-07
+          ],
+          "coarser_cut_distance_bounds": [
+            2.7347833001737164e-09,
+            3.871824777661527e-07
+          ],
+          "distance_with_independent_mean_lower": [
+            3.643834723998864e-08,
+            3.80949428390858e-07
+          ],
+          "previous_support_only_distance_bounds": [
+            2.166963877345607e-09,
+            4.944166005048243e-07
+          ]
+        },
+        "raw": {
+          "cdf_distance_bounds": [
+            1.0221623244889459e-07,
+            4.995445702946792e-07
+          ],
+          "coarser_cut_distance_bounds": [
+            1.0026027711374047e-07,
+            5.046013986459567e-07
+          ],
+          "distance_with_independent_mean_lower": [
+            2.701969093623362e-07,
+            4.995445702946792e-07
+          ]
+        }
+      },
+      "inverse": {
+        "weighted": {
+          "cdf_distance_bounds": [
+            3.5140236268598694e-09,
+            3.8205723885378487e-07
+          ],
+          "coarser_cut_distance_bounds": [
+            3.4161883477774565e-09,
+            3.882944976383297e-07
+          ],
+          "distance_with_independent_mean_lower": [
+            4.033592819139403e-08,
+            3.8205723885378487e-07
+          ],
+          "previous_support_only_distance_bounds": [
+            2.5936085243452035e-09,
+            4.979407276145925e-07
+          ]
+        },
+        "raw": {
+          "cdf_distance_bounds": [
+            9.966363137773971e-08,
+            4.931146343498711e-07
+          ],
+          "coarser_cut_distance_bounds": [
+            9.779406286313724e-08,
+            4.981792037006148e-07
+          ],
+          "distance_with_independent_mean_lower": [
+            2.649175015142113e-07,
+            4.931146343498711e-07
+          ]
+        }
+      }
+    }
+  ],
+  "additional_uniform_cut_counts": [
+    1025,
+    4097
+  ],
+  "max_two_mesh_distance_bound_defect": 1.1625527201065272e-17,
+  "centered_mean_receipt_sha256": "c724f66129ebe8329db975c765b8bd23ae877b400c127b50bf3eff68e0114573",
+  "scope": "Conservative W1 bounds for complete held native raw and weighted forward/inverse q measures, not a physical profile or exact optimizer."
+}
