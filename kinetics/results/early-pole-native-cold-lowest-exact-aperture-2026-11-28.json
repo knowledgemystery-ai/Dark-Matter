@@ -1,0 +1,108 @@
+{
+  "q": [
+    1e-06,
+    3e-06
+  ],
+  "held_occupation": 2.586253803697513e-09,
+  "charts": [
+    {
+      "level": 2,
+      "rows": [
+        {
+          "mesh": [
+            4,
+            6,
+            10,
+            18
+          ],
+          "patch_sha256": "21c6248538ec2e02c698319deeb2853b05433a343f5470b280d8e1752294e2f3",
+          "selected_panels": 8,
+          "parent_componentwise_reclosure": 1.4410694859634532e-12,
+          "total_joined_panels": 50
+        },
+        {
+          "mesh": [
+            8,
+            10,
+            16,
+            24
+          ],
+          "patch_sha256": "549bb1ab7b35cb1b6b2ea1209f3df43ff24d055ec615b5ff40f8882db3115be8",
+          "selected_panels": 8,
+          "parent_componentwise_reclosure": 1.4432899320127035e-14,
+          "total_joined_panels": 50
+        }
+      ],
+      "net_box": [
+        -2.105567972428363e-17,
+        -2.1055679724267108e-17
+      ],
+      "neutral_box": [
+        2.8458734160494182e-09,
+        2.845873416049631e-09
+      ],
+      "total_forward_and_inverse_by_mesh": [
+        [
+          8.110203845327344e-08,
+          2.3080613456475137e-16
+        ],
+        [
+          8.11020384532762e-08,
+          2.3080613456476074e-16
+        ]
+      ],
+      "sign": -1,
+      "maximum_relative_paired_difference": 3.26183524634871e-13
+    },
+    {
+      "level": 4,
+      "rows": [
+        {
+          "mesh": [
+            4,
+            6,
+            10,
+            18
+          ],
+          "patch_sha256": "215ef6aa01e1d879b78ae83a082fb115545c054403ff426e221fbf5b706cd794",
+          "selected_panels": 19,
+          "parent_componentwise_reclosure": 1.6719958750854857e-13,
+          "total_joined_panels": 109
+        },
+        {
+          "mesh": [
+            8,
+            10,
+            16,
+            24
+          ],
+          "patch_sha256": "e3a25064be50978cfcc7461a7d8e8b42d2699493d39c8e0475b88bf734883ef8",
+          "selected_panels": 19,
+          "parent_componentwise_reclosure": 4.263256414560601e-14,
+          "total_joined_panels": 109
+        }
+      ],
+      "net_box": [
+        1.5240770367984421e-18,
+        1.5240770368020586e-18
+      ],
+      "neutral_box": [
+        2.2306977054379175e-09,
+        2.2306977054386987e-09
+      ],
+      "total_forward_and_inverse_by_mesh": [
+        [
+          4.286460132907265e-09,
+          9.561796761599541e-18
+        ],
+        [
+          4.286460132906512e-09,
+          9.561796761597872e-18
+        ]
+      ],
+      "sign": 1,
+      "maximum_relative_paired_difference": 4.1810999107383395e-13
+    }
+  ],
+  "scope": "Fixed-state held diagnostic on the exact previously unresolved cut. Observed two-mesh box, not continuum error or physical photon occupation."
+}

@@ -1,0 +1,109 @@
+{
+  "edges": [
+    1e-06,
+    3e-06,
+    5e-06,
+    8e-06,
+    1e-05,
+    1.5e-05
+  ],
+  "counts": [
+    19,
+    15,
+    24,
+    17,
+    36
+  ],
+  "held_occupation": 2.586253803697513e-09,
+  "bands": [
+    {
+      "net_box": [
+        1.5240770367984421e-18,
+        1.5240770368020586e-18
+      ],
+      "neutral_box": [
+        2.2306977054379175e-09,
+        2.2306977054386987e-09
+      ],
+      "sign": 1,
+      "maximum_relative_paired_difference": 4.1810999107383395e-13
+    },
+    {
+      "net_box": [
+        8.686429100454233e-18,
+        8.68642910046592e-18
+      ],
+      "neutral_box": [
+        2.304690873344022e-09,
+        2.30469087334438e-09
+      ],
+      "sign": 1,
+      "maximum_relative_paired_difference": 2.8266278206956486e-13
+    },
+    {
+      "net_box": [
+        1.4065781567228356e-19,
+        1.4065781567287908e-19
+      ],
+      "neutral_box": [
+        2.435562538992291e-09,
+        2.43556253899291e-09
+      ],
+      "sign": 1,
+      "maximum_relative_paired_difference": 2.717825964282383e-13
+    },
+    {
+      "net_box": [
+        -5.172296948129023e-22,
+        -5.172296948102638e-22
+      ],
+      "neutral_box": [
+        2.6486745250839496e-09,
+        2.6486745250842714e-09
+      ],
+      "sign": -1,
+      "maximum_relative_paired_difference": 2.1338486533295509e-13
+    },
+    {
+      "net_box": [
+        -1.1459187057621783e-22,
+        -1.1459187057593677e-22
+      ],
+      "neutral_box": [
+        2.9204084208250575e-09,
+        2.9204084208259235e-09
+      ],
+      "sign": -1,
+      "maximum_relative_paired_difference": 3.4572344986827375e-13
+    }
+  ],
+  "by_mesh": [
+    {
+      "full_patched_moment_change_relative": 8.43769498715119e-15,
+      "held_net_partition_closure": 1.5407439555097887e-33,
+      "signed_net_by_band": [
+        1.5240770368003873e-18,
+        8.686429100460099e-18,
+        1.4065781567258232e-19,
+        -5.17229694811613e-22,
+        -1.1459187057609407e-22
+      ],
+      "central_share_of_positive_total": 0.8391741392521122,
+      "opposing_upper_fraction_of_positive_total": 6.103869750886095e-05
+    },
+    {
+      "full_patched_moment_change_relative": 2.220446049250313e-15,
+      "held_net_partition_closure": 4.622231866529366e-33,
+      "signed_net_by_band": [
+        1.5240770368001115e-18,
+        8.68642910046005e-18,
+        1.406578156725804e-19,
+        -5.172296948115558e-22,
+        -1.1459187057606078e-22
+      ],
+      "central_share_of_positive_total": 0.8391741392521339,
+      "opposing_upper_fraction_of_positive_total": 6.103869750885415e-05
+    }
+  ],
+  "scope": "Complete exact five-band partition of one held D4 numerical diagnostic; no pointwise ordering, spatial convergence, rigorous continuum error, or physical occupation."
+}
