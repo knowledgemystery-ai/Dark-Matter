@@ -1,0 +1,95 @@
+{
+  "rows": [
+    {
+      "x": 0.9901808643642274,
+      "T": 0.35952559984606386,
+      "cubic_over_pchip_rank_coefficient": 0.9988056042492067,
+      "cubic_over_pchip_heat_capacity": 1.000597805256406,
+      "cubic_over_pchip_cooling_magnitude": 0.9994026954895546,
+      "common_rank_direction_relative_defect": 1.493939742871139e-17,
+      "critical_slope_by_base_rows_and_rank_columns": [
+        [
+          3.372535600886173,
+          3.3729810879127022
+        ],
+        [
+          3.374102807172487,
+          3.3745501683019654
+        ]
+      ],
+      "only_rank_amplitude_shift_at_pchip_base": 0.00044548702652935646,
+      "only_base_shift_at_pchip_rank": 0.0015672062863139047,
+      "native_full_critical_slope_shift": 0.002014567415792534
+    },
+    {
+      "x": 0.9903408643642273,
+      "T": 0.35947440193808955,
+      "cubic_over_pchip_rank_coefficient": 0.9987985347527889,
+      "cubic_over_pchip_heat_capacity": 1.000601202219187,
+      "cubic_over_pchip_cooling_magnitude": 0.999399014648403,
+      "common_rank_direction_relative_defect": 1.1400534555688157e-16,
+      "critical_slope_by_base_rows_and_rank_columns": [
+        [
+          3.372525063580312,
+          3.3729731778916907
+        ],
+        [
+          3.3741020363355796,
+          3.374552047604048
+        ]
+      ],
+      "only_rank_amplitude_shift_at_pchip_base": 0.00044811431137858904,
+      "only_base_shift_at_pchip_rank": 0.0015769727552674695,
+      "native_full_critical_slope_shift": 0.0020269840237356895
+    },
+    {
+      "x": 0.9902358643642273,
+      "T": 0.35950799976606096,
+      "cubic_over_pchip_rank_coefficient": 0.9988002563401612,
+      "cubic_over_pchip_heat_capacity": 1.0006004345965418,
+      "cubic_over_pchip_cooling_magnitude": 0.9993999705691027,
+      "common_rank_direction_relative_defect": 1.1890463771355145e-16,
+      "critical_slope_by_base_rows_and_rank_columns": [
+        [
+          3.3725270745113773,
+          3.372974548361055
+        ],
+        [
+          3.37410146923839,
+          3.3745508342270414
+        ]
+      ],
+      "only_rank_amplitude_shift_at_pchip_base": 0.0004474738496775821,
+      "only_base_shift_at_pchip_rank": 0.0015743947270125958,
+      "native_full_critical_slope_shift": 0.002023759715664042
+    },
+    {
+      "x": 0.9902858643642274,
+      "T": 0.3594920004081561,
+      "cubic_over_pchip_rank_coefficient": 0.9987980437459979,
+      "cubic_over_pchip_heat_capacity": 1.00060149778866,
+      "cubic_over_pchip_cooling_magnitude": 0.999398818560629,
+      "common_rank_direction_relative_defect": 2.851150427224265e-17,
+      "critical_slope_by_base_rows_and_rank_columns": [
+        [
+          3.372523760901702,
+          3.372972056998179
+        ],
+        [
+          3.374101210695519,
+          3.3745514050993233
+        ]
+      ],
+      "only_rank_amplitude_shift_at_pchip_base": 0.00044829609647711877,
+      "only_base_shift_at_pchip_rank": 0.0015774497938170207,
+      "native_full_critical_slope_shift": 0.00202764419762147
+    }
+  ],
+  "input_sha256": [
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "df35282232e9b8a3cb6b2ce11cc910a300fe95eb75c87fccd9f205eb7bf5ef09",
+    "078b0513b6ed6477868eba2074c9e4db682d4a53c7a2698c8b805433bd180156"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "Local two-factor change in common density coordinates. Splits the rank-one amplitude from the rest of the held rate form, not a causal separation of all EOS or physical effects."
+}
