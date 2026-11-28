@@ -1,0 +1,89 @@
+{
+  "original_sample_x": 0.99,
+  "crossing_x": 0.9902608643642273,
+  "visible_temperature_knot": 0.3595,
+  "dlogcv_dlogT_cooler_and_hotter": {
+    "pchip": [
+      3.3671860479970563,
+      3.426922032646864
+    ],
+    "cubic": [
+      3.3731621027871963,
+      3.373162102787194
+    ]
+  },
+  "rows": [
+    {
+      "delta_x": 8e-05,
+      "before_and_after": [
+        {
+          "x": 0.9901808643642274,
+          "visible_T": 0.35952559984606386,
+          "eos_results": {
+            "pchip": {
+              "max_rate": 0.044715108183916816,
+              "defect": 9.554093072239311e-10
+            },
+            "cubic": {
+              "max_rate": -0.00149115498462697,
+              "defect": 4.114351637163338e-10
+            }
+          }
+        },
+        {
+          "x": 0.9903408643642273,
+          "visible_T": 0.35947440193808955,
+          "eos_results": {
+            "pchip": {
+              "max_rate": -0.004651811352159947,
+              "defect": 6.969824162261773e-10
+            },
+            "cubic": {
+              "max_rate": -0.001313346196538441,
+              "defect": 9.05408192863888e-10
+            }
+          }
+        }
+      ]
+    },
+    {
+      "delta_x": 2.5e-05,
+      "before_and_after": [
+        {
+          "x": 0.9902358643642273,
+          "visible_T": 0.35950799976606096,
+          "eos_results": {
+            "pchip": {
+              "max_rate": 0.045032817720330916,
+              "defect": 1.0074422407413408e-09
+            },
+            "cubic": {
+              "max_rate": -0.0012553923730408694,
+              "defect": 1.1075239614299903e-09
+            }
+          }
+        },
+        {
+          "x": 0.9902858643642274,
+          "visible_T": 0.3594920004081561,
+          "eos_results": {
+            "pchip": {
+              "max_rate": -0.004487615903834575,
+              "defect": 6.803381746856019e-10
+            },
+            "cubic": {
+              "max_rate": -0.0011998191954106186,
+              "defect": 7.588300825374372e-10
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "input_sha256": [
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "b61a8a8be306cdc3ddfff0bc0962d8727b37335fde0ddfe92ae770dfb75a61a2"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "Original evolved trajectory continued across one fixed normalized EOS knot; cubic comparison at exactly matched held states. No differentiability or physical sign claim at the knot."
+}

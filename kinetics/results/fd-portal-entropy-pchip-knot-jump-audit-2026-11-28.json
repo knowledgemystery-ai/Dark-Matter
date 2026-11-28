@@ -1,0 +1,23 @@
+{
+  "rows": [
+    {
+      "delta_x": 8e-05,
+      "operator_relative_rank_one_residual": 0.0072464909630511705,
+      "reported_cooler_side_max": -0.004651811196759492,
+      "rank_one_adjusted_hot_form_max": -0.004871541786037338
+    },
+    {
+      "delta_x": 2.5e-05,
+      "operator_relative_rank_one_residual": 0.0022646471135144837,
+      "reported_cooler_side_max": -0.004487616024085493,
+      "rank_one_adjusted_hot_form_max": -0.004556294380119604
+    }
+  ],
+  "expected_scalar_multiplier_of_visible_metric": -0.05317038737429939,
+  "input_sha256": [
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "df35282232e9b8a3cb6b2ce11cc910a300fe95eb75c87fccd9f205eb7bf5ef09"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "One-sided limits of a numerical EOS metric across one knot; compares finite probes, not a continuum precision certificate."
+}
