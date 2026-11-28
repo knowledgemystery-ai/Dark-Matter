@@ -1,0 +1,122 @@
+{
+  "chart": "G9",
+  "x_start": 0.04,
+  "x_end": 0.05,
+  "fields": [
+    "count",
+    "pressure",
+    "warm_pressure"
+  ],
+  "steps": 4096,
+  "terminal_moments": [
+    0.017401876568783017,
+    1.7378371975858876e-07,
+    1.7350895393765095e-07
+  ],
+  "rows": [
+    "uniform1024",
+    "shifted1024",
+    "uniform2048"
+  ],
+  "relative_to_uniform4096": [
+    [
+      -3.9568979373072466e-05,
+      3.152096714753583e-07,
+      3.7552038056887227e-07
+    ],
+    [
+      -3.3972818915595226e-05,
+      5.853747691020317e-07,
+      6.365328721891217e-07
+    ],
+    [
+      -7.768269742358669e-06,
+      6.27638967465316e-08,
+      7.461623030557973e-08
+    ]
+  ],
+  "shifted_over_unshifted_1024_discrepancy": [
+    0.8585720292475993,
+    1.8570964728402812,
+    1.6950687768925992
+  ],
+  "source_sha256": [
+    "7a12c104a73bf18e65ce87c9b86a5b3a62c8e8c78ae66fa0b1afce9442b88340",
+    "e36e923ab72e69424f42abd98668e088a2272b070b4cb056dd044699ec4e3e1b",
+    "4968d55695150e9c9c07182a2c7908cfa3a42509f7fc03b02dd6234df0d07fd2",
+    "f3b96e8dc05476239e7263fef9baf01e5b9f4cea21e544c1f5bf2052ed3b09b8"
+  ],
+  "signature_source_sha256": [
+    "2536df854c5d00f26234f52472b4fad05d4edde61021c2d0a5572c9bf905d18f",
+    "ca694051a580629300d1fd69a7e7abc6eefc7c1eba70465358f83cc30ae5e086",
+    "f41ca84f0a272422c5f4bf1623f51af86298611f015a03d6e058eee5db548f4a"
+  ],
+  "checks": [
+    {
+      "x": 0.04113142377191559,
+      "scalar_yield": 0.00019154403538041676,
+      "pair_number_error": 5.084908188957016e-17,
+      "continuity_residual": -1.0568128200349504e-13,
+      "max_charged": 0.4986817250694606,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.042294850537622566,
+      "scalar_yield": 0.00021142209954586651,
+      "pair_number_error": 8.521829075736065e-17,
+      "continuity_residual": -2.313508661310219e-13,
+      "max_charged": 0.49868113945037434,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04349118552081964,
+      "scalar_yield": 0.00023278992909881517,
+      "pair_number_error": 7.24247051220317e-17,
+      "continuity_residual": -3.7389185578986725e-13,
+      "max_charged": 0.49868054120940836,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.044721359549995794,
+      "scalar_yield": 0.00025653643905450887,
+      "pair_number_error": 8.630249292984615e-17,
+      "continuity_residual": -5.610770230585552e-13,
+      "max_charged": 0.4986798716121881,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04598632978267703,
+      "scalar_yield": 0.00028185716947402053,
+      "pair_number_error": 9.71445146547012e-17,
+      "continuity_residual": -7.672602584198919e-13,
+      "max_charged": 0.49867923677899073,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.047287080450158794,
+      "scalar_yield": 0.0003085870051719401,
+      "pair_number_error": 1.196959198423997e-16,
+      "continuity_residual": -1.0098267775910004e-12,
+      "max_charged": 0.49867847647836594,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04862462362330366,
+      "scalar_yield": 0.00033908514328185755,
+      "pair_number_error": 1.0061396160665481e-16,
+      "continuity_residual": -1.3284664777198259e-12,
+      "max_charged": 0.498677755205485,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.05,
+      "scalar_yield": 0.0003716301776094293,
+      "pair_number_error": 1.474514954580286e-16,
+      "continuity_residual": -1.6910979859291117e-12,
+      "max_charged": 0.4986769121342276,
+      "max_limited_extent": 0.0
+    }
+  ],
+  "checkpoint_payload_sha256": "5a62ed6cc9e7e690416d8f0636397be46f39354c85ea4ba0b3f635fb72810348",
+  "scope": "Same fixed x04 restart and native mass. An independent short-window comparison against uniform4096, not a continuum or physical prediction."
+}
