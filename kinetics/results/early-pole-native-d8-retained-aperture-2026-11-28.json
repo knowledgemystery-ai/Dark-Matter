@@ -1,0 +1,94 @@
+{
+  "rows": [
+    {
+      "channel": "forward_parent",
+      "over_full": {
+        "first_clipped_q": null,
+        "cut_gap_derivative_lower_bound": 0.9825748609782984,
+        "finite_energy_cap": 32.000039062476155,
+        "samples": [
+          {
+            "q": 1e-06,
+            "unclipped_cosine_limit": 17.44576573412392,
+            "geometric_fraction_of_cosine_interval": 1.0
+          },
+          {
+            "q": 4.1e-06,
+            "unclipped_cosine_limit": 4.258564060481375,
+            "geometric_fraction_of_cosine_interval": 1.0
+          },
+          {
+            "q": 8.2e-06,
+            "unclipped_cosine_limit": 2.1348627733067227,
+            "geometric_fraction_of_cosine_interval": 1.0
+          },
+          {
+            "q": 1.5e-05,
+            "unclipped_cosine_limit": 1.1766014724969949,
+            "geometric_fraction_of_cosine_interval": 1.0
+          }
+        ]
+      },
+      "within_selected_raw_plan": {
+        "retained_cosine_fraction_range": [
+          1.0,
+          1.0
+        ],
+        "unclipped_cosine_limit_endpoints": [
+          1.64171802066249,
+          1.1766014724969949
+        ],
+        "upper_bound_for_q_times_numerator_derivative_minus_numerator": -5.142069291856353e-08
+      }
+    },
+    {
+      "channel": "inverse_daughter",
+      "over_full": {
+        "first_clipped_q": 8.605816909661444e-06,
+        "cut_gap_derivative_lower_bound": 0.9825748288301586,
+        "finite_energy_cap": 26.000000173076923,
+        "samples": [
+          {
+            "q": 1e-06,
+            "unclipped_cosine_limit": 8.539264925283376,
+            "geometric_fraction_of_cosine_interval": 1.0
+          },
+          {
+            "q": 4.1e-06,
+            "unclipped_cosine_limit": 2.0862602118628786,
+            "geometric_fraction_of_cosine_interval": 1.0
+          },
+          {
+            "q": 8.2e-06,
+            "unclipped_cosine_limit": 1.0487322546827618,
+            "geometric_fraction_of_cosine_interval": 1.0
+          },
+          {
+            "q": 1.5e-05,
+            "unclipped_cosine_limit": 0.5828867263658892,
+            "geometric_fraction_of_cosine_interval": 0.7914433631829446
+          }
+        ]
+      },
+      "within_selected_raw_plan": {
+        "retained_cosine_fraction_range": [
+          0.7914433631829446,
+          0.9042626239785101
+        ],
+        "unclipped_cosine_limit_endpoints": [
+          0.8085252479570201,
+          0.5828867263658892
+        ],
+        "upper_bound_for_q_times_numerator_derivative_minus_numerator": -2.469767486295934e-08
+      }
+    }
+  ],
+  "planned_span": [
+    1.0689130895889085e-05,
+    1.5e-05
+  ],
+  "x": 0.05,
+  "k": 0.0015,
+  "plan_sha256": "9339f2abe2245acaa58cca77c4b37d6c99de76a4b3a96ea1df3c11dd91d830f9",
+  "scope": "Exact finite numerical supports and kinematic cosine enclosures; no collision weights, new D8 kernels, physical exclusion, or change to live central run."
+}
