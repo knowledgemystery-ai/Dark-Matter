@@ -1,0 +1,164 @@
+{
+  "fine_mesh": {
+    "charts": [
+      {
+        "raw_median_possible": [
+          1.3043189379422988e-05,
+          1.3458942053108482e-05
+        ],
+        "weighted_median_possible": [
+          3.3059994133202632e-06,
+          4.30263074670618e-06
+        ],
+        "exact_raw_vs_weighted_TV": 0.9688421603783826,
+        "central_raw_fraction": [
+          0.007268764604436394,
+          0.01275933405509669
+        ],
+        "central_weighted_fraction": [
+          0.8109761450054119,
+          0.9564999970656978
+        ],
+        "upper_raw_fraction": [
+          0.8530276115602989,
+          0.8530276115602989
+        ],
+        "upper_weighted_fraction": [
+          4.876308844669109e-06,
+          4.876308844669109e-06
+        ]
+      },
+      {
+        "raw_median_possible": [
+          1.32582142404808e-05,
+          1.3431633666820322e-05
+        ],
+        "weighted_median_possible": [
+          3.959248810680721e-06,
+          4.2418486060303425e-06
+        ],
+        "exact_raw_vs_weighted_TV": 0.9778995647829393,
+        "central_raw_fraction": [
+          0.0040646486555856705,
+          0.005710870432724414
+        ],
+        "central_weighted_fraction": [
+          0.8075547961323344,
+          0.8613244234110097
+        ],
+        "upper_raw_fraction": [
+          0.8858924695043242,
+          0.8858924695043242
+        ],
+        "upper_weighted_fraction": [
+          9.504925105799488e-06,
+          9.504925105799488e-06
+        ]
+      }
+    ],
+    "chart_distance": {
+      "raw": {
+        "cdf_cut_with_largest_guaranteed_difference": 1.1302971603159821e-05,
+        "cdf_lower_bound": 0.040258746801302675,
+        "minimum_compatible_TV": [
+          0.0402587468012886,
+          0.040258746801331236
+        ]
+      },
+      "weighted": {
+        "cdf_cut_with_largest_guaranteed_difference": 3.3059994133202632e-06,
+        "cdf_lower_bound": 0.01978563417346424,
+        "minimum_compatible_TV": [
+          0.019785634165459087,
+          0.019785634188305035
+        ]
+      }
+    }
+  },
+  "coarse_mesh": {
+    "charts": [
+      {
+        "raw_median_possible": [
+          1.3043189379422988e-05,
+          1.3458942053108482e-05
+        ],
+        "weighted_median_possible": [
+          3.3059994133202632e-06,
+          4.30263074670618e-06
+        ],
+        "exact_raw_vs_weighted_TV": 0.9688421603783837,
+        "central_raw_fraction": [
+          0.007268764604435675,
+          0.012759334055095802
+        ],
+        "central_weighted_fraction": [
+          0.810976145005401,
+          0.9564999970656992
+        ],
+        "upper_raw_fraction": [
+          0.8530276115603103,
+          0.8530276115603103
+        ],
+        "upper_weighted_fraction": [
+          4.876308844669396e-06,
+          4.876308844669396e-06
+        ]
+      },
+      {
+        "raw_median_possible": [
+          1.32582142404808e-05,
+          1.3431633666820322e-05
+        ],
+        "weighted_median_possible": [
+          3.959248810680721e-06,
+          4.2418486060303425e-06
+        ],
+        "exact_raw_vs_weighted_TV": 0.97789956478294,
+        "central_raw_fraction": [
+          0.00406464865558526,
+          0.005710870432724001
+        ],
+        "central_weighted_fraction": [
+          0.8075547961323142,
+          0.8613244234109957
+        ],
+        "upper_raw_fraction": [
+          0.885892469504335,
+          0.885892469504335
+        ],
+        "upper_weighted_fraction": [
+          9.504925105800176e-06,
+          9.504925105800176e-06
+        ]
+      }
+    ],
+    "chart_distance": {
+      "raw": {
+        "cdf_cut_with_largest_guaranteed_difference": 1.1302971603159821e-05,
+        "cdf_lower_bound": 0.04025874680129887,
+        "minimum_compatible_TV": [
+          0.04025874680128472,
+          0.04025874680132735
+        ]
+      },
+      "weighted": {
+        "cdf_cut_with_largest_guaranteed_difference": 3.3059994133202632e-06,
+        "cdf_lower_bound": 0.019785634173450112,
+        "minimum_compatible_TV": [
+          0.019785634165444765,
+          0.019785634188290713
+        ]
+      }
+    }
+  },
+  "central_q": [
+    3e-06,
+    5e-06
+  ],
+  "upper_q": [
+    1e-05,
+    1.5e-05
+  ],
+  "finite_bose_audit_sha256": "203de449965f2c884b3009e45716c09ec5a0bbaff049ac998e10ecdde618e76e",
+  "scope": "Support-only contrasts on finite archived raw and Bose-weighted forward panels. No physical population, converged spatial shape, or extrapolation to D8."
+}
