@@ -1,0 +1,354 @@
+{
+  "rows": [
+    {
+      "levels": [
+        1,
+        2
+      ],
+      "epochs": [
+        0.01,
+        0.02,
+        0.04,
+        0.05
+      ],
+      "cold_count_differences": [
+        -1.6574162011696498e-08,
+        -2.810810477494888e-06,
+        -0.00019974680018917804,
+        -0.00033381562400798385
+      ],
+      "timeline_increment_fraction_of_terminal_cold_difference": [
+        4.96506479016695e-05,
+        0.008370597762722939,
+        0.5899543806462847,
+        0.4016253709430907
+      ],
+      "cold_final_total_absolute_bin_difference": 0.0003426039945561811,
+      "terminal_signed_to_absolute_cold_bin_ratio": -0.9743483126646496,
+      "warm_final_count_difference": 2.33039594643641e-09,
+      "largest_terminal_cold_differences": [
+        {
+          "q": [
+            3.3059994133202632e-06,
+            4.778274331905574e-06
+          ],
+          "delta": -0.0001946315841734329,
+          "fraction_signed": 0.5830511521197639
+        },
+        {
+          "q": [
+            2.287359695506477e-06,
+            3.3059994133202632e-06
+          ],
+          "delta": -0.000143433158925902,
+          "fraction_signed": 0.4296777880069254
+        },
+        {
+          "q": [
+            4.778274331905574e-06,
+            6.906203763665279e-06
+          ],
+          "delta": 4.308436637632488e-06,
+          "fraction_signed": -0.012906635662833574
+        },
+        {
+          "q": [
+            1.5825817619770524e-06,
+            2.287359695506477e-06
+          ],
+          "delta": -1.450311272015086e-07,
+          "fraction_signed": 0.00043446476668821196
+        },
+        {
+          "q": [
+            6.906203763665279e-06,
+            9.9817731491033e-06
+          ],
+          "delta": 8.569630630971498e-08,
+          "fraction_signed": -0.00025671748158697744
+        }
+      ],
+      "conserved_sector_checks": [
+        {
+          "x": [
+            0.01,
+            0.02
+          ],
+          "scalar_daughter_parent_difference_of_net_changes": [
+            -2.794233127820353e-06,
+            -2.7942331278200277e-06,
+            2.794233127885676e-06
+          ],
+          "absolute_pair_count_residual": 3.366447745567491e-17
+        },
+        {
+          "x": [
+            0.02,
+            0.04
+          ],
+          "scalar_daughter_parent_difference_of_net_changes": [
+            -0.00019693546700154212,
+            -0.00019693546700154038,
+            0.00019693546700154298
+          ],
+          "absolute_pair_count_residual": 4.336808689942018e-17
+        },
+        {
+          "x": [
+            0.04,
+            0.05
+          ],
+          "scalar_daughter_parent_difference_of_net_changes": [
+            -0.00013406701932759842,
+            -0.00013406701932757586,
+            0.00013406701932764872
+          ],
+          "absolute_pair_count_residual": 4.683753385137379e-17
+        }
+      ]
+    },
+    {
+      "levels": [
+        2,
+        4
+      ],
+      "epochs": [
+        0.01,
+        0.02,
+        0.04,
+        0.05
+      ],
+      "cold_count_differences": [
+        -5.105259696683179e-09,
+        -9.761296609119147e-07,
+        -0.00012982622430496584,
+        -0.0004887794126367299
+      ],
+      "timeline_increment_fraction_of_terminal_cold_difference": [
+        1.0444915568646311e-05,
+        0.0019866311389365233,
+        0.26361604296909646,
+        0.7343868809763984
+      ],
+      "cold_final_total_absolute_bin_difference": 0.0005162306208182819,
+      "terminal_signed_to_absolute_cold_bin_ratio": -0.9468237507142857,
+      "warm_final_count_difference": 3.290329345998522e-09,
+      "largest_terminal_cold_differences": [
+        {
+          "q": [
+            2.287359695506477e-06,
+            3.3059994133202632e-06
+          ],
+          "delta": -0.00026714132318734894,
+          "fraction_signed": 0.5465478215341558
+        },
+        {
+          "q": [
+            3.3059994133202632e-06,
+            4.778274331905574e-06
+          ],
+          "delta": -0.00023507412104351074,
+          "fraction_signed": 0.48094112592713123
+        },
+        {
+          "q": [
+            4.778274331905574e-06,
+            6.906203763665279e-06
+          ],
+          "delta": 1.3554111476717801e-05,
+          "fraction_signed": -0.02773052859080109
+        },
+        {
+          "q": [
+            1.5825817619770524e-06,
+            2.287359695506477e-06
+          ],
+          "delta": -2.8950068383004044e-07,
+          "fraction_signed": 0.000592293121079555
+        },
+        {
+          "q": [
+            6.906203763665279e-06,
+            9.9817731491033e-06
+          ],
+          "delta": 1.7140262937625092e-07,
+          "fraction_signed": -0.00035067481351478406
+        }
+      ],
+      "conserved_sector_checks": [
+        {
+          "x": [
+            0.01,
+            0.02
+          ],
+          "scalar_daughter_parent_difference_of_net_changes": [
+            -9.710229319489301e-07,
+            -9.710229319489301e-07,
+            9.710229319037189e-07
+          ],
+          "absolute_pair_count_residual": 3.366447745567491e-17
+        },
+        {
+          "x": [
+            0.02,
+            0.04
+          ],
+          "scalar_daughter_parent_difference_of_net_changes": [
+            -0.00012884948862483623,
+            -0.0001288494886248319,
+            0.00012884948862489434
+          ],
+          "absolute_pair_count_residual": 4.2500725161431774e-17
+        },
+        {
+          "x": [
+            0.04,
+            0.05
+          ],
+          "scalar_daughter_parent_difference_of_net_changes": [
+            -0.00035895050549254563,
+            -0.00035895050549260114,
+            0.00035895050549257165
+          ],
+          "absolute_pair_count_residual": 2.949029909160572e-17
+        }
+      ]
+    },
+    {
+      "levels": [
+        4,
+        8
+      ],
+      "epochs": [
+        0.01,
+        0.02,
+        0.04,
+        0.05
+      ],
+      "cold_count_differences": [
+        -7.461044529953e-10,
+        -4.0317083013271717e-07,
+        -6.574859597893078e-05,
+        -0.00023249919686479814
+      ],
+      "timeline_increment_fraction_of_terminal_cold_difference": [
+        3.209062495941314e-06,
+        0.0017308650141864277,
+        0.28105656290416103,
+        0.7172093630191565
+      ],
+      "cold_final_total_absolute_bin_difference": 0.00025984013000262694,
+      "terminal_signed_to_absolute_cold_bin_ratio": -0.8947778653837943,
+      "warm_final_count_difference": 1.752308112623559e-09,
+      "largest_terminal_cold_differences": [
+        {
+          "q": [
+            2.287359695506477e-06,
+            3.3059994133202632e-06
+          ],
+          "delta": -0.0001972825615885634,
+          "fraction_signed": 0.8485300777330695
+        },
+        {
+          "q": [
+            3.3059994133202632e-06,
+            4.778274331905574e-06
+          ],
+          "delta": -4.866134415366584e-05,
+          "fraction_signed": 0.20929682687017262
+        },
+        {
+          "q": [
+            4.778274331905574e-06,
+            6.906203763665279e-06
+          ],
+          "delta": 1.3560433221323971e-05,
+          "fraction_signed": -0.05832464543612842
+        },
+        {
+          "q": [
+            1.5825817619770524e-06,
+            2.287359695506477e-06
+          ],
+          "delta": -2.2570186134885734e-07,
+          "fraction_signed": 0.0009707640473274686
+        },
+        {
+          "q": [
+            6.906203763665279e-06,
+            9.9817731491033e-06
+          ],
+          "delta": 1.0998222938760999e-07,
+          "fraction_signed": -0.00047304348088379137
+        }
+      ],
+      "conserved_sector_checks": [
+        {
+          "x": [
+            0.01,
+            0.02
+          ],
+          "scalar_daughter_parent_difference_of_net_changes": [
+            -4.024242928628752e-07,
+            -4.024242928630378e-07,
+            4.0242429288575186e-07
+          ],
+          "absolute_pair_count_residual": 1.1546753136970622e-17
+        },
+        {
+          "x": [
+            0.02,
+            0.04
+          ],
+          "scalar_daughter_parent_difference_of_net_changes": [
+            -6.53451369942758e-05,
+            -6.534513699427841e-05,
+            6.534513699419427e-05
+          ],
+          "absolute_pair_count_residual": 6.591949208711867e-17
+        },
+        {
+          "x": [
+            0.04,
+            0.05
+          ],
+          "scalar_daughter_parent_difference_of_net_changes": [
+            -0.000166749137165325,
+            -0.00016674913716530244,
+            0.0001667491371653146
+          ],
+          "absolute_pair_count_residual": 2.949029909160572e-17
+        }
+      ]
+    }
+  ],
+  "initial_cold_count_group_end": 1e-05,
+  "time_states_sha256": [
+    [
+      "b5e5d99ba15ca9a9d235e7bd2297bb5048a19eb9c0e452b67b609c4d4d08c04a",
+      "c34c1d5874d77086bb0cd7eac02a7b99586fcab3ad039b7017ecebc11d523230",
+      "7e6a14bbdfdcb66bd43026157e50341aad4a5102303007dae73ef5b723d8ed77",
+      "6a9601c36cd769d049933d749b3018e4fd0ee268126c5aedf1f6b661aeefd8bb"
+    ],
+    [
+      "46691ba4b64217e8f2523291209990179af36ee1356a8fd8f1fb1847517fc3c0",
+      "e71443e09aad94510e6fb483571078e51d7effaabda482b9bcb9fda0620c6fec",
+      "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb",
+      "4dce57ad0cb0ba1e387409dc16e78f66fc4c95a5af1a268db9885c5f02832787"
+    ],
+    [
+      "8493e216a46d819cbc2127568af9e55788afff7d990be00ff6109e1eb60461c1",
+      "18970e73b7afee90b88212d96b7e84e3db42ce9a6b42b22816130343ecee2657",
+      "f6afb17d10abb285e3f8563d41eb68e0550249b8ca2eb77dbf8de256f939ffe6",
+      "5f1af486eab442798002e108cfa7d8b4940122ebe27ee4fafbea45368023f412"
+    ],
+    [
+      "07aa4529cc4751d67c5c962a191070b0c00df5c472a0e7e30ba482e226cced9b",
+      "38441f1038aca874ffcc05b4b7b5ed941a799b3a285d365cf62a61a85d6dd80d",
+      "597847117b7f54b5550054ef104368656e154210fdfaf6546b4ff2ccab041372",
+      "3fdf9924e6bce5ddbc382eb86ec5a7f1b87820af21519edacae7ea530112d2ed"
+    ]
+  ],
+  "gap_sha256": "73d0bbf760668f9e7191e4243d48ff983f4dd5e2f477054ab8c517efa732e8c6",
+  "scope": "Archived independently evolved native trajectories; endpoint differences telescope in time and shared scalar bins but are not errors or causal collision derivatives."
+}
