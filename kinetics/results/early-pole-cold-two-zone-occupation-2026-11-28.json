@@ -1,0 +1,91 @@
+{
+  "q_cut": 1e-05,
+  "arbitrary_common_profile_range_strict_lower_bound": 1.1478225609264325e-11,
+  "two_zone_infimum_over_arbitrary_profile_lower_bound": 1.0000048763326226,
+  "two_zone_infimum_of_upper_minus_lower": 1.1478281580910312e-11,
+  "two_zone_limit": [
+    2.908930139244606e-09,
+    2.920408420825516e-09
+  ],
+  "strict_constructive_witness": [
+    2.908930039244118e-09,
+    2.920408520825516e-09
+  ],
+  "witness_range": 1.1478481581397998e-11,
+  "witness_d2_net_full_and_upper_by_mesh": [
+    [
+      -6.1439863102422e-23,
+      -1.889892598882055e-21
+    ],
+    [
+      -6.144000588617061e-23,
+      -1.88989259888198e-21
+    ]
+  ],
+  "witness_d4_net_full_and_upper_by_mesh": [
+    [
+      2.199245646106006e-17,
+      3.4293068152753453e-29
+    ],
+    [
+      2.1992456461058865e-17,
+      3.4293085644109394e-29
+    ]
+  ],
+  "other_constraints_limit_room": [
+    6.095653841875792e-10,
+    6.308028281622929e-10
+  ],
+  "retained_fields": [
+    "inverse",
+    "slope"
+  ],
+  "zones_by_mesh": {
+    "D2": [
+      [
+        [
+          1.787240806649873e-15,
+          6.143986314524847e-07
+        ],
+        [
+          1.0639471829934229e-20,
+          2.9960120882604866e-12
+        ]
+      ],
+      [
+        [
+          1.7872408066501736e-15,
+          6.14398631452539e-07
+        ],
+        [
+          1.0639471829934414e-20,
+          2.996012088260576e-12
+        ]
+      ]
+    ],
+    "D4": [
+      [
+        [
+          8.295859455160181e-17,
+          3.6078918914082575e-08
+        ],
+        [
+          1.0014976499946959e-21,
+          3.4293068149406344e-13
+        ]
+      ],
+      [
+        [
+          8.295859455159607e-17,
+          3.6078918914080186e-08
+        ],
+        [
+          1.0014976499945396e-21,
+          3.429306814940159e-13
+        ]
+      ]
+    ]
+  },
+  "neutral_corridor_receipt_sha256": "7cd300deb3d6dce567e6685c8360cbdb60e33cc3456fe8a0aad18f48e3f4837a",
+  "scope": "Common piecewise held photon diagnostic on two complete fixed-state meshes per chart. Neither a live transport solution nor a spatial convergence claim."
+}
