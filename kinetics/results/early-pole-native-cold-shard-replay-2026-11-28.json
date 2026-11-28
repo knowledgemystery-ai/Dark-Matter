@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "mesh": [
+        4,
+        6,
+        10,
+        18
+      ],
+      "full_panel_count": 108,
+      "counts_per_shard": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "topology_sha256": "c94d23e7225a1f75fa243a419876e36980670ab96fd4b74212858c168e85764b",
+      "manifest_sha256": "cdde87a71ee18e1bd5ae1a7b81cfd452c82160e28a8f3199039021255970241b",
+      "archive_uncompressed_and_join_sha256": "1ba7a65d76d2fb6e247e77ca4cec6d69a1b786fdb4d7a03e4134c9bcf9688a2b",
+      "byte_exact": true,
+      "resumed_full_shard_noop": 1
+    },
+    {
+      "mesh": [
+        8,
+        10,
+        16,
+        24
+      ],
+      "full_panel_count": 108,
+      "counts_per_shard": [
+        27,
+        27,
+        27,
+        27
+      ],
+      "topology_sha256": "cfa9a1e7d9b3fd3bf125f573639f836793da079c7538bd841fed4c2ed717de53",
+      "manifest_sha256": "9c24c9f55f9c2693ec7d51c7bade70e3c8a70da32874f8f7c578f434db0e378b",
+      "archive_uncompressed_and_join_sha256": "a3d9c5e7031af235bd7447a5d93984cd3792140abee3f293649fc09847afd9d5",
+      "byte_exact": true,
+      "resumed_full_shard_noop": 1
+    }
+  ],
+  "scope": "Independent resumption and arithmetic-free exact assembly on complete D4 ledgers; no intervention in running D8 calculations or new physical result."
+}

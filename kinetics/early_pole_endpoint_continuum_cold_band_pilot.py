@@ -53,7 +53,7 @@ def special_band_tags(card,span):
 
 
 def run(card,mesh,output,topology_only=False,mirror_azimuth=False,splits=None,patch_only=False,prior_splits=None,
-        *,span=COLD_SPAN):
+        *,span=COLD_SPAN,panel_indices=None):
     g=card['grid']
     bundle=load(g)[0]
     tags={}
@@ -103,6 +103,12 @@ def run(card,mesh,output,topology_only=False,mirror_azimuth=False,splits=None,pa
         return dict(expected,edges=v.tolist(),**({} if splits is None else
                     dict(recalculated_panel_indices=sorted(changed))))
     permitted=changed if patch_only else set(range(len(v)-1))
+    if panel_indices is not None:
+        if (patch_only or splits is not None or prior_splits is not None
+            or not panel_indices or any(type(i) is not int or i not in permitted for i in panel_indices)
+            or sorted(set(panel_indices))!=list(panel_indices)):
+            raise ArithmeticError('Native shard indices must be ordered, unique and inside the original topology')
+        permitted=set(panel_indices)
     done=set()
     if output.exists():
         for line in output.read_text().splitlines():
