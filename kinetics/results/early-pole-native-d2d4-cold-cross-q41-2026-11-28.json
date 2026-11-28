@@ -1,0 +1,285 @@
+{
+  "contract": {
+    "source_sha256": "af92247be91be5a17102ab532a5627fc74a9189af0af0ea3c81feeff729ea505",
+    "raw_native_states": [
+      {
+        "card_hash": "4dce57ad0cb0ba1e387409dc16e78f66fc4c95a5af1a268db9885c5f02832787",
+        "scalar_mass": 0.0008729364825319565,
+        "omega": 0.0023042221316844375,
+        "residue": 202.97270363749854,
+        "daughter_mass": 0.003
+      },
+      {
+        "card_hash": "5f1af486eab442798002e108cfa7d8b4940122ebe27ee4fafbea45368023f412",
+        "scalar_mass": 0.0008646785958445412,
+        "omega": 0.00230422458525677,
+        "residue": 202.97253062495787,
+        "daughter_mass": 0.003
+      }
+    ],
+    "q": 4.1e-06,
+    "k": 0.0015,
+    "angular_meshes": [
+      [
+        4,
+        10,
+        18
+      ],
+      [
+        8,
+        16,
+        24
+      ]
+    ]
+  },
+  "factors": [
+    "scalar_pole",
+    "photon_energy_and_residue",
+    "charged_distributions"
+  ],
+  "rows": [
+    {
+      "mask": [],
+      "rows": [
+        {
+          "raw_affine_coefficients": [
+            1.5897367294432192e-09,
+            4.638184341336162e-18,
+            1.589736724805034e-09
+          ],
+          "parent_threshold_at_cosine_zero": 18.12178523905541
+        },
+        {
+          "raw_affine_coefficients": [
+            1.5897367294436704e-09,
+            4.6381843413374496e-18,
+            1.589736724805486e-09
+          ],
+          "parent_threshold_at_cosine_zero": 18.12178523905541
+        }
+      ],
+      "angular_relative_error": 2.8421709430404007e-13
+    },
+    {
+      "mask": [
+        2
+      ],
+      "rows": [
+        {
+          "raw_affine_coefficients": [
+            1.589736725349132e-09,
+            4.638879881783595e-18,
+            1.589736720710251e-09
+          ],
+          "parent_threshold_at_cosine_zero": 18.12178523905541
+        },
+        {
+          "raw_affine_coefficients": [
+            1.5897367253493681e-09,
+            4.638879881783884e-18,
+            1.5897367207104896e-09
+          ],
+          "parent_threshold_at_cosine_zero": 18.12178523905541
+        }
+      ],
+      "angular_relative_error": 1.5010215292932116e-13
+    },
+    {
+      "mask": [
+        1
+      ],
+      "rows": [
+        {
+          "raw_affine_coefficients": [
+            1.5885392577354156e-09,
+            4.634398498677648e-18,
+            1.5885392531010173e-09
+          ],
+          "parent_threshold_at_cosine_zero": 18.122432187787567
+        },
+        {
+          "raw_affine_coefficients": [
+            1.5885392577353563e-09,
+            4.634398498677541e-18,
+            1.5885392531009578e-09
+          ],
+          "parent_threshold_at_cosine_zero": 18.122432187787567
+        }
+      ],
+      "angular_relative_error": 3.752553823233029e-14
+    },
+    {
+      "mask": [
+        1,
+        2
+      ],
+      "rows": [
+        {
+          "raw_affine_coefficients": [
+            1.5885392536449492e-09,
+            4.635094455021059e-18,
+            1.588539249009855e-09
+          ],
+          "parent_threshold_at_cosine_zero": 18.122432187787567
+        },
+        {
+          "raw_affine_coefficients": [
+            1.5885392536448082e-09,
+            4.635094455020642e-18,
+            1.588539249009714e-09
+          ],
+          "parent_threshold_at_cosine_zero": 18.122432187787567
+        }
+      ],
+      "angular_relative_error": 8.992806499463768e-14
+    },
+    {
+      "mask": [
+        0
+      ],
+      "rows": [
+        {
+          "raw_affine_coefficients": [
+            9.578406292693769e-11,
+            2.2082821381602696e-19,
+            9.578406270610949e-11
+          ],
+          "parent_threshold_at_cosine_zero": 20.59641696354804
+        },
+        {
+          "raw_affine_coefficients": [
+            9.578406292693562e-11,
+            2.2082821381602296e-19,
+            9.578406270610735e-11
+          ],
+          "parent_threshold_at_cosine_zero": 20.59641696354804
+        }
+      ],
+      "angular_relative_error": 2.2426505097428162e-14
+    },
+    {
+      "mask": [
+        0,
+        2
+      ],
+      "rows": [
+        {
+          "raw_affine_coefficients": [
+            9.578406275536886e-11,
+            2.2088200100111354e-19,
+            9.578406253448689e-11
+          ],
+          "parent_threshold_at_cosine_zero": 20.59641696354804
+        },
+        {
+          "raw_affine_coefficients": [
+            9.578406275535949e-11,
+            2.2088200100107873e-19,
+            9.57840625344775e-11
+          ],
+          "parent_threshold_at_cosine_zero": 20.59641696354804
+        }
+      ],
+      "angular_relative_error": 1.5765166949677223e-13
+    },
+    {
+      "mask": [
+        0,
+        1
+      ],
+      "rows": [
+        {
+          "raw_affine_coefficients": [
+            9.569482239825305e-11,
+            2.206043237741392e-19,
+            9.569482217764876e-11
+          ],
+          "parent_threshold_at_cosine_zero": 20.597252670403172
+        },
+        {
+          "raw_affine_coefficients": [
+            9.569482239826588e-11,
+            2.206043237741768e-19,
+            9.569482217766162e-11
+          ],
+          "parent_threshold_at_cosine_zero": 20.597252670403172
+        }
+      ],
+      "angular_relative_error": 1.7041923427996153e-13
+    },
+    {
+      "mask": [
+        0,
+        1,
+        2
+      ],
+      "rows": [
+        {
+          "raw_affine_coefficients": [
+            9.569482222689974e-11,
+            2.2065793041231273e-19,
+            9.569482200624185e-11
+          ],
+          "parent_threshold_at_cosine_zero": 20.597252670403172
+        },
+        {
+          "raw_affine_coefficients": [
+            9.569482222686896e-11,
+            2.2065793041224046e-19,
+            9.569482200621101e-11
+          ],
+          "parent_threshold_at_cosine_zero": 20.597252670403172
+        }
+      ],
+      "angular_relative_error": 3.275157922644212e-13
+    }
+  ],
+  "changes": {
+    "all_order_log": [
+      [
+        -2.809316680458814,
+        -3.0447455479106877,
+        -2.809316679846774
+      ],
+      [
+        -0.0008428271134969615,
+        -0.0009156282801979405,
+        -0.000842827113310444
+      ],
+      [
+        -2.183231965583824e-09,
+        0.00019658950522464616,
+        -2.1837311218556956e-09
+      ]
+    ],
+    "all_order_multipliers": [
+      [
+        0.0602461456989802,
+        0.04760842450952201,
+        0.06024614573585326
+      ],
+      [
+        0.9991575279655109,
+        0.9990847907794651,
+        0.9991575279656972
+      ],
+      [
+        0.9999999978167681,
+        1.0001966088302077,
+        0.9999999978162689
+      ]
+    ],
+    "total_log": [
+      -2.810159509755543,
+      -3.045464586685661,
+      -2.8101595091438156
+    ],
+    "total_multipliers": [
+      0.06019538987462255,
+      0.047574204510511725,
+      0.060195389911445726
+    ],
+    "max_two_mesh_log_allocation_defect": 2.723747334447413e-13
+  },
+  "scope": "Frozen D2/D4 point comparisons with mathematical crossed inputs; not trajectory attribution, whole-band convergence, or physical production."
+}
