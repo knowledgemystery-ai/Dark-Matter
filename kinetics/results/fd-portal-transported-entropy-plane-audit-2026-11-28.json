@@ -1,0 +1,31 @@
+{
+  "rows": [
+    {
+      "x": 0.61,
+      "replayed_fine_rates": [
+        -133.38479099890412,
+        -1.3417730149384157
+      ],
+      "entropy_sine_bound_for_computed_planes": 6.656870491515762e-05,
+      "rate_change_bound_for_computed_planes": 0.008900029099748035,
+      "verified_two_mesh_maximum_sign": -1
+    },
+    {
+      "x": 0.99,
+      "replayed_fine_rates": [
+        -0.34567359851978496,
+        0.02768502788851049
+      ],
+      "entropy_sine_bound_for_computed_planes": 0.0009247770913058166,
+      "rate_change_bound_for_computed_planes": 0.0008504661207751642,
+      "verified_two_mesh_maximum_sign": 1
+    }
+  ],
+  "input_sha256": [
+    "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470",
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "df2711165b5a001b0e3a6db3e146ea359ed1069a0e10b569b8facca196083fd5"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "Bounds the effect of the observed finite mesh plane difference, not the unknown remaining discretization error."
+}
