@@ -20,3 +20,5 @@ python -W error early_pole_endpoint_fine_d4_cold_subband_enclosure.py \
   results/early-pole-fine-d4-cold-continuum-ladder-2026-11-28.json \
   results/fine-d2-endpoint-continuum-cold-2.jsonl.gz results/fine-d4-endpoint-continuum-cold-2.jsonl.gz
 ```
+
+**Follow-up:** [Stored centered-energy moments](EARLY_POLE_NATIVE_COLD_SUBBAND_FROM_CENTERED_ENERGY.md) resolve the D2 sign in the central band at the same held occupation. The table above is the original support-only enclosure.
