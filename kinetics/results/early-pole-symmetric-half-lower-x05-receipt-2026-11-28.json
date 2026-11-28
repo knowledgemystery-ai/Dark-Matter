@@ -1,0 +1,134 @@
+{
+  "sign": -1,
+  "amplitude_ratio": 0.5,
+  "steps": 4096,
+  "setup": {
+    "source_charge_grid": 2,
+    "destination_charge_grid": 4,
+    "held_scalar_donor": 2,
+    "x_start": 0.04,
+    "x_end": 0.05,
+    "steps": 2048,
+    "scalar_pole": 0.0006769249203661136,
+    "total_energy_before_after": [
+      1.1456055490611692,
+      1.145605549061166
+    ],
+    "remap_errors": [
+      {
+        "max_cell_moment_relative_error": 3.963411049298494e-14,
+        "normalized_total_number_error": 1.6653345369377348e-15,
+        "normalized_total_true_energy_error": 1.5543122344752192e-15
+      },
+      {
+        "max_cell_moment_relative_error": 3.192904648491709e-14,
+        "normalized_total_number_error": 2.3314683517128287e-15,
+        "normalized_total_true_energy_error": 2.7755575615628914e-15
+      }
+    ],
+    "input_state_hashes": [
+      "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb",
+      "f6afb17d10abb285e3f8563d41eb68e0550249b8ca2eb77dbf8de256f939ffe6",
+      "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb"
+    ],
+    "source_sha256": "4038591a3b6befdd7b110deba151961e736e70d23c8d017da89316ffbe27d6b8",
+    "provenance": "4f43b885cde6de013e574ac3082927f71c20b0f5b3c39e602c45f2aee376984b"
+  },
+  "prior_and_source_hashes": [
+    "834026c3aadfd8f9519758c8847907e09cae1275270e63f83e644ae1af7af92c",
+    "cceb1bd76a08f4a3df06713b160ff6b7eb0b9dd09a449a18bbe0872b590a51fe",
+    "f7c7ae0975e057c3a6b3688d85a0d3628d092e3245a5e9da532ceb78620d4df9"
+  ],
+  "provenance": "baaf3670174d2a8ae58dcc79b87f9f2c6cfbf4364279963638b2cfee895298f4",
+  "initial_clock": {
+    "clock_net_forward_inverse": [
+      4.15941456923819,
+      5.515317925140662,
+      1.3559033559024731
+    ],
+    "scalar_mass": 0.0006769249203661136,
+    "clock_prefactor": 0.984078307125773,
+    "last_order_relative_drift": 1.0430559749252666e-09
+  },
+  "initial_nominal_clock": {
+    "clock_net_forward_inverse": [
+      4.112644429971546,
+      5.460592251383348,
+      1.3479478214118028
+    ],
+    "scalar_mass": 0.0006769249203661136,
+    "clock_prefactor": 0.984078307125773,
+    "last_order_relative_drift": 1.0799099392500011e-09
+  },
+  "checks": [
+    {
+      "x": 0.04113142377191559,
+      "scalar_yield": 0.00019093683987500353,
+      "pair_number_error": 1.3335686721571705e-17,
+      "continuity_residual": -1.2550101694772673e-13,
+      "max_charged": 0.5235685207298947,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.042294850537622566,
+      "scalar_yield": 0.00021015963708442245,
+      "pair_number_error": 3.7513395167998453e-17,
+      "continuity_residual": -2.8053577561285795e-13,
+      "max_charged": 0.5235681335033325,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04349118552081964,
+      "scalar_yield": 0.0002308823508256269,
+      "pair_number_error": 2.688821387764051e-17,
+      "continuity_residual": -4.602973343735724e-13,
+      "max_charged": 0.5235673025514833,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.044721359549995794,
+      "scalar_yield": 0.0002536086534665766,
+      "pair_number_error": 1.8648277366750676e-17,
+      "continuity_residual": -6.840381397161394e-13,
+      "max_charged": 0.5235662697775454,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04598632978267703,
+      "scalar_yield": 0.00027811267830404234,
+      "pair_number_error": 1.734723475976807e-17,
+      "continuity_residual": -9.433178996503915e-13,
+      "max_charged": 0.5235651757502817,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.047287080450158794,
+      "scalar_yield": 0.00030483780953289403,
+      "pair_number_error": 1.474514954580286e-17,
+      "continuity_residual": -1.2622010709295757e-12,
+      "max_charged": 0.5235640169030212,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04862462362330366,
+      "scalar_yield": 0.000333386448229106,
+      "pair_number_error": 6.678685382510707e-17,
+      "continuity_residual": -1.6276397344174888e-12,
+      "max_charged": 0.5235630354915195,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.05,
+      "scalar_yield": 0.0003643521687234522,
+      "pair_number_error": 2.7755575615628914e-17,
+      "continuity_residual": -2.0617303301889364e-12,
+      "max_charged": 0.5235622677935198,
+      "max_limited_extent": 0.0
+    }
+  ],
+  "final_cold": 0.01706089013683461,
+  "final_total": 0.01706107805474688,
+  "final_pole": 0.0008674471177509031,
+  "payload_sha256": "2916aead5602a64850f141044c7cd2fcae213a610f8cbb755bfbab948efe6816",
+  "scope": "Finite factor-of-two amplitude check for one moment-null shape direction, not a physical or asymptotic error bound."
+}
