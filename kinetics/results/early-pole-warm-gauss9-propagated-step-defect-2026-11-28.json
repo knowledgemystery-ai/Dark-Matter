@@ -1,0 +1,111 @@
+{
+  "chart": "G9",
+  "x_start": 0.04,
+  "local_log_interval": 0.00021791362433028297,
+  "propagation_x_start": 0.040008717494769155,
+  "x_end": 0.05,
+  "common_native_x05_mass": 0.0008731829968237441,
+  "fields": [
+    "count",
+    "pressure",
+    "warm_pressure"
+  ],
+  "before_after": [
+    {
+      "x": 0.040008717494769155,
+      "fine_minus_coarse": [
+        3.415696045054302e-07,
+        6.326262715706145e-10,
+        1.7510733822171863e-10
+      ],
+      "groups": {
+        "cold": {
+          "signed": [
+            3.415696017768382e-07,
+            4.5776991217684115e-10
+          ],
+          "absolute_share": [
+            0.9999999920206595,
+            0.7236025443991246
+          ]
+        },
+        "warm": {
+          "signed": [
+            2.725500215018291e-15,
+            1.7485626599253773e-10
+          ],
+          "absolute_share": [
+            7.979340606049121e-09,
+            0.27639745560087536
+          ]
+        }
+      },
+      "absolute_l1": [
+        3.415696045049255e-07,
+        6.326261781694345e-10
+      ]
+    },
+    {
+      "x": 0.05,
+      "fine_minus_coarse": [
+        5.21087774169438e-09,
+        -2.451719378389134e-10,
+        -2.501732487268612e-10
+      ],
+      "groups": {
+        "cold": {
+          "signed": [
+            5.210881529791996e-09,
+            4.602290497643501e-12
+          ],
+          "absolute_share": [
+            0.9999994428043787,
+            0.032224630234267894
+          ]
+        },
+        "warm": {
+          "signed": [
+            -3.721425459238218e-15,
+            -2.4977426555779677e-10
+          ],
+          "absolute_share": [
+            5.571956213285173e-07,
+            0.9677753697657321
+          ]
+        }
+      },
+      "absolute_l1": [
+        6.678849073446147e-09,
+        2.580911576807945e-10
+      ]
+    }
+  ],
+  "records": [
+    {
+      "initial_substeps": 1,
+      "first_interval": 0.04113926723008975,
+      "checkpoint_payload_sha256": "bf7a9b99905130d52ea34844ee43d187c5dc7ffa9950e4d91289739ca65f0f6d",
+      "max_continuity_residual": 1.1436727938654318e-10,
+      "max_pair_defect": 3.5561831257524545e-17
+    },
+    {
+      "initial_substeps": 2,
+      "first_interval": 0.04113926723008975,
+      "checkpoint_payload_sha256": "380b50b44d8ae00456a8c3cb11717f6ab05b96268be22f2e758ae24661029255",
+      "max_continuity_residual": 1.1436722189672299e-10,
+      "max_pair_defect": 3.5561831257524545e-17
+    }
+  ],
+  "input_sha256": [
+    "7a12c104a73bf18e65ce87c9b86a5b3a62c8e8c78ae66fa0b1afce9442b88340",
+    "4968d55695150e9c9c07182a2c7908cfa3a42509f7fc03b02dd6234df0d07fd2",
+    "3f1577f1dbdd3534b08e13c6a0c9b8e0a2d69764a4f2a3703518dfde7067dce0"
+  ],
+  "source_sha256": [
+    "6ad4905baa807812341354f94b5c1b2a47e8b5a9c54e3dbbf10a05ef401dd876",
+    "02df5a2b5330eb2bd2fd183a461210e5152d7670e9e5c4964c4b155e18309a7a",
+    "ca694051a580629300d1fd69a7e7abc6eefc7c1eba70465358f83cc30ae5e086",
+    "f41ca84f0a272422c5f4bf1623f51af86298611f015a03d6e058eee5db548f4a"
+  ],
+  "scope": "Controlled finite propagated first-step contrast only; not decomposition of whole-grid error or a physical endpoint."
+}
