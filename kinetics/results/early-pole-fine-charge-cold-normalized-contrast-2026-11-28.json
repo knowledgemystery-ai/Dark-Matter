@@ -1,0 +1,200 @@
+{
+  "q_band": [
+    1e-06,
+    1.5e-05
+  ],
+  "pairs": [
+    {
+      "charge_levels": [
+        1,
+        2
+      ],
+      "finer_mesh": {
+        "forward_number": {
+          "integral_ratio": 0.2017077044232077,
+          "strongest_cdf_cut": 3.3059994133202632e-06,
+          "guaranteed_cdf_gap": 0.008650832949149645,
+          "minimum_compatible_TV_bounds": [
+            0.00865083294542246,
+            0.008650832949178122
+          ],
+          "minimum_compatible_W1_q_bounds": [
+            1.3109089705864995e-10,
+            1.3109213288941825e-10
+          ],
+          "maximum_compatible_W1_q": 8.847057004371885e-07,
+          "exact_shared_inner_cuts": [
+            1.094958977489465e-06,
+            1.5825817619770524e-06,
+            2.287359695506477e-06,
+            3.3059994133202632e-06,
+            4.778274331905574e-06,
+            6.906203763665279e-06,
+            9.9817731491033e-06,
+            1e-05,
+            1.4426999059072134e-05
+          ]
+        },
+        "inverse_number": {
+          "integral_ratio": 0.17519075284139157,
+          "strongest_cdf_cut": 3.3059994133202632e-06,
+          "guaranteed_cdf_gap": 0.009170196718881113,
+          "minimum_compatible_TV_bounds": [
+            0.009170196715016843,
+            0.009170196718909618
+          ],
+          "minimum_compatible_W1_q_bounds": [
+            1.5318862438762348e-10,
+            1.531898591097576e-10
+          ],
+          "maximum_compatible_W1_q": 8.878503902527017e-07,
+          "exact_shared_inner_cuts": [
+            1.094958977489465e-06,
+            1.5825817619770524e-06,
+            2.287359695506477e-06,
+            3.3059994133202632e-06,
+            4.778274331905574e-06,
+            6.906203763665279e-06,
+            9.9817731491033e-06,
+            1e-05,
+            1.4426999059072134e-05
+          ]
+        },
+        "forward_excess": {
+          "integral_ratio": 0.20493282684493772,
+          "strongest_cdf_cut": 3.3059994133202632e-06,
+          "guaranteed_cdf_gap": 0.005508321179689454,
+          "minimum_compatible_TV_bounds": [
+            0.0055083211793872655,
+            0.00550832117971789
+          ],
+          "minimum_compatible_W1_q_bounds": [
+            4.711551002870573e-10,
+            4.711551201265151e-10
+          ],
+          "maximum_compatible_W1_q": 9.440233499010022e-07,
+          "exact_shared_inner_cuts": [
+            1.094958977489465e-06,
+            1.5825817619770524e-06,
+            2.287359695506477e-06,
+            3.3059994133202632e-06,
+            4.778274331905574e-06,
+            6.906203763665279e-06,
+            9.9817731491033e-06,
+            1e-05,
+            1.4426999059072134e-05
+          ]
+        }
+      },
+      "maximum_two_mesh_defects": {
+        "minimum_compatible_TV_bounds": 3.630429290524262e-14,
+        "minimum_compatible_W1_q_bounds": 2.3314085564807085e-21,
+        "maximum_compatible_W1_q": 1.2377268941753464e-19
+      }
+    },
+    {
+      "charge_levels": [
+        2,
+        4
+      ],
+      "finer_mesh": {
+        "forward_number": {
+          "integral_ratio": 0.058722601324565006,
+          "strongest_cdf_cut": 3.3059994133202632e-06,
+          "guaranteed_cdf_gap": 0.019785634173464267,
+          "minimum_compatible_TV_bounds": [
+            0.019785634165459087,
+            0.019785634188305035
+          ],
+          "minimum_compatible_W1_q_bounds": [
+            2.166963877345607e-09,
+            2.1669684218852034e-09
+          ],
+          "maximum_compatible_W1_q": 4.944166005048243e-07,
+          "exact_shared_inner_cuts": [
+            1.094958977489465e-06,
+            1.5825817619770524e-06,
+            2.287359695506477e-06,
+            3.3059994133202632e-06,
+            4.778274331905574e-06,
+            6.906203763665279e-06,
+            9.9817731491033e-06,
+            1e-05,
+            1.4426999059072134e-05
+          ]
+        },
+        "inverse_number": {
+          "integral_ratio": 0.04641741721863067,
+          "strongest_cdf_cut": 3.3059994133202632e-06,
+          "guaranteed_cdf_gap": 0.020862082376893215,
+          "minimum_compatible_TV_bounds": [
+            0.02086208236855991,
+            0.020862082390919023
+          ],
+          "minimum_compatible_W1_q_bounds": [
+            2.5936085243452035e-09,
+            2.593612904451073e-09
+          ],
+          "maximum_compatible_W1_q": 4.979407276145925e-07,
+          "exact_shared_inner_cuts": [
+            1.094958977489465e-06,
+            1.5825817619770524e-06,
+            2.287359695506477e-06,
+            3.3059994133202632e-06,
+            4.778274331905574e-06,
+            6.906203763665279e-06,
+            9.9817731491033e-06,
+            1e-05,
+            1.4426999059072134e-05
+          ]
+        },
+        "forward_excess": {
+          "integral_ratio": 0.06059254885219888,
+          "strongest_cdf_cut": 3.3059994133202632e-06,
+          "guaranteed_cdf_gap": 0.0122642076325752,
+          "minimum_compatible_TV_bounds": [
+            0.01226420763195557,
+            0.012264207695335538
+          ],
+          "minimum_compatible_W1_q_bounds": [
+            5.806827124345659e-09,
+            5.806844397105615e-09
+          ],
+          "maximum_compatible_W1_q": 4.882808347956915e-07,
+          "exact_shared_inner_cuts": [
+            1.094958977489465e-06,
+            1.5825817619770524e-06,
+            2.287359695506477e-06,
+            3.3059994133202632e-06,
+            4.778274331905574e-06,
+            6.906203763665279e-06,
+            9.9817731491033e-06,
+            1e-05,
+            1.4426999059072134e-05
+          ]
+        }
+      },
+      "maximum_two_mesh_defects": {
+        "minimum_compatible_TV_bounds": 1.432187701766452e-14,
+        "minimum_compatible_W1_q_bounds": 8.287522557168784e-21,
+        "maximum_compatible_W1_q": 5.3151317440207346e-20
+      }
+    }
+  ],
+  "input_raw_uncompressed_sha256": [
+    [
+      "47ab7e98310fda7765ed589905b244ef7982f4a585885c3da1fc6ae4d6c7d627",
+      "0fa995d49cd8dd5e713abddeb1e0fee6657937b96eff56b1a4478c079ddb3a5c"
+    ],
+    [
+      "487182a34aeb5c5ceb101c42f10e07ba4bf7b268f2d3ce65ba78203a1a830566",
+      "80b4a4f312e5be74daa03c82f423ccce6f3b7bc4f6ae81ee65546aa721e6e3d9"
+    ],
+    [
+      "1ba7a65d76d2fb6e247e77ca4cec6d69a1b786fdb4d7a03e4134c9bcf9688a2b",
+      "a3d9c5e7031af235bd7447a5d93984cd3792140abee3f293649fc09847afd9d5"
+    ]
+  ],
+  "input_ladder_sha256": "d2bec760bffcb4d62eaa95c877e43781225a6e382be6870482600757a8ecb4de",
+  "scope": "All normalized placements compatible with held positive native panels, not a physical shape error or magnitude-convergence statement."
+}
