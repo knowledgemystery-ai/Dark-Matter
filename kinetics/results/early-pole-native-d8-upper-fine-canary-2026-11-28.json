@@ -1,0 +1,80 @@
+{
+  "contract": {
+    "source_sha256": "e8a45574ecb71000f04882c0b30a84191df4d855fe993366999830d66d081dcd",
+    "exact_native_state_sha256": "3fdf9924e6bce5ddbc382eb86ec5a7f1b87820af21519edacae7ea530112d2ed",
+    "full_topology_sha256": "e949a131feb96f126d7650491bf15db6dd37e878d8afea55aeb34be319ccca73",
+    "real_pauli_method_sha256": "daf3226603b21046f16139e9c6fa844cb90e33eae1afd9f6d1edb54d4668ca57",
+    "exact_stock_row_sha256": "15484f59fa358e45ea0a6352a523dcfca4370c6c1c3a648451f1e9ace8f1435b",
+    "panel": 183,
+    "bounds": [
+      1.3269369822998557e-05,
+      1.3592223282582193e-05
+    ],
+    "mesh": [
+      8,
+      10,
+      16,
+      24
+    ]
+  },
+  "raw_stock": {
+    "grid": "fine",
+    "time_x": 0.05,
+    "scalar_mass": 0.0008606945751381399,
+    "omega": 0.002304225220983558,
+    "residue": 202.97248593622592,
+    "mesh": [
+      8,
+      10,
+      16,
+      24
+    ],
+    "total": 195,
+    "panel": 183,
+    "bounds": [
+      1.3269369822998557e-05,
+      1.3592223282582193e-05
+    ],
+    "coeff": [
+      [
+        1.0793077335178361e-14,
+        2.8876979712491604e-23,
+        1.0793077306301372e-14
+      ],
+      [
+        9.290674717695837e-18,
+        2.4857287513758334e-26,
+        9.290674692838543e-18
+      ],
+      [
+        1.131606261411526e-21,
+        3.027728842688204e-30,
+        1.1316062583837963e-21
+      ]
+    ]
+  },
+  "exact_real_pauli_mirror_coefficients": [
+    [
+      1.0793077335178353e-14,
+      2.88769797124916e-23,
+      1.0793077306301363e-14
+    ],
+    [
+      9.29067471769583e-18,
+      2.485728751375833e-26,
+      9.290674692838534e-18
+    ],
+    [
+      1.131606261411525e-21,
+      3.0277288426882038e-30,
+      1.131606258383795e-21
+    ]
+  ],
+  "maximum_algorithm_relative_difference": 1.1102230246251565e-15,
+  "selected_reference_point": 1.3344923953650561e-05,
+  "input_sha256": [
+    "9339f2abe2245acaa58cca77c4b37d6c99de76a4b3a96ea1df3c11dd91d830f9",
+    "92a0184d7f62f694512f2b58675ff68fb86f1bd4a9f22981c59881fc1ffbbe84"
+  ],
+  "scope": "One complete disjoint exact weighted upper panel, no upper-band rate or change to active central calculations."
+}
