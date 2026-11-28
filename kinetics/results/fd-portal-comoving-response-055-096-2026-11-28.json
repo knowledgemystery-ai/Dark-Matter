@@ -1,0 +1,88 @@
+{
+  "operator": "combined",
+  "interval": [
+    0.55,
+    0.96
+  ],
+  "fields": [
+    "comoving_number",
+    "comoving_dark_energy",
+    "comoving_total_energy"
+  ],
+  "initial_fixed_total_energy_columns": 2,
+  "ordered_response": [
+    [
+      1.0887141872019879,
+      -0.44085926176678336,
+      0.39962698737757407
+    ],
+    [
+      0.3991430462284208,
+      -0.16163354469011598,
+      0.5690698967436769
+    ],
+    [
+      -0.0010497627654969994,
+      0.0003973208822935973,
+      0.6877684048227636
+    ]
+  ],
+  "independent_perturbed_columns": [
+    [
+      1.0887142482868262,
+      -0.44085946127259135
+    ],
+    [
+      0.39914311810301806,
+      -0.1616337760962372
+    ],
+    [
+      -0.0010498372693401592,
+      0.0003976427029317442
+    ]
+  ],
+  "max_trajectory_archive_defects": [
+    4.471065517819284e-09,
+    4.402051834162535e-09
+  ],
+  "mesh_defects": [
+    1.854689256841624e-06,
+    4.199943836047382e-07
+  ],
+  "liouville_abs_defect": 9.038636505920294e-11,
+  "integrated_trace": -11.726476407910475,
+  "independent_perturbed_max_defect": 3.2182063814691336e-07,
+  "final_basis": [
+    1.0276675464799443,
+    0.700906632216243,
+    0.6951919665720687
+  ],
+  "fixed_total_initial_to_all_fractional_outputs": [
+    [
+      1.059403102619272,
+      -0.4289901566677401
+    ],
+    [
+      0.5694667847076065,
+      -0.2306063850174112
+    ],
+    [
+      -0.0015100329347493594,
+      0.0005715268607788322
+    ]
+  ],
+  "singular_values_fixed_total_to_all_fractions": [
+    1.2976293066478866,
+    3.773740801282044e-05
+  ],
+  "singular_values_fixed_total_to_dark_fractions": [
+    1.2976283027122437,
+    7.301461019144732e-06
+  ],
+  "input_sha256": [
+    "53920cf458a096b4abf38667e89d32e2cb7672e85552e0a2705063287babd9d4",
+    "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "Numerical finite-time memory test of the restricted direct combined Fermi\u2013Dirac history; not a physical stability or decoupling criterion."
+}

@@ -1,0 +1,112 @@
+{
+  "x_start": 0.55,
+  "x_bridge": 0.96,
+  "operator": "combined",
+  "fields": [
+    "comoving_number",
+    "comoving_dark_energy",
+    "comoving_total_energy"
+  ],
+  "rows": [
+    {
+      "x_end": 0.96,
+      "fixed_total_initial_to_all_fractions": [
+        [
+          1.059403102619272,
+          -0.4289901566677401
+        ],
+        [
+          0.5694667847076065,
+          -0.2306063850174112
+        ],
+        [
+          -0.0015100329347493594,
+          0.0005715268607788322
+        ]
+      ],
+      "independent_finite_perturbed_composition": [
+        [
+          1.0594031620595439,
+          -0.4289903508023205
+        ],
+        [
+          0.5694668872527872,
+          -0.23060671516997444
+        ],
+        [
+          -0.0015101401049221206,
+          0.000571989784192251
+        ]
+      ],
+      "output_gain_all": [
+        1.2976293066478866,
+        3.773740801282044e-05
+      ],
+      "output_gain_dark_only": [
+        1.2976283027122437,
+        7.301461019144732e-06
+      ],
+      "independent_gain_all": [
+        1.2976295233693251,
+        3.7388104319110596e-05
+      ],
+      "independent_gain_dark_only": [
+        1.2976285190941337,
+        7.462467273480662e-06
+      ]
+    },
+    {
+      "x_end": 1.2,
+      "fixed_total_initial_to_all_fractions": [
+        [
+          1.0159723851628286,
+          -0.4114052812998929
+        ],
+        [
+          0.534963470876767,
+          -0.2166371089035326
+        ],
+        [
+          -0.0025403716754031007,
+          0.0009891009769542926
+        ]
+      ],
+      "independent_finite_perturbed_composition": [
+        [
+          1.0159723861831234,
+          -0.41140541762302396
+        ],
+        [
+          0.5349634859309088,
+          -0.21663735032351464
+        ],
+        [
+          -0.0025402424729887045,
+          0.0009894651764991652
+        ]
+      ],
+      "output_gain_all": [
+        1.2387813267122625,
+        3.767609500498935e-05
+      ],
+      "output_gain_dark_only": [
+        1.2387783276072155,
+        8.494680641022678e-06
+      ],
+      "independent_gain_all": [
+        1.2387814215793982,
+        3.7331343413226396e-05
+      ],
+      "independent_gain_dark_only": [
+        1.238778422437317,
+        8.628986348631722e-06
+      ]
+    }
+  ],
+  "maximum_composed_column_defect": 3.6419954487268945e-07,
+  "input_sha256": [
+    "9238c07ebb43416179f2c0fe8c307200ee4df522a41b420e53d0bc965b575f00",
+    "531aabac4c967de1e0485645977b9102ffe80d65669624e009725bdbf1d0ab12"
+  ],
+  "scope": "Two ordered numerical tangent maps with shared fractional geometry; independent composition uses separately integrated local finite perturbed columns, not a global nonlinear sensitivity experiment or physical stability assertion."
+}
