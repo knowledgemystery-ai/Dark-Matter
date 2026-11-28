@@ -1,0 +1,131 @@
+{
+  "direction": 1,
+  "x_start": 0.04,
+  "x_end": 0.05,
+  "steps": 2048,
+  "initial_log_rate": {
+    "clock_net_forward_inverse": [
+      4.015076857941695,
+      5.345757901536363,
+      1.330681043594667
+    ],
+    "scalar_mass": 0.0006769249203661136,
+    "clock_prefactor": 0.984078307125773,
+    "last_order_relative_drift": 1.1585197245977952e-09
+  },
+  "nominal_initial_log_rate": {
+    "clock_net_forward_inverse": [
+      4.112644429971546,
+      5.460592251383348,
+      1.3479478214118028
+    ],
+    "scalar_mass": 0.0006769249203661136,
+    "clock_prefactor": 0.984078307125773,
+    "last_order_relative_drift": 1.0799099392500011e-09
+  },
+  "setup": {
+    "source_charge_grid": 2,
+    "destination_charge_grid": 4,
+    "held_scalar_donor": 2,
+    "x_start": 0.04,
+    "x_end": 0.05,
+    "steps": 2048,
+    "scalar_pole": 0.0006769249203661136,
+    "total_energy_before_after": [
+      1.1456055490611692,
+      1.145605549061166
+    ],
+    "remap_errors": [
+      {
+        "max_cell_moment_relative_error": 3.963411049298494e-14,
+        "normalized_total_number_error": 1.6653345369377348e-15,
+        "normalized_total_true_energy_error": 1.5543122344752192e-15
+      },
+      {
+        "max_cell_moment_relative_error": 3.192904648491709e-14,
+        "normalized_total_number_error": 2.3314683517128287e-15,
+        "normalized_total_true_energy_error": 2.7755575615628914e-15
+      }
+    ],
+    "input_state_hashes": [
+      "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb",
+      "f6afb17d10abb285e3f8563d41eb68e0550249b8ca2eb77dbf8de256f939ffe6",
+      "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb"
+    ],
+    "source_sha256": "4038591a3b6befdd7b110deba151961e736e70d23c8d017da89316ffbe27d6b8",
+    "provenance": "4f43b885cde6de013e574ac3082927f71c20b0f5b3c39e602c45f2aee376984b"
+  },
+  "declared_max_abs_occupation_shift": 0.024850781602464785,
+  "provenance": "e07dec28bfa7fc15606aa5496e33601f5163483eae7b519ad5fe20ccd1ecbd6e",
+  "checks": [
+    {
+      "x": 0.04113142377191559,
+      "scalar_yield": 0.00019085270149125946,
+      "pair_number_error": 5.421010862427522e-18,
+      "continuity_residual": -5.013582153330209e-13,
+      "max_charged": 0.5194827098447828,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.042294850537622566,
+      "scalar_yield": 0.0002100690678296947,
+      "pair_number_error": 3.686287386450715e-18,
+      "continuity_residual": -1.1262536466183056e-12,
+      "max_charged": 0.5194827098447828,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04349118552081964,
+      "scalar_yield": 0.0002308417149082301,
+      "pair_number_error": 1.3877787807814457e-17,
+      "continuity_residual": -1.8630625911637572e-12,
+      "max_charged": 0.5194827098447828,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.044721359549995794,
+      "scalar_yield": 0.0002536852205095695,
+      "pair_number_error": 3.252606517456513e-17,
+      "continuity_residual": -2.779082573876185e-12,
+      "max_charged": 0.5194827098447828,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04598632978267703,
+      "scalar_yield": 0.00027821430542200734,
+      "pair_number_error": 1.6479873021779667e-17,
+      "continuity_residual": -3.822987567248144e-12,
+      "max_charged": 0.5194827098447828,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.047287080450158794,
+      "scalar_yield": 0.0003047181988965823,
+      "pair_number_error": 3.2959746043559335e-17,
+      "continuity_residual": -5.088781602862174e-12,
+      "max_charged": 0.5194827098447828,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04862462362330366,
+      "scalar_yield": 0.00033338472755882996,
+      "pair_number_error": 3.729655473350135e-17,
+      "continuity_residual": -6.5971944704021346e-12,
+      "max_charged": 0.5194827098447828,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.05,
+      "scalar_yield": 0.000364369318943703,
+      "pair_number_error": 3.8163916471489756e-17,
+      "continuity_residual": -8.346453370567004e-12,
+      "max_charged": 0.5194827098447828,
+      "max_limited_extent": 0.0
+    }
+  ],
+  "payload_sha256": "ab65f4bcf590e1af4dfd52ff6815ea400fc1310e0fb2b564a998f4b908e5bedf",
+  "final_cold_count": 0.01706169327354203,
+  "final_whole_scalar_count": 0.017061881127354846,
+  "final_scalar_pole": 0.0008674607288375133,
+  "scope": "One prespecified pair of exactly symmetric feasible perturbations on a held remap, not a physical bound."
+}

@@ -1,0 +1,41 @@
+{
+  "results": {
+    "cold_count": {
+      "endpoint_low": 0.017057083488952175,
+      "nominal": 0.01706275346426293,
+      "endpoint_high": 0.01706169327354203,
+      "finite_odd": 2.30489229492703e-06,
+      "finite_even": -3.3650830158285516e-06,
+      "largest_change_over_nominal_grid_replacement": 0.017424275416064023
+    },
+    "whole_scalar_count": {
+      "endpoint_low": 0.0170572713491659,
+      "nominal": 0.0170629414003954,
+      "endpoint_high": 0.017061881127354846,
+      "finite_odd": 2.304889094473239e-06,
+      "finite_even": -3.3651621350258565e-06,
+      "largest_change_over_nominal_grid_replacement": 0.017424591179475406
+    },
+    "pole": {
+      "endpoint_low": 0.0008673825971884124,
+      "nominal": 0.0008674786965557916,
+      "endpoint_high": 0.0008674607288375133,
+      "finite_odd": 3.906582455041798e-08,
+      "finite_even": -5.7033542828809417e-08,
+      "largest_change_over_nominal_grid_replacement": 0.017508107785354898
+    }
+  },
+  "initial_clock": {
+    "low": 4.20482438830124,
+    "nominal": 4.112644429971546,
+    "high": 4.015076857941695,
+    "finite_odd": -0.09487376517977264,
+    "finite_even": -0.00269380685007814
+  },
+  "raw_receipt_sha256": [
+    "d18e11d0b9e383beae87b047242f7c08b510f38e9bc03fe424370fbfac18ec76",
+    "b7a332eb2b12ada0e3a03cfa07d464d101c73077e585360453aa467e9817f6d7"
+  ],
+  "nominal_remap_sha256": "7cd3a915d780df1a26b1b9ac1ed4c87c014dab5334964ef076b5acdf245c4800",
+  "scope": "Finite even and odd contrasts of truly equal and opposite moment-null displacements; not an extrapolation to infinitesimal variation or other charge histories."
+}

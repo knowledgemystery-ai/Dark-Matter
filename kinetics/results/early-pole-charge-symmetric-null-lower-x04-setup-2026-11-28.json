@@ -1,0 +1,59 @@
+{
+  "direction": -1,
+  "x_start": 0.04,
+  "x_end": 0.05,
+  "steps": 2048,
+  "initial_log_rate": {
+    "clock_net_forward_inverse": [
+      4.20482438830124,
+      5.568236760953183,
+      1.3634123726519423
+    ],
+    "scalar_mass": 0.0006769249203661136,
+    "clock_prefactor": 0.984078307125773,
+    "last_order_relative_drift": 1.0077177980960528e-09
+  },
+  "nominal_initial_log_rate": {
+    "clock_net_forward_inverse": [
+      4.112644429971546,
+      5.460592251383348,
+      1.3479478214118028
+    ],
+    "scalar_mass": 0.0006769249203661136,
+    "clock_prefactor": 0.984078307125773,
+    "last_order_relative_drift": 1.0799099392500011e-09
+  },
+  "setup": {
+    "source_charge_grid": 2,
+    "destination_charge_grid": 4,
+    "held_scalar_donor": 2,
+    "x_start": 0.04,
+    "x_end": 0.05,
+    "steps": 2048,
+    "scalar_pole": 0.0006769249203661136,
+    "total_energy_before_after": [
+      1.1456055490611692,
+      1.145605549061166
+    ],
+    "remap_errors": [
+      {
+        "max_cell_moment_relative_error": 3.963411049298494e-14,
+        "normalized_total_number_error": 1.6653345369377348e-15,
+        "normalized_total_true_energy_error": 1.5543122344752192e-15
+      },
+      {
+        "max_cell_moment_relative_error": 3.192904648491709e-14,
+        "normalized_total_number_error": 2.3314683517128287e-15,
+        "normalized_total_true_energy_error": 2.7755575615628914e-15
+      }
+    ],
+    "input_state_hashes": [
+      "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb",
+      "f6afb17d10abb285e3f8563d41eb68e0550249b8ca2eb77dbf8de256f939ffe6",
+      "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb"
+    ],
+    "source_sha256": "4038591a3b6befdd7b110deba151961e736e70d23c8d017da89316ffbe27d6b8",
+    "provenance": "4f43b885cde6de013e574ac3082927f71c20b0f5b3c39e602c45f2aee376984b"
+  },
+  "declared_max_abs_occupation_shift": 0.024850781602464785
+}
