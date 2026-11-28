@@ -1,0 +1,118 @@
+{
+  "archived_mass_interval": [
+    0.0006770053032736531,
+    0.0008731829968237441
+  ],
+  "mass_sha256": [
+    "b19f8f679ecd65d16817c0efe570d54544947ec1eb486a23f22b539f7ebc81b3",
+    "4968d55695150e9c9c07182a2c7908cfa3a42509f7fc03b02dd6234df0d07fd2"
+  ],
+  "input_sha256_uncompressed": {
+    "start_card": "7a12c104a73bf18e65ce87c9b86a5b3a62c8e8c78ae66fa0b1afce9442b88340",
+    "end_card": "e36e923ab72e69424f42abd98668e088a2272b070b4cb056dd044699ec4e3e1b",
+    "receipt": "f4265960f6ecb439d658fbf1f5b1c7a463759aca3b964c1cd483e322a609285f",
+    "one": "534dff8c19a0e94515172b783fec485d1a0e6f0d1640f585e414d100e3be6eee",
+    "two": "b184c602349d2e8660e55fa5dc0f3b2f05e196cccc5304e51b9cda46b40ff343",
+    "late-receipt": "334404b576e62982b575ec85a1452a0e80bbc3cf99b78a5897c7a53548cf911f",
+    "late-prefix": "0ab07fd5f1791d17fdc52cf0453f706dfa000f1d4d3572b05a2bf4e1c382444f",
+    "late-one": "74c3be969e20954cb7760a643da17b20d246da2ea827e4210efe13f0c24287f0",
+    "late-two": "7ab00d02efdc576df872ad4731e35ca78c7b010bb5f2a2006016d1f9361496aa",
+    "near-end-receipt": "dd58ea03a7502a26c117ca5a1852e58ebd76fc34dc4c6786c8a9340f23fb3bb7",
+    "near-end-prefix": "1cd5642532b17e162a21185a4257d7aa7371619bce9c9eb223a74167e0b3f7f1",
+    "near-end-one": "a30dffe90f68a2cdda877479e3bb393d123edbb6297b96343a7ce44f39364fcc",
+    "near-end-two": "072ddb007c27738074228f3ff603526be5d022e4e9a6a9b1a531dc1f890ca4f4"
+  },
+  "rows": [
+    {
+      "x_insertion": 0.04,
+      "x_measurement": 0.040008717494769155,
+      "boundary_signs": [
+        1,
+        1
+      ],
+      "complete": true,
+      "mass_panel_count": 1,
+      "max_depth": 0,
+      "difference_over_fixed_reference_pressure": [
+        6.300572749888138e-10,
+        7.619536329042722e-10
+      ]
+    },
+    {
+      "x_insertion": 0.04,
+      "x_measurement": 0.05,
+      "boundary_signs": [
+        -1,
+        -1
+      ],
+      "complete": true,
+      "mass_panel_count": 1,
+      "max_depth": 0,
+      "difference_over_fixed_reference_pressure": [
+        -2.4572948860336224e-10,
+        -2.4333855694309403e-10
+      ]
+    },
+    {
+      "x_insertion": 0.04598632978267703,
+      "x_measurement": 0.045996351922410354,
+      "boundary_signs": [
+        1,
+        1
+      ],
+      "complete": true,
+      "mass_panel_count": 1,
+      "max_depth": 0,
+      "difference_over_fixed_reference_pressure": [
+        6.009589628440384e-10,
+        7.26437923740862e-10
+      ]
+    },
+    {
+      "x_insertion": 0.04598632978267703,
+      "x_measurement": 0.05,
+      "boundary_signs": [
+        -1,
+        -1
+      ],
+      "complete": true,
+      "mass_panel_count": 1,
+      "max_depth": 0,
+      "difference_over_fixed_reference_pressure": [
+        -2.7031385443895956e-10,
+        -2.6004869620682195e-10
+      ]
+    },
+    {
+      "x_insertion": 0.04862462362330366,
+      "x_measurement": 0.04863522074585586,
+      "boundary_signs": [
+        1,
+        1
+      ],
+      "complete": true,
+      "mass_panel_count": 1,
+      "max_depth": 0,
+      "difference_over_fixed_reference_pressure": [
+        1.3143267592421685e-09,
+        1.593351218295351e-09
+      ]
+    },
+    {
+      "x_insertion": 0.04862462362330366,
+      "x_measurement": 0.05,
+      "boundary_signs": [
+        -1,
+        -1
+      ],
+      "complete": true,
+      "mass_panel_count": 1,
+      "max_depth": 0,
+      "difference_over_fixed_reference_pressure": [
+        -1.0911976724215687e-10,
+        -9.149910915481447e-11
+      ]
+    }
+  ],
+  "scope": "Continuous mass-weight check of the alternate nodal pressure for fixed archived occupations. No rerun at modified mass, no assertion about reconstructed pressure at other masses, and no physical uncertainty bound."
+}

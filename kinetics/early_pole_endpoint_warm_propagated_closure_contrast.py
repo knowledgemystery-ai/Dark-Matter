@@ -19,7 +19,7 @@ W='early-pole-warm-gauss9-'
 P='early-pole-fine-charge2-scalar4-gauss9warm-'
 
 
-def run(root):
+def run(root, observer=None):
     root=Path(root)
     card, acol=read(root/f'{P}x04-state-{DATE}.json.gz')
     endcard, bcol=read(root/f'{P}x05-state-{DATE}.json.gz')
@@ -76,6 +76,8 @@ def run(root):
             N=[chart.ds.w*np.asarray(Y)[:chart.ns] for Y in occ]
             nodal_total=fsum(N[0]*multiplier)
             nodal_relative=fsum((N[1]-N[0])*multiplier)/nodal_total
+            if observer is not None:
+                observer(x,x0,q,N[1]-N[0],nodal_total)
             M=partition(a,b)/u[1]
             groups={name:[fsum(z) for z in M[mask].T] for name,mask in
                     (('cold',repeat==1),('warm',repeat>1))}
