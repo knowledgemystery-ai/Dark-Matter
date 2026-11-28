@@ -1,0 +1,163 @@
+{
+  "by_mesh": [
+    {
+      "forward": {
+        "raw_mean_q_by_chart": [
+          [
+            1.2408306671436308e-05,
+            1.241043268241071e-05
+          ],
+          [
+            1.2680629591773022e-05,
+            1.268129245856512e-05
+          ]
+        ],
+        "native_weighted_mean_q_by_chart": [
+          [
+            3.90407918506525e-06,
+            3.921726216015319e-06
+          ],
+          [
+            3.958164563255298e-06,
+            3.960279854432933e-06
+          ]
+        ],
+        "raw_native_mean_difference": [
+          2.701969093623125e-07,
+          2.7298578712881166e-07
+        ],
+        "weighted_native_mean_difference": [
+          3.643834723997932e-08,
+          5.620066936768279e-08
+        ],
+        "occupation_only_mean_difference": [
+          1.3962280218686838e-08,
+          1.410234904152027e-08
+        ],
+        "kernel_only_mean_difference": [
+          2.2401518789108377e-08,
+          4.21728685583451e-08
+        ]
+      },
+      "inverse": {
+        "raw_mean_q_by_chart": [
+          [
+            1.2526070038414426e-05,
+            1.2528123884669097e-05
+          ],
+          [
+            1.2793041386183386e-05,
+            1.2793691160130855e-05
+          ]
+        ],
+        "native_weighted_mean_q_by_chart": [
+          [
+            3.914234932052132e-06,
+            3.931800489006616e-06
+          ],
+          [
+            3.9721364172096355e-06,
+            3.974240406848666e-06
+          ]
+        ],
+        "raw_native_mean_difference": [
+          2.6491750151428924e-07,
+          2.6762112171642857e-07
+        ],
+        "weighted_native_mean_difference": [
+          4.033592820301956e-08,
+          6.000547479653413e-08
+        ],
+        "occupation_only_mean_difference": [
+          1.4007268090208394e-08,
+          1.4144307371503032e-08
+        ],
+        "kernel_only_mean_difference": [
+          2.625613085760727e-08,
+          4.593369668023533e-08
+        ]
+      }
+    },
+    {
+      "forward": {
+        "raw_mean_q_by_chart": [
+          [
+            1.2408306671436208e-05,
+            1.2410432682410611e-05
+          ],
+          [
+            1.2680629591772948e-05,
+            1.2681292458565045e-05
+          ]
+        ],
+        "native_weighted_mean_q_by_chart": [
+          [
+            3.9040791850652705e-06,
+            3.921726216015339e-06
+          ],
+          [
+            3.958164563255328e-06,
+            3.9602798544329626e-06
+          ]
+        ],
+        "raw_native_mean_difference": [
+          2.701969093623362e-07,
+          2.729857871288371e-07
+        ],
+        "weighted_native_mean_difference": [
+          3.643834723998864e-08,
+          5.620066936769211e-08
+        ],
+        "occupation_only_mean_difference": [
+          1.3962280218686109e-08,
+          1.4102349041519535e-08
+        ],
+        "kernel_only_mean_difference": [
+          2.240151878911854e-08,
+          4.217286855835696e-08
+        ]
+      },
+      "inverse": {
+        "raw_mean_q_by_chart": [
+          [
+            1.252607003841443e-05,
+            1.25281238846691e-05
+          ],
+          [
+            1.2793041386183312e-05,
+            1.279369116013078e-05
+          ]
+        ],
+        "native_weighted_mean_q_by_chart": [
+          [
+            3.914234932063987e-06,
+            3.931800489018279e-06
+          ],
+          [
+            3.972136417209673e-06,
+            3.974240406848703e-06
+          ]
+        ],
+        "raw_native_mean_difference": [
+          2.649175015142113e-07,
+          2.6762112171635064e-07
+        ],
+        "weighted_native_mean_difference": [
+          4.033592819139403e-08,
+          6.000547478471548e-08
+        ],
+        "occupation_only_mean_difference": [
+          1.4007268090249435e-08,
+          1.4144307371543173e-08
+        ],
+        "kernel_only_mean_difference": [
+          2.6256130845941084e-08,
+          4.5933696668376866e-08
+        ]
+      }
+    }
+  ],
+  "maximum_mesh_difference": 1.1858461261560205e-17,
+  "exact_shape_receipt_sha256": "f1432e89137f7be232fc1b8773c7e4aaf57df4442a8b18e05ba7ca0fc593ef5e",
+  "scope": "Concavity bounds from complete held panel masses and centered energy, not an assumed intrapanel shape or physical convergence."
+}

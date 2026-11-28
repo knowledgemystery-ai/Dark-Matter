@@ -21,3 +21,5 @@ python -W error early_pole_native_cold_shape_attribution.py results \
   "results/early-pole-native-cold-bose-reweight-$d.json" |
   cmp - "results/early-pole-native-cold-shape-attribution-$d.json"
 ```
+
+**Follow-up:** [Including the saved centered-energy moments](EARLY_POLE_NATIVE_COLD_MEAN_FROM_CENTERED_ENERGY.md) resolves the positive full mean shift. The sign ambiguity above is specifically for support and number masses alone.
