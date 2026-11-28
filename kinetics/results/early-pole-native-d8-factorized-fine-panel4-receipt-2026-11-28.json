@@ -1,0 +1,53 @@
+{
+  "exact_native_state_sha256": "3fdf9924e6bce5ddbc382eb86ec5a7f1b87820af21519edacae7ea530112d2ed",
+  "stock_raw_row_sha256": "d2bee7bf06acca2a82e06654fbcdf07c57a45bf710f45d42491dcd96113f6580",
+  "factorized_row_sha256": "8796059d26f4bcf78a2c3e014ccd96722f7f3b938c518acd8bc8f4071c5eaa49",
+  "kept_native_mesh": [
+    8,
+    10,
+    16,
+    24
+  ],
+  "panel": 4,
+  "bounds": [
+    3.193617887418766e-06,
+    3.2870673906279787e-06
+  ],
+  "stock_coefficients": [
+    [
+      1.6743673531749774e-10,
+      3.255906596654872e-19,
+      1.6743673499190715e-10
+    ],
+    [
+      1.4411291149919486e-13,
+      2.802361013368545e-22,
+      1.4411291121895882e-13
+    ],
+    [
+      1.0217325839784853e-18,
+      1.9868471212736623e-27,
+      1.021732581991639e-18
+    ]
+  ],
+  "factorized_mirror_coefficients": [
+    [
+      1.674367353174976e-10,
+      3.255906596654871e-19,
+      1.67436734991907e-10
+    ],
+    [
+      1.4411291149919476e-13,
+      2.8023610133685436e-22,
+      1.4411291121895872e-13
+    ],
+    [
+      1.0217325839784843e-18,
+      1.986847121273661e-27,
+      1.0217325819916378e-18
+    ]
+  ],
+  "max_relative_difference": 1.1102230246251565e-15,
+  "method_fingerprint": "6aff68ffc7f684ca36839a1371a7d443171de42885290fb08f6966235e99c1a0",
+  "scope": "One already completed stock native panel independently compared to the optional kernel. No D8 total, no ongoing worker change."
+}
