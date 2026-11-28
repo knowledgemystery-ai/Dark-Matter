@@ -1,0 +1,117 @@
+{
+  "sign": 0,
+  "x_window": [
+    0.04,
+    0.05
+  ],
+  "steps": 4096,
+  "checks": [
+    {
+      "x": 0.04113142377191559,
+      "scalar_yield": 0.00019091144617616097,
+      "pair_number_error": 1.2034644114589099e-17,
+      "continuity_residual": -1.2517368614745799e-13,
+      "max_charged": 0.5153468663351837,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.042294850537622566,
+      "scalar_yield": 0.00021013566407326162,
+      "pair_number_error": 1.0191500421363742e-17,
+      "continuity_residual": -2.800536122720288e-13,
+      "max_charged": 0.5153464807418986,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04349118552081964,
+      "scalar_yield": 0.00023087811847418238,
+      "pair_number_error": 1.5612511283791264e-17,
+      "continuity_residual": -4.607210168656572e-13,
+      "max_charged": 0.5153456542828915,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.044721359549995794,
+      "scalar_yield": 0.0002536481746977855,
+      "pair_number_error": 1.8648277366750676e-17,
+      "continuity_residual": -6.852783789100363e-13,
+      "max_charged": 0.515344625594824,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04598632978267703,
+      "scalar_yield": 0.0002781671531117036,
+      "pair_number_error": 1.5612511283791264e-17,
+      "continuity_residual": -9.442876710598347e-13,
+      "max_charged": 0.5153435358949519,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.047287080450158794,
+      "scalar_yield": 0.0003048223913188582,
+      "pair_number_error": 1.8214596497756474e-17,
+      "continuity_residual": -1.2611498217268702e-12,
+      "max_charged": 0.5153423816304898,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04862462362330366,
+      "scalar_yield": 0.00033341296037781216,
+      "pair_number_error": 2.2551405187698492e-17,
+      "continuity_residual": -1.62890630617165e-12,
+      "max_charged": 0.5153414047327115,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.05,
+      "scalar_yield": 0.00036439548154241315,
+      "pair_number_error": 3.122502256758253e-17,
+      "continuity_residual": -2.0622398238948417e-12,
+      "max_charged": 0.5153406400614333,
+      "max_limited_extent": 0.0
+    }
+  ],
+  "final_cold": 0.01706291827562251,
+  "final_total": 0.017063106211701873,
+  "final_pole": 0.0008674814895883813,
+  "setup": {
+    "source_charge_grid": 2,
+    "destination_charge_grid": 4,
+    "held_scalar_donor": 2,
+    "x_start": 0.04,
+    "x_end": 0.05,
+    "steps": 2048,
+    "scalar_pole": 0.0006769249203661136,
+    "total_energy_before_after": [
+      1.1456055490611692,
+      1.145605549061166
+    ],
+    "remap_errors": [
+      {
+        "max_cell_moment_relative_error": 3.963411049298494e-14,
+        "normalized_total_number_error": 1.6653345369377348e-15,
+        "normalized_total_true_energy_error": 1.5543122344752192e-15
+      },
+      {
+        "max_cell_moment_relative_error": 3.192904648491709e-14,
+        "normalized_total_number_error": 2.3314683517128287e-15,
+        "normalized_total_true_energy_error": 2.7755575615628914e-15
+      }
+    ],
+    "input_state_hashes": [
+      "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb",
+      "f6afb17d10abb285e3f8563d41eb68e0550249b8ca2eb77dbf8de256f939ffe6",
+      "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb"
+    ],
+    "source_sha256": "4038591a3b6befdd7b110deba151961e736e70d23c8d017da89316ffbe27d6b8",
+    "provenance": "4f43b885cde6de013e574ac3082927f71c20b0f5b3c39e602c45f2aee376984b"
+  },
+  "provenance": "e0082df11234b65ee451e9d16bd7408df785ce9bb1296542f353ac00e76fb1b1",
+  "source_hashes": [
+    "c58498853dbbb2fb6d40f3e1cebd3180c7398b72a6cbfe5ae01b5e19dea224c3",
+    "9495d9a4452cf4edcfad538f6dc015f9801909809ae10dd77720a44d692a6b7b",
+    "f7c7ae0975e057c3a6b3688d85a0d3628d092e3245a5e9da532ceb78620d4df9"
+  ],
+  "complete_payload_sha256": "2baf452017ca376661ae67f09a16291fdebdfa80d3ed14325fd5f2fda19acfda",
+  "scope": "Exact 4096-step time refinement of this finite symmetric charge family, not evidence of spatial convergence."
+}
