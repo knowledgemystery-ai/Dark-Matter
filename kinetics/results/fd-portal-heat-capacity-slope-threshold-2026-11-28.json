@@ -1,0 +1,196 @@
+{
+  "rows": [
+    {
+      "x": 0.61,
+      "actual_heat_capacity_log_slope": 3.279254799787399,
+      "relative_visible_temperature_rate": -0.9224620632582502,
+      "spaces": {
+        "full": {
+          "rate_at_cubic_slope": [
+            -133.6970219693056,
+            -1.346601887786885,
+            -0.22794047240764995
+          ],
+          "critical_slope_above_three": 3.2649483703778626,
+          "independent_bisection_slope": 3.264948370377859,
+          "rate_at_archive_minus_threshold": 0.014306429409536303,
+          "rate_at_archived_slope": [
+            -133.68454068467605,
+            -1.3417752265261438,
+            0.012353540488673874
+          ],
+          "coarser_quadrature_critical_slope": 3.2649483704282636,
+          "quadrature_threshold_abs_difference": 5.0401016693513156e-11
+        },
+        "fixed_total_now": {
+          "rate_at_cubic_slope": [
+            -133.69664168841348,
+            -1.3457741074596257
+          ],
+          "critical_slope_above_three": 94.15474812890783,
+          "independent_bisection_slope": 94.15474812890596,
+          "rate_at_archive_minus_threshold": -90.87549332912043,
+          "rate_at_archived_slope": [
+            -133.6843225642424,
+            -1.3417749298843233
+          ],
+          "coarser_quadrature_critical_slope": 94.15474816771435,
+          "quadrature_threshold_abs_difference": 3.8806518887213315e-08
+        },
+        "carried_fixed_total_initial": {
+          "rate_at_cubic_slope": [
+            -133.40294678605989,
+            -1.3458224795742377
+          ],
+          "critical_slope_above_three": 91.80449051905654,
+          "independent_bisection_slope": 91.80449051905654,
+          "rate_at_archive_minus_threshold": -88.52523571926915,
+          "rate_at_archived_slope": [
+            -133.38479099890412,
+            -1.3417730149384157
+          ],
+          "coarser_quadrature_critical_slope": 91.80449055743385,
+          "quadrature_threshold_abs_difference": 3.837730844225007e-08
+        }
+      }
+    },
+    {
+      "x": 0.99,
+      "actual_heat_capacity_log_slope": 3.425155476298411,
+      "relative_visible_temperature_rate": -0.8900793459524025,
+      "spaces": {
+        "full": {
+          "rate_at_cubic_slope": [
+            -0.91294574072224,
+            -0.31971047870014574,
+            -0.284567950036851
+          ],
+          "critical_slope_above_three": 3.372563191414833,
+          "independent_bisection_slope": 3.3725631914148333,
+          "rate_at_archive_minus_threshold": 0.052592284883578255,
+          "rate_at_archived_slope": [
+            -0.8759737843310178,
+            -0.3064989438972486,
+            0.04367066704080114
+          ],
+          "coarser_quadrature_critical_slope": 3.372563191366722,
+          "quadrature_threshold_abs_difference": 4.8110848638316384e-11
+        },
+        "fixed_total_now": {
+          "rate_at_cubic_slope": [
+            -0.8975470928949236,
+            -0.3078341126678167
+          ],
+          "critical_slope_above_three": 17.874260619677827,
+          "independent_bisection_slope": 17.874260619677827,
+          "rate_at_archive_minus_threshold": -14.449105143379416,
+          "rate_at_archived_slope": [
+            -0.8758970133603761,
+            -0.30642663236657525
+          ],
+          "coarser_quadrature_critical_slope": 17.87426061096181,
+          "quadrature_threshold_abs_difference": 8.7160181294621e-09
+        },
+        "carried_fixed_total_initial": {
+          "rate_at_cubic_slope": [
+            -0.40797659701770195,
+            -0.2853628346866475
+          ],
+          "critical_slope_above_three": 3.392861743046335,
+          "independent_bisection_slope": 3.392861743046335,
+          "rate_at_archive_minus_threshold": 0.03229373325207607,
+          "rate_at_archived_slope": [
+            -0.34567359851978496,
+            0.02768502788851049
+          ],
+          "coarser_quadrature_critical_slope": 3.3928617428863133,
+          "quadrature_threshold_abs_difference": 1.60021773609742e-10
+        }
+      }
+    }
+  ],
+  "knot_full_space_probes": [
+    {
+      "x": 0.9901808643642274,
+      "T": 0.35952559984606386,
+      "actual_heat_capacity_log_slope": 3.4263803529417722,
+      "rate_at_cubic_slope": [
+        -0.9118140831827296,
+        -0.31950700137778887,
+        -0.28448187310975287
+      ],
+      "critical_slope_above_three": 3.372535600886173,
+      "independent_bisection_slope": 3.372535600886173,
+      "rate_at_archive_minus_threshold": 0.053844752055599354,
+      "rate_at_archived_slope": [
+        -0.8747513421098299,
+        -0.3062513207283459,
+        0.04471510816670652
+      ]
+    },
+    {
+      "x": 0.9903408643642273,
+      "T": 0.35947440193808955,
+      "actual_heat_capacity_log_slope": 3.3668989627174684,
+      "rate_at_cubic_slope": [
+        -0.9108168684752062,
+        -0.31933135193765644,
+        -0.2844110377071823
+      ],
+      "critical_slope_above_three": 3.372525063580312,
+      "independent_bisection_slope": 3.372525063580312,
+      "rate_at_archive_minus_threshold": -0.005626100862843764,
+      "rate_at_archived_slope": [
+        -0.8771589513679615,
+        -0.3061756924223126,
+        -0.004651811196759492
+      ]
+    },
+    {
+      "x": 0.9902358643642273,
+      "T": 0.35950799976606096,
+      "actual_heat_capacity_log_slope": 3.4267527648627225,
+      "rate_at_cubic_slope": [
+        -0.9114705571475828,
+        -0.31944522617916454,
+        -0.28445555992539684
+      ],
+      "critical_slope_above_three": 3.3725270745113773,
+      "independent_bisection_slope": 3.3725270745113773,
+      "rate_at_archive_minus_threshold": 0.05422569035134517,
+      "rate_at_archived_slope": [
+        -0.8743802517688247,
+        -0.30617608146968733,
+        0.0450328176005256
+      ]
+    },
+    {
+      "x": 0.9902858643642274,
+      "T": 0.3594920004081561,
+      "actual_heat_capacity_log_slope": 3.3670963296366714,
+      "rate_at_cubic_slope": [
+        -0.9111589269770992,
+        -0.3193903283257874,
+        -0.28443341822897195
+      ],
+      "critical_slope_above_three": 3.372523760901702,
+      "independent_bisection_slope": 3.372523760901702,
+      "rate_at_archive_minus_threshold": -0.005427431265030425,
+      "rate_at_archived_slope": [
+        -0.8774967466547627,
+        -0.3062496944294441,
+        -0.004487616024085493
+      ]
+    }
+  ],
+  "input_sha256": [
+    "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470",
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "e7b313c2e41d08b5e508a84c51a78d134e24a0f1edd4bfc058caa5144effeb36",
+    "79f68a73c357e25a741738f7070645142c81ba6f6256e87f4d4072db3c2c9594",
+    "df2711165b5a001b0e3a6db3e146ea359ed1069a0e10b569b8facca196083fd5",
+    "df35282232e9b8a3cb6b2ce11cc910a300fe95eb75c87fccd9f205eb7bf5ef09"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "Algebraic rank-one derivative substitution at held states and held tangent planes; not an EOS alternative, physical stability criterion, or unobserved time guarantee."
+}
