@@ -1,0 +1,104 @@
+{
+  "charge_donor": 4,
+  "scalar_donor": 2,
+  "start": 0.04,
+  "end": 0.05,
+  "steps": 2048,
+  "native_start_scalar_yield": 0.00017037524475185667,
+  "crossed_start_scalar_yield": 0.00017314776855665727,
+  "native_endpoint_scalar_yield": 0.0003608747909373992,
+  "fixed_native_start_energy_clock": [
+    0.0006732922927763724,
+    1.145605558892101,
+    0.984078306992388
+  ],
+  "crossed_start_energy_clock": [
+    0.0006769249203661136,
+    1.1456056465158855,
+    0.9840783058035173
+  ],
+  "canonical_input_states_sha256": [
+    "f6afb17d10abb285e3f8563d41eb68e0550249b8ca2eb77dbf8de256f939ffe6",
+    "5f1af486eab442798002e108cfa7d8b4940122ebe27ee4fafbea45368023f412",
+    "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb",
+    "4dce57ad0cb0ba1e387409dc16e78f66fc4c95a5af1a268db9885c5f02832787"
+  ],
+  "source_sha256": [
+    "a85ec4d4d8952dd8264a63f8b55edf6a39c7b01cb150c3dfbbbf292984d440d8",
+    "ca694051a580629300d1fd69a7e7abc6eefc7c1eba70465358f83cc30ae5e086",
+    "f41ca84f0a272422c5f4bf1623f51af86298611f015a03d6e058eee5db548f4a"
+  ],
+  "terminal_history_budget_sha256": "c79e08170244540426b3b0a4098037a6747a27696123c5ace3636b125627fc01",
+  "provenance": "976aff40d646a7f9bcdca00cba177d5b8c7d6e25770b321cbf42667ceddd224e",
+  "endpoint_cold_count": 0.01697933293149819,
+  "endpoint_scalar_count": 0.01697952099237123,
+  "endpoint_scalar_pole": 0.0008660626652727498,
+  "complete_checkpoint_payload_sha256": "95f16d7653740d6a42af3976e0616be87ccf115e821437143dedf5f0228a3b7e",
+  "checks": [
+    {
+      "x": 0.04113142377191559,
+      "scalar_yield": 0.00018939908789618228,
+      "pair_number_error": 5.312590645178972e-18,
+      "continuity_residual": -4.528379353354456e-13,
+      "max_charged": 0.4986789993216633,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.042294850537622566,
+      "scalar_yield": 0.00020860123567983856,
+      "pair_number_error": 9.75781955236954e-18,
+      "continuity_residual": -1.078300744864185e-12,
+      "max_charged": 0.4986789993216633,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04349118552081964,
+      "scalar_yield": 0.0002293897935671414,
+      "pair_number_error": 1.0408340855860843e-17,
+      "continuity_residual": -1.814456300052586e-12,
+      "max_charged": 0.4986789993216633,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.044721359549995794,
+      "scalar_yield": 0.00025213463059974885,
+      "pair_number_error": 9.974659986866641e-18,
+      "continuity_residual": -2.723660178145272e-12,
+      "max_charged": 0.4986789993216633,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04598632978267703,
+      "scalar_yield": 0.0002764466935816311,
+      "pair_number_error": 7.806255641895632e-18,
+      "continuity_residual": -3.760983434137732e-12,
+      "max_charged": 0.4986789993216633,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.047287080450158794,
+      "scalar_yield": 0.00030317186548988254,
+      "pair_number_error": 2.949029909160572e-17,
+      "continuity_residual": -5.043833135442294e-12,
+      "max_charged": 0.4986789993216633,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04862462362330366,
+      "scalar_yield": 0.00033187225977058084,
+      "pair_number_error": 3.2959746043559335e-17,
+      "continuity_residual": -6.545364768305133e-12,
+      "max_charged": 0.4986789993216633,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.05,
+      "scalar_yield": 0.0003626104562445614,
+      "pair_number_error": 1.9081958235744878e-17,
+      "continuity_residual": -8.288228881426357e-12,
+      "max_charged": 0.4986789993216633,
+      "max_limited_extent": 0.0
+    }
+  ],
+  "scope": "One actual crossed scalar/charged restart at x=.04 for this numerical model, not a unique decomposition of the whole earlier history."
+}

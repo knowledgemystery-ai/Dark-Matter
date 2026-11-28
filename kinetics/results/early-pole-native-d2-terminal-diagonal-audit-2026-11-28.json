@@ -1,0 +1,11 @@
+{
+  "charge": 2,
+  "native_exact_input_hashes": [
+    "efb19ee095928680bf741fbd327c9e78c02efc48ba02c7c584007a19692be2eb",
+    "4dce57ad0cb0ba1e387409dc16e78f66fc4c95a5af1a268db9885c5f02832787"
+  ],
+  "endpoint_bitwise_equal": true,
+  "maximum_occupation_absolute_defect": 0.0,
+  "integrated_count_absolute_defect": 0.0,
+  "maximum_continuity_residual": 6.715423437600107e-12
+}

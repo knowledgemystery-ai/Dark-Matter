@@ -1,0 +1,48 @@
+{
+  "x": [
+    0.04,
+    0.05
+  ],
+  "source_gap_sha256": "73d0bbf760668f9e7191e4243d48ff983f4dd5e2f477054ab8c517efa732e8c6",
+  "crossed_case_receipt_sha256": [
+    "98d3d9c06cf8682ce7dcd5bdab1bf9957fd91571d2c9a1f8432fabbe07a1f66e",
+    "19f7d282214303edf88ebd60c77705f8ec9a2628f4e9d06b2a6789cf1623e8d9"
+  ],
+  "crossed_state_payload_sha256": [
+    "573f15dc629ddbf0d2dbb65a67790348b5d144a3049fbb63f675d1762b9504bd",
+    "95f16d7653740d6a42af3976e0616be87ccf115e821437143dedf5f0228a3b7e"
+  ],
+  "quantities": {
+    "cold_count": {
+      "native_D2": 0.01738683681771368,
+      "charge_D2_scalar_D4": 0.017289949896017166,
+      "charge_D4_scalar_D2": 0.01697933293149819,
+      "native_D4": 0.01689805740507695,
+      "net_diagonal_change": -0.000488779412636732,
+      "average_charge_replacement": -0.0003996981885778534,
+      "average_scalar_replacement": -8.908122405887862e-05,
+      "factorial_interaction": 1.5611395275273027e-05
+    },
+    "whole_scalar_count": {
+      "native_D2": 0.017387023215895026,
+      "charge_D2_scalar_D4": 0.01729013789990924,
+      "charge_D4_scalar_D2": 0.01697952099237123,
+      "native_D4": 0.01689824709358764,
+      "net_diagonal_change": -0.0004887761223073862,
+      "average_charge_replacement": -0.0003996965149226997,
+      "average_scalar_replacement": -8.907960738468654e-05,
+      "factorial_interaction": 1.561141720219511e-05
+    },
+    "pole": {
+      "native_D2": 0.0008729364825319565,
+      "charge_D2_scalar_D4": 0.0008713120116521291,
+      "charge_D4_scalar_D2": 0.0008660626652727498,
+      "native_D4": 0.0008646785958445412,
+      "net_diagonal_change": -8.257886687415344e-06,
+      "average_charge_replacement": -6.753616533397328e-06,
+      "average_scalar_replacement": -1.5042701540180165e-06,
+      "factorial_interaction": 2.4040145161878523e-07
+    }
+  },
+  "scope": "Conditional two-factor crossed terminal calculation; does not decompose earlier physical production or constrain convergence."
+}
