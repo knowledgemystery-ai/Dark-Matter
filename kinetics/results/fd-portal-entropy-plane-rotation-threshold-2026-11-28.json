@@ -1,0 +1,58 @@
+{
+  "rows": [
+    {
+      "x": 0.61,
+      "threshold_cone_distance": {
+        "spectral_rates": [
+          -133.6845406846752,
+          -1.3417752265261569,
+          0.012353540488670899
+        ],
+        "degrees_interval": [
+          84.49111912037387,
+          84.49180546779742
+        ],
+        "sample_minimal_abs_normal_dot": 0.9953824801769241,
+        "sampling_slack_in_dot": 1.1499151584519231e-06,
+        "angular_samples": 262144
+      },
+      "carried_vs_current_plane_entropy_metric_angle_degrees": 2.7875309996732565,
+      "carried_vs_current_plane_coordinate_angle_degrees": 1.262634468696151,
+      "actual_carried_plane_rates": [
+        -133.38479099890324,
+        -1.3417730149384266
+      ]
+    },
+    {
+      "x": 0.99,
+      "threshold_cone_distance": {
+        "spectral_rates": [
+          -0.8759737843310136,
+          -0.3064989438972491,
+          0.04367066704080111
+        ],
+        "degrees_interval": [
+          68.48639590664737,
+          68.48710268409954
+        ],
+        "sample_minimal_abs_normal_dot": 0.9303350447544456,
+        "sampling_slack_in_dot": 4.523664368971758e-06,
+        "angular_samples": 262144
+      },
+      "carried_vs_current_plane_entropy_metric_angle_degrees": 82.7280261122018,
+      "carried_vs_current_plane_coordinate_angle_degrees": 78.45617412660332,
+      "actual_carried_plane_rates": [
+        -0.3456735985197873,
+        0.027685027888486202
+      ]
+    }
+  ],
+  "input_sha256": [
+    "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470",
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "e7b313c2e41d08b5e508a84c51a78d134e24a0f1edd4bfc058caa5144effeb36",
+    "df2711165b5a001b0e3a6db3e146ea359ed1069a0e10b569b8facca196083fd5"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "Local geometry for two held exact numerical FD rate forms; no time interpolation, physical stability, or coordinate-plane equivalence inferred."
+}
