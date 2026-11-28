@@ -1,0 +1,57 @@
+{
+  "projected_tangent_maximum": 0.02768502788851049,
+  "x_start": 0.55,
+  "x_probe": 0.99,
+  "fixed_total_initial_unit_fractional_direction": [
+    0.3753111818198231,
+    0.9268988708597113,
+    0.0
+  ],
+  "expected_tangent_fractional_output": [
+    -2.4791721761307832e-05,
+    -2.185151755942996e-05,
+    -3.69492337544042e-05
+  ],
+  "rows": [
+    {
+      "epsilon": 0.0002,
+      "squared_norm_rate": 0.027683853928189228,
+      "dark_and_total_fractional_response": [
+        -2.4792856216315268e-05,
+        -2.1851322191690673e-05,
+        -3.694791445770373e-05
+      ],
+      "finite_vs_tangent_absolute": 1.3192967004708382e-09,
+      "pair_midpoint_vs_control_fractional_defect": 1.2242407088081109e-10
+    },
+    {
+      "epsilon": 0.0001,
+      "squared_norm_rate": 0.02768387362587302,
+      "dark_and_total_fractional_response": [
+        -2.479289470326674e-05,
+        -2.1851335564684558e-05,
+        -3.694792549153269e-05
+      ],
+      "finite_vs_tangent_absolute": 1.3082628715096567e-09,
+      "pair_midpoint_vs_control_fractional_defect": 1.9068124856858049e-10
+    },
+    {
+      "epsilon": 5e-05,
+      "squared_norm_rate": 0.027683973359041256,
+      "dark_and_total_fractional_response": [
+        -2.4792906191024748e-05,
+        -2.1851341058447954e-05,
+        -3.694791993606682e-05
+      ],
+      "finite_vs_tangent_absolute": 1.3138183373802466e-09,
+      "pair_midpoint_vs_control_fractional_defect": 1.0175205122919806e-10
+    }
+  ],
+  "input_sha256": [
+    "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470",
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "df2711165b5a001b0e3a6db3e146ea359ed1069a0e10b569b8facca196083fd5"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "Finite signed probes with one original EOS and small perturbations. No physical stability or EOS robustness claim."
+}
