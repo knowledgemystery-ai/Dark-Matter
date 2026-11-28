@@ -1,0 +1,62 @@
+{
+  "chart": 9,
+  "x": 0.04,
+  "fields": [
+    "number",
+    "pressure"
+  ],
+  "signed": [
+    -6.635442903464158e-05,
+    3.4130924430893964e-07
+  ],
+  "absolute": [
+    6.635450018756572e-05,
+    5.693473157492377e-07
+  ],
+  "groups": {
+    "cold": {
+      "signed": [
+        -6.63544380782257e-05,
+        -1.1396471064728595e-07
+      ],
+      "absolute_share": [
+        0.9999998637080517,
+        0.2003581252383639
+      ]
+    },
+    "warm": {
+      "signed": [
+        9.043584108832156e-12,
+        4.552739549562256e-07
+      ],
+      "absolute_share": [
+        1.3629194829692725e-07,
+        0.7996418747616361
+      ]
+    }
+  },
+  "largest_cells": [
+    {
+      "q": [
+        3.3059994133202632e-06,
+        3.6248901419464983e-06
+      ],
+      "signed": -1.6793276952519705e-05
+    },
+    {
+      "q": [
+        0.6284300306709397,
+        0.9082914754476046
+      ],
+      "signed": 2.0145774803491053e-07
+    }
+  ],
+  "input_sha256": [
+    "7a12c104a73bf18e65ce87c9b86a5b3a62c8e8c78ae66fa0b1afce9442b88340",
+    "87db80a23a7acf9fcb126fef8ae020df96e4d9140ecd09534d264c9ee8ed07b5",
+    "40cb7ab8f61d0d6daf39106deadc0f514d16777fb36043cb4da7ef59d00b1118",
+    "a35d9a88e841a5a6537c4d5379835597dd900cb5cf52f167c7236b899198dbda",
+    "2c9af408153044cade329b91fc32ac3bb5235114dbf7714d4cadcefd511c03b9"
+  ],
+  "scope": "Actual shifted 1024 against fixed uniform 4096 endpoint, not asymptotic numerical error."
+}

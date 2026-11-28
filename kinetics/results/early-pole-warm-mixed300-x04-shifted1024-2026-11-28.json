@@ -1,0 +1,109 @@
+{
+  "x_start": 0.02,
+  "x_end": 0.04,
+  "steps": 1024,
+  "exponent": 1.2,
+  "relative_min_max_step": [
+    0.5825369489800832,
+    1.9312437468804073
+  ],
+  "fields": [
+    "count",
+    "pressure",
+    "warm_pressure"
+  ],
+  "rows": [
+    "uniform1024",
+    "uniform2048",
+    "shifted1024"
+  ],
+  "relative_to_uniform4096": [
+    [
+      -0.0001593825830675799,
+      3.751695574205627e-07,
+      6.492352031539639e-07
+    ],
+    [
+      -3.1715695198553107e-05,
+      7.946359237287481e-08,
+      1.346776947741546e-07
+    ],
+    [
+      -6.635442894120658e-05,
+      3.368637575551503e-07,
+      4.51661852141072e-07
+    ]
+  ],
+  "shifted_error_over_uniform1024": [
+    0.41632170632516097,
+    0.8978973663834035,
+    0.6956829357787643
+  ],
+  "checks": [
+    {
+      "x": 0.023169249129804413,
+      "scalar_yield": 1.966910358596062e-05,
+      "pair_number_error": 8.944667923005412e-18,
+      "continuity_residual": -1.5155621728982953e-12,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.026048544993419416,
+      "scalar_yield": 3.2531789608342284e-05,
+      "pair_number_error": 1.431146867680866e-17,
+      "continuity_residual": -4.051508386188106e-12,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.028711623260154112,
+      "scalar_yield": 4.865346790191062e-05,
+      "pair_number_error": 6.7220534694101275e-18,
+      "continuity_residual": -7.542722231578067e-12,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.031205047454559712,
+      "scalar_yield": 6.79427900357108e-05,
+      "pair_number_error": 1.3444106938820255e-17,
+      "continuity_residual": -1.2275299720654938e-11,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.03356051549820293,
+      "scalar_yield": 9.050857614656624e-05,
+      "pair_number_error": 2.862293735361732e-17,
+      "continuity_residual": -1.824353123810237e-11,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.03580079447730948,
+      "scalar_yield": 0.00011558281026145844,
+      "pair_number_error": 1.8214596497756474e-17,
+      "continuity_residual": -2.49526385746315e-11,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.037942909750542195,
+      "scalar_yield": 0.00014311097039948947,
+      "pair_number_error": 2.2551405187698492e-17,
+      "continuity_residual": -3.259110527027015e-11,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04,
+      "scalar_yield": 0.00017320322927431026,
+      "pair_number_error": 2.42861286636753e-17,
+      "continuity_residual": -4.117372577865791e-11,
+      "max_limited_extent": 0.0
+    }
+  ],
+  "input_sha256": [
+    "82968e9307c997c040a48fab7f05b70fac0ad81b683ae275864810d883945693",
+    "246d94f3143ff61b64f5eedc861a07a1d8b0093961d2afbc4af7502f2152e821",
+    "19614e23d37fa47a1fe481c4d51bacd27f18d5a57e32ddf67411529a553ba99b",
+    "00f22b6d97eac4517db24564c15f0ef99a990a013768a5164b0cac791a55a723"
+  ],
+  "checkpoint_payload_sha256": "a3b34ca4c736e401b6ce353357f9bdc02b089ac91f66e8c31721fac516918507",
+  "provenance": "7d40153960a6c6d809a5e40b1ba5f88bec1933be1fa395baf3f28db9eeabf146",
+  "scope": "Same fixed start and mixed300 chart, one prescribed time grid, no retuning after seeing the migrated result or claim of true continuum error."
+}
