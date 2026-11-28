@@ -1,0 +1,136 @@
+{
+  "planned": {
+    "span": [
+      1.0689130895889085e-05,
+      1.5e-05
+    ],
+    "panel_indices": [
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      189,
+      190,
+      191,
+      192,
+      193,
+      194
+    ],
+    "candidate_interval_count": 19110,
+    "intervals_meeting_coverage": 286,
+    "coverage": [
+      [
+        0.800915823624088,
+        0.8262499892596066
+      ],
+      [
+        0.8176240285733205,
+        0.8418847350226373
+      ],
+      [
+        0.8009158236240692,
+        0.8262499892595944
+      ],
+      [
+        0.8176240285733027,
+        0.841884735022626
+      ],
+      [
+        0.8411312138741389,
+        0.8440356911526041
+      ],
+      [
+        0.8567402009469581,
+        0.8594929495931682
+      ],
+      [
+        0.8411312138741278,
+        0.8440356911525938
+      ],
+      [
+        0.856740200946947,
+        0.8594929495931577
+      ]
+    ],
+    "minimum_candidate_gap_to_target_observed": 4.8803193037350034e-05
+  },
+  "coverage_labels": [
+    [
+      2,
+      1,
+      "forward"
+    ],
+    [
+      2,
+      1,
+      "inverse"
+    ],
+    [
+      2,
+      2,
+      "forward"
+    ],
+    [
+      2,
+      2,
+      "inverse"
+    ],
+    [
+      4,
+      1,
+      "forward"
+    ],
+    [
+      4,
+      1,
+      "inverse"
+    ],
+    [
+      4,
+      2,
+      "forward"
+    ],
+    [
+      4,
+      2,
+      "inverse"
+    ]
+  ],
+  "full_d8_panel_count": 195,
+  "planned_scalar_bins": [
+    26,
+    27
+  ],
+  "d8_state_sha256_uncompressed": "3fdf9924e6bce5ddbc382eb86ec5a7f1b87820af21519edacae7ea530112d2ed",
+  "topology_sha256": "e949a131feb96f126d7650491bf15db6dd37e878d8afea55aeb34be319ccca73",
+  "previous_target_sha256": "489313717be458b228b32ca5086be87b6b10720dfbdb47f01398d06a32d8be0c",
+  "scope": "Topology-only future raw-span plan based on complete D2/D4 coverage; no new D8 kernels, no predicted D8 coverage, and no modification of the separate live central gate."
+}
