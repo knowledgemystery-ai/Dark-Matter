@@ -1,0 +1,96 @@
+{
+  "x": 0.05,
+  "cold_q_upper": 1e-05,
+  "states_sha256_uncompressed": [
+    "6a9601c36cd769d049933d749b3018e4fd0ee268126c5aedf1f6b661aeefd8bb",
+    "4dce57ad0cb0ba1e387409dc16e78f66fc4c95a5af1a268db9885c5f02832787",
+    "5f1af486eab442798002e108cfa7d8b4940122ebe27ee4fafbea45368023f412",
+    "3fdf9924e6bce5ddbc382eb86ec5a7f1b87820af21519edacae7ea530112d2ed"
+  ],
+  "rows": [
+    {
+      "levels": [
+        1,
+        2
+      ],
+      "pole_old": 0.0008784877046665521,
+      "pole_full_new": 0.0008729364825319565,
+      "pole_cold_count_substitution": 0.0008729364554877253,
+      "cold_count_ratio": 0.9811623400940902,
+      "fractional_observed_pole_change": -0.00631906639684006,
+      "relative_error_of_pole_shift": 4.871761670685296e-06,
+      "derivative_upper_bound_for_shift_error": 7.307597483192481e-06,
+      "relative_fixed_mass_gap_terms": {
+        "cold_count": -0.018837635795644025,
+        "cold_shape": -2.586534032264735e-08,
+        "outside_cold": 1.168943749048993e-07,
+        "total": -0.01883754476660953
+      }
+    },
+    {
+      "levels": [
+        2,
+        4
+      ],
+      "pole_old": 0.0008729364825319565,
+      "pole_full_new": 0.0008646785958445412,
+      "pole_cold_count_substitution": 0.0008646785626828022,
+      "cold_count_ratio": 0.9718879622693206,
+      "fractional_observed_pole_change": -0.009459894107602541,
+      "relative_error_of_pole_shift": 4.015765804871431e-06,
+      "derivative_upper_bound_for_shift_error": 6.023610596689409e-06,
+      "relative_fixed_mass_gap_terms": {
+        "cold_count": -0.028111996675564924,
+        "cold_shape": -6.345975176823453e-08,
+        "outside_cold": 1.7468135734241556e-07,
+        "total": -0.028111885453959307
+      }
+    },
+    {
+      "levels": [
+        4,
+        8
+      ],
+      "pole_old": 0.0008646785958445412,
+      "pole_full_new": 0.0008606945751381399,
+      "pole_cold_count_substitution": 0.0008606945645141726,
+      "cold_count_ratio": 0.9862410695329425,
+      "fractional_observed_pole_change": -0.0046075162789360425,
+      "relative_error_of_pole_shift": 2.6666446015492504e-06,
+      "derivative_upper_bound_for_shift_error": 3.999941237939282e-06,
+      "relative_fixed_mass_gap_terms": {
+        "cold_count": -0.013758907394074144,
+        "cold_shape": -6.031116104709751e-08,
+        "outside_cold": 9.65546017917691e-08,
+        "total": -0.013758871150633328
+      }
+    }
+  ],
+  "states": [
+    {
+      "charge_level": 1,
+      "pole": 0.0008784877046665521,
+      "cold_count": 0.017720652441721663,
+      "whole_scalar_count": 0.017720836509507062
+    },
+    {
+      "charge_level": 2,
+      "pole": 0.0008729364825319565,
+      "cold_count": 0.01738683681771368,
+      "whole_scalar_count": 0.017387023215895026
+    },
+    {
+      "charge_level": 4,
+      "pole": 0.0008646785958445412,
+      "cold_count": 0.01689805740507695,
+      "whole_scalar_count": 0.01689824709358764
+    },
+    {
+      "charge_level": 8,
+      "pole": 0.0008606945751381399,
+      "cold_count": 0.01666555820821215,
+      "whole_scalar_count": 0.016665749649030955
+    }
+  ],
+  "scope": "Fixed-snapshot Hartree root attribution on the exact shared scalar chart; not an attribution of time evolution, a source-freeze error, or grid convergence."
+}
