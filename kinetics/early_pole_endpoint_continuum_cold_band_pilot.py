@@ -53,7 +53,7 @@ def special_band_tags(card,span):
 
 
 def run(card,mesh,output,topology_only=False,mirror_azimuth=False,splits=None,patch_only=False,prior_splits=None,
-        *,span=COLD_SPAN,panel_indices=None,factorized_transverse=False):
+        *,span=COLD_SPAN,panel_indices=None,factorized_transverse=False,real_pauli_transverse=False):
     g=card['grid']
     bundle=load(g)[0]
     tags={}
@@ -82,11 +82,18 @@ def run(card,mesh,output,topology_only=False,mirror_azimuth=False,splits=None,pa
     span=tuple(span)
     tags.update(special_band_tags(card,span))
     kernel=None
-    if factorized_transverse:
+    if factorized_transverse and real_pauli_transverse:
+        raise ArithmeticError('Choose exactly one optional transverse arithmetic implementation')
+    if factorized_transverse or real_pauli_transverse:
         if span!=D8_CENTRAL_COLD_BAND:
-            raise ArithmeticError('Optional factorized runner is initially restricted to the verified native D8 central band')
-        from finite_mass_qed_transverse_factorized_spinor_reference import transverse_pair as kernel
-        tags['factorized_transverse_sha256']=hashlib.sha256(Path(kernel.__code__.co_filename).read_bytes()).hexdigest()
+            raise ArithmeticError('Optional runner is initially restricted to the verified native D8 central band')
+        if factorized_transverse:
+            from finite_mass_qed_transverse_factorized_spinor_reference import transverse_pair as kernel
+            tag='factorized_transverse_sha256'
+        else:
+            from finite_mass_qed_transverse_real_pauli_reference import transverse_real_pauli as kernel
+            tag='real_pauli_transverse_sha256'
+        tags[tag]=hashlib.sha256(Path(kernel.__code__.co_filename).read_bytes()).hexdigest()
     if d.ds.ed[0]>span[0] or d.ds.ed[-1]<span[1]:
         raise ArithmeticError('Missing retained scalar occupation support')
     u,v=[q_knots(bundle,C,k,omega,m,span,s) for s in (49,89)]
@@ -120,7 +127,7 @@ def run(card,mesh,output,topology_only=False,mirror_azimuth=False,splits=None,pa
         for line in output.read_text().splitlines():
             r=json.loads(line)
             j=r['panel']
-            if j not in permitted or j in done or r['bounds']!=v[j:j+2].tolist() or r.get('mirror_azimuth',False)!=mirror_azimuth or r.get('factorized_transverse_sha256')!=expected.get('factorized_transverse_sha256') or any(r[k]!=a for k,a in expected.items()):
+            if j not in permitted or j in done or r['bounds']!=v[j:j+2].tolist() or r.get('mirror_azimuth',False)!=mirror_azimuth or any(r.get(k)!=expected.get(k) for k in ('factorized_transverse_sha256','real_pauli_transverse_sha256')) or any(r[k]!=a for k,a in expected.items()):
                 raise ArithmeticError('Changed endpoint or mesh in resume')
             done.add(j)
     with output.open('a',encoding='utf-8',buffering=1) as f:
@@ -157,7 +164,9 @@ if __name__=='__main__':
     band=p.add_mutually_exclusive_group()
     band.add_argument('--first-sideband',action='store_true')
     band.add_argument('--d8-central-cold-band',action='store_true')
-    p.add_argument('--factorized-transverse',action='store_true')
+    method=p.add_mutually_exclusive_group()
+    method.add_argument('--factorized-transverse',action='store_true')
+    method.add_argument('--real-pauli-transverse',action='store_true')
     o=p.parse_args()
     if o.output is None and not o.topology_only:
         p.error('output is required except in topology-only mode')
@@ -165,6 +174,6 @@ if __name__=='__main__':
     prior=None if o.prior_split_plan is None else json.loads(o.prior_split_plan.read_text())['targeted_parent_panel_splits']
     result=run(json.loads(o.state.read_text()),o.mesh,o.output,o.topology_only,o.mirror_azimuth,splits,o.patch_only,prior_splits=prior,
                span=FIRST_SIDE_BAND if o.first_sideband else D8_CENTRAL_COLD_BAND if o.d8_central_cold_band else COLD_SPAN,
-               factorized_transverse=o.factorized_transverse)
+               factorized_transverse=o.factorized_transverse,real_pauli_transverse=o.real_pauli_transverse)
     if result is not None:
         print(json.dumps(result,indent=2,allow_nan=False))

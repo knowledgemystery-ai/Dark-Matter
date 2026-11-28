@@ -1,0 +1,37 @@
+{
+  "charge_level": 8,
+  "q": 4.35e-06,
+  "k": 0.0015,
+  "mesh": [
+    8,
+    16,
+    24
+  ],
+  "mirror_azimuth": true,
+  "physical_native_state_sha256_uncompressed": "3fdf9924e6bce5ddbc382eb86ec5a7f1b87820af21519edacae7ea530112d2ed",
+  "photonic_pole": 0.002304225220983558,
+  "scalar_mass": 0.0008606945751381399,
+  "complex_and_real_affine_results": [
+    [
+      2.0237463092599647e-11,
+      4.087993410739839e-20,
+      2.0237463051719702e-11
+    ],
+    [
+      2.023746309259961e-11,
+      4.0879934107398316e-20,
+      2.0237463051719676e-11
+    ]
+  ],
+  "unchanged_support": [
+    560,
+    560,
+    0
+  ],
+  "relative_max_difference": 1.7763568394002505e-15,
+  "wall_seconds_complex_real": [
+    15.34646729999804,
+    7.395370705999085
+  ],
+  "scope": "Same nodes and azimuth mirror, two algebraic spin sums; not a quadrature, cold band, or physics claim."
+}
