@@ -1,0 +1,132 @@
+{
+  "edges": [
+    1e-06,
+    3e-06,
+    5e-06,
+    8e-06,
+    1e-05,
+    1.5e-05
+  ],
+  "held_occupation": 2.586253803697513e-09,
+  "bands": [
+    {
+      "net_box": [
+        -2.105567972428363e-17,
+        -2.1055679724267108e-17
+      ],
+      "neutral_box": [
+        2.8458734160494182e-09,
+        2.845873416049631e-09
+      ],
+      "sign": -1,
+      "max_relative_paired_component_difference": 3.26183524634871e-13
+    },
+    {
+      "net_box": [
+        -1.7119264091303737e-16,
+        -1.7119264091259415e-16
+      ],
+      "neutral_box": [
+        2.9153637154091594e-09,
+        2.9153637154100465e-09
+      ],
+      "sign": -1,
+      "max_relative_paired_component_difference": 1.3622214467545746e-11
+    },
+    {
+      "net_box": [
+        -5.939979502128843e-18,
+        -5.9399795021199835e-18
+      ],
+      "neutral_box": [
+        3.041885580620828e-09,
+        3.041885580621565e-09
+      ],
+      "sign": -1,
+      "max_relative_paired_component_difference": 2.4646951146678475e-13
+    },
+    {
+      "net_box": [
+        -6.170893020568326e-20,
+        -6.170893020562468e-20
+      ],
+      "neutral_box": [
+        3.2628982507209374e-09,
+        3.2628982507216583e-09
+      ],
+      "sign": -1,
+      "max_relative_paired_component_difference": 2.313704783318826e-13
+    },
+    {
+      "net_box": [
+        -2.891024170747548e-21,
+        -2.8910241707460384e-21
+      ],
+      "neutral_box": [
+        3.5512112489875394e-09,
+        3.5512112489881225e-09
+      ],
+      "sign": -1,
+      "max_relative_paired_component_difference": 2.6711965972481266e-13
+    }
+  ],
+  "mesh_runs": [
+    {
+      "mesh": [
+        4,
+        6,
+        10,
+        18
+      ],
+      "counts": [
+        8,
+        10,
+        10,
+        7,
+        17
+      ],
+      "parent_componentwise_reclosure": [
+        1.1335377081422848e-13,
+        9.880984919163893e-14
+      ],
+      "full_patched_moment_change_relative": 1.0014211682118912e-13,
+      "patch_sha256": "717240781fc445fae3d9d42fe10ea4affab73e2253f6b0796e6b4651090ea454",
+      "signed_net_by_band": [
+        -2.1055679724274235e-17,
+        -1.7119264091273893e-16,
+        -5.9399795021243015e-18,
+        -6.170893020565382e-20,
+        -2.891024170746817e-21
+      ]
+    },
+    {
+      "mesh": [
+        8,
+        10,
+        16,
+        24
+      ],
+      "counts": [
+        8,
+        10,
+        10,
+        7,
+        17
+      ],
+      "parent_componentwise_reclosure": [
+        5.739853037312059e-14,
+        5.773159728050814e-15
+      ],
+      "full_patched_moment_change_relative": 2.3314683517128287e-15,
+      "patch_sha256": "24b9b6c3067058c6b4290549363a0fe7e28faa06cb3b9887d43e9aeb045f3405",
+      "signed_net_by_band": [
+        -2.1055679724276503e-17,
+        -1.7119264091289256e-16,
+        -5.939979502124523e-18,
+        -6.170893020565411e-20,
+        -2.8910241707467704e-21
+      ]
+    }
+  ],
+  "scope": "Identical five-band geometry as held D4. Neither a physical photon population nor a rigorous quadrature error."
+}
