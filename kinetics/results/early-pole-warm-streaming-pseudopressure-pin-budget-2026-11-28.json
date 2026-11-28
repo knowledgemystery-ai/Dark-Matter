@@ -1,0 +1,1139 @@
+{
+  "x": 0.05,
+  "formal_mass": 0.0008731829968237441,
+  "warm_grid_subintervals": 1536,
+  "rows": [
+    {
+      "A": 1.0,
+      "phase": 194.03111139410183,
+      "nodal_G9_minus_G8": 4.624256672025595e-10,
+      "n_warm_cells": 22,
+      "constructive_required_at_least": 0,
+      "outer_sufficient_at_most": 0,
+      "worst_margin_no_pins": [
+        4.623954188812794e-10,
+        4.623904307145524e-10
+      ],
+      "guaranteed_margin_at_sufficient_pins": 4.623904307145524e-10,
+      "outer_prioritized_pins": [],
+      "constructive_loss_rank": [],
+      "cells": [
+        {
+          "cell": 123,
+          "q_bounds": [
+            0.010929632120873948,
+            0.0157969721379631
+          ],
+          "constructive_opposite_loss": 1.70067322398275e-14,
+          "bounded_opposite_loss": 1.8799074741612033e-14
+        },
+        {
+          "cell": 124,
+          "q_bounds": [
+            0.0157969721379631,
+            0.022831905590947655
+          ],
+          "constructive_opposite_loss": 6.420795991001654e-15,
+          "bounded_opposite_loss": 7.514532763388147e-15
+        },
+        {
+          "cell": 125,
+          "q_bounds": [
+            0.022831905590947655,
+            0.03299973617483147
+          ],
+          "constructive_opposite_loss": 2.8071230649054905e-15,
+          "bounded_opposite_loss": 3.5175436135159713e-15
+        },
+        {
+          "cell": 126,
+          "q_bounds": [
+            0.03299973617483147,
+            0.04769565042526447
+          ],
+          "constructive_opposite_loss": 1.505062165501608e-15,
+          "bounded_opposite_loss": 1.9789303273898327e-15
+        },
+        {
+          "cell": 127,
+          "q_bounds": [
+            0.04769565042526447,
+            0.06893615929039024
+          ],
+          "constructive_opposite_loss": 9.132779911607403e-16,
+          "bounded_opposite_loss": 1.232502580245139e-15
+        },
+        {
+          "cell": 128,
+          "q_bounds": [
+            0.06893615929039024,
+            0.09963579520015942
+          ],
+          "constructive_opposite_loss": 5.864677455776464e-16,
+          "bounded_opposite_loss": 8.016264490975331e-16
+        },
+        {
+          "cell": 129,
+          "q_bounds": [
+            0.09963579520015942,
+            0.1
+          ],
+          "constructive_opposite_loss": 0.0,
+          "bounded_opposite_loss": 8.395883217413231e-23
+        },
+        {
+          "cell": 130,
+          "q_bounds": [
+            0.1,
+            0.1440070318299848
+          ],
+          "constructive_opposite_loss": 3.6477802098773505e-16,
+          "bounded_opposite_loss": 5.033178828077012e-16
+        },
+        {
+          "cell": 131,
+          "q_bounds": [
+            0.1440070318299848,
+            0.20813830185046825
+          ],
+          "constructive_opposite_loss": 2.5160716651494966e-16,
+          "bounded_opposite_loss": 3.4697312373865364e-16
+        },
+        {
+          "cell": 132,
+          "q_bounds": [
+            0.20813830185046825,
+            0.3008294258043052
+          ],
+          "constructive_opposite_loss": 1.6245678999775694e-16,
+          "bounded_opposite_loss": 2.2429940663062226e-16
+        },
+        {
+          "cell": 133,
+          "q_bounds": [
+            0.3008294258043052,
+            0.4347990861132547
+          ],
+          "constructive_opposite_loss": 1.020161187717159e-16,
+          "bounded_opposite_loss": 1.4090678951194984e-16
+        },
+        {
+          "cell": 134,
+          "q_bounds": [
+            0.4347990861132547,
+            0.6284300306709397
+          ],
+          "constructive_opposite_loss": 6.125488164658924e-17,
+          "bounded_opposite_loss": 8.460122725528589e-17
+        },
+        {
+          "cell": 135,
+          "q_bounds": [
+            0.6284300306709397,
+            0.9082914754476046
+          ],
+          "constructive_opposite_loss": 3.486789951548646e-17,
+          "bounded_opposite_loss": 4.813942349130365e-17
+        },
+        {
+          "cell": 136,
+          "q_bounds": [
+            0.9082914754476046,
+            1.3127848194809963
+          ],
+          "constructive_opposite_loss": 1.8964008897839717e-17,
+          "bounded_opposite_loss": 2.6187082355550763e-17
+        },
+        {
+          "cell": 137,
+          "q_bounds": [
+            1.3127848194809963,
+            1.8974129217831404
+          ],
+          "constructive_opposite_loss": 8.831377266310149e-18,
+          "bounded_opposite_loss": 1.2194098066909721e-17
+        },
+        {
+          "cell": 138,
+          "q_bounds": [
+            1.8974129217831404,
+            2.7423959679644474
+          ],
+          "constructive_opposite_loss": 3.1459862452208782e-18,
+          "bounded_opposite_loss": 4.348561272085171e-18
+        },
+        {
+          "cell": 139,
+          "q_bounds": [
+            2.7423959679644474,
+            3.9636789434531003
+          ],
+          "constructive_opposite_loss": 7.979050363135509e-19,
+          "bounded_opposite_loss": 1.1097190400215402e-18
+        },
+        {
+          "cell": 140,
+          "q_bounds": [
+            3.9636789434531003,
+            5.728841112042199
+          ],
+          "constructive_opposite_loss": 1.3073424145278092e-19,
+          "bounded_opposite_loss": 1.8388555889298826e-19
+        },
+        {
+          "cell": 141,
+          "q_bounds": [
+            5.728841112042199,
+            8.280090530852393
+          ],
+          "constructive_opposite_loss": 1.0839374746894875e-20,
+          "bounded_opposite_loss": 1.5703196748706677e-20
+        },
+        {
+          "cell": 142,
+          "q_bounds": [
+            8.280090530852393,
+            11.967498811408152
+          ],
+          "constructive_opposite_loss": 3.5072457972248373e-22,
+          "bounded_opposite_loss": 5.397353496908506e-22
+        },
+        {
+          "cell": 143,
+          "q_bounds": [
+            11.967498811408152,
+            17.297036459613643
+          ],
+          "constructive_opposite_loss": 2.8692827497933147e-24,
+          "bounded_opposite_loss": 5.221577616740987e-24
+        },
+        {
+          "cell": 144,
+          "q_bounds": [
+            17.297036459613643,
+            25.0
+          ],
+          "constructive_opposite_loss": 4.341890422336449e-27,
+          "bounded_opposite_loss": 9.289626019882635e-27
+        }
+      ]
+    },
+    {
+      "A": 2.0,
+      "phase": 239.86077912752035,
+      "nodal_G9_minus_G8": 4.729211050547022e-10,
+      "n_warm_cells": 22,
+      "constructive_required_at_least": 0,
+      "outer_sufficient_at_most": 0,
+      "worst_margin_no_pins": [
+        4.726763043872456e-10,
+        4.726405130058734e-10
+      ],
+      "guaranteed_margin_at_sufficient_pins": 4.726405130058734e-10,
+      "outer_prioritized_pins": [],
+      "constructive_loss_rank": [],
+      "cells": [
+        {
+          "cell": 123,
+          "q_bounds": [
+            0.010929632120873948,
+            0.0157969721379631
+          ],
+          "constructive_opposite_loss": 2.157044617899932e-13,
+          "bounded_opposite_loss": 2.320223824695999e-13
+        },
+        {
+          "cell": 124,
+          "q_bounds": [
+            0.0157969721379631,
+            0.022831905590947655
+          ],
+          "constructive_opposite_loss": 2.5613661881976148e-14,
+          "bounded_opposite_loss": 3.3521505163086193e-14
+        },
+        {
+          "cell": 125,
+          "q_bounds": [
+            0.022831905590947655,
+            0.03299973617483147
+          ],
+          "constructive_opposite_loss": 9.77210701295625e-16,
+          "bounded_opposite_loss": 5.3077614059442095e-15
+        },
+        {
+          "cell": 126,
+          "q_bounds": [
+            0.03299973617483147,
+            0.04769565042526447
+          ],
+          "constructive_opposite_loss": 1.2008371534845435e-16,
+          "bounded_opposite_loss": 2.722194247657854e-15
+        },
+        {
+          "cell": 127,
+          "q_bounds": [
+            0.04769565042526447,
+            0.06893615929039024
+          ],
+          "constructive_opposite_loss": 5.121590538924639e-16,
+          "bounded_opposite_loss": 2.1682347530931008e-15
+        },
+        {
+          "cell": 128,
+          "q_bounds": [
+            0.06893615929039024,
+            0.09963579520015942
+          ],
+          "constructive_opposite_loss": 5.625011600933228e-16,
+          "bounded_opposite_loss": 1.6467366050917866e-15
+        },
+        {
+          "cell": 129,
+          "q_bounds": [
+            0.09963579520015942,
+            0.1
+          ],
+          "constructive_opposite_loss": 3.7223127564886245e-24,
+          "bounded_opposite_loss": 4.0449131953843053e-22
+        },
+        {
+          "cell": 130,
+          "q_bounds": [
+            0.1,
+            0.1440070318299848
+          ],
+          "constructive_opposite_loss": 4.3444822790485497e-16,
+          "bounded_opposite_loss": 1.1225910291440494e-15
+        },
+        {
+          "cell": 131,
+          "q_bounds": [
+            0.1440070318299848,
+            0.20813830185046825
+          ],
+          "constructive_opposite_loss": 3.2960556018815147e-16,
+          "bounded_opposite_loss": 8.000209775553514e-16
+        },
+        {
+          "cell": 132,
+          "q_bounds": [
+            0.20813830185046825,
+            0.3008294258043052
+          ],
+          "constructive_opposite_loss": 2.2248813255203734e-16,
+          "bounded_opposite_loss": 5.26517479958286e-16
+        },
+        {
+          "cell": 133,
+          "q_bounds": [
+            0.3008294258043052,
+            0.4347990861132547
+          ],
+          "constructive_opposite_loss": 1.426703121081333e-16,
+          "bounded_opposite_loss": 3.3355363369486296e-16
+        },
+        {
+          "cell": 134,
+          "q_bounds": [
+            0.4347990861132547,
+            0.6284300306709397
+          ],
+          "constructive_opposite_loss": 8.652261561701386e-17,
+          "bounded_opposite_loss": 2.0102220008624523e-16
+        },
+        {
+          "cell": 135,
+          "q_bounds": [
+            0.6284300306709397,
+            0.9082914754476046
+          ],
+          "constructive_opposite_loss": 4.9484723569780294e-17,
+          "bounded_opposite_loss": 1.1455337106138202e-16
+        },
+        {
+          "cell": 136,
+          "q_bounds": [
+            0.9082914754476046,
+            1.3127848194809963
+          ],
+          "constructive_opposite_loss": 2.6973975963550008e-17,
+          "bounded_opposite_loss": 6.238545887293691e-17
+        },
+        {
+          "cell": 137,
+          "q_bounds": [
+            1.3127848194809963,
+            1.8974129217831404
+          ],
+          "constructive_opposite_loss": 1.2575262893174156e-17,
+          "bounded_opposite_loss": 2.905958283792691e-17
+        },
+        {
+          "cell": 138,
+          "q_bounds": [
+            1.8974129217831404,
+            2.7423959679644474
+          ],
+          "constructive_opposite_loss": 4.4804866536200284e-18,
+          "bounded_opposite_loss": 1.0379647614772603e-17
+        },
+        {
+          "cell": 139,
+          "q_bounds": [
+            2.7423959679644474,
+            3.9636789434531003
+          ],
+          "constructive_opposite_loss": 1.1375652481625254e-18,
+          "bounded_opposite_loss": 2.6630715861675203e-18
+        },
+        {
+          "cell": 140,
+          "q_bounds": [
+            3.9636789434531003,
+            5.728841112042199
+          ],
+          "constructive_opposite_loss": 1.8629430883674268e-19,
+          "bounded_opposite_loss": 4.466510609990332e-19
+        },
+        {
+          "cell": 141,
+          "q_bounds": [
+            5.728841112042199,
+            8.280090530852393
+          ],
+          "constructive_opposite_loss": 1.5491438511893102e-20,
+          "bounded_opposite_loss": 3.9228213369714784e-20
+        },
+        {
+          "cell": 142,
+          "q_bounds": [
+            8.280090530852393,
+            11.967498811408152
+          ],
+          "constructive_opposite_loss": 4.975491384506461e-22,
+          "bounded_opposite_loss": 1.432676820941844e-21
+        },
+        {
+          "cell": 143,
+          "q_bounds": [
+            11.967498811408152,
+            17.297036459613643
+          ],
+          "constructive_opposite_loss": 4.213451245191985e-24,
+          "bounded_opposite_loss": 1.5470862394155846e-23
+        },
+        {
+          "cell": 144,
+          "q_bounds": [
+            17.297036459613643,
+            25.0
+          ],
+          "constructive_opposite_loss": 5.503093674821778e-27,
+          "bounded_opposite_loss": 3.0948591033630735e-26
+        }
+      ]
+    },
+    {
+      "A": 10.0,
+      "phase": 316.08428595817,
+      "nodal_G9_minus_G8": 5.042518347320168e-10,
+      "n_warm_cells": 22,
+      "constructive_required_at_least": 0,
+      "outer_sufficient_at_most": 0,
+      "worst_margin_no_pins": [
+        2.1225655345050791e-10,
+        1.9633617668617763e-10
+      ],
+      "guaranteed_margin_at_sufficient_pins": 1.9633617668617763e-10,
+      "outer_prioritized_pins": [],
+      "constructive_loss_rank": [],
+      "cells": [
+        {
+          "cell": 123,
+          "q_bounds": [
+            0.010929632120873948,
+            0.0157969721379631
+          ],
+          "constructive_opposite_loss": 2.0355754749185615e-10,
+          "bounded_opposite_loss": 2.139560342975522e-10
+        },
+        {
+          "cell": 124,
+          "q_bounds": [
+            0.0157969721379631,
+            0.022831905590947655
+          ],
+          "constructive_opposite_loss": 7.752119069392232e-11,
+          "bounded_opposite_loss": 8.105558617976119e-11
+        },
+        {
+          "cell": 125,
+          "q_bounds": [
+            0.022831905590947655,
+            0.03299973617483147
+          ],
+          "constructive_opposite_loss": 9.13119445176123e-12,
+          "bounded_opposite_loss": 1.0355079295388484e-11
+        },
+        {
+          "cell": 126,
+          "q_bounds": [
+            0.03299973617483147,
+            0.04769565042526447
+          ],
+          "constructive_opposite_loss": 9.473069891658567e-13,
+          "bounded_opposite_loss": 1.388050028180318e-12
+        },
+        {
+          "cell": 127,
+          "q_bounds": [
+            0.04769565042526447,
+            0.06893615929039024
+          ],
+          "constructive_opposite_loss": 7.540596463483529e-13,
+          "bounded_opposite_loss": 9.242886912384698e-13
+        },
+        {
+          "cell": 128,
+          "q_bounds": [
+            0.06893615929039024,
+            0.09963579520015942
+          ],
+          "constructive_opposite_loss": 2.6346775832907e-14,
+          "bounded_opposite_loss": 9.971320903579226e-14
+        },
+        {
+          "cell": 129,
+          "q_bounds": [
+            0.09963579520015942,
+            0.1
+          ],
+          "constructive_opposite_loss": 4.963083675318166e-24,
+          "bounded_opposite_loss": 2.003431443603433e-20
+        },
+        {
+          "cell": 130,
+          "q_bounds": [
+            0.1,
+            0.1440070318299848
+          ],
+          "constructive_opposite_loss": 3.259326876860029e-14,
+          "bounded_opposite_loss": 6.677283807680797e-14
+        },
+        {
+          "cell": 131,
+          "q_bounds": [
+            0.1440070318299848,
+            0.20813830185046825
+          ],
+          "constructive_opposite_loss": 1.4041504506381695e-14,
+          "bounded_opposite_loss": 3.332638600178381e-14
+        },
+        {
+          "cell": 132,
+          "q_bounds": [
+            0.20813830185046825,
+            0.3008294258043052
+          ],
+          "constructive_opposite_loss": 5.773664453808259e-15,
+          "bounded_opposite_loss": 1.6949030595220195e-14
+        },
+        {
+          "cell": 133,
+          "q_bounds": [
+            0.3008294258043052,
+            0.4347990861132547
+          ],
+          "constructive_opposite_loss": 2.6485896521100767e-15,
+          "bounded_opposite_loss": 9.278873560311424e-15
+        },
+        {
+          "cell": 134,
+          "q_bounds": [
+            0.4347990861132547,
+            0.6284300306709397
+          ],
+          "constructive_opposite_loss": 1.31858677690261e-15,
+          "bounded_opposite_loss": 5.184485593994468e-15
+        },
+        {
+          "cell": 135,
+          "q_bounds": [
+            0.6284300306709397,
+            0.9082914754476046
+          ],
+          "constructive_opposite_loss": 6.780598269141977e-16,
+          "bounded_opposite_loss": 2.8447197075303363e-15
+        },
+        {
+          "cell": 136,
+          "q_bounds": [
+            0.9082914754476046,
+            1.3127848194809963
+          ],
+          "constructive_opposite_loss": 3.501314449011689e-16,
+          "bounded_opposite_loss": 1.5213814993101033e-15
+        },
+        {
+          "cell": 137,
+          "q_bounds": [
+            1.3127848194809963,
+            1.8974129217831404
+          ],
+          "constructive_opposite_loss": 1.589340858492447e-16,
+          "bounded_opposite_loss": 7.023817427198945e-16
+        },
+        {
+          "cell": 138,
+          "q_bounds": [
+            1.8974129217831404,
+            2.7423959679644474
+          ],
+          "constructive_opposite_loss": 5.589792765079782e-17,
+          "bounded_opposite_loss": 2.500771603144124e-16
+        },
+        {
+          "cell": 139,
+          "q_bounds": [
+            2.7423959679644474,
+            3.9636789434531003
+          ],
+          "constructive_opposite_loss": 1.4101404505889592e-17,
+          "bounded_opposite_loss": 6.428408322420743e-17
+        },
+        {
+          "cell": 140,
+          "q_bounds": [
+            3.9636789434531003,
+            5.728841112042199
+          ],
+          "constructive_opposite_loss": 2.29789450678251e-18,
+          "bounded_opposite_loss": 1.0859174142036944e-17
+        },
+        {
+          "cell": 141,
+          "q_bounds": [
+            5.728841112042199,
+            8.280090530852393
+          ],
+          "constructive_opposite_loss": 1.896890580706603e-19,
+          "bounded_opposite_loss": 9.701835968511951e-19
+        },
+        {
+          "cell": 142,
+          "q_bounds": [
+            8.280090530852393,
+            11.967498811408152
+          ],
+          "constructive_opposite_loss": 6.134371422693253e-21,
+          "bounded_opposite_loss": 3.684676038617462e-20
+        },
+        {
+          "cell": 143,
+          "q_bounds": [
+            11.967498811408152,
+            17.297036459613643
+          ],
+          "constructive_opposite_loss": 5.1504917828497114e-23,
+          "bounded_opposite_loss": 4.2183626300790183e-22
+        },
+        {
+          "cell": 144,
+          "q_bounds": [
+            17.297036459613643,
+            25.0
+          ],
+          "constructive_opposite_loss": 6.522933053091502e-26,
+          "bounded_opposite_loss": 9.086667886187373e-25
+        }
+      ]
+    },
+    {
+      "A": 100.0,
+      "phase": 343.81046264273107,
+      "nodal_G9_minus_G8": -9.603660835327821e-11,
+      "n_warm_cells": 22,
+      "constructive_required_at_least": 9,
+      "outer_sufficient_at_most": 9,
+      "worst_margin_no_pins": [
+        -9.035541937325225e-09,
+        -9.782813692355462e-09
+      ],
+      "guaranteed_margin_at_sufficient_pins": 2.8681677976663022e-11,
+      "outer_prioritized_pins": [
+        130,
+        128,
+        126,
+        125,
+        131,
+        127,
+        123,
+        124,
+        132
+      ],
+      "constructive_loss_rank": [
+        130,
+        128,
+        126,
+        131,
+        125,
+        127,
+        123,
+        124,
+        132
+      ],
+      "cells": [
+        {
+          "cell": 123,
+          "q_bounds": [
+            0.010929632120873948,
+            0.0157969721379631
+          ],
+          "constructive_opposite_loss": 6.258464950602304e-10,
+          "bounded_opposite_loss": 6.557647911866028e-10
+        },
+        {
+          "cell": 124,
+          "q_bounds": [
+            0.0157969721379631,
+            0.022831905590947655
+          ],
+          "constructive_opposite_loss": 4.981749027666413e-10,
+          "bounded_opposite_loss": 5.413427922174759e-10
+        },
+        {
+          "cell": 125,
+          "q_bounds": [
+            0.022831905590947655,
+            0.03299973617483147
+          ],
+          "constructive_opposite_loss": 1.1204227461759219e-09,
+          "bounded_opposite_loss": 1.182571639763016e-09
+        },
+        {
+          "cell": 126,
+          "q_bounds": [
+            0.03299973617483147,
+            0.04769565042526447
+          ],
+          "constructive_opposite_loss": 1.300008717448693e-09,
+          "bounded_opposite_loss": 1.3891693206076394e-09
+        },
+        {
+          "cell": 127,
+          "q_bounds": [
+            0.04769565042526447,
+            0.06893615929039024
+          ],
+          "constructive_opposite_loss": 9.41356090120576e-10,
+          "bounded_opposite_loss": 1.0686401180205273e-09
+        },
+        {
+          "cell": 128,
+          "q_bounds": [
+            0.06893615929039024,
+            0.09963579520015942
+          ],
+          "constructive_opposite_loss": 1.461633459393013e-09,
+          "bounded_opposite_loss": 1.64209851451327e-09
+        },
+        {
+          "cell": 129,
+          "q_bounds": [
+            0.09963579520015942,
+            0.1
+          ],
+          "constructive_opposite_loss": 4.362010401664671e-18,
+          "bounded_opposite_loss": 8.87970202623514e-17
+        },
+        {
+          "cell": 130,
+          "q_bounds": [
+            0.1,
+            0.1440070318299848
+          ],
+          "constructive_opposite_loss": 1.59808628977056e-09,
+          "bounded_opposite_loss": 1.741342481394988e-09
+        },
+        {
+          "cell": 131,
+          "q_bounds": [
+            0.1440070318299848,
+            0.20813830185046825
+          ],
+          "constructive_opposite_loss": 1.1266517589439944e-09,
+          "bounded_opposite_loss": 1.1752369566716658e-09
+        },
+        {
+          "cell": 132,
+          "q_bounds": [
+            0.20813830185046825,
+            0.3008294258043052
+          ],
+          "constructive_opposite_loss": 3.996816064436523e-10,
+          "bounded_opposite_loss": 4.1532875595694e-10
+        },
+        {
+          "cell": 133,
+          "q_bounds": [
+            0.3008294258043052,
+            0.4347990861132547
+          ],
+          "constructive_opposite_loss": 5.109446275014154e-11,
+          "bounded_opposite_loss": 5.6161260906806434e-11
+        },
+        {
+          "cell": 134,
+          "q_bounds": [
+            0.4347990861132547,
+            0.6284300306709397
+          ],
+          "constructive_opposite_loss": 7.769542384436917e-12,
+          "bounded_opposite_loss": 9.438763893842076e-12
+        },
+        {
+          "cell": 135,
+          "q_bounds": [
+            0.6284300306709397,
+            0.9082914754476046
+          ],
+          "constructive_opposite_loss": 8.101277009901233e-13,
+          "bounded_opposite_loss": 1.385992060705694e-12
+        },
+        {
+          "cell": 136,
+          "q_bounds": [
+            0.9082914754476046,
+            1.3127848194809963
+          ],
+          "constructive_opposite_loss": 2.0745223682950707e-14,
+          "bounded_opposite_loss": 2.369124332172003e-13
+        },
+        {
+          "cell": 137,
+          "q_bounds": [
+            1.3127848194809963,
+            1.8974129217831404
+          ],
+          "constructive_opposite_loss": 1.8712632600742453e-14,
+          "bounded_opposite_loss": 9.759690648150025e-14
+        },
+        {
+          "cell": 138,
+          "q_bounds": [
+            1.8974129217831404,
+            2.7423959679644474
+          ],
+          "constructive_opposite_loss": 2.7904006492932205e-15,
+          "bounded_opposite_loss": 2.7291797019040806e-14
+        },
+        {
+          "cell": 139,
+          "q_bounds": [
+            2.7423959679644474,
+            3.9636789434531003
+          ],
+          "constructive_opposite_loss": 3.1553671351117196e-17,
+          "bounded_opposite_loss": 5.906411880818427e-15
+        },
+        {
+          "cell": 140,
+          "q_bounds": [
+            3.9636789434531003,
+            5.728841112042199
+          ],
+          "constructive_opposite_loss": 5.5229089259822145e-17,
+          "bounded_opposite_loss": 1.0201146803143988e-15
+        },
+        {
+          "cell": 141,
+          "q_bounds": [
+            5.728841112042199,
+            8.280090530852393
+          ],
+          "constructive_opposite_loss": 7.050371380699775e-18,
+          "bounded_opposite_loss": 9.33805914046787e-17
+        },
+        {
+          "cell": 142,
+          "q_bounds": [
+            8.280090530852393,
+            11.967498811408152
+          ],
+          "constructive_opposite_loss": 2.6519245002327557e-19,
+          "bounded_opposite_loss": 3.631477158292033e-18
+        },
+        {
+          "cell": 143,
+          "q_bounds": [
+            11.967498811408152,
+            17.297036459613643
+          ],
+          "constructive_opposite_loss": 2.3811557155075304e-21,
+          "bounded_opposite_loss": 4.279832489349365e-20
+        },
+        {
+          "cell": 144,
+          "q_bounds": [
+            17.297036459613643,
+            25.0
+          ],
+          "constructive_opposite_loss": 3.0832975579361544e-24,
+          "bounded_opposite_loss": 9.495184239121505e-23
+        }
+      ]
+    },
+    {
+      "A": 1000.0,
+      "phase": 415.62390537800854,
+      "nodal_G9_minus_G8": 2.3608374587533567e-09,
+      "n_warm_cells": 22,
+      "constructive_required_at_least": 14,
+      "outer_sufficient_at_most": 14,
+      "worst_margin_no_pins": [
+        -5.860895065629003e-08,
+        -6.60373987327717e-08
+      ],
+      "guaranteed_margin_at_sufficient_pins": 1.173025029902588e-09,
+      "outer_prioritized_pins": [
+        135,
+        136,
+        131,
+        133,
+        130,
+        137,
+        132,
+        134,
+        128,
+        127,
+        126,
+        125,
+        124,
+        123
+      ],
+      "constructive_loss_rank": [
+        135,
+        131,
+        136,
+        133,
+        130,
+        137,
+        132,
+        128,
+        127,
+        126,
+        134,
+        125,
+        124,
+        123
+      ],
+      "cells": [
+        {
+          "cell": 123,
+          "q_bounds": [
+            0.010929632120873948,
+            0.0157969721379631
+          ],
+          "constructive_opposite_loss": 1.5516880002724396e-09,
+          "bounded_opposite_loss": 1.5953962185598544e-09
+        },
+        {
+          "cell": 124,
+          "q_bounds": [
+            0.0157969721379631,
+            0.022831905590947655
+          ],
+          "constructive_opposite_loss": 1.9967850089948635e-09,
+          "bounded_opposite_loss": 2.0598003272983176e-09
+        },
+        {
+          "cell": 125,
+          "q_bounds": [
+            0.022831905590947655,
+            0.03299973617483147
+          ],
+          "constructive_opposite_loss": 2.4360420871695002e-09,
+          "bounded_opposite_loss": 2.5266944060092507e-09
+        },
+        {
+          "cell": 126,
+          "q_bounds": [
+            0.03299973617483147,
+            0.04769565042526447
+          ],
+          "constructive_opposite_loss": 2.833063386115085e-09,
+          "bounded_opposite_loss": 2.963102838888432e-09
+        },
+        {
+          "cell": 127,
+          "q_bounds": [
+            0.04769565042526447,
+            0.06893615929039024
+          ],
+          "constructive_opposite_loss": 3.1787016445484297e-09,
+          "bounded_opposite_loss": 3.3643098973822123e-09
+        },
+        {
+          "cell": 128,
+          "q_bounds": [
+            0.06893615929039024,
+            0.09963579520015942
+          ],
+          "constructive_opposite_loss": 3.3350539359285556e-09,
+          "bounded_opposite_loss": 3.5981968806236003e-09
+        },
+        {
+          "cell": 129,
+          "q_bounds": [
+            0.09963579520015942,
+            0.1
+          ],
+          "constructive_opposite_loss": 7.940972261689488e-17,
+          "bounded_opposite_loss": 2.874136980635924e-16
+        },
+        {
+          "cell": 130,
+          "q_bounds": [
+            0.1,
+            0.1440070318299848
+          ],
+          "constructive_opposite_loss": 5.448634542736315e-09,
+          "bounded_opposite_loss": 5.806405513834967e-09
+        },
+        {
+          "cell": 131,
+          "q_bounds": [
+            0.1440070318299848,
+            0.20813830185046825
+          ],
+          "constructive_opposite_loss": 6.958047957846205e-09,
+          "bounded_opposite_loss": 7.469549632220103e-09
+        },
+        {
+          "cell": 132,
+          "q_bounds": [
+            0.20813830185046825,
+            0.3008294258043052
+          ],
+          "constructive_opposite_loss": 4.736510498509403e-09,
+          "bounded_opposite_loss": 5.429964350606357e-09
+        },
+        {
+          "cell": 133,
+          "q_bounds": [
+            0.3008294258043052,
+            0.4347990861132547
+          ],
+          "constructive_opposite_loss": 5.5892744790264065e-09,
+          "bounded_opposite_loss": 6.5005962596148605e-09
+        },
+        {
+          "cell": 134,
+          "q_bounds": [
+            0.4347990861132547,
+            0.6284300306709397
+          ],
+          "constructive_opposite_loss": 2.6934194696357708e-09,
+          "bounded_opposite_loss": 3.836451426513968e-09
+        },
+        {
+          "cell": 135,
+          "q_bounds": [
+            0.6284300306709397,
+            0.9082914754476046
+          ],
+          "constructive_opposite_loss": 7.3069202292482246e-09,
+          "bounded_opposite_loss": 8.664498478095661e-09
+        },
+        {
+          "cell": 136,
+          "q_bounds": [
+            0.9082914754476046,
+            1.3127848194809963
+          ],
+          "constructive_opposite_loss": 6.368185092322942e-09,
+          "bounded_opposite_loss": 7.687912285353046e-09
+        },
+        {
+          "cell": 137,
+          "q_bounds": [
+            1.3127848194809963,
+            1.8974129217831404
+          ],
+          "constructive_opposite_loss": 5.4096592788904425e-09,
+          "bounded_opposite_loss": 5.707545247673656e-09
+        },
+        {
+          "cell": 138,
+          "q_bounds": [
+            1.8974129217831404,
+            2.7423959679644474
+          ],
+          "constructive_opposite_loss": 1.1017213104362774e-09,
+          "bounded_opposite_loss": 1.1542329743668604e-09
+        },
+        {
+          "cell": 139,
+          "q_bounds": [
+            2.7423959679644474,
+            3.9636789434531003
+          ],
+          "constructive_opposite_loss": 2.4911067245254137e-11,
+          "bounded_opposite_loss": 3.175840826607439e-11
+        },
+        {
+          "cell": 140,
+          "q_bounds": [
+            3.9636789434531003,
+            5.728841112042199
+          ],
+          "constructive_opposite_loss": 1.0879862694662921e-12,
+          "bounded_opposite_loss": 1.705612221932106e-12
+        },
+        {
+          "cell": 141,
+          "q_bounds": [
+            5.728841112042199,
+            8.280090530852393
+          ],
+          "constructive_opposite_loss": 8.148842470367889e-14,
+          "bounded_opposite_loss": 1.1374862152239862e-13
+        },
+        {
+          "cell": 142,
+          "q_bounds": [
+            8.280090530852393,
+            11.967498811408152
+          ],
+          "constructive_opposite_loss": 5.712259683725953e-16,
+          "bounded_opposite_loss": 1.389891059681084e-15
+        },
+        {
+          "cell": 143,
+          "q_bounds": [
+            11.967498811408152,
+            17.297036459613643
+          ],
+          "constructive_opposite_loss": 7.869458108507154e-19,
+          "bounded_opposite_loss": 8.055440221286143e-18
+        },
+        {
+          "cell": 144,
+          "q_bounds": [
+            17.297036459613643,
+            25.0
+          ],
+          "constructive_opposite_loss": 4.708322749916596e-22,
+          "bounded_opposite_loss": 1.418153773032045e-20
+        }
+      ]
+    }
+  ],
+  "input_sha256": [
+    "cd4d6b834aab835535e64ececa68468224f79902c848e9c2c03fae6eb97e3688",
+    "e245af955f645dd2ed621a979d68f9da72c8926242c34dac0160baf5e04960d5",
+    "2c6ac2ad369d998475bda18a4d1bd39d2ffb78f8475c03c611a81f9c7651f926",
+    "e36e923ab72e69424f42abd98668e088a2272b070b4cb056dd044699ec4e3e1b"
+  ],
+  "scope": "Counterfactual cardinality budget: fix both charts\u2019 original shape in a selected common warm cell; cold already fixed. Chart-local pressure and pseudo-pressure moments fixed elsewhere. No calibration or physical transfer claim."
+}
