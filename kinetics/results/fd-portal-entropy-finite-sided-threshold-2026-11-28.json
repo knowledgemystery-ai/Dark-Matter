@@ -1,0 +1,132 @@
+{
+  "window": [
+    0.99,
+    0.9903408643642273
+  ],
+  "pchip_knot": 0.9902608643642273,
+  "fixed_multipliers": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "rows": [
+    {
+      "hot_then_cool_duration": [
+        0.00026086436422734227,
+        7.999999999996898e-05
+      ],
+      "hot_then_cool_integrated_excess_gram": [
+        [
+          [
+            4.712898334412789e-07,
+            -1.3909985030239183e-05
+          ],
+          [
+            -1.3909985030239183e-05,
+            0.00041054924142109055
+          ]
+        ],
+        [
+          [
+            1.2450744214306257e-07,
+            -3.674956660610874e-06
+          ],
+          [
+            -3.674956660610874e-06,
+            0.00010846987316863932
+          ]
+        ]
+      ],
+      "consistency_with_uniform_receipt": [
+        0.0,
+        2.8310221290076643e-20
+      ],
+      "fixed_hot_then_fixed_cool": [
+        {
+          "critical_other_multiplier": [
+            4.559816386356877,
+            3.6135901676082174,
+            2.667363948847362,
+            1.7211377300743114,
+            0.7749115112890651
+          ],
+          "largest_gain_minus_one_if_other_removed": -9.668684068792295e-06
+        },
+        {
+          "critical_other_multiplier": [
+            1.2047373809496646,
+            1.13868552278061,
+            1.0726336646113301,
+            1.0065818064418257,
+            0.9405299482720961
+          ],
+          "largest_gain_minus_one_if_other_removed": -4.132808454839033e-05
+        }
+      ]
+    },
+    {
+      "hot_then_cool_duration": [
+        0.00026086436422734227,
+        7.999999999996898e-05
+      ],
+      "hot_then_cool_integrated_excess_gram": [
+        [
+          [
+            4.7128983344127257e-07,
+            -1.3909985030239135e-05
+          ],
+          [
+            -1.3909985030239135e-05,
+            0.0004105492414210932
+          ]
+        ],
+        [
+          [
+            1.2450744214306324e-07,
+            -3.6749566606107636e-06
+          ],
+          [
+            -3.6749566606107636e-06,
+            0.00010846987316863227
+          ]
+        ]
+      ],
+      "consistency_with_uniform_receipt": [
+        0.0,
+        0.0
+      ],
+      "fixed_hot_then_fixed_cool": [
+        {
+          "critical_other_multiplier": [
+            4.559816391703589,
+            3.613590172954853,
+            2.6673639541939247,
+            1.7211377354208006,
+            0.7749115166354809
+          ],
+          "largest_gain_minus_one_if_other_removed": -9.668684136265677e-06
+        },
+        {
+          "critical_other_multiplier": [
+            1.2047373823622116,
+            1.1386855241931617,
+            1.072633666023887,
+            1.0065818078543882,
+            0.940529949684664
+          ],
+          "largest_gain_minus_one_if_other_removed": -4.1328084614890196e-05
+        }
+      ]
+    }
+  ],
+  "input_sha256": [
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "1d65af235870b200c7f0c672d4460ed85efd098df51025b7308df849e863ad88",
+    "2c00fca683a9cb9133fc3ca449aff2bf0ef4c7a4400a345ee6a8941a61eae4ff",
+    "60e39dafb71f5a9fa84788c742f3a2f098df92b0791688b42eceb0d7078dc507"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "Independent multiplier on each side of the EOS knot, on one unchanged tangent and temperature path. No change to the EOS, new evolution, or physical stability claim."
+}
