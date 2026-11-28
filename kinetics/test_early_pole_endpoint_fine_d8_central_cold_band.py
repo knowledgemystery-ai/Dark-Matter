@@ -1,9 +1,11 @@
 import copy
 import unittest
 
+import numpy as np
+
 from early_pole_endpoint_continuum_cold_band_pilot import (
     COLD_SPAN, D8_CENTRAL_COLD_BAND, FIRST_SIDE_BAND, special_band_tags)
-from early_pole_endpoint_fine_d8_central_cold_receipt import reduce_one
+from early_pole_endpoint_fine_d8_central_cold_receipt import decisions, reduce_one
 
 
 class D8CentralBand(unittest.TestCase):
@@ -28,6 +30,25 @@ class D8CentralBand(unittest.TestCase):
         z=copy.deepcopy(r)
         z[0]['coeff'][0][0]=2.5
         with self.assertRaises(ArithmeticError): reduce_one(z,t)
+
+    def test_decision_includes_both_meshes_and_exact_d4_ranges(self):
+        a=np.array([[3.,1.,2.]])
+        b=np.array([[6.,2.,4.]])
+        d4=dict(forward=[4.,8.],inverse=[4.,9.],conditional_net=[.01,.03])
+        out=decisions(a,b,d4,.6)
+        self.assertEqual(out['observed_two_mesh_d8_over_d4_forward'],[3/8,6/4])
+        self.assertEqual(out['observed_two_mesh_d8_over_d4_inverse'],[1/9,2/4])
+        self.assertEqual(out['observed_two_mesh_gross_order_vs_d4'],[0,-1])
+        self.assertTrue(all(x>0 for x in out['d8_conditional_net_both_meshes']))
+        self.assertEqual(out['d8_conditional_net_sign_from_observed_coefficients'],0)
+        self.assertEqual(out['d4_conditional_net_sign'],1)
+        self.assertEqual(decisions(a,b,d4,.1)['d8_conditional_net_sign_from_observed_coefficients'],-1)
+
+    def test_unordered_or_negative_reference_rejected(self):
+        a=np.array([[3.,1.,2.]])
+        for d4 in (dict(forward=[4,3],inverse=[1,2]),dict(forward=[1,3],inverse=[0,2])):
+            with self.assertRaises(ArithmeticError):
+                decisions(a,a,d4,.1)
 
 
 if __name__=='__main__':

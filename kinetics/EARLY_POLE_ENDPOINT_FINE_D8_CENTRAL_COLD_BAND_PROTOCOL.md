@@ -22,3 +22,7 @@ python -W error early_pole_endpoint_fine_d8_central_cold_receipt.py /tmp/fine-d8
 ```
 
 Do not treat topology, a partial ledger, or the relative stability of the original fixed-state quadratures as a D8 convergence result. The held occupation in the eventual sign test remains a construction from D2/D4, not a live photon population.
+
+### Comparison decision, fixed before the D8 pair completes
+
+The reducer now pins the exact archived D4 common-band enclosure. For both forward and inverse, it retains the original fine-mesh comparison and additionally reports a ratio interval using the smaller and larger D8 values from the two complete meshes, divided by the opposing D4 limits. Order is reported only if this interval is strictly below or above unity. For the held photon occupation, it reports each D8 mesh's net and also a conservative algebraic box using the observed minima and maxima of slope and inverse **independently**. The reported sign is unresolved if this box includes zero, even when the two observed net signs agree. These are comparisons over the two observed quadratures, not rigorous error intervals for the underlying integral. No physical photon sign or spatial convergence is inferred. The gate and both running numerical ledgers are unchanged.

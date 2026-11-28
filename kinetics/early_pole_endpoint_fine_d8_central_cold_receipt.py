@@ -31,6 +31,42 @@ def reduce_one(rows, fresh):
     return z
 
 
+D4_REFERENCE_SHA256='6a5b61404351598840849795d1c9df36a5a8f14b6ec9264d7bc6c4fe223855c1'
+
+
+def sign_interval(x):
+    return int(x[0]>0.)-int(x[1]<0.)
+
+
+def decisions(a,b,d4,n):
+    v=np.array([a[0],b[0]])
+    if not np.isfinite(n) or n<0. or not np.all(np.isfinite(v)) or min(v.ravel())<=0.:
+        raise ArithmeticError('Positive finite number ledgers and finite nonnegative occupation required')
+    intervals=np.array([d4['forward'],d4['inverse']])
+    if (intervals.shape!=(2,2) or not np.all(np.isfinite(intervals))
+        or min(intervals.ravel())<=0. or np.any(intervals[:,0]>intervals[:,1])):
+        raise ArithmeticError('Ordered positive finite D4 intervals required')
+    gross=np.array([v[:,:2].min(axis=0)/intervals[:,1],v[:,:2].max(axis=0)/intervals[:,0]]).T
+    neutral=v[:,1]/v[:,2]
+    # First evaluate both complete rows separately. Then also use the
+    # coefficient box so accidental correlation of the pair is not required
+    # for the reported sign relative to the observed numerical variation.
+    paired_net=[fsum((n*row[2],-row[1])) for row in v]
+    box=[fsum((n*min(v[:,2]),-max(v[:,1]))),
+         fsum((n*max(v[:,2]),-min(v[:,1])))]
+    if not np.all(np.isfinite(np.r_[gross.ravel(),neutral,box])):
+        raise ArithmeticError('Comparison overflow')
+    return dict(observed_two_mesh_d8_over_d4_forward=gross[0].tolist(),
+                observed_two_mesh_d8_over_d4_inverse=gross[1].tolist(),
+                observed_two_mesh_gross_order_vs_d4=[sign_interval(z-1.) for z in gross],
+                d8_number_neutral_both_meshes=neutral.tolist(),
+                d8_conditional_net_both_meshes=paired_net,
+                d8_conditional_net_box_from_observed_coefficients=box,
+                d8_conditional_net_sign_from_observed_coefficients=sign_interval(box),
+                d4_conditional_net_interval=d4['conditional_net'],
+                d4_conditional_net_sign=sign_interval(d4['conditional_net']))
+
+
 def run(card,subband,raw):
     s,sh=read_state(card)
     if (s['grid'],s['x_end'],s['steps'],s['subcells_per_archived_cell'])!=('fine',.05,2048,8):
@@ -44,21 +80,23 @@ def run(card,subband,raw):
     if d>6e-5:
         raise ArithmeticError(('Held central D8 quadrature does not resolve fixed-state source',d))
     h=subband.read_bytes()
+    subband_sha256=hashlib.sha256(h).hexdigest()
+    if subband_sha256!=D4_REFERENCE_SHA256:
+        raise ArithmeticError('Require the exact archived D4 subband enclosure')
     U=json.loads(h)
     p=next(v for v in U['rows'] if tuple(v['q'])==span)
     n=float(U['conditional_photon_occupation'])
     q=p['D4']
-    if min(q['forward'][0],q['inverse'][0])<=0.:
-        raise ArithmeticError('Independent positive D4 central-band interval required')
     return dict(q=span,checked_mesh=[t['mesh'] for t in info],panels=info[1]['total'],
                 coefficient_fields=['forward','inverse','slope'],row_fields=['number','energy','centered_energy'],
                 d8_ledger=b.tolist(),d8_max_mesh_relative_difference=d,d8_number_neutral=b[0,1]/b[0,2],
                 d8_over_d4_forward=[b[0,0]/q['forward'][1],b[0,0]/q['forward'][0]],
                 d8_over_d4_inverse=[b[0,1]/q['inverse'][1],b[0,1]/q['inverse'][0]],
                 held_photon_occupation=n,d8_conditional_net_relative_to_inverse=n*b[0,2]/b[0,1]-1.,
-                state_digest_uncompressed=sh,subband_sha256=hashlib.sha256(h).hexdigest(),
+                **decisions(a,b,q,n),
+                state_digest_uncompressed=sh,subband_sha256=subband_sha256,
                 raw_uncompressed_sha256=[unpacked_hash(x) for x in raw],
-                scope='Held native D8 band [3e-6,5e-6] and D4 panel enclosure, not complete D8 area or a physical prediction.')
+                scope='Held native D8 band [3e-6,5e-6] and D4 panel enclosure, paired-mesh variation and coefficient boxes describe observed numerical variation, not an error bound on the continuum or complete D8 area.')
 
 
 if __name__=='__main__':
