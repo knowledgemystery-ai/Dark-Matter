@@ -1,0 +1,67 @@
+{
+  "window": [
+    0.99,
+    0.9903408643642273
+  ],
+  "rows": [
+    {
+      "critical_multiplier_for_held_integrated_log_slope_term": 0.952958628314764,
+      "largest_gain_minus_one_at_no_term": -4.8616875803081224e-05,
+      "largest_gain_minus_one_at_observed_term": 2.830500028833991e-06,
+      "direct_metric_endpoint_closure": 3.84244017607393e-12,
+      "integrated_reference_matrix": [
+        [
+          -3.517673306645235e-05,
+          4.7914797251293414e-05
+        ],
+        [
+          4.7914797251293414e-05,
+          -0.0005226532215043116
+        ]
+      ],
+      "integrated_slope_matrix": [
+        [
+          5.957972755843415e-07,
+          -1.7584941690850054e-05
+        ],
+        [
+          -1.7584941690850054e-05,
+          0.00051901911458973
+        ]
+      ]
+    },
+    {
+      "critical_multiplier_for_held_integrated_log_slope_term": 0.9529586294321181,
+      "largest_gain_minus_one_at_no_term": -4.8616875862509686e-05,
+      "largest_gain_minus_one_at_observed_term": 2.830499961854594e-06,
+      "direct_metric_endpoint_closure": 3.9315887284143704e-12,
+      "integrated_reference_matrix": [
+        [
+          -3.5176733086865196e-05,
+          4.791479724900661e-05
+        ],
+        [
+          4.791479724900661e-05,
+          -0.0005226532220287359
+        ]
+      ],
+      "integrated_slope_matrix": [
+        [
+          5.957972755843358e-07,
+          -1.7584941690849898e-05
+        ],
+        [
+          -1.7584941690849898e-05,
+          0.0005190191145897254
+        ]
+      ]
+    }
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "input_sha256": [
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "1d65af235870b200c7f0c672d4460ed85efd098df51025b7308df849e863ad88",
+    "2c00fca683a9cb9133fc3ca449aff2bf0ef4c7a4400a345ee6a8941a61eae4ff"
+  ],
+  "scope": "Counterfactual integrated rate form on one fixed numerical tangent and background, not an independently evolved entropy metric or EOS."
+}
