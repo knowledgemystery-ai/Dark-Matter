@@ -1,0 +1,154 @@
+{
+  "rows": [
+    {
+      "x_insertion": 0.04,
+      "common_pressure_mass": 0.0008731829968237441,
+      "pulse_width": 0.00021791362433028297,
+      "after_pulse_and_endpoint": [
+        {
+          "x": 0.040008717494769155,
+          "reconstructed_relative_pressure": 6.326262715706145e-10,
+          "nodal_relative_pressure": 6.300572749888328e-10,
+          "total_count_relative": 3.415696045054302e-07,
+          "relative_components_by_cell": {
+            "cold": [
+              4.5776991217684115e-10,
+              4.5776991215888905e-10,
+              -1.9566966607636677e-21
+            ],
+            "warm": [
+              1.7485626599253773e-10,
+              1.767291419243986e-10,
+              -1.8728988564350443e-12
+            ]
+          }
+        },
+        {
+          "x": 0.05,
+          "reconstructed_relative_pressure": -2.451719378389134e-10,
+          "nodal_relative_pressure": -2.4519982952092895e-10,
+          "total_count_relative": 5.21087774169438e-09,
+          "relative_components_by_cell": {
+            "cold": [
+              4.602290497643501e-12,
+              4.602290542994352e-12,
+              -1.0213310852517057e-19
+            ],
+            "warm": [
+              -2.4977426555779677e-10,
+              -2.5355052278481133e-10,
+              3.776281715250608e-12
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "x_insertion": 0.04598632978267703,
+      "common_pressure_mass": 0.0008731829968237441,
+      "pulse_width": 0.00021791362433028297,
+      "after_pulse_and_endpoint": [
+        {
+          "x": 0.045996351922410354,
+          "reconstructed_relative_pressure": 6.034028675820848e-10,
+          "nodal_relative_pressure": 6.009589628440489e-10,
+          "total_count_relative": 2.919627099371408e-07,
+          "relative_components_by_cell": {
+            "cold": [
+              4.3549593960521684e-10,
+              4.354959395673968e-10,
+              -5.958033247494942e-22
+            ],
+            "warm": [
+              1.6790692262959352e-10,
+              1.674533307203016e-10,
+              4.5360490770336715e-13
+            ]
+          }
+        },
+        {
+          "x": 0.05,
+          "reconstructed_relative_pressure": -2.7011052779212166e-10,
+          "nodal_relative_pressure": -2.70312446040006e-10,
+          "total_count_relative": 2.4166880298922535e-08,
+          "relative_components_by_cell": {
+            "cold": [
+              3.5593993763906674e-11,
+              3.559399372606881e-11,
+              -1.883860049606179e-21
+            ],
+            "warm": [
+              -3.057046336239639e-10,
+              -3.005169119507186e-10,
+              -5.187722819742877e-12
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "x_insertion": 0.04862462362330366,
+      "common_pressure_mass": 0.0008731829968237441,
+      "pulse_width": 0.00021791362433028297,
+      "after_pulse_and_endpoint": [
+        {
+          "x": 0.04863522074585586,
+          "reconstructed_relative_pressure": 1.3197606959339296e-09,
+          "nodal_relative_pressure": 1.3143267592421913e-09,
+          "total_count_relative": 6.452389449558102e-07,
+          "relative_components_by_cell": {
+            "cold": [
+              9.68398004104459e-10,
+              9.68398004097137e-10,
+              -1.610779094650803e-23
+            ],
+            "warm": [
+              3.5136272992316286e-10,
+              3.5483540496686117e-10,
+              -3.4726249499280787e-12
+            ]
+          }
+        },
+        {
+          "x": 0.05,
+          "reconstructed_relative_pressure": -1.0757943670496792e-10,
+          "nodal_relative_pressure": -1.0787539598904982e-10,
+          "total_count_relative": 4.5811359878667065e-08,
+          "relative_components_by_cell": {
+            "cold": [
+              5.2506834734325733e-11,
+              5.2506834698256516e-11,
+              1.6073657429256286e-20
+            ],
+            "warm": [
+              -1.6008620302007316e-10,
+              -1.6165991115638937e-10,
+              1.5736553709406492e-12
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "component_fields": [
+    "total_pressure",
+    "cell_count",
+    "mean_pressure_within_cell"
+  ],
+  "input_uncompressed_sha256": {
+    "start_card": "7a12c104a73bf18e65ce87c9b86a5b3a62c8e8c78ae66fa0b1afce9442b88340",
+    "end_card": "e36e923ab72e69424f42abd98668e088a2272b070b4cb056dd044699ec4e3e1b",
+    "receipt": "f4265960f6ecb439d658fbf1f5b1c7a463759aca3b964c1cd483e322a609285f",
+    "one": "534dff8c19a0e94515172b783fec485d1a0e6f0d1640f585e414d100e3be6eee",
+    "two": "b184c602349d2e8660e55fa5dc0f3b2f05e196cccc5304e51b9cda46b40ff343",
+    "late-receipt": "334404b576e62982b575ec85a1452a0e80bbc3cf99b78a5897c7a53548cf911f",
+    "late-prefix": "0ab07fd5f1791d17fdc52cf0453f706dfa000f1d4d3572b05a2bf4e1c382444f",
+    "late-one": "74c3be969e20954cb7760a643da17b20d246da2ea827e4210efe13f0c24287f0",
+    "late-two": "7ab00d02efdc576df872ad4731e35ca78c7b010bb5f2a2006016d1f9361496aa",
+    "near-end-receipt": "dd58ea03a7502a26c117ca5a1852e58ebd76fc34dc4c6786c8a9340f23fb3bb7",
+    "near-end-prefix": "1cd5642532b17e162a21185a4257d7aa7371619bce9c9eb223a74167e0b3f7f1",
+    "near-end-one": "a30dffe90f68a2cdda877479e3bb393d123edbb6297b96343a7ce44f39364fcc",
+    "near-end-two": "072ddb007c27738074228f3ff603526be5d022e4e9a6a9b1a531dc1f890ca4f4"
+  },
+  "scope": "Three exact paired runs, fixed mass on each; nodal pressure is an alternate diagnostic, not a physical pressure estimate or a time-convergence certificate."
+}
