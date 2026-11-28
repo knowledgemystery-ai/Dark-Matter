@@ -1,0 +1,84 @@
+{
+  "rows": [
+    {
+      "x": 0.04113142377191559,
+      "low_minus_nominal": 4.827042075045921e-08,
+      "high_minus_nominal": -5.836002973008724e-08,
+      "symmetric_odd_yield": -5.3315225240273224e-08,
+      "symmetric_even_yield": -5.044804489814014e-09
+    },
+    {
+      "x": 0.042294850537622566,
+      "low_minus_nominal": 4.187757914240705e-08,
+      "high_minus_nominal": -6.599638370009559e-08,
+      "symmetric_odd_yield": -5.393698142125132e-08,
+      "symmetric_even_yield": -1.205940227884427e-08
+    },
+    {
+      "x": 0.04349118552081964,
+      "low_minus_nominal": -1.2477677864195218e-09,
+      "high_minus_nominal": -3.553056929063241e-08,
+      "symmetric_odd_yield": -1.7141400752106444e-08,
+      "symmetric_even_yield": -1.8389168538525966e-08
+    },
+    {
+      "x": 0.044721359549995794,
+      "low_minus_nominal": -9.297812060202193e-08,
+      "high_minus_nominal": 3.826909867850944e-08,
+      "symmetric_odd_yield": 6.562360964026568e-08,
+      "symmetric_even_yield": -2.7354510961756246e-08
+    },
+    {
+      "x": 0.04598632978267703,
+      "low_minus_nominal": -1.278099664013435e-07,
+      "high_minus_nominal": 4.88556084110494e-08,
+      "symmetric_odd_yield": 8.833278740619645e-08,
+      "symmetric_even_yield": -3.947717899514705e-08
+    },
+    {
+      "x": 0.047287080450158794,
+      "low_minus_nominal": 7.405377395498791e-09,
+      "high_minus_nominal": -1.0209086452259153e-07,
+      "symmetric_odd_yield": -5.474812095904516e-08,
+      "symmetric_even_yield": -4.734274356354637e-08
+    },
+    {
+      "x": 0.04862462362330366,
+      "low_minus_nominal": -8.120887203715357e-08,
+      "high_minus_nominal": -2.5591240722844157e-08,
+      "symmetric_odd_yield": 2.7808815657154708e-08,
+      "symmetric_even_yield": -5.3400056379998865e-08
+    },
+    {
+      "x": 0.05,
+      "low_minus_nominal": -1.2108821351213212e-07,
+      "high_minus_nominal": -2.264292915866344e-08,
+      "symmetric_odd_yield": 4.922264217673434e-08,
+      "symmetric_even_yield": -7.186557133539778e-08
+    }
+  ],
+  "brackets_with_opposite_saved_odd_signs": [
+    [
+      0.04349118552081964,
+      0.044721359549995794
+    ],
+    [
+      0.04598632978267703,
+      0.047287080450158794
+    ],
+    [
+      0.047287080450158794,
+      0.04862462362330366
+    ]
+  ],
+  "max_continuity_residual": 8.346453370567004e-12,
+  "max_absolute_pair_count_residual": 4.683753385137379e-17,
+  "input_receipt_sha256": [
+    "d18e11d0b9e383beae87b047242f7c08b510f38e9bc03fe424370fbfac18ec76",
+    "f8ecea6c05665bd695ecda20b1658aef127a692c2f4610cfb4b01c4c00f825a3",
+    "b7a332eb2b12ada0e3a03cfa07d464d101c73077e585360453aa467e9817f6d7"
+  ],
+  "input_summary_sha256": "c58498853dbbb2fb6d40f3e1cebd3180c7398b72a6cbfe5ae01b5e19dea224c3",
+  "yield_to_count": 46.82578976961284,
+  "scope": "Signs only at saved matched times; this does not count all zeros, resolve time-step effects, or establish physical nonlinearity."
+}
