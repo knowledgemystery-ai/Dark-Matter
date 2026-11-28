@@ -1,0 +1,139 @@
+{
+  "rows": [
+    {
+      "arm": "charge-symmetric-time-lower",
+      "count_relative": -0.0003322493467940528,
+      "pressure_relative": -0.000432025208593832,
+      "pressure_per_particle_relative": -9.980902328256898e-05,
+      "quadrature_relative_discrepancy": 5.421010862427522e-20,
+      "common_shape_bounds": [
+        -0.0005032529554903465,
+        -0.00034230814053413364
+      ],
+      "independent_count_only_bounds": [
+        -0.37134996956627747,
+        0.37047115771164696
+      ],
+      "independent_count_and_node_mean_energy_bounds": [
+        -0.0004321512451338409,
+        -0.0004319133797986271
+      ],
+      "nodal_pressure_relative": -0.0004320323350250113,
+      "nodal_same_occupation_mass_only_effect": 1.6952885556141398e-07,
+      "cold_q_at_most_1e_minus_5_number_weighted_pressure_contrast": -5.384648970276231e-07,
+      "most_negative_cell": {
+        "q": [
+          1.8974129217831404,
+          2.7423959679644474
+        ],
+        "pressure_relative_contribution": -9.600210352729062e-05
+      }
+    },
+    {
+      "arm": "charge-symmetric-time-upper",
+      "count_relative": -6.215674466350097e-05,
+      "pressure_relative": -0.00033752985194826436,
+      "pressure_per_particle_relative": -0.00027539022464463946,
+      "quadrature_relative_discrepancy": 5.421010862427522e-20,
+      "common_shape_bounds": [
+        -0.00040035231934175414,
+        -0.0002602619196098265
+      ],
+      "independent_count_only_bounds": [
+        -0.3712714356277712,
+        0.37058484346162507
+      ],
+      "independent_count_and_node_mean_energy_bounds": [
+        -0.00033766894092220995,
+        -0.000337431077256069
+      ],
+      "nodal_pressure_relative": -0.00033755003248245324,
+      "nodal_same_occupation_mass_only_effect": 3.171641787553602e-08,
+      "cold_q_at_most_1e_minus_5_number_weighted_pressure_contrast": -1.1785133173132114e-07,
+      "most_negative_cell": {
+        "q": [
+          2.7423959679644474,
+          3.9636789434531003
+        ],
+        "pressure_relative_contribution": -7.936962615259286e-05
+      }
+    },
+    {
+      "arm": "symmetric-half-lower",
+      "count_relative": -0.00011886211864527432,
+      "pressure_relative": -0.00011977973483787861,
+      "pressure_per_particle_relative": -9.177252753748495e-07,
+      "quadrature_relative_discrepancy": 2.710505431213761e-20,
+      "common_shape_bounds": [
+        -0.00014102172781373502,
+        -9.341158218404964e-05
+      ],
+      "independent_count_only_bounds": [
+        -0.371090283600945,
+        0.3708466314592902
+      ],
+      "independent_count_and_node_mean_energy_bounds": [
+        -0.0001198986661262717,
+        -0.00011966076674248763
+      ],
+      "nodal_pressure_relative": -0.00011977972196887189,
+      "nodal_same_occupation_mass_only_effect": 6.065365481019722e-08,
+      "cold_q_at_most_1e_minus_5_number_weighted_pressure_contrast": -1.9055714853945338e-07,
+      "most_negative_cell": {
+        "q": [
+          3.9636789434531003,
+          5.728841112042199
+        ],
+        "pressure_relative_contribution": -3.5836573218265924e-05
+      }
+    },
+    {
+      "arm": "symmetric-half-upper",
+      "count_relative": 2.0385199538230572e-05,
+      "pressure_relative": -7.251524782445812e-05,
+      "pressure_per_particle_relative": -9.28985536071366e-05,
+      "quadrature_relative_discrepancy": 1.3552527156068805e-20,
+      "common_shape_bounds": [
+        -9.145915091674201e-05,
+        -5.046782118390696e-05
+      ],
+      "independent_count_only_bounds": [
+        -0.37105100386073037,
+        0.37090349576680276
+      ],
+      "independent_count_and_node_mean_energy_bounds": [
+        -7.26410371670443e-05,
+        -7.240313861063891e-05
+      ],
+      "nodal_pressure_relative": -7.252209383702316e-05,
+      "nodal_same_occupation_mass_only_effect": -1.0403226545166364e-08,
+      "cold_q_at_most_1e_minus_5_number_weighted_pressure_contrast": 2.6762794666672898e-08,
+      "most_negative_cell": {
+        "q": [
+          2.7423959679644474,
+          3.9636789434531003
+        ],
+        "pressure_relative_contribution": -2.4064484331571626e-05
+      }
+    }
+  ],
+  "held_measurement_mass": 0.0008674814895883813,
+  "nominal_histogram_pressure_without_common_third": 1.8987225336341386e-07,
+  "nominal_nodal_pressure_without_common_third": 1.8268823959607624e-07,
+  "full_and_half_odd_pressure_relative": [
+    4.724767832278381e-05,
+    2.3632243506710245e-05
+  ],
+  "full_and_half_even_pressure_relative": [
+    -0.0003847775302710482,
+    -9.614749133116836e-05
+  ],
+  "half_odd_over_linear_full": 1.0003557569648576,
+  "half_even_over_quadratic_full": 0.9995125366435961,
+  "quadrature_orders": [
+    16,
+    32
+  ],
+  "cutoff_receipt_sha256": "5d3f692e8ea5c2e92c86e3548b3a501a3124ccb977c6cbb8bd33e82c129619a2",
+  "scope": "Fixed-mass momentum-weighted diagnostic at the exact saved terminal states. Arbitrary independent shapes need held per-cell node mean energies to certify pressure signs; no physical pressure or spatial convergence claim."
+}
