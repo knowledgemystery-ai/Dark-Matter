@@ -1,0 +1,116 @@
+{
+  "x_start": 0.04,
+  "x_end": 0.05,
+  "chart": "mixed300",
+  "fields": [
+    "count",
+    "pressure",
+    "warm_pressure"
+  ],
+  "clock_exponent": 1.2,
+  "rows": [
+    "uniform1024",
+    "shifted1024"
+  ],
+  "relative_to_uniform2048": [
+    [
+      -3.1800956470595665e-05,
+      2.489611583555984e-07,
+      2.974160406843396e-07
+    ],
+    [
+      -2.620475283188206e-05,
+      5.12840347521859e-07,
+      5.521322830048803e-07
+    ]
+  ],
+  "shifted_over_uniform1024_abs_discrepancy": [
+    0.8240240464500476,
+    2.0599211174513994,
+    1.8564307484372773
+  ],
+  "moments": [
+    [
+      0.017401187988345373,
+      1.7377649840793733e-07,
+      1.7350174296491813e-07
+    ],
+    [
+      0.017401285372033806,
+      1.7377654426392741e-07,
+      1.73501787158617e-07
+    ],
+    [
+      0.017401741380365522,
+      1.7377645514434976e-07,
+      1.7350169136273204e-07
+    ]
+  ],
+  "checks": [
+    {
+      "x": 0.041939706820531344,
+      "scalar_yield": 0.00020465813825731755,
+      "pair_number_error": 3.5778671692021646e-17,
+      "continuity_residual": -8.697279770426012e-12,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04355142389126209,
+      "scalar_yield": 0.00023385054850807622,
+      "pair_number_error": 4.5102810375396984e-17,
+      "continuity_residual": -1.4871039180619754e-11,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04493778231056575,
+      "scalar_yield": 0.0002609462561405011,
+      "pair_number_error": 5.4643789493269423e-17,
+      "continuity_residual": -1.9265392558164007e-11,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.046158835289455184,
+      "scalar_yield": 0.0002847467441903734,
+      "pair_number_error": 5.984795992119984e-17,
+      "continuity_residual": -2.2151997230090373e-11,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04725295636564139,
+      "scalar_yield": 0.0003077860877700743,
+      "pair_number_error": 6.852157730108388e-17,
+      "continuity_residual": -2.4668206611785665e-11,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.04824625284902639,
+      "scalar_yield": 0.00032995383524661977,
+      "pair_number_error": 5.0306980803327406e-17,
+      "continuity_residual": -2.670615159274187e-11,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.049157342865143935,
+      "scalar_yield": 0.0003513831211534758,
+      "pair_number_error": 6.071532165918825e-17,
+      "continuity_residual": -2.8433442571446955e-11,
+      "max_limited_extent": 0.0
+    },
+    {
+      "x": 0.05,
+      "scalar_yield": 0.00037161755215768316,
+      "pair_number_error": 5.551115123125783e-17,
+      "continuity_residual": -2.9834882177628974e-11,
+      "max_limited_extent": 0.0
+    }
+  ],
+  "inputs": [
+    "246d94f3143ff61b64f5eedc861a07a1d8b0093961d2afbc4af7502f2152e821",
+    "8cb1b01a697c4c06d07248176426a27b72a2273a87b30e27cd31a594d1735151",
+    "4968d55695150e9c9c07182a2c7908cfa3a42509f7fc03b02dd6234df0d07fd2",
+    "00f22b6d97eac4517db24564c15f0ef99a990a013768a5164b0cac791a55a723"
+  ],
+  "checkpoint_payload_sha256": "a9e45e0c75a71a43fa52eadaa76e717ab798ed405c10a30385f2b54c132af6a0",
+  "provenance": "fa95448963232d0828717c33b4987cb47211899fe8839fec83dc1db06c1fc502",
+  "scope": "Independent short-interval portability check at unchanged shift exponent; uniform 2048 is a reference only."
+}
