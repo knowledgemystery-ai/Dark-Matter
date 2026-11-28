@@ -1,0 +1,193 @@
+{
+  "q": 1.3344923953650561e-05,
+  "intersection_of_raw_median_enclosures": [
+    1.32582142404808e-05,
+    1.3431633666820322e-05
+  ],
+  "results": [
+    {
+      "native_level": 2,
+      "native_state_sha256_uncompressed": "4dce57ad0cb0ba1e387409dc16e78f66fc4c95a5af1a268db9885c5f02832787",
+      "inverse_geometric_cosine_fraction": 1.0,
+      "meshes": [
+        {
+          "mesh": [
+            4,
+            10,
+            18
+          ],
+          "stock": [
+            6.993478603700262e-09,
+            2.5172365343435575e-17,
+            6.993478578527897e-09
+          ],
+          "real_pauli_mirror": [
+            6.993478603700271e-09,
+            2.517236534343564e-17,
+            6.993478578527911e-09
+          ],
+          "maximum_algorithm_relative_difference": 2.6645352591003757e-15,
+          "angular_support_counts": [
+            148,
+            148,
+            0
+          ],
+          "angular_panels": 37
+        },
+        {
+          "mesh": [
+            8,
+            16,
+            24
+          ],
+          "stock": [
+            6.993478603698472e-09,
+            2.5172365343429224e-17,
+            6.99347857852611e-09
+          ],
+          "real_pauli_mirror": [
+            6.993478603698457e-09,
+            2.5172365343429193e-17,
+            6.993478578526105e-09
+          ],
+          "maximum_algorithm_relative_difference": 2.1094237467877974e-15,
+          "angular_support_counts": [
+            296,
+            296,
+            0
+          ],
+          "angular_panels": 37
+        }
+      ],
+      "maximum_observed_mesh_relative_difference": 2.560174294785611e-13
+    },
+    {
+      "native_level": 4,
+      "native_state_sha256_uncompressed": "5f1af486eab442798002e108cfa7d8b4940122ebe27ee4fafbea45368023f412",
+      "inverse_geometric_cosine_fraction": 0.9742046097696162,
+      "meshes": [
+        {
+          "mesh": [
+            4,
+            10,
+            18
+          ],
+          "stock": [
+            7.235042724131414e-10,
+            2.139421880349992e-18,
+            7.235042702737192e-10
+          ],
+          "real_pauli_mirror": [
+            7.235042724131413e-10,
+            2.139421880349995e-18,
+            7.23504270273719e-10
+          ],
+          "maximum_algorithm_relative_difference": 1.3322676295501878e-15,
+          "angular_support_counts": [
+            380,
+            364,
+            16
+          ],
+          "angular_panels": 95
+        },
+        {
+          "mesh": [
+            8,
+            16,
+            24
+          ],
+          "stock": [
+            7.235042724130321e-10,
+            2.139421880349654e-18,
+            7.235042702736088e-10
+          ],
+          "real_pauli_mirror": [
+            7.235042724130302e-10,
+            2.1394218803496524e-18,
+            7.235042702736068e-10
+          ],
+          "maximum_algorithm_relative_difference": 2.886579864025407e-15,
+          "angular_support_counts": [
+            760,
+            728,
+            32
+          ],
+          "angular_panels": 95
+        }
+      ],
+      "maximum_observed_mesh_relative_difference": 1.580957587066223e-13
+    },
+    {
+      "native_level": 8,
+      "native_state_sha256_uncompressed": "3fdf9924e6bce5ddbc382eb86ec5a7f1b87820af21519edacae7ea530112d2ed",
+      "inverse_geometric_cosine_fraction": 0.8259880536630148,
+      "meshes": [
+        {
+          "mesh": [
+            4,
+            10,
+            18
+          ],
+          "stock": [
+            2.0469566258912968e-10,
+            5.46342299855771e-19,
+            2.0469566204278754e-10
+          ],
+          "real_pauli_mirror": [
+            2.0469566258912924e-10,
+            5.463422998557701e-19,
+            2.0469566204278707e-10
+          ],
+          "maximum_algorithm_relative_difference": 2.220446049250313e-15,
+          "angular_support_counts": [
+            764,
+            656,
+            108
+          ],
+          "angular_panels": 191
+        },
+        {
+          "mesh": [
+            8,
+            16,
+            24
+          ],
+          "stock": [
+            2.0469566258918117e-10,
+            5.46342299855921e-19,
+            2.0469566204283944e-10
+          ],
+          "real_pauli_mirror": [
+            2.046956625891811e-10,
+            5.463422998559206e-19,
+            2.0469566204283942e-10
+          ],
+          "maximum_algorithm_relative_difference": 6.661338147750939e-16,
+          "angular_support_counts": [
+            1528,
+            1312,
+            216
+          ],
+          "angular_panels": 191
+        }
+      ],
+      "maximum_observed_mesh_relative_difference": 2.745581539898012e-13
+    }
+  ],
+  "d4_over_d2": [
+    0.10345413397424422,
+    0.08499089581615778,
+    0.10345413404070065
+  ],
+  "d8_over_d4": [
+    0.2829225346610325,
+    0.2553691279284431,
+    0.28292253474251
+  ],
+  "input_sha256": [
+    "489313717be458b228b32ca5086be87b6b10720dfbdb47f01398d06a32d8be0c",
+    "9339f2abe2245acaa58cca77c4b37d6c99de76a4b3a96ea1df3c11dd91d830f9",
+    "f5fb3cb604574969441654b5b63681ed30a1f585918e2c0483f67689261abb2e"
+  ],
+  "scope": "One selected fixed native upper q and k=.0015; direct raw angular coefficients and exact geometry, not a panel or full-band result or spatial convergence."
+}
