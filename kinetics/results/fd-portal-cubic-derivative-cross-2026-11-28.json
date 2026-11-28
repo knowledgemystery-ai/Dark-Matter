@@ -1,0 +1,147 @@
+{
+  "rows": [
+    {
+      "x": 0.61,
+      "T": 0.5074875645729443,
+      "base_pchip": {
+        "critical_heat_capacity_slope": 3.2649483703778626,
+        "native_heat_capacity_slope": 3.279254799787399,
+        "rates_with_pchip_and_cubic_slope": [
+          0.012353540488673874,
+          -0.006950190564550654
+        ]
+      },
+      "base_cubic": {
+        "critical_heat_capacity_slope": 3.2650724126151367,
+        "native_heat_capacity_slope": 3.2568974759631035,
+        "rates_with_pchip_and_cubic_slope": [
+          0.012245977531087564,
+          -0.007057012767567053
+        ]
+      },
+      "full_cubic_minus_pchip_with_only_cubic_derivative": -0.00010682220301639917,
+      "opposite_sign_from_swapping_only_derivative": false
+    },
+    {
+      "x": 0.99,
+      "T": 0.3595834824752623,
+      "base_pchip": {
+        "critical_heat_capacity_slope": 3.372563191414833,
+        "native_heat_capacity_slope": 3.425155476298411,
+        "rates_with_pchip_and_cubic_slope": [
+          0.04367066704080114,
+          -0.0006264271744223491
+        ]
+      },
+      "base_cubic": {
+        "critical_heat_capacity_slope": 3.374547645613527,
+        "native_heat_capacity_slope": 3.3718058410901026,
+        "rates_with_pchip_and_cubic_slope": [
+          0.04199403382061312,
+          -0.0022662461955760653
+        ]
+      },
+      "full_cubic_minus_pchip_with_only_cubic_derivative": -0.0016398190211537162,
+      "opposite_sign_from_swapping_only_derivative": false
+    },
+    {
+      "x": 0.9901808643642274,
+      "T": 0.35952559984606386,
+      "base_pchip": {
+        "critical_heat_capacity_slope": 3.372535600886173,
+        "native_heat_capacity_slope": 3.4263803529417722,
+        "rates_with_pchip_and_cubic_slope": [
+          0.04471510816670652,
+          0.00017423678609421896
+        ]
+      },
+      "base_cubic": {
+        "critical_heat_capacity_slope": 3.3745501683019654,
+        "native_heat_capacity_slope": 3.3727462354833393,
+        "rates_with_pchip_and_cubic_slope": [
+          0.04301216149844995,
+          -0.0014911548906976508
+        ]
+      },
+      "full_cubic_minus_pchip_with_only_cubic_derivative": -0.0016653916767918697,
+      "opposite_sign_from_swapping_only_derivative": true
+    },
+    {
+      "x": 0.9903408643642273,
+      "T": 0.35947440193808955,
+      "base_pchip": {
+        "critical_heat_capacity_slope": 3.372525063580312,
+        "native_heat_capacity_slope": 3.3668989627174684,
+        "rates_with_pchip_and_cubic_slope": [
+          -0.004651811196759492,
+          0.00036247289538702073
+        ]
+      },
+      "base_cubic": {
+        "critical_heat_capacity_slope": 3.374552047604048,
+        "native_heat_capacity_slope": 3.372963247025385,
+        "rates_with_pchip_and_cubic_slope": [
+          -0.006323255368769046,
+          -0.0013133463493358243
+        ]
+      },
+      "full_cubic_minus_pchip_with_only_cubic_derivative": -0.0016758192447228451,
+      "opposite_sign_from_swapping_only_derivative": true
+    },
+    {
+      "x": 0.9902358643642273,
+      "T": 0.35950799976606096,
+      "base_pchip": {
+        "critical_heat_capacity_slope": 3.3725270745113773,
+        "native_heat_capacity_slope": 3.4267527648627225,
+        "rates_with_pchip_and_cubic_slope": [
+          0.0450328176005256,
+          0.00041780879509093616
+        ]
+      },
+      "base_cubic": {
+        "critical_heat_capacity_slope": 3.3745508342270414,
+        "native_heat_capacity_slope": 3.373032150069828,
+        "rates_with_pchip_and_cubic_slope": [
+          0.04332183430449033,
+          -0.0012553925410182546
+        ]
+      },
+      "full_cubic_minus_pchip_with_only_cubic_derivative": -0.0016732013361091909,
+      "opposite_sign_from_swapping_only_derivative": true
+    },
+    {
+      "x": 0.9902858643642274,
+      "T": 0.3594920004081561,
+      "base_pchip": {
+        "critical_heat_capacity_slope": 3.372523760901702,
+        "native_heat_capacity_slope": 3.3670963296366714,
+        "rates_with_pchip_and_cubic_slope": [
+          -0.004487616024085493,
+          0.00047664479069797115
+        ]
+      },
+      "base_cubic": {
+        "critical_heat_capacity_slope": 3.3745514050993233,
+        "native_heat_capacity_slope": 3.3730999574815836,
+        "rates_with_pchip_and_cubic_slope": [
+          -0.006159748388423784,
+          -0.0011998191530153404
+        ]
+      },
+      "full_cubic_minus_pchip_with_only_cubic_derivative": -0.0016764639437133115,
+      "opposite_sign_from_swapping_only_derivative": true
+    }
+  ],
+  "input_sha256": [
+    "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470",
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "e7b313c2e41d08b5e508a84c51a78d134e24a0f1edd4bfc058caa5144effeb36",
+    "79f68a73c357e25a741738f7070645142c81ba6f6256e87f4d4072db3c2c9594",
+    "b61a8a8be306cdc3ddfff0bc0962d8727b37335fde0ddfe92ae770dfb75a61a2",
+    "df35282232e9b8a3cb6b2ce11cc910a300fe95eb75c87fccd9f205eb7bf5ef09",
+    "d65af51eed25f5b923c01f3197daa258cb70e7f6ff7ad28e8cfa7fef7609a71b"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "At held background T, eta and dark T; swap derivatives only inside each EOS local form. No counterfactual EOS trajectory, physical attribution or stability theorem."
+}
