@@ -1,0 +1,337 @@
+{
+  "rows": [
+    {
+      "x": 0.55,
+      "original_state": [
+        0.55,
+        0.5364316774697162,
+        -0.039186447320479885,
+        -0.6193840517287776
+      ],
+      "alternate_reintegrated_state": [
+        0.55,
+        0.5364316774697155,
+        -0.039186447320479885,
+        -0.6193840517287776
+      ],
+      "original_max": -0.11895203796799077,
+      "alternate_held_state_max": -0.13388455251016404,
+      "alternate_reintegrated_max": -0.13388455254843964,
+      "alternate_reintegrated_fixed_total_max": -1.7570419758110063
+    },
+    {
+      "x": 0.61,
+      "original_state": [
+        0.61,
+        0.5074875645729443,
+        -0.04824579627983193,
+        -0.6746672206364455
+      ],
+      "alternate_reintegrated_state": [
+        0.61,
+        0.5074889910996705,
+        -0.048255561172982235,
+        -0.674662641460298
+      ],
+      "original_max": 0.012353540488673874,
+      "alternate_held_state_max": -0.007057012767567053,
+      "alternate_reintegrated_max": -0.0070653082838570995,
+      "alternate_reintegrated_fixed_total_max": -1.3420667010156748
+    },
+    {
+      "x": 0.67,
+      "original_state": [
+        0.67,
+        0.4802028126490769,
+        -0.05688471024047943,
+        -0.7302578789364431
+      ],
+      "alternate_reintegrated_state": [
+        0.67,
+        0.4802033169389043,
+        -0.05689969199795881,
+        -0.7302508168252541
+      ],
+      "original_max": -0.11781207288349574,
+      "alternate_held_state_max": -0.13339186935970088,
+      "alternate_reintegrated_max": -0.1333897515879872,
+      "alternate_reintegrated_fixed_total_max": -1.0676493916511376
+    },
+    {
+      "x": 0.73,
+      "original_state": [
+        0.73,
+        0.45457392196936347,
+        -0.06442434810657761,
+        -0.7863980764798681
+      ],
+      "alternate_reintegrated_state": [
+        0.73,
+        0.4545774386279327,
+        -0.06442475250012666,
+        -0.786397295493015
+      ],
+      "original_max": -0.1596212933723307,
+      "alternate_held_state_max": -0.1148867891298444,
+      "alternate_reintegrated_max": -0.11491139338859299,
+      "alternate_reintegrated_fixed_total_max": -0.8643567241744625
+    },
+    {
+      "x": 0.79,
+      "original_state": [
+        0.79,
+        0.43047685605417857,
+        -0.07017585620389832,
+        -0.8433234648798575
+      ],
+      "alternate_reintegrated_state": [
+        0.79,
+        0.4304791755551545,
+        -0.07018154293530844,
+        -0.8433203423936962
+      ],
+      "original_max": -0.02447873782793465,
+      "alternate_held_state_max": -0.013648429679422067,
+      "alternate_reintegrated_max": -0.013635819416456724,
+      "alternate_reintegrated_fixed_total_max": -0.6990722574658608
+    },
+    {
+      "x": 0.85,
+      "original_state": [
+        0.85,
+        0.40771613964470127,
+        -0.0736880227558212,
+        -0.9011815246464678
+      ],
+      "alternate_reintegrated_state": [
+        0.85,
+        0.4077185231016143,
+        -0.07369480013623017,
+        -0.9011778611790747
+      ],
+      "original_max": -0.05452652158903372,
+      "alternate_held_state_max": -0.05041577468271917,
+      "alternate_reintegrated_max": -0.050425753236672206,
+      "alternate_reintegrated_fixed_total_max": -0.5612048318412998
+    },
+    {
+      "x": 0.91,
+      "original_state": [
+        0.91,
+        0.386238924222015,
+        -0.07535528947830952,
+        -0.9597879775331215
+      ],
+      "alternate_reintegrated_state": [
+        0.91,
+        0.3862382601720934,
+        -0.0753622759060974,
+        -0.9597841899154365
+      ],
+      "original_max": -0.10745897946583625,
+      "alternate_held_state_max": -0.11960187913482616,
+      "alternate_reintegrated_max": -0.11961071283262817,
+      "alternate_reintegrated_fixed_total_max": -0.44069148767158783
+    },
+    {
+      "x": 0.93,
+      "original_state": [
+        0.93,
+        0.37935621758368526,
+        -0.075621071954649,
+        -0.9794400590180024
+      ],
+      "alternate_reintegrated_state": [
+        0.93,
+        0.3793570219143878,
+        -0.07562793169983097,
+        -0.9794363356582374
+      ],
+      "original_max": -0.21024655228363312,
+      "alternate_held_state_max": -0.20322111665217737,
+      "alternate_reintegrated_max": -0.20321153005088008,
+      "alternate_reintegrated_fixed_total_max": -0.40426706186928596
+    },
+    {
+      "x": 0.96,
+      "original_state": [
+        0.96,
+        0.3693171213057969,
+        -0.07583754741008138,
+        -1.008991149618862
+      ],
+      "alternate_reintegrated_state": [
+        0.96,
+        0.3693173920370029,
+        -0.07584438193733638,
+        -1.0089874258287015
+      ],
+      "original_max": -0.12378639612485062,
+      "alternate_held_state_max": -0.12732729681966357,
+      "alternate_reintegrated_max": -0.12733084379284187,
+      "alternate_reintegrated_fixed_total_max": -0.3519511424748855
+    },
+    {
+      "x": 0.99,
+      "original_state": [
+        0.99,
+        0.3595834824752623,
+        -0.07589832262627912,
+        -1.0386046045300608
+      ],
+      "alternate_reintegrated_state": [
+        0.99,
+        0.3595845052924989,
+        -0.07590506743730986,
+        -1.0386009351909187
+      ],
+      "original_max": 0.04367066704080114,
+      "alternate_held_state_max": -0.002266246195576065,
+      "alternate_reintegrated_max": -0.0022799223074950383,
+      "alternate_reintegrated_fixed_total_max": -0.3066192294001788
+    },
+    {
+      "x": 1.02,
+      "original_state": [
+        1.02,
+        0.35011413756454657,
+        -0.07585624003042872,
+        -1.0682607652806977
+      ],
+      "alternate_reintegrated_state": [
+        1.02,
+        0.35011889686407616,
+        -0.07586306502026512,
+        -1.0682569831250206
+      ],
+      "original_max": -0.09357705879466509,
+      "alternate_held_state_max": -0.06312624513344504,
+      "alternate_reintegrated_max": -0.06309377500080035,
+      "alternate_reintegrated_fixed_total_max": -0.2700146816336856
+    },
+    {
+      "x": 1.05,
+      "original_state": [
+        1.05,
+        0.34092211180027665,
+        -0.07575044164812443,
+        -1.097945491063304
+      ],
+      "alternate_reintegrated_state": [
+        1.05,
+        0.3409217248998648,
+        -0.07575731311723077,
+        -1.0979416198642078
+      ],
+      "original_max": -0.07307539630750523,
+      "alternate_held_state_max": -0.12618727173756838,
+      "alternate_reintegrated_max": -0.12619016953771073,
+      "alternate_reintegrated_fixed_total_max": -0.24075904774419232
+    },
+    {
+      "x": 1.08,
+      "original_state": [
+        1.08,
+        0.3320048759074456,
+        -0.07560855054019197,
+        -1.1276485811134036
+      ],
+      "alternate_reintegrated_state": [
+        1.08,
+        0.3320033392599752,
+        -0.07561534398746646,
+        -1.1276448049327032
+      ],
+      "original_max": -0.17456139321790404,
+      "alternate_held_state_max": -0.1887744324440049,
+      "alternate_reintegrated_max": -0.18878472352266035,
+      "alternate_reintegrated_fixed_total_max": -0.21751923618042207
+    },
+    {
+      "x": 1.11,
+      "original_state": [
+        1.11,
+        0.32337135885110474,
+        -0.07544852620657116,
+        -1.1573633567879105
+      ],
+      "alternate_reintegrated_state": [
+        1.11,
+        0.32337285103472513,
+        -0.07545528701215126,
+        -1.157359602668016
+      ],
+      "original_max": -0.19726579426172558,
+      "alternate_held_state_max": -0.19522268905807486,
+      "alternate_reintegrated_max": -0.19522780904404535,
+      "alternate_reintegrated_fixed_total_max": -0.19865436111789297
+    },
+    {
+      "x": 1.14,
+      "original_state": [
+        1.14,
+        0.31502276022805137,
+        -0.07528156792781912,
+        -1.1870852030348327
+      ],
+      "alternate_reintegrated_state": [
+        1.14,
+        0.3150228552748118,
+        -0.07528830890196007,
+        -1.1870814483999483
+      ],
+      "original_max": -0.1077380051150793,
+      "alternate_held_state_max": -0.1277223338439072,
+      "alternate_reintegrated_max": -0.12772328837546063,
+      "alternate_reintegrated_fixed_total_max": -0.18279339179911358
+    },
+    {
+      "x": 1.17,
+      "original_state": [
+        1.17,
+        0.306921414346754,
+        -0.07511395184237721,
+        -1.2168117091391006
+      ],
+      "alternate_reintegrated_state": [
+        1.17,
+        0.30692323353451484,
+        -0.07512067330232132,
+        -1.2168079550454505
+      ],
+      "original_max": -0.12278826979505794,
+      "alternate_held_state_max": -0.09924491857102721,
+      "alternate_reintegrated_max": -0.09923655266156446,
+      "alternate_reintegrated_fixed_total_max": -0.16905819796170604
+    },
+    {
+      "x": 1.2,
+      "original_state": [
+        1.2,
+        0.29905787722266547,
+        -0.07494882573085808,
+        -1.2465420223610257
+      ],
+      "alternate_reintegrated_state": [
+        1.2,
+        0.29905848186187134,
+        -0.07495553352476297,
+        -1.2465382562769565
+      ],
+      "original_max": -0.11843732263858806,
+      "alternate_held_state_max": -0.1345255109155884,
+      "alternate_reintegrated_max": -0.1345229445205484,
+      "alternate_reintegrated_fixed_total_max": -0.15686315735863113
+    }
+  ],
+  "background_ode_refinement_absolute_defect": 1.5587230811631159e-10,
+  "input_sha256": [
+    "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470",
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "b61a8a8be306cdc3ddfff0bc0962d8727b37335fde0ddfe92ae770dfb75a61a2"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "alternate_minus_original_initial_total_energy_relative": 1.3040804988539989e-05,
+  "initial_condition": "Same visible T, dark eta/logT; each EOS determines its own visible density and Friedmann rate.",
+  "scope": "Separate restricted background with one alternate interpolation, no physical EOS error interval or claim between archived x samples."
+}
