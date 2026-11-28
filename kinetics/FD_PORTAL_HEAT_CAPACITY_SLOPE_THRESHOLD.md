@@ -24,3 +24,5 @@ python -W error fd_portal_heat_capacity_slope_threshold.py "$EOS" results |
 ```
 
 Use the same exact normalized central EOS table as the earlier derivative and transport receipts.
+
+**Cubic comparison.** The threshold is nearly unchanged across the PCHIP sides, not under an entire EOS change. [Crossing only the cubic derivative](FD_PORTAL_CUBIC_DERIVATIVE_CROSS.md) gives the wrong sign in all four near-knot probes. [The rest of the rate form](FD_PORTAL_CUBIC_REMAINDER_ATTRIBUTION.md) moves the threshold mainly through visible metric motion, partly offset by expansion.

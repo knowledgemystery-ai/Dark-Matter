@@ -1,0 +1,92 @@
+{
+  "rows": [
+    {
+      "x": 0.9901808643642274,
+      "T": 0.35952559984606386,
+      "thresholds_at_pchip_rank": [
+        3.372535600886173,
+        3.3741028071724863
+      ],
+      "symmetric_all_orders_allocations": {
+        "dark_metric_motion": 7.837474743273749e-10,
+        "visible_metric_motion_excluding_k": 0.0028108146005850765,
+        "expansion_flow": -0.0012436788464360953,
+        "collision_flow": 6.97484170049852e-08
+      },
+      "single_swaps_at_pchip_base": {
+        "dark_metric_motion": 7.842300142613112e-10,
+        "visible_metric_motion_excluding_k": 0.00281081694240104,
+        "expansion_flow": -0.0012436835450380102,
+        "collision_flow": 6.828889009824479e-08
+      }
+    },
+    {
+      "x": 0.9903408643642273,
+      "T": 0.35947440193808955,
+      "thresholds_at_pchip_rank": [
+        3.372525063580312,
+        3.37410203633558
+      ],
+      "symmetric_all_orders_allocations": {
+        "dark_metric_motion": 4.4802709690353976e-10,
+        "visible_metric_motion_excluding_k": 0.002828989792957204,
+        "expansion_flow": -0.0012520870891831553,
+        "collision_flow": 6.960346676798679e-08
+      },
+      "single_swaps_at_pchip_base": {
+        "dark_metric_motion": 4.483045046299594e-10,
+        "visible_metric_motion_excluding_k": 0.002828992173993239,
+        "expansion_flow": -0.0012520918628573519,
+        "collision_flow": 6.812789132837338e-08
+      }
+    },
+    {
+      "x": 0.9902358643642273,
+      "T": 0.35950799976606096,
+      "thresholds_at_pchip_rank": [
+        3.3725270745113773,
+        3.3741014692383904
+      ],
+      "symmetric_all_orders_allocations": {
+        "dark_metric_motion": 6.847116207353565e-10,
+        "visible_metric_motion_excluding_k": 0.002823941823937822,
+        "expansion_flow": -0.0012496176517844404,
+        "collision_flow": 6.987014803764661e-08
+      },
+      "single_swaps_at_pchip_base": {
+        "dark_metric_motion": 6.851346157077387e-10,
+        "visible_metric_motion_excluding_k": 0.0028239441908435303,
+        "expansion_flow": -0.0012496223994551414,
+        "collision_flow": 6.839795041457819e-08
+      }
+    },
+    {
+      "x": 0.9902858643642274,
+      "T": 0.3594920004081561,
+      "thresholds_at_pchip_rank": [
+        3.372523760901702,
+        3.374101210695519
+      ],
+      "symmetric_all_orders_allocations": {
+        "dark_metric_motion": 4.783130558294602e-10,
+        "visible_metric_motion_excluding_k": 0.0028296282060944846,
+        "expansion_flow": -0.0012522487148453794,
+        "collision_flow": 6.982425485949999e-08
+      },
+      "single_swaps_at_pchip_base": {
+        "dark_metric_motion": 4.786095963993375e-10,
+        "visible_metric_motion_excluding_k": 0.0028296305853179327,
+        "expansion_flow": -0.0012522534860042178,
+        "collision_flow": 6.834702537261705e-08
+      }
+    }
+  ],
+  "replace_order_scope": "The allocations average increments over every order of the four additive form terms.",
+  "input_sha256": [
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "078b0513b6ed6477868eba2074c9e4db682d4a53c7a2698c8b805433bd180156",
+    "d763e9df3af52affe1c2de57b0eba92b806ee896decc755d4229f9bae9fb83f6"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "Algebraic threshold comparison at common density perturbations and fixed PCHIP rank amplitude; not a causal EOS or stability result."
+}
