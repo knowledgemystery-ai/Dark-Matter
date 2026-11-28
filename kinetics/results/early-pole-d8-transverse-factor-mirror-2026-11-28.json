@@ -1,0 +1,42 @@
+{
+  "rows": [
+    {
+      "charge_level": 8,
+      "q": 4.2e-06,
+      "mesh": [
+        4,
+        10,
+        18
+      ],
+      "state_sha256_uncompressed": "3fdf9924e6bce5ddbc382eb86ec5a7f1b87820af21519edacae7ea530112d2ed",
+      "k": 0.0015,
+      "photon_pole": 0.002304225220983558,
+      "scalar_mass": 0.0008606945751381399,
+      "before_after_coefficients": [
+        [
+          1.960817990645465e-11,
+          3.9406579108090325e-20,
+          1.9608179867048062e-11
+        ],
+        [
+          1.9608179906454668e-11,
+          3.9406579108090415e-20,
+          1.9608179867048107e-11
+        ]
+      ],
+      "relative_defect": 2.3314683517128287e-15,
+      "identical_radial_node_support": [
+        264,
+        264,
+        0
+      ],
+      "angular_panels": 66,
+      "wall_seconds_reference_factorized": [
+        18.517746398996678,
+        5.059641621002811
+      ]
+    }
+  ],
+  "factorized_uses_mirror_azimuth": true,
+  "scope": "Algebraic factorization of the same transverse discrete angular quadratures, not a new quadrature validation or D8 band result."
+}

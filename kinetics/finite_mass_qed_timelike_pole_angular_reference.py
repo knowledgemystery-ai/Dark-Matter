@@ -52,7 +52,7 @@ def angular_knots(ch,k,w,es,qscalar=Q,*,allow_sum_boundaries=False,parent_energy
     return np.unique(np.clip(np.r_[-1.,1.,ce,past],-1.,1.)),defect
 
 
-def angle(ch,k,w,R,es,name,order,inner,qscalar=Q,*,allow_future_spacelike=False,occupation_callbacks=None,mirror_azimuth=False,parent_energy_edges=None):
+def angle(ch,k,w,R,es,name,order,inner,qscalar=Q,*,allow_future_spacelike=False,occupation_callbacks=None,mirror_azimuth=False,parent_energy_edges=None,transverse_vertex_kernel=None):
     bins,defect=angular_knots(ch,k,w,es,qscalar,allow_sum_boundaries=allow_future_spacelike,
                              parent_energy_edges=parent_energy_edges)
     x,v=roots_legendre(order)
@@ -65,6 +65,8 @@ def angle(ch,k,w,R,es,name,order,inner,qscalar=Q,*,allow_future_spacelike=False,
                 kwargs['mirror_azimuth']=True
             if parent_energy_edges is not None:
                 kwargs['parent_energy_edges']=parent_energy_edges
+            if transverse_vertex_kernel is not None:
+                kwargs['transverse_vertex_kernel']=transverse_vertex_kernel
             C,_,_=radial(ch,k,w,R,es,u,name,*inner,qscalar=qscalar,
                          allow_future_spacelike=allow_future_spacelike,**kwargs)
             tot=C if parent_energy_edges is None else C.sum(axis=0)

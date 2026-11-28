@@ -57,7 +57,7 @@ def spacelike_parent_minimum(M,m,t,v,s):
 
 
 def radial(ch,k,w,R,es,c,name,n,az,audit=False,extra_energy_breaks=None,qscalar=Q,
-           *,allow_future_spacelike=False,occupation_callbacks=None,mirror_azimuth=False,parent_energy_edges=None):
+           *,allow_future_spacelike=False,occupation_callbacks=None,mirror_azimuth=False,parent_energy_edges=None,transverse_vertex_kernel=None):
     P,F=ch
     M,m=P.m,F.m
     T=np.array([es-w,qscalar*np.sqrt((1-c)*(1+c)),0.,qscalar*c-k])
@@ -120,12 +120,20 @@ def radial(ch,k,w,R,es,c,name,n,az,audit=False,extra_energy_breaks=None,qscalar=
     pol=np.eye(4)[1:3] if name=='T' else np.eye(4)[:1]
     integral=0.
     max_def=0.
-    for u in pol:
-        A=norm_spinors(P0,B0,M,m,reduce_vertex(P0,B0,K,M,m,u))
-        if audit:
-            B=norm_spinors(P0,B0,M,m,full_vertex(P0,B0,K,M,m,u))
-            max_def=max(max_def,float(np.sum(abs(A-B))/np.sum(B)))
-        integral=integral+A.mean(axis=-1)
+    if transverse_vertex_kernel is not None:
+        if name!='T' or audit:
+            raise ValueError('The optional transverse kernel is only valid for the unaudited transverse pair')
+        values=transverse_vertex_kernel(P0,B0,K,M,m)
+        if values.shape!=P0.shape[:-1] or not np.all(np.isfinite(values)) or np.any(values<0.):
+            raise ArithmeticError('Invalid optional transverse spin sum')
+        integral=values.mean(axis=-1)
+    else:
+        for u in pol:
+            A=norm_spinors(P0,B0,M,m,reduce_vertex(P0,B0,K,M,m,u))
+            if audit:
+                B=norm_spinors(P0,B0,M,m,full_vertex(P0,B0,K,M,m,u))
+                max_def=max(max_def,float(np.sum(abs(A-B))/np.sum(B)))
+            integral=integral+A.mean(axis=-1)
     if occupation_callbacks is None:
         e_int=((b-a)/2)*((integral.reshape(-1,n))@h)*R/v
         rows=np.asarray([ff*(1-gg),gg*(1-ff),ff-gg])

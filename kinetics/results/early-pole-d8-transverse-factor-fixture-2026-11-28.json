@@ -1,0 +1,113 @@
+{
+  "rows": [
+    {
+      "charge_level": 4,
+      "q": 3.5e-06,
+      "mesh": [
+        4,
+        10,
+        18
+      ],
+      "state_sha256_uncompressed": "5f1af486eab442798002e108cfa7d8b4940122ebe27ee4fafbea45368023f412",
+      "k": 0.0015,
+      "photon_pole": 0.00230422458525677,
+      "scalar_mass": 0.0008646785958445412,
+      "before_after_coefficients": [
+        [
+          8.706741647709794e-11,
+          1.975946929620992e-19,
+          8.706741627950324e-11
+        ],
+        [
+          8.706741647709795e-11,
+          1.9759469296209923e-19,
+          8.706741627950321e-11
+        ]
+      ],
+      "relative_defect": 2.220446049250313e-16,
+      "identical_radial_node_support": [
+        104,
+        104,
+        0
+      ],
+      "angular_panels": 26,
+      "wall_seconds_reference_factorized": [
+        5.482501563994447,
+        2.814816965998034
+      ]
+    },
+    {
+      "charge_level": 8,
+      "q": 4e-06,
+      "mesh": [
+        4,
+        10,
+        18
+      ],
+      "state_sha256_uncompressed": "3fdf9924e6bce5ddbc382eb86ec5a7f1b87820af21519edacae7ea530112d2ed",
+      "k": 0.0015,
+      "photon_pole": 0.002304225220983558,
+      "scalar_mass": 0.0008606945751381399,
+      "before_after_coefficients": [
+        [
+          1.8821422991921176e-11,
+          3.7561940880629373e-20,
+          1.8821422954359192e-11
+        ],
+        [
+          1.8821422991921098e-11,
+          3.7561940880629253e-20,
+          1.8821422954359108e-11
+        ]
+      ],
+      "relative_defect": 4.440892098500626e-15,
+      "identical_radial_node_support": [
+        252,
+        252,
+        0
+      ],
+      "angular_panels": 63,
+      "wall_seconds_reference_factorized": [
+        16.73742598300305,
+        6.905409436003538
+      ]
+    },
+    {
+      "charge_level": 8,
+      "q": 4.8e-06,
+      "mesh": [
+        8,
+        16,
+        24
+      ],
+      "state_sha256_uncompressed": "3fdf9924e6bce5ddbc382eb86ec5a7f1b87820af21519edacae7ea530112d2ed",
+      "k": 0.0015,
+      "photon_pole": 0.002304225220983558,
+      "scalar_mass": 0.0008606945751381399,
+      "before_after_coefficients": [
+        [
+          2.2338149864437255e-11,
+          4.579827327055139e-20,
+          2.233814981863903e-11
+        ],
+        [
+          2.2338149864437262e-11,
+          4.579827327055139e-20,
+          2.2338149818639034e-11
+        ]
+      ],
+      "relative_defect": 3.3306690738754696e-16,
+      "identical_radial_node_support": [
+        616,
+        616,
+        0
+      ],
+      "angular_panels": 77,
+      "wall_seconds_reference_factorized": [
+        74.84784671299712,
+        40.655078729003435
+      ]
+    }
+  ],
+  "scope": "Algebraic factorization of the same transverse discrete angular quadratures, not a new quadrature validation or D8 band result."
+}
