@@ -1,0 +1,293 @@
+{
+  "rows": [
+    {
+      "x": 0.55,
+      "visible_T": 0.5364316774697162,
+      "original_max_rate": -0.11895203796799077,
+      "alternate_max_rate": -0.13388455251016404,
+      "original_local_fixed_total_max": -1.7568296216599322,
+      "alternate_local_fixed_total_max": -1.7570419758211813,
+      "visible_thermodynamic_relative_change": [
+        1.3965265575510699e-05,
+        -6.576342392872192e-07,
+        1.0590586586811668e-05,
+        0.0002539035761621733
+      ],
+      "alternate_motion_defect": 9.275149580761078e-10,
+      "alternate_rate_replay_defect": 1.3265319398492181e-10
+    },
+    {
+      "x": 0.61,
+      "visible_T": 0.5074875645729443,
+      "original_max_rate": 0.012353540488673874,
+      "alternate_max_rate": -0.007057012767567053,
+      "original_local_fixed_total_max": -1.3417749298843233,
+      "alternate_local_fixed_total_max": -1.342095361721654,
+      "visible_thermodynamic_relative_change": [
+        1.1040502116976825e-06,
+        -1.8250989042289945e-07,
+        8.085554588088684e-07,
+        3.894933727477401e-05
+      ],
+      "alternate_motion_defect": 8.991855233123151e-10,
+      "alternate_rate_replay_defect": 1.4250653608549602e-10
+    },
+    {
+      "x": 0.67,
+      "visible_T": 0.4802028126490769,
+      "original_max_rate": -0.11781207288349574,
+      "alternate_max_rate": -0.13339186935970088,
+      "original_local_fixed_total_max": -1.0674660684221777,
+      "alternate_local_fixed_total_max": -1.067748008805177,
+      "visible_thermodynamic_relative_change": [
+        7.447149594330682e-06,
+        2.00613435619168e-06,
+        6.204154511690874e-06,
+        -0.0005478542046288837
+      ],
+      "alternate_motion_defect": 9.394388515394099e-10,
+      "alternate_rate_replay_defect": 4.763750505176745e-11
+    },
+    {
+      "x": 0.73,
+      "visible_T": 0.45457392196936347,
+      "original_max_rate": -0.1596212933723307,
+      "alternate_max_rate": -0.1148867891298444,
+      "original_local_fixed_total_max": -0.8650840861471218,
+      "alternate_local_fixed_total_max": -0.8642769054052524,
+      "visible_thermodynamic_relative_change": [
+        -1.90750804627271e-05,
+        -1.7422435272251846e-06,
+        -1.5136476531840692e-05,
+        0.0001908990621510842
+      ],
+      "alternate_motion_defect": 9.580614239285818e-10,
+      "alternate_rate_replay_defect": 1.8254353584268301e-10
+    },
+    {
+      "x": 0.79,
+      "visible_T": 0.43047685605417857,
+      "original_max_rate": -0.02447873782793465,
+      "alternate_max_rate": -0.013648429679422067,
+      "original_local_fixed_total_max": -0.6992432264154942,
+      "alternate_local_fixed_total_max": -0.6990531654198577,
+      "visible_thermodynamic_relative_change": [
+        -9.835211616349149e-06,
+        -4.5947668225743143e-07,
+        -7.71622014728024e-06,
+        3.0628019511702576e-05
+      ],
+      "alternate_motion_defect": 9.824899381275157e-10,
+      "alternate_rate_replay_defect": 1.830578987005449e-10
+    },
+    {
+      "x": 0.85,
+      "visible_T": 0.40771613964470127,
+      "original_max_rate": -0.05452652158903372,
+      "alternate_max_rate": -0.05041577468271917,
+      "original_local_fixed_total_max": -0.561256918487837,
+      "alternate_local_fixed_total_max": -0.5611924005159432,
+      "visible_thermodynamic_relative_change": [
+        -1.226396308473543e-05,
+        5.792953894356856e-07,
+        -9.379976713241867e-06,
+        0.00020490110685811302
+      ],
+      "alternate_motion_defect": 1.0058275094947743e-09,
+      "alternate_rate_replay_defect": 1.6725738849476812e-10
+    },
+    {
+      "x": 0.91,
+      "visible_T": 0.386238924222015,
+      "original_max_rate": -0.10745897946583625,
+      "alternate_max_rate": -0.11960187913482616,
+      "original_local_fixed_total_max": -0.4405545602108245,
+      "alternate_local_fixed_total_max": -0.44069116930237495,
+      "visible_thermodynamic_relative_change": [
+        2.0076852723205363e-05,
+        8.252256913365841e-07,
+        1.5786207777201966e-05,
+        0.00016683920454951817
+      ],
+      "alternate_motion_defect": 9.9804155748995e-10,
+      "alternate_rate_replay_defect": 3.527051983809315e-10
+    },
+    {
+      "x": 0.93,
+      "visible_T": 0.37935621758368526,
+      "original_max_rate": -0.21024655228363312,
+      "alternate_max_rate": -0.20322111665217737,
+      "original_local_fixed_total_max": -0.4043333898293775,
+      "alternate_local_fixed_total_max": -0.4042624765998258,
+      "visible_thermodynamic_relative_change": [
+        3.7865296733663456e-06,
+        7.553553316164141e-08,
+        2.9617170864693065e-06,
+        0.00020818418012891193
+      ],
+      "alternate_motion_defect": 1.009777276256634e-09,
+      "alternate_rate_replay_defect": 3.2989691534091037e-10
+    },
+    {
+      "x": 0.96,
+      "visible_T": 0.3693171213057969,
+      "original_max_rate": -0.12378639612485062,
+      "alternate_max_rate": -0.12732729681966357,
+      "original_local_fixed_total_max": -0.3519260999511073,
+      "alternate_local_fixed_total_max": -0.3519484027050765,
+      "visible_thermodynamic_relative_change": [
+        9.780330668673898e-06,
+        -1.1425293988676088e-07,
+        7.589923323170211e-06,
+        -0.00019619311314300614
+      ],
+      "alternate_motion_defect": 1.0103865373491899e-09,
+      "alternate_rate_replay_defect": 2.8002700158680227e-10
+    },
+    {
+      "x": 0.99,
+      "visible_T": 0.3595834824752623,
+      "original_max_rate": 0.04367066704080114,
+      "alternate_max_rate": -0.002266246195576065,
+      "original_local_fixed_total_max": -0.30642663236657525,
+      "alternate_local_fixed_total_max": -0.30661505401461525,
+      "visible_thermodynamic_relative_change": [
+        9.985989946059703e-07,
+        -1.4163323851512644e-06,
+        4.6618495197492393e-07,
+        0.000589188793469031
+      ],
+      "alternate_motion_defect": 3.721029212454801e-09,
+      "alternate_rate_replay_defect": 3.141450021122705e-10
+    },
+    {
+      "x": 1.02,
+      "visible_T": 0.35011413756454657,
+      "original_max_rate": -0.09357705879466509,
+      "alternate_max_rate": -0.06312624513344504,
+      "original_local_fixed_total_max": -0.2700710065907085,
+      "alternate_local_fixed_total_max": -0.27000080683454547,
+      "visible_thermodynamic_relative_change": [
+        -4.630371416136647e-05,
+        1.1679479996473674e-06,
+        -3.588532689702273e-05,
+        1.782918105486253e-05
+      ],
+      "alternate_motion_defect": 1.0477335300676639e-09,
+      "alternate_rate_replay_defect": 2.007291971528602e-10
+    },
+    {
+      "x": 1.05,
+      "visible_T": 0.34092211180027665,
+      "original_max_rate": -0.07307539630750523,
+      "alternate_max_rate": -0.12618727173756838,
+      "original_local_fixed_total_max": -0.2406776363657019,
+      "alternate_local_fixed_total_max": -0.24076021262557606,
+      "visible_thermodynamic_relative_change": [
+        1.6642455565207825e-05,
+        3.975337873995954e-06,
+        1.3875886901049128e-05,
+        -0.0007968689367470194
+      ],
+      "alternate_motion_defect": 1.0461478534244337e-09,
+      "alternate_rate_replay_defect": 2.1939638994439292e-10
+    },
+    {
+      "x": 1.08,
+      "visible_T": 0.3320048759074456,
+      "original_max_rate": -0.17456139321790404,
+      "alternate_max_rate": -0.1887744324440049,
+      "original_local_fixed_total_max": -0.21751057757902256,
+      "alternate_local_fixed_total_max": -0.21752381537081106,
+      "visible_thermodynamic_relative_change": [
+        3.2758492247486615e-05,
+        8.189241726963559e-07,
+        2.5818103647434754e-05,
+        0.0003641789251298544
+      ],
+      "alternate_motion_defect": 1.0340106619758089e-09,
+      "alternate_rate_replay_defect": 1.8926826772514005e-10
+    },
+    {
+      "x": 1.11,
+      "visible_T": 0.32337135885110474,
+      "original_max_rate": -0.19726579426172558,
+      "alternate_max_rate": -0.19522268905807486,
+      "original_local_fixed_total_max": -0.198673395496529,
+      "alternate_local_fixed_total_max": -0.1986512325236136,
+      "visible_thermodynamic_relative_change": [
+        -7.346787216921946e-06,
+        -1.3599634884897682e-07,
+        -5.7879515992231845e-06,
+        2.338572560733887e-05
+      ],
+      "alternate_motion_defect": 9.797426924660226e-10,
+      "alternate_rate_replay_defect": 1.977731867164323e-11
+    },
+    {
+      "x": 1.14,
+      "visible_T": 0.31502276022805137,
+      "original_max_rate": -0.1077380051150793,
+      "alternate_max_rate": -0.1277223338439072,
+      "original_local_fixed_total_max": -0.18277905004019615,
+      "alternate_local_fixed_total_max": -0.1827939157755638,
+      "visible_thermodynamic_relative_change": [
+        1.1537869751609975e-05,
+        -2.2398347387930784e-07,
+        9.00805838566221e-06,
+        -7.99950381616954e-05
+      ],
+      "alternate_motion_defect": 1.0165884494064152e-09,
+      "alternate_rate_replay_defect": 1.9806933870825105e-10
+    },
+    {
+      "x": 1.17,
+      "visible_T": 0.306921414346754,
+      "original_max_rate": -0.12278826979505794,
+      "alternate_max_rate": -0.09924491857102721,
+      "original_local_fixed_total_max": -0.16907182932240425,
+      "alternate_local_fixed_total_max": -0.16905478072943858,
+      "visible_thermodynamic_relative_change": [
+        -1.3225581583009571e-05,
+        -3.8018180248400313e-07,
+        -1.0477401715780488e-05,
+        1.5546297935209452e-05
+      ],
+      "alternate_motion_defect": 1.0489171683626613e-09,
+      "alternate_rate_replay_defect": 1.32774638506028e-10
+    },
+    {
+      "x": 1.2,
+      "visible_T": 0.29905787722266547,
+      "original_max_rate": -0.11843732263858806,
+      "alternate_max_rate": -0.1345255109155884,
+      "original_local_fixed_total_max": -0.15684975429040512,
+      "alternate_local_fixed_total_max": -0.15686257170193474,
+      "visible_thermodynamic_relative_change": [
+        3.7811842652502037e-06,
+        1.8791689870845119e-07,
+        3.0167516589241217e-06,
+        -8.836506505949249e-05
+      ],
+      "alternate_motion_defect": 1.0352071546341114e-09,
+      "alternate_rate_replay_defect": 1.5641812844968683e-10
+    }
+  ],
+  "positive_entropy_and_capacity_polynomial_lower_values": [
+    10.7375,
+    32.22975510399674
+  ],
+  "visible_fields": [
+    "rho",
+    "pressure",
+    "entropy_density",
+    "heat_capacity"
+  ],
+  "input_sha256": [
+    "2b7ec60b6632a1c2ff45f0be5b8b877f9c4764aabfc25680e9d55a3ec4f69470",
+    "e83a57a475ace1b1e361d5bcf822614c0e5da16e19b74dcf2791edc309e62cbf",
+    "e7b313c2e41d08b5e508a84c51a78d134e24a0f1edd4bfc058caa5144effeb36"
+  ],
+  "table_input_sha256": "906d2b43bfd925c65aea3ff25ce2840cf5da7a49fcf31d8190199ae1004168ad",
+  "scope": "Local EOS sensitivity at the same held T and dark physical state of the original trajectory, not a re-evolution in the alternate EOS or a physical uncertainty interval."
+}
